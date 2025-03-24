@@ -23,9 +23,21 @@ main {
     margin-top: -1em;
   }
 
+  table {
+    --tr-even-background-color: none;
+    thead {
+      tr {
+        th {
+          background: #0003;
+        }
+      }
+    }
+  }
+
   footer {
     margin-top: auto;
   }
+
 }
 
 

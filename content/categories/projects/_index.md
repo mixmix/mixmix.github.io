@@ -1,6 +1,6 @@
 ---
 title: Projects
-description: Things I've contributed to in the world
+description: Things I'm proud to have contributed to in the world.
 image:
 
 # Badge style
