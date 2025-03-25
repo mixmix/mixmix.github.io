@@ -11,10 +11,14 @@ tags:
   - scuttlebutt
   - mātou
 weight: 1
+
+links:
+  - title: Entropy
+    website: https://ahau.io
 ---
 
 
-> ⏳ 2019 -- 2024. <br />
+> ⏳ 2019 -- 2024 <br />
 > 🌱 has evolved into [Mātou](/p/matou)
 
 ## About
@@ -38,6 +42,11 @@ light-weight relays which anyone in a family could run from home on a computer.
 
 ![distributed nature of Āhau](multiple-pātaka_css.svg)
 
+> :information_source:
+_There's a lot more I could write on this topic. I'm really passionate about
+what we worked on and achieved, so if you're interested to learn more please
+ask, or check out [these](/p/govis-2023/) [talks](/p/fosdem-22/)_
+
 
 ## Relationship
 
@@ -50,10 +59,9 @@ I've formed life long relationships with the team that worked on this. Honestly
 being part of a Māori team has been an absolute honour and joy.
 
 
-## What I'm proud of
+## Leadership
 
-### Leadership
-
+Some of the things I lead out on
 - establishing internal processes
     - retrospectives
     - sprints
@@ -70,7 +78,7 @@ being part of a Māori team has been an absolute honour and joy.
     - internet archive / dweb camp
 
 
-### Technical
+## Technical
 
 I designed and built many things (along and with others) but these are the what
 I'm most proud of :
