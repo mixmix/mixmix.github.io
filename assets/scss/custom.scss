@@ -2,7 +2,17 @@
     You can add your own custom styles here.
 */
 
+@media (min-width: 1280px) {
+  .container.extended {
+    max-width: 1536px;
+    --left-sidebar-max-width: 15%;
+    --right-sidebar-max-width: 25%;
+  }
+}
+
 aside.sidebar {
+  --sidebar-avatar-size: 160px;
+
   #main-menu {
     @media (min-width: 768px) {
       margin-top: 30px; /* above menu */
@@ -11,30 +21,50 @@ aside.sidebar {
 
     --menu-icon-separation: 20px; /* btwn icon + label */
   }
+
+  a[href="/archives/"] {
+    margin-top: 1.4rem;
+  }
+  a[href="/archives/"], a[href="/search/"] {
+    opacity: 0.6;
+    /* font-style: italic; */
+  }
 }
 
 main {
+  --max-width: 1000px;
+
   min-height: 100vh;
   @media (max-width: 768px) {
     min-height: 75vh;
   }
 
-  .article-content > ul {
-    margin-top: -1em;
-  }
+  article {
+    max-width: var(--max-width);
 
-  table {
-    --tr-even-background-color: none;
-    thead {
-      tr {
-        th {
-          background: #0003;
+    .article-content > ul {
+      margin-top: -1em;
+    }
+
+    table {
+      --tr-even-background-color: none;
+      thead {
+        tr {
+          th {
+            background: #0003;
+          }
         }
       }
     }
   }
 
+  .links {
+    max-width: var(--max-width);
+  }
+
+
   footer {
+    max-width: var(--max-width);
     margin-top: auto;
   }
 

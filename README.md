@@ -69,7 +69,15 @@ Make sure also to specify Hugo version in the environment variable `HUGO_VERSION
 </details>
 
 
+---
+
 ## Emoji short codes
 
 See:
 https://github.com/ikatyang/emoji-cheat-sheet/
+
+## Icons
+
+https://icons.hugomods.com/
+
+

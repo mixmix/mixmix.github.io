@@ -11,7 +11,7 @@ style:
 
 menu:
     main: 
-        weight: 1
+        weight: 4
         params:
             icon: play
 ---
