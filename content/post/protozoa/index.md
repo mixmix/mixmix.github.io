@@ -1,6 +1,6 @@
 ---
 title: Protozoa
-description: 
+description: A worker owned cooperative
 date: 2017-05-03
 slug: protozoa
 image: cover.jpg
