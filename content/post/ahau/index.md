@@ -1,7 +1,7 @@
 ---
 title: Āhau
 description: Data-sovereignty first Indigenous knowledge management
-date: 2024-10-01
+date: 2019-06-01
 slug: ahau
 image: cover.png
 categories:
@@ -13,8 +13,10 @@ tags:
 weight: 1
 
 links:
-  - title: Entropy
+  - title: Āhau (project page)
     website: https://ahau.io
+  - title: Āhau (source code)
+    website: https://gitlab.com/matou-collective/ahau
 ---
 
 
