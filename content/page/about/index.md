@@ -121,10 +121,6 @@ the pattern I see, and ensuring it's longevity.
 :construction: -- WIP: I've got more I want to add here :sweat_smile:
 
 
-### Virtuous Cycles / Chronic Feedback
-
-
-
 ## Wider Narrative :people_holding_hands:
 
 You shouldn't trust people's narratives about themselves. Here's some other
