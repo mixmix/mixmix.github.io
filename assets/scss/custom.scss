@@ -56,6 +56,23 @@ main {
         }
       }
     }
+
+
+    details {
+      summary {
+        /* display: inline-text; */
+        &::marker {
+        }
+        h3 {
+          display: contents;
+        }
+      }
+      p {
+        padding-left: 1.8rem;
+      }
+
+      margin-bottom: 1rem;
+    }
   }
 
   .links {
@@ -75,3 +92,5 @@ main {
   font-weight: 600;
   letter-spacing: 1px;
 }
+
+
