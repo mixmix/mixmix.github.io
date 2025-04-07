@@ -1,6 +1,6 @@
 ---
 title: Goblins
-description: Developmental stages of childre/ goblins
+description: Developmental stages of children/ goblins
 slug: 
 date: 2025-04-07 00:00:00+0000
 image: cover.jpg
