@@ -20,11 +20,12 @@ links:
 ---
 
 
-I'm from Aotearoa (New Zealand), was born on the [Heretaunga Plains](https://en.wikipedia.org/wiki/Heretaunga_Plains), and grew up
-on the hills of Te Mata Peak. I'm a first generation kiwi -- my mother came
-here from Scotland as a Teacher, my father from England as a Mainframe Engineer
-, they met sky-diving. I live in Pōneke (Wellington) with my partner [Alanna](https://alanna.space), and two rascal children.
-My name is Mix.
+I'm from Aotearoa (New Zealand), was born on the [Heretaunga
+Plains](https://en.wikipedia.org/wiki/Heretaunga_Plains), and grew up on the
+hills of Te Mata Peak. I'm a first generation kiwi -- my mother came here from
+Scotland as a Teacher, my father from England as a Mainframe Engineer , they met
+sky-diving. I live in Pōneke (Wellington) with my partner
+[Alanna](https://alanna.space), and two rascal children. My name is Mix.
 
 
 ![Skies over the Heretaunga Plains](sunset.jpg)
@@ -42,20 +43,20 @@ people, weaving chat groups, and hosting picnics.
 
 ## Double Edged Swords :crossed_swords:
 
-I think many of the things which distiguish us from one another are strengths
+I think many of the things which distinguish us from one another are strengths
 in some contexts and weaknesses in others. Understanding these helps us know
 in what environments we will thrive, where we might need support, and who we
 might work really effectively with
 
 <details>
   <summary>
-    <h3>Precision / Pedantry</h3>
+    <h3>Precision</h3>
   </summary>
 
 I tend to load a lot of detail in when trying to understand something. If I'm
 making some discernment/ judgement, I want to understand the veracity, the
 context, the relationships. Glossing over detail feels wrong to me. I'd
-rather defer -- keeping possibiility space open -- than jumping to wrong
+rather defer -- keeping possibility space open -- than jumping to wrong
 conclusion.
 
 **Positives** :+1:
@@ -63,12 +64,12 @@ conclusion.
   - spots edge cases in systems (quirks which lead to unintended consequences)
   - asks incisive questions
   - understands deeply
-  - forebearant
+  - forbearant
 
 **Negatives** :-1:
   - a slow reader
   - analysis paralysis (load more context than is needed)
-  - mistaken for being critical (understanding == care though!)
+  - mistaken for critic/ pedant _(deep understanding == care though!)_
   - stickler for words
   - slow to label bad actors
 </details>
@@ -76,7 +77,7 @@ conclusion.
 
 <details>
   <summary>
-    <h3>Attentive / Distractable</h3>
+    <h3>Sensitivity</h3>
   </summary>
 
 Sensory input (particularly aural, visual) that is out of place or unusual
@@ -86,34 +87,36 @@ others.
 
 **Positives** :+1:
   - quick-finds lost items (I remember "Matter Out of Place" and remember)
-  - proactly identificaties broken things (electronics, pipes, machinary)
+  - proactively identifies broken things (electronics, pipes, machinery)
   - hears upset children
   - hears stuck animals
 
 **Negatives** :-1:
   - odd sounds pull my attention like a fox (out of conversation)
   - struggle to parse voices in crowded / reverberant environments
-  - annoyed by dying flourescent lights
+  - annoyed by dying fluorescent lights
+  - disturbed by tree pruning / removal
 
 </details>
 
 <details>
   <summary>
-    <h3>Long-game / Over-optimised</h3>
+    <h3>Long-gaming</h3>
   </summary>
 
-When I find something I love in the world, or perceive has potential for
-greatness, I often as "how could more people benefit from this?" or "what
-would further enhance this?". I'm thinking in the long term, about scaling
+When I find something I love in the world, or something that has potential for
+greatness, I often ask myself "how could more people benefit from this?" or
+"what would further enhance this?". I'm thinking in the long term, about scaling
 the pattern I see, and ensuring it's longevity.
 
 **Positives** :+1:
-  - sings praise for beautiful patterns
-  - amazing first-follower / cheerleader / support character to others
+  - sees potential
+  - amazing first-follower / cheerleader / support character
+  - very active bridger and weaver of people
   - unperturbed by any short-term awkwardness (e.g. love giving constructive feedback)
 
 **Negatives** :-1:
-  - jump too far ahead
+  - jumps too far ahead
   - chronic feedback (it can be very hard for me to not share important data)
 
 </details>
