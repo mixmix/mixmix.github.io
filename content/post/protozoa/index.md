@@ -47,7 +47,7 @@ community that I'm really proud of. Including but not limited to:
     - [Tauiwi Tautoko](https://www.tauiwitautoko.com/)
 - **Community Grant Management**
     - SSBC Dfinity Grants
-    - [Scuttelbutt Maintenance](https://opencollective.com/scuttlebutt-maintenance)
+    - [Scuttlebutt Maintenance](https://opencollective.com/scuttlebutt-maintenance)
     - [Scuttlebutt Grantwriting](https://opencollective.com/scuttlebutt-grantwriting)
 
 
