@@ -63,7 +63,7 @@ main {
         /* display: inline-text; */
         &::marker {
         }
-        h3 {
+        h2,h3 {
           display: contents;
         }
       }
