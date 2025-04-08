@@ -1,14 +1,16 @@
 ---
-title: Goblins
+title: Grublins
 description: Developmental stages of children/ goblins
 slug: 
 date: 2025-04-07 00:00:00+0000
 image: cover.jpg
 categories:
 tags:
-    - learning
     - parenting
+    - learning
 weight: 1
+aliases:
+    - /p/goblins
 ---
 
 Children are kinda messy, a bit grimey, and a little mischevious... like
@@ -40,7 +42,7 @@ Your goblin is somewhat active and has started looking a little roley. They've
 got creases part way down their limbs, big cheeks, and very little neck to
 speak of. 
 
-Chubby goblin => Chublin.
+Chubby goblin → Chublin.
 </details>
 
 
@@ -52,7 +54,7 @@ Chubby goblin => Chublin.
 Your goblin has moved on to solids. They make a significantly larger mess
 consuming food, and their output is a new level of nasty.
 
-Grubby goblin => Grublin
+Grubby goblin → Grublin
 </details>
 
 <details>
@@ -64,7 +66,7 @@ Your groblin is growing a lot (which hurts) and they've also developed enough
 theory of mind to realise they can say "No!", and just straight up defy your
 requests.
 
-Grumpy goblin => Grumplin
+Grumpy goblin → Grumplin
 </details>
 
 <details>
@@ -75,7 +77,7 @@ Grumpy goblin => Grumplin
 Higher cognitive functions are online, your goblin can now make reasoned
 attacks on your authority.
 
-Squabling goblin => Squablin
+Squabling goblin → Squablin
 
 </details>
 
