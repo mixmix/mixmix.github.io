@@ -41,6 +41,10 @@ groups of nerds gardening community -- teaching, writing code that serves
 people, weaving chat groups, and hosting picnics.
 
 
+![Hiking the Orongarongas](tramping.jpeg)
+![Biking the Wellington waterfront](biking.jpeg)
+
+
 ## Double Edged Swords :crossed_swords:
 
 I think many of the things which distinguish us from one another are strengths
@@ -60,14 +64,14 @@ rather defer -- keeping possibility space open -- than jumping to wrong
 conclusion.
 
 **Positives** :+1:
-  - a very thorough reader
-  - spots edge cases in systems (quirks which lead to unintended consequences)
+  - very thorough reader
+  - spots edge cases in systems _(quirks which lead to unintended consequences)_
   - asks incisive questions
   - understands deeply
-  - forbearant
+  - forbearant _(not quick to judge)_
 
 **Negatives** :-1:
-  - a slow reader
+  - slow reader
   - analysis paralysis (load more context than is needed)
   - mistaken for critic/ pedant _(deep understanding == care though!)_
   - stickler for words
@@ -77,31 +81,31 @@ conclusion.
 
 <details>
   <summary>
-    <h3>Sensitivity</h3>
+    <h3>Sensitivity</h3> <!-- Wide-sense? -->
   </summary>
 
 Sensory input (particularly aural, visual) that is out of place or unusual
-stand out a lot to me. This isn't to say I have super-hearing, or
-super-sight, rather what I make of these inputs is a little different to
-others.
+stand out a lot to me. I don't think I have super-powered sense organs, rather 
+my sense processing is tuned a little different than others.
 
 **Positives** :+1:
-  - quick-finds lost items (I remember "Matter Out of Place" and remember)
-  - proactively identifies broken things (electronics, pipes, machinery)
-  - hears upset children
-  - hears stuck animals
+  - spots errors
+  - matter-out-of-place memory → quick at finding
+  - finds broken things _(electronics, pipes, machinery)_
+  - hears upset children/ stuck animals
+  - can rock-hop at speed
 
 **Negatives** :-1:
-  - odd sounds pull my attention like a fox (out of conversation)
+  - odd sounds pull my attention like a fox _(out of conversation)_
   - struggle to parse voices in crowded / reverberant environments
-  - annoyed by dying fluorescent lights
+  - annoyed by dying fluorescent tubes
   - disturbed by tree pruning / removal
 
 </details>
 
 <details>
   <summary>
-    <h3>Long-gaming</h3>
+    <h3>Long-game</h3>
   </summary>
 
 When I find something I love in the world, or something that has potential for
@@ -110,19 +114,20 @@ greatness, I often ask myself "how could more people benefit from this?" or
 the pattern I see, and ensuring it's longevity.
 
 **Positives** :+1:
-  - sees potential
+  - sees potentials
   - amazing first-follower / cheerleader / support character
   - very active bridger and weaver of people
-  - unperturbed by any short-term awkwardness (e.g. love giving constructive feedback)
+  - unperturbed by any short-term awkwardness _(e.g. love giving constructive feedback)_
 
 **Negatives** :-1:
   - jumps too far ahead
-  - chronic feedback (it can be very hard for me to not share important data)
+  - chronic feedback _(it can be very hard for me to not share important data)_
 
 </details>
 
 :construction: -- WIP: I've got more I want to add here :sweat_smile:
 
+![](mix-wings.jpeg)
 
 ## Wider Narrative :people_holding_hands:
 
