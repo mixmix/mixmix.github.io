@@ -36,6 +36,8 @@ which all identity, sense making, and coordination flow. Āhau was designed to
 help strengthen this foundation, and be infrastructure that was held by the
 people -- identity is precious taonga (treasure) after all.
 
+![Āhau training session in community](whakapapa-wananga.png)
+
 To make self-hosting accessible, Āhau was built on top of a peer-2-peer system
 called [Scuttlebutt](https://scuttlebutt.nz). This put data in community hands
 (not the company's), and the distributed nature meant any servers were just
