@@ -125,35 +125,86 @@ the pattern I see, and ensuring it's longevity.
 
 </details>
 
-:construction: -- WIP: I've got more I want to add here :sweat_smile:
+:construction: -- _more to write here_
 
 ![](mix-wings.jpeg)
 
-## Wider Narrative :people_holding_hands:
+## Second Opinion :people_holding_hands:
 
-You shouldn't trust people's narratives about themselves. Here's some other
-takes. If you think there are things missing, get in touch and I'll update <3
+You shouldn't necessarily trust people's narratives about themselves. Here's
+some other takes. If you think there are things missing, get in touch and I'll
+update <3
 
-> _Notices the little things and helps people with their little things with
-> unstoppable generosity to make their life better_ -- [Chelsea
-> Robinson](https://chelsearobinson.me/)
+<div class="endorsement">
+  <a class="header" href="https://chelsearobinson.me/" >
+    <img class="avatar" src="avatar/chelsea.png" />
+    <div class="name">
+      Chelsea Robinson
+    </div>
+  </a>
+  <div class="quote">
+    Notices the little things and helps people with their little things with
+        unstoppable generosity to make their life better.
+  </div>
+</div>
 
-> _Had a ton of creative ideas, wrote new software to explore those ideas
-> (either UI or backend modules), as well as documentation and specifications.
-> But I want to specifically highlight his people skills. I can easily say that
-> Mix was the heart of [Scuttlebutt](/p/scuttlebutt). Dominic Tarr definitely
-> created it, but Mix played a unique role that hardly anyone else did: he
-> welcomed and cared for every newcomer, was a mediator in discussions,
-> proactively connected people outside with people inside, and fostered
-> collaboration across projects_ -- [Andre Staltz](https://staltz.com/)
+<div class="endorsement">
+  <a class="header" href="https://staltz.com/" >
+    <img class="avatar" src="avatar/staltz.jpg" />
+    <div class="name">
+      Andre Staltz
+    </div>
+  </a>
+  <div class="quote">
+    Had a ton of creative ideas, wrote new software to explore those ideas
+        (either UI or backend modules), as well as documentation and
+        specifications. But I want to specifically highlight his people skills.
+        I can easily say that Mix was the heart of <a
+            href="/p/scuttlebutt">Scuttlebutt</a>. Dominic Tarr definitely
+        created it, but Mix played a unique role that hardly anyone else did:
+        he welcomed and cared for every newcomer, was a mediator in
+        discussions, proactively connected people outside with people inside,
+        and fostered collaboration across projects
+  </div>
+</div>
 
+<div class="endorsement">
+  <a class="header" href="https://www.linkedin.com/in/gina-rembe-3a607014/" >
+    <img class="avatar" src="avatar/gina.jpeg" />
+    <div class="name">
+      Gina Rembe
+    </div>
+  </a>
+  <div class="quote">
+    Always on the lookout for energy-optimisation in the best possible way.
+  </div>
+</div>
 
-> _Always on the lookout for energy-optimisation in the best possible way_ --
-> [Gina Rembe](https://www.linkedin.com/in/gina-rembe-3a607014/)
+<div class="endorsement">
+  <a class="header" href="https://www.linkedin.com/in/silviazuur/" >
+    <img class="avatar" src="avatar/silvia.jpeg" />
+    <div class="name">
+      Silvia Zuur
+    </div>
+  </a>
+  <div class="quote">
+    A kindred curiosity spirit. Asking questions, and enquiring. Often
+    about stuff I have no clue about, but with a deep interest that I respect.
+  </div>
+</div>
+<!--
+<div class="endorsement">
+  <a class="header" href="" >
+    <img class="avatar" src="avatar/" />
+    <div class="name">
+      
+    </div>
+  </a>
+  <div class="quote">
+  </div>
+</div>
+-->
 
-> _A kindred curiosity spirit. Asking questions, and enquiring. Often
-> about stuff I have no clue about, but with a deep interest that I respect_
-> -- [Silvia Zuur](https://www.linkedin.com/in/silviazuur/)
 
 
 ## Contact :pencil:
@@ -161,3 +212,4 @@ takes. If you think there are things missing, get in touch and I'll update <3
 
 You can contact me at `hello@mixmix.nz`
 
+<div style="height: 10vh" />
