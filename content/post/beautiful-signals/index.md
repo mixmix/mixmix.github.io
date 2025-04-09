@@ -9,6 +9,7 @@ categories:
 tags:
   - event
   - community
+  - education
 weight: 1
 
 
