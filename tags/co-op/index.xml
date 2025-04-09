@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Co-Op on mixmix</title><link>https://mixmix.nz/tags/co-op/</link><description>Recent content in Co-Op on mixmix</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 13 Sep 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://mixmix.nz/tags/co-op/index.xml" rel="self" type="application/rss+xml"/><item><title>Co-op source</title><link>https://mixmix.nz/p/co-op-source/</link><pubDate>Wed, 13 Sep 2017 00:00:00 +0000</pubDate><guid>https://mixmix.nz/p/co-op-source/</guid><description>&lt;img src="https://mixmix.nz/p/co-op-source/cover.jpg" alt="Featured image of post Co-op source" />&lt;p>&lt;em>&lt;a class="link" href="https://www.protozoa.nz" target="_blank" rel="noopener"
+>Protozoa&lt;/a> is a tech coop, and we write open source code.
+This is a little bit about what that means, and how open source is the foundation on which we&amp;rsquo;re building an aspirational future.&lt;/em>&lt;/p>
+&lt;p>I recently published a new feauture for &lt;a class="link" href="https://github.com/ssbc/patchbay" target="_blank" rel="noopener"
+>Patchbay&lt;/a> - an open source project I maintain.
+It allows you to easily @-mention people in the &lt;a class="link" href="https://www.scuttlebutt.nz" target="_blank" rel="noopener"
+>scuttleverse&lt;/a>.
+This isn&amp;rsquo;t straightforward because it&amp;rsquo;s a decentralised space where identity is subjective - many people have more than one use-name. (I gave &lt;a class="link" href="https://www.youtube.com/watch?v=P5K18XssVBg" target="_blank" rel="noopener"
+>a whole talk on subjectiviy here&lt;/a>).&lt;/p>
+&lt;p>&lt;img src="https://mixmix.nz/p/co-op-source/at_mention.png"
+width="831"
+height="420"
+srcset="https://mixmix.nz/p/co-op-source/at_mention_hu_164fd94f9c7ed5ea.png 480w, https://mixmix.nz/p/co-op-source/at_mention_hu_2dc542caa923bd1.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="197"
+data-flex-basis="474px"
+>&lt;/p>
+&lt;p>&lt;em>I mention Mikey by a name that people in our coding context will be familiar with (dinosaur).&lt;/em>&lt;/p>
+&lt;blockquote>
+&lt;p>Why is this significant?&lt;/p>&lt;/blockquote>
+&lt;p>I&amp;rsquo;m proud of this feature, but the more important parts of this story are the open source and the cooperative culture making this possible.&lt;/p>
+&lt;h2 id="open-source">Open source
+&lt;/h2>&lt;p>Over the next couple of days, I&amp;rsquo;m going to generalise this code into a &lt;em>module&lt;/em> called &lt;code>patch-mentions&lt;/code>.
+Then I&amp;rsquo;m going to propose changes to Patchbay, and a sister project called &lt;a class="link" href="https://github.com/ssbc/patchwork" target="_blank" rel="noopener"
+>Patchwork&lt;/a> so that they use use this new module.&lt;/p>
+&lt;p>That way everyone gets the new functionality, and when we find bugs in what I&amp;rsquo;ve done, we&amp;rsquo;ll all benefit from the solution.
+I&amp;rsquo;ll also be able to use this in subsequent contracting work - a massive speed and reliability boost for myself and for clients.&lt;/p>
+&lt;p>(I&amp;rsquo;ve actually already done this with a couple of other modules &lt;code>patch-profile&lt;/code> (an easy profile editor) and &lt;code>patch-settings&lt;/code> (which manages client preference settings).&lt;/p>
+&lt;p>If you&amp;rsquo;re talking to a programmer about what excites them about open source, this is probably the heart of it.
+Every time someone generously shares their work, we save hours / days / weeks of work, and are able to channel these savings into things that matter - like making more accessible interfaces, or building a feature to flag abusive actors (next on my todo list).&lt;/p>
+&lt;h2 id="cooperatives">Cooperatives
+&lt;/h2>&lt;p>Protozoa is a worker owner cooperative.
+While I&amp;rsquo;m writing this, Piet and Dominic are hard at work on different things - contract work, and forming collaborations with other deceltralised projects (we&amp;rsquo;re currently crushing on the &lt;a class="link" href="https://economicspace.agency/" target="_blank" rel="noopener"
+>Economic Space Agency&lt;/a> a bit).&lt;/p>
+&lt;p>For us, contributing to the commons is an important part of our work - it makes all our future work better, and helps build working relationships with other excellent humans.&lt;/p>
+&lt;p>Here&amp;rsquo;s an example of that:&lt;/p>
+&lt;p>&lt;img src="https://mixmix.nz/p/co-op-source/protoflip.png"
+width="854"
+height="262"
+srcset="https://mixmix.nz/p/co-op-source/protoflip_hu_68510f0f34fd85ba.png 480w, https://mixmix.nz/p/co-op-source/protoflip_hu_f4bac3b2fc1f20fb.png 1024w"
+loading="lazy"
+alt="protoflip"
+class="gallery-image"
+data-flex-grow="325"
+data-flex-basis="782px"
+>&lt;/p>
+&lt;p>&lt;a class="link" href="https://tableflip.io/" target="_blank" rel="noopener"
+>Tableflip&lt;/a> are a UK based tech coop we&amp;rsquo;ve been working with.
+We met them through the scuttleverse and this is a calendar invite to a catchup planning more work in the future.
+By working together, we&amp;rsquo;re able to work on bigger and more exciting projects with the confidence that we can expand to support each other.&lt;/p>
+&lt;p>The cal invite here is another tool we built is called &lt;code>gatherings&lt;/code>.
+It&amp;rsquo;s a module Piet and I made to enable more community interaction.
+Other gatherings I&amp;rsquo;ve seen in the past week in include &amp;ldquo;Art~Hack Wellington: decommidify your creativity&amp;rdquo;, &amp;ldquo;Westhaven Car Boot sale&amp;rdquo;, and &amp;ldquo;Bad Ukulele Club&amp;rdquo;.&lt;/p>
+&lt;p>It feels amazing to have been able to support more connections between people, and to be doing business in a values aligned space - I honestly don&amp;rsquo;t know TableFlip&amp;rsquo;s email addresses&amp;hellip;&lt;/p>
+&lt;p>&lt;img src="https://mixmix.nz/p/co-op-source/protozoa_logo.png"
+width="829"
+height="155"
+srcset="https://mixmix.nz/p/co-op-source/protozoa_logo_hu_7b78a81509e53416.png 480w, https://mixmix.nz/p/co-op-source/protozoa_logo_hu_24674329fb6b21af.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="534"
+data-flex-basis="1283px"
+>&lt;/p>
+&lt;p>&lt;em>If you&amp;rsquo;re an excellent human with a rad project you&amp;rsquo;d like to collaborate on, we&amp;rsquo;d love to hear from you. I&amp;rsquo;m &lt;a class="link" href="mailto:mix@protozoa.nz" >mix@protozoa.nz&lt;/a>, or you can join the scuttleverse from &lt;a class="link" href="https://www.scuttlebutt.nz" target="_blank" rel="noopener"
+>scuttlebutt.nz&lt;/a>&lt;/em>&lt;/p></description></item></channel></rss>

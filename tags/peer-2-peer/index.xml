@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Peer-2-Peer on mixmix</title><link>https://mixmix.nz/tags/peer-2-peer/</link><description>Recent content in Peer-2-Peer on mixmix</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 19 Sep 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://mixmix.nz/tags/peer-2-peer/index.xml" rel="self" type="application/rss+xml"/><item><title>Personal Safety in a p2p Social Network</title><link>https://mixmix.nz/p/personal-safety-in-a-p2p-social-network/</link><pubDate>Tue, 19 Sep 2017 00:00:00 +0000</pubDate><guid>https://mixmix.nz/p/personal-safety-in-a-p2p-social-network/</guid><description>&lt;img src="https://mixmix.nz/p/personal-safety-in-a-p2p-social-network/cover.jpg" alt="Featured image of post Personal Safety in a p2p Social Network" />&lt;p>I believe in a free and open web.
+Over the past 3 years, friends and I have been growing and shaping an ecosystem for that purpose — for many, it’s now our primary way of communicating.
+It’s built with cryptography and is p2p.
+The result is a system with fundamentally different behaviours than the old web.
+This is part of a series exploring the sociological and technological ramifications.
+I call it “The Medium is the Message: Cypherspace Edition”.&lt;/p>
+&lt;p>Speaking at a recent &lt;a class="link" href="https://re-publica.com/" target="_blank" rel="noopener"
+>re:publica&lt;/a> conference, my friend &lt;a class="link" href="http://www.richdecibels.com/" target="_blank" rel="noopener"
+>Rich Bartlett&lt;/a> voiced his lack of faith in blockchain as a solution for all that ails us.
+Specifically, he threw this challenge:&lt;/p>
+&lt;blockquote>
+&lt;p>“If you’re going to claim that your project is decentralising power, please explain it in terms of justice, rather than just efficiency and disintermediation.”&lt;/p>&lt;/blockquote>
+&lt;p>This got me wondering how our project &lt;a class="link" href="https://www.scuttlebutt.nz" target="_blank" rel="noopener"
+>Scuttlebutt&lt;/a>, a decentralised social network, is any different from other hype.
+Most pressing was the question, “Can we guarantee that people will be safe from bullying and abuse?”
+If we can’t build a community which is free and open for everyone to participate in — if it’s a space where some people are sexually harassed, or receive threats of violence — then we’re wasting our time.&lt;/p>
+&lt;p>Our decentralised architecture certainly makes global spamming attacks hard, and data only flows along lines of trust.
+But it’s still technically possible for people to abuse others within our community, particularly if they have a lot of friends in common.
+In our history to date, we’ve only had a few incidents of behaviour and communication that run strongly against the community culture I want to support.&lt;/p>
+&lt;p>So how have we dealt with abuse?&lt;/p>
+&lt;h2 id="just-kick-them-out">Just kick them out
+&lt;/h2>&lt;p>On corporate platforms like Twitter, Youtube, or Facebook, there’s a single central organisation with (essentially) a single data storage system.
+In that context, it’s easy for the owners of the system to delete content or users — in fact it’s their prerogative and, some would say, responsibility to do so.
+Most platforms have a “report” or “flag” feature which marks content or users for review/exclusion.
+This can be good, but also results in endless arguments about these rulings, since policing and judging fairly is expensive and difficult.&lt;/p>
+&lt;p>Companies like Reddit get around some of this overhead by being a platform for community-moderated ‘subreddits’ (channels for specific topics).
+Sometimes Reddit admins will still step in and ‘moderate’ user content, like when &lt;a class="link" href="https://www.washingtonpost.com/news/the-switch/wp/2016/11/26/reddits-ceo-regrets-trolling-trump-supporters-by-secretly-editing-their-posts/" target="_blank" rel="noopener"
+>their CEO messed with Trump posts&lt;/a> , which was simultaneously funny and pretty troubling.&lt;/p>
+&lt;p>As a federated network, &lt;a class="link" href="https://mastodon.social/about" target="_blank" rel="noopener"
+>Mastodon&lt;/a> takes this a step further — communities self-host their own ‘instances’ of the platform, meaning there are many self-governing fiefdoms.
+Each sets their own rules and can kick content and people off their instance. It’s great because there’s no corporation shaping your experience, and you don’t need one policy to cover all the people in the world.
+The challenge is you have to be fairly organised as a group to set up and pay for the infrastructure, and to actively govern your space.&lt;/p>
+&lt;p>Scuttlebutt goes even further: it’s fully decentralised, with no single central organisation or federation of fiefs. There are only fully autonomous peers, each running the software on their local computer and making their own choices about how they want to interact.&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>There is no owner of any shared physical space or hardware from which you can kick a person&lt;/strong>.&lt;/p>&lt;/blockquote>
+&lt;p>This is the double edged sword of p2p social networks — it’s a space safe from authoritarian interference &lt;em>and&lt;/em> it’s harder to assert boundaries.&lt;/p>
+&lt;h2 id="have-a-strong-culture">Have a strong culture
+&lt;/h2>&lt;p>As described above, this decentralisation might sound like total anarchy.
+It is, but maybe preconceptions have coloured your expectation of how this might pan out.
+In practice, what emerges is not that different to other networks — people migrate toward and away from conversations and people they want to interact with.
+We see ‘islands’ or ‘domains’ of community, which might be distinct, overlapping, or totally disconnected.
+It’s similar to the dynamics of Twitter, but while Twitter’s global space leaves it open for witch hunts and hashtag storms, Scuttlebutt is more localised and stable.&lt;/p>
+&lt;blockquote>
+&lt;p>What is culture in such a fragmented space?&lt;/p>&lt;/blockquote>
+&lt;p>I can only talk about the parts of the Scuttleverse I interact with.
+It’s filled with open-source programmers, communists, vegans, feminists, sailors, and mycologists — and not capitalism or trolls.&lt;/p>
+&lt;p>The community space around me has something like emergent governance.
+When someone presents rough behaviour, it’s common for one or more people to intercede and apply some combination of:&lt;/p>
+&lt;ul>
+&lt;li>polite inquiry and clarifying questions&lt;/li>
+&lt;li>assertion of what sort of interaction they’d prefer&lt;/li>
+&lt;/ul>
+&lt;p>This costs time and energy, and it’s totally worth it.&lt;/p>
+&lt;p>As individuals and as a group, we get the opportunity to:&lt;/p>
+&lt;ul>
+&lt;li>check our assumptions, and (maybe) build connections with new cultures&lt;/li>
+&lt;li>clarify our beliefs and who we are&lt;/li>
+&lt;li>role model what respectful conversation and good boundary setting looks like&lt;/li>
+&lt;/ul>
+&lt;p>Our conflicts have advanced us individually, and as group we have built stronger relationships and are more skilled and articulate.
+I absolutely believe this is the fundamental and unavoidable work of community, and that community is integral to any human ecosystem.&lt;/p>
+&lt;blockquote>
+&lt;p>This is all really cool and cerebral, but does this stop rape threats?&lt;/p>&lt;/blockquote>
+&lt;p>&lt;em>(Hasn’t happened yet to my knowledge, but it’s a decent question.)&lt;/em>&lt;/p>
+&lt;p>&lt;img src="https://mixmix.nz/p/personal-safety-in-a-p2p-social-network/follows.jpg"
+width="1400"
+height="1108"
+srcset="https://mixmix.nz/p/personal-safety-in-a-p2p-social-network/follows_hu_5c33ffc68d95c97f.jpg 480w, https://mixmix.nz/p/personal-safety-in-a-p2p-social-network/follows_hu_da3b5995e84bdea7.jpg 1024w"
+loading="lazy"
+alt="information flows in a peer network"
+class="gallery-image"
+data-flex-grow="126"
+data-flex-basis="303px"
+>&lt;em>information flows in a peer network&lt;/em>&lt;/p>
+&lt;h2 id="block-them">Block them
+&lt;/h2>&lt;p>This is the feature I’ve just finished building.
+Applying culture only gets you so far — it can’t necessarily protect you from a malicious actor.&lt;/p>
+&lt;p>In an extreme situation, the things I want you to be able to avoid are:&lt;/p>
+&lt;ol>
+&lt;li>being contacted by someone&lt;/li>
+&lt;li>being stalked by someone&lt;/li>
+&lt;/ol>
+&lt;p>The first one is easy to implement — you can just tell the interface to not show anything new from that person.
+What I’ve built actually goes further, by ceasing propagation of that person’s data to friends of yours not already connected with this person.&lt;/p>
+&lt;p>The second part is harder.
+We’re a p2p network, where messages are &lt;a class="link" href="https://medium.com/enspiral-tales/gossiping-securely-is-the-new-email-6d706d4cd435" target="_blank" rel="noopener"
+>gossiped &lt;/a>— how do you say things publicly and have them not get to that person?
+You tell your friends that’s what you want, and they respect your decision!&lt;/p>
+&lt;p>In programmatic terms, a ‘block’ is just another type of message which is gossiped.
+As soon as a peer receives it, their local setup effects the change and tops passing information about you to the person you’re blocking.&lt;/p>
+&lt;p>In a p2p context, being blocked means you have fewer connected peers, because the number of people gossiping your messages is reduced.
+Highly abusive characters might find themselves enjoying just the freedom of their own speech, alone.&lt;/p>
+&lt;h2 id="the-medium-is-the-message">&lt;strong>The Medium is the Message&lt;/strong>
+&lt;/h2>&lt;p>Marshal McLuhan coined this &lt;a class="link" href="https://en.wikipedia.org/wiki/The_medium_is_the_message" target="_blank" rel="noopener"
+>iconic phrase&lt;/a>, and I’d summarise it roughly as, “The physics of your medium determine what is possible in that medium, and so ultimately the message.”&lt;/p>
+&lt;p>Given Scuttlebutt is a cypherspace (a space whose foundational physics is cryptography), what is the nature of the medium that is different here, and &lt;em>what is that message?&lt;/em>&lt;/p>
+&lt;p>The underlying cryptography is what makes it possible for people to be totally autonomous agents in this social network.
+It affords a level of freedom from coercion that is probably unprecedented in a digital space.
+It also removes all responsibility for governance or custodianship of a space from any particular entity and devolves it to the level of individuals making choices.
+So far in the Scuttleverse, I’ve seen this lead to a lot of personal responsibility and growth.&lt;/p>
+&lt;p>It’s also fascinating to watch how the lack of dependence on shared hosting infrastructure means that we can have a multiplicity of overlapping communities.
+A recent example was when I found a user, who calls themselves Johnny Null, in the &lt;em>#dads&lt;/em> channel (which I started because I’m going to be a dad soon, and wanted to talk about that with other crypto-dads).
+I was surprised, because I had experienced a lot of antagonistic threads with this person, leading to some of my friends blocking him, but I hadn’t yet.&lt;/p>
+&lt;p>In this new context, I wasn’t seeing unproductive abuse from him. We found another way to connect on a really human topic.
+I was surprised to learn he was a dad, and to receive encouragement and offers of support from him. It was such a sharp contrast from previous interactions.
+The diversity of approaches available made it possible for some people to block him, but he wasn’t banned from the network, leaving open new possibilities. I don’t know where that will go … but perhaps we could still have a chance at understanding each other.&lt;/p>
+&lt;p>I see alignment of the physics of p2p space and the physics of everyday in-person space.
+It feels poetic that the way we’ve implemented a block in Scuttlebutt is through communicating boundaries and asking our peers to respect them.
+That’s how it works in offline spaces, too.
+I see this pattern a lot in what we’re building — p2p interactions mirroring human interaction — and it’s the heart of what I want to communicate by invoking The Medium is the Message.&lt;/p>
+&lt;p>Building systems with peers means the tools we build might be just a little more human, and make space for adaptive communities.
+My hope is that this space will help us re-learn some of what we’ve forgotten in society, and that maybe this will make a difference in the rising challenges we have to face.&lt;/p></description></item><item><title>Uncapturable Distribution</title><link>https://mixmix.nz/p/uncapturable-distribution/</link><pubDate>Sun, 25 Oct 2015 00:00:00 +0000</pubDate><guid>https://mixmix.nz/p/uncapturable-distribution/</guid><description>&lt;img src="https://mixmix.nz/p/uncapturable-distribution/galaxy.jpg" alt="Featured image of post Uncapturable Distribution" />&lt;p>So I hang out with a bunch of big dreaming nerds with a bunch of different interests, but when we explore what it is we want in our future, it&amp;rsquo;s a happy thriving civilisation. You&amp;rsquo;ll know we&amp;rsquo;re there because we&amp;rsquo;ll be looking after each other, curiously exploring, sharing our successes, and making intergalactic friends.&lt;/p>
+&lt;p>The workshops were about developing a Theory of Change for each group.&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>Theory of Change&lt;/strong>&lt;/p>
+&lt;p>&lt;em>The process of forming a &lt;a class="link" href="http://www.theoryofchange.org/what-is-theory-of-change/" target="_blank" rel="noopener"
+>Theory of Change&lt;/a> is about coming up with a map of how change will come about in the world. It starts by a group building a shared vision of it&amp;rsquo;s particular desired end-state is.You then proceed to build a graph of dependent states back from that end point to the current state of the world. This is called &amp;lsquo;back-casting&amp;rsquo;.&lt;/em>&lt;/p>
+&lt;p>&lt;em>The process has several steps including things like surfacing and testing assumptions, detailing how you would measure successful change at each step, and assessing the cost and nature of intervention to prgress between states.&lt;/em>&lt;/p>&lt;/blockquote>
+&lt;p>In each of the workshops, 2 hours of conversation made barely a dent in completing a fully detailed map, but we&amp;rsquo;d revealed a lot of territory.
+Both workshops explored similar viens, but here I&amp;rsquo;ll explore the second, because it&amp;rsquo;s fresher in memory and highly relevant to my current work.&lt;/p>
+&lt;h2 id="why-build-a-decentralised-database">Why build a decentralised database?
+&lt;/h2>&lt;p>This is a workshop I ran with the Secure Scuttlebutt team who all happened to be in San Fransisco recently. Here&amp;rsquo;s what the top of our theory of change diagram looked like :&lt;/p>
+&lt;p>&lt;img src="https://mixmix.nz/p/uncapturable-distribution/TOS_2.jpg"
+width="309"
+height="394"
+srcset="https://mixmix.nz/p/uncapturable-distribution/TOS_2_hu_cf569efe6cac189b.jpg 480w, https://mixmix.nz/p/uncapturable-distribution/TOS_2_hu_1c1530ad774a4d55.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="78"
+data-flex-basis="188px"
+>&lt;/p>
+&lt;p>Some important things we agreed we need to achieve were :&lt;/p>
+&lt;ul>
+&lt;li>specialisation without inequity&lt;/li>
+&lt;li>rich ecosystem (supports diverse approaches)&lt;/li>
+&lt;/ul>
+&lt;p>I&amp;rsquo;d like to explore one particular chain of states back. This format makes it hard to simultaneously discuss the branching and interconnected dependencies, so please forgive me if the analysis seems to narrow. I&amp;rsquo;m interested in this particular chain because it raised questions which provided a useful frame or lens for projects I&amp;rsquo;m working on or with. From the top it reads :&lt;/p>
+&lt;ol>
+&lt;li>Galactic council&lt;/li>
+&lt;li>Large scale social harmony&lt;/li>
+&lt;li>Post scarcity&lt;/li>
+&lt;li>Distribution primarily in service of society&lt;/li>
+&lt;li>Distribution is distributed and un-ownable&lt;/li>
+&lt;li>We build our distribution on un-capturable technologies&lt;/li>
+&lt;/ol>
+&lt;p>As distribution surfaced as a theme, we tested our assumptions against real-world examples :&lt;/p>
+&lt;ul>
+&lt;li>distribution of food and goods: supermarkets, wal-mart&lt;/li>
+&lt;li>distribution of information: email, google, facebook&lt;/li>
+&lt;/ul>
+&lt;p>We observed that &lt;strong>ownership&lt;/strong> of distribution by &lt;strong>actors mainly interested in profit&lt;/strong> has lead to problematic dynamics which block us from joining the Galactic Council.
+See massive food waste, destruction of diversity through monopoly, development of tools which optimise addiction and consumption, development of tools which define value for us.&lt;/p>
+&lt;h2 id="some-examples">Some examples
+&lt;/h2>&lt;p>Here&amp;rsquo;s a breakdown of a couple of interesting cases in the context of information distribution.&lt;/p>
+&lt;p>&lt;strong>[Email]&lt;/strong> : a super successful open protocol. Anyone can send emails to anyone. The failing of email is that it has no mechanism for dealing with un-wanted noise (see spam).
+This has generated a niche for organisations to offer value (spam filtering), and capture users.
+For example Gmail is popular because it does fairly reliable spam filtering. This makes email less open, because small private servers have a harder time generating a good &amp;rsquo;not-spam&amp;rsquo; reputation.&lt;/p>
+&lt;blockquote>
+&lt;p>Distribution systems must have a solution to noise.&lt;/p>&lt;/blockquote>
+&lt;p>&lt;strong>[Facebook]&lt;/strong> : built on an open protocol - http - but has centralised closed databases, and a closed (proprietary) interface.
+Facebook&amp;rsquo;s primary motivation is profit, which inclines it to leverage it&amp;rsquo;s closed-ness (right of refusal of access) to extract value from it&amp;rsquo;s user-base.&lt;/p>
+&lt;blockquote>
+&lt;p>All parts of a distribution system need to be uncapturable - open protocols are not sufficient&lt;/p>&lt;/blockquote>
+&lt;p>&lt;em>&lt;a class="link" href="https://www.facebook.com/terms.php" target="_blank" rel="noopener"
+>facebook ToS&lt;/a>&lt;/em>&lt;/p>
+&lt;p>&lt;strong>[Google]&lt;/strong> : the growth of the internet beyond easily navigable scales led to the birth of search engines.
+The current winning solution to this problem is an algorithm which determes site value based on linkages and references.
+Again, this is a niche which has been captured by a primarily profit motivated organisation.
+This capture looks something like a monopoly through dependence, and is &lt;a class="link" href="http://techcrunch.com/2011/03/25/search-googles-castle-moat/" target="_blank" rel="noopener"
+>defended by a suite of related free and powerful tools&lt;/a>.&lt;/p>
+&lt;blockquote>
+&lt;p>Distribution systems need to address capturable searchability&lt;/p>&lt;/blockquote>
+&lt;h2 id="things-you-should-consider">Things you should consider
+&lt;/h2>&lt;p>I&amp;rsquo;ve named a bunch of assumptions and principles that we think need to be integrated in order to get us on the road to The Galactic Council.&lt;/p>
+&lt;p>What is your interaction with distribution systems, are you investing in systems that build the future you want to see?&lt;/p>
+&lt;ul>
+&lt;li>How do you network online, is it via an actor interested mostly in profit?&lt;/li>
+&lt;li>Who holds power over the definition of value of what you&amp;rsquo;re interacting with?&lt;/li>
+&lt;li>Where do you publish your content?&lt;/li>
+&lt;/ul>
+&lt;p>I think it&amp;rsquo;s overly idealistic to transition immediately to decentralised uncapturable solutions, but there are small choices that we can and should start making if we want to live in a thriving society.&lt;/p>
+&lt;h2 id="possible-solutions">Possible solutions
+&lt;/h2>&lt;h3 id="open-sourcing">Open-sourcing
+&lt;/h3>&lt;p>&lt;img src="https://mixmix.nz/p/uncapturable-distribution/loomio.jpg"
+width="1100"
+height="885"
+srcset="https://mixmix.nz/p/uncapturable-distribution/loomio_hu_73d3633d9a4f87e5.jpg 480w, https://mixmix.nz/p/uncapturable-distribution/loomio_hu_a378e617e6c80ccc.jpg 1024w"
+loading="lazy"
+alt="Loomio logo"
+class="gallery-image"
+data-flex-grow="124"
+data-flex-basis="298px"
+>&lt;/p>
+&lt;p>With &lt;a class="link" href="http://www.loomio.org/" target="_blank" rel="noopener"
+>Loomio&lt;/a> (a collaborative decision-making platform), we&amp;rsquo;ve addressed some of these same problems by a steadfast commitment to being &lt;a class="link" href="https://github.com/loomio/loomio" target="_blank" rel="noopener"
+>open-source&lt;/a>.
+While individual instances of the platform may have closed databases, the open-sourcing of the platform code means that anyone can own and control their own instance. It also makes advertising and data-mining significantly less likely, because anyone in the community can fork the code-base and rip anything extractive out.
+For Loomio this is actually a selling point - it&amp;rsquo;s a clear signal that our primary value is in serving society.&lt;/p>
+&lt;p>With loomio, capturing ownership has also been very seriously addressed in how we&amp;rsquo;ve written our constitution, and our approach to investment. In short, you can&amp;rsquo;t buy Loomio, and no one person can control it.&lt;/p>
+&lt;h3 id="publish-carefully">Publish carefully
+&lt;/h3>&lt;p>&lt;img src="https://mixmix.nz/p/uncapturable-distribution/hypermarkdown.png"
+width="81"
+height="60"
+srcset="https://mixmix.nz/p/uncapturable-distribution/hypermarkdown_hu_e6132f8574a8f436.png 480w, https://mixmix.nz/p/uncapturable-distribution/hypermarkdown_hu_7a4a3b6491bd1566.png 1024w"
+loading="lazy"
+alt="Hypermarkdown logo"
+class="gallery-image"
+data-flex-grow="135"
+data-flex-basis="324px"
+>&lt;/p>
+&lt;p>You might notice this isn&amp;rsquo;t published on medium. Honestly, this is an experiment in document splicing using a tool I made currently called &lt;a class="link" href="https://github.com/mixmix/hypermarkdown" target="_blank" rel="noopener"
+>Hypermarkdown&lt;/a>. In retrospect this approach does tick some boxes.
+This content is currently being hosted at &lt;a class="link" href="https://github.com/mixmix/blogposts/blob/master/uncapturable_distribution.md" target="_blank" rel="noopener"
+>github.com&lt;/a>&amp;hellip; which sounds like my content might be captured buuuut, github is acutally built on a distributed content system called &lt;a class="link" href="https://git-scm.com/" target="_blank" rel="noopener"
+>git&lt;/a>.
+An exact mirror of the data lives on my computer as well, and could easily be hosted by any git based server, like a self-hosted &lt;a class="link" href="https://about.gitlab.com/" target="_blank" rel="noopener"
+>gitlab&lt;/a>.&lt;/p>
+&lt;p>There&amp;rsquo;s still the problem of how it is you&amp;rsquo;ve found your way to this blog.
+99.9% liklihood is that in 2015 it was via facebook, or twitter (it probably wasn&amp;rsquo;t via google because the way I built this accidently makes it harder to index).&lt;/p>
+&lt;p>(&lt;strong>Edit (2025)&lt;/strong> - I&amp;rsquo;ve since pulled this into another git repo which generates this static site using Hugo)&lt;/p>
+&lt;h3 id="build-an-open-combined-protocol-database">Build an open combined protocol-database
+&lt;/h3>&lt;p>The solution I&amp;rsquo;m currently investing in is &lt;a class="link" href="https://github.com/ssbc/docs" target="_blank" rel="noopener"
+>&lt;strong>Secure Scuttlebutt&lt;/strong> &lt;/a>.
+It&amp;rsquo;s an open and secure decentralised database where distribution flows along trust lines, as determined by following (positive value) and flagging (negative value).&lt;/p>
+&lt;p>&lt;img src="https://mixmix.nz/p/uncapturable-distribution/hermes_logo.png"
+width="200"
+height="200"
+srcset="https://mixmix.nz/p/uncapturable-distribution/hermes_logo_hu_6675a7e981185f8e.png 480w, https://mixmix.nz/p/uncapturable-distribution/hermes_logo_hu_1830bdbab2dc480a.png 1024w"
+loading="lazy"
+alt="Hermes the hermit-crab"
+class="gallery-image"
+data-flex-grow="100"
+data-flex-basis="240px"
+>&lt;/p>
+&lt;p>Anyone is free to build an app to interface (read/ write) with this database. The first app is a proof of concept messaging app called &lt;a class="link" href="https://github.com/ssbc/patchwork" target="_blank" rel="noopener"
+>&lt;strong>Patchwork&lt;/strong>&lt;/a>.&lt;/p>
+&lt;p>Check out a brief introduction
++&lt;a class="link" href="https://www.youtube.com/watch?v=vmQUfZMCVJ0" target="_blank" rel="noopener"
+>&lt;/a>&lt;/p>
+&lt;p>The Scuttlebutt team is planning to open beta Patchwork in November 2015.&lt;/p>
+&lt;p>An overview of scuttlebutt&amp;rsquo;s solution to some know problems with distribution systems:&lt;/p>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> All open uncapturable system: the protocol is open and the database is open and distributed. People can only edit their own data and reference others.&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Has an uncapturable solution to noise: distribution only flows along trust lines in the network.&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Searchable: relevance is similarly determined by trust relationships in the network.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>(Which pitfalls have we missed?)&lt;/strong>&lt;/p></description></item></channel></rss>
