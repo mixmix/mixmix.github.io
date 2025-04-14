@@ -10,13 +10,6 @@ menu:
         params:
             icon: user-circle
 
-links:
-    - title: Projects
-      description: Check out some projects I'm proud to have contributed to
-      website: /categories/projects/
-    # - title: CV
-    #   description: A record of my skills and work
-    #   website: /cv/
 ---
 
 
@@ -31,8 +24,8 @@ sky-diving. I live in Pōneke (Wellington) with my partner
 ![Skies over the Heretaunga Plains](sunset.jpg)
 ![Te Mata Peak](te-mata-peak.jpg)
 
-:information_source: _Introductions here are
-[context-first](https://en.wikipedia.org/wiki/Pepeha), because the "individual"
+:information_source: _Introductions in NZ are
+[context-first](https://en.wikipedia.org/wiki/Pepeha) -- the "individual"
 is better understood by where they stand, and who they relate to._
 
 I'm a nerd -- I love sci-fi, magic the gathering, programming, ecosystem
@@ -132,8 +125,8 @@ the pattern I see, and ensuring it's longevity.
 ## Second Opinion :people_holding_hands:
 
 You shouldn't necessarily trust people's narratives about themselves. Here's
-some other takes. If you think there are things missing, get in touch and I'll
-update <3
+what some friends say about me. If you think there are things missing, get in
+touch and I'll update <3
 
 <div class="endorsement">
   <a class="header" href="https://chelsearobinson.me/" >
@@ -192,6 +185,7 @@ update <3
     about stuff I have no clue about, but with a deep interest that I respect.
   </div>
 </div>
+
 <!--
 <div class="endorsement">
   <a class="header" href="" >
@@ -205,11 +199,23 @@ update <3
 </div>
 -->
 
+## Work :balance_scale:
+
+**Status** -- I'm currently available for work!
+
+I'm passionate about growing ecosystems and community. I’m an open
+source programmer, and prioritize working with excellent humans who dare to dream
+more positive futures into reality. I bring a great mix of people / orginisation / technical skills.
+
+If you'd like more detail, perhaps check out:
+- [Projects](/categoties/projects) -- things I'm proud to have contributed to
+- [CV](/cv) -- a record of my skills and employment
 
 
 ## Contact :pencil:
 
+I primarily communicate digitally via [Signal](https://signal.org/).
 
-You can contact me at `hello@mixmix.nz`
+You can also contact me at `hello@mixmix.nz`
 
 <div style="height: 10vh" />
