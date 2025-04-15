@@ -29,12 +29,13 @@ page and [posts](http://localhost:1313/archives/) for a broader picture._
   <img src='2000s.svg' />
 </figure>
 
-| Entity              | Role               | Skills |
-|:---|:---|:---|
-| University of Otago | Student _(BSc. Hons. Maths)_ | Mathematics, Physics,<br />Biology, Neuroscience,<br />Tutoring  |
-|                     | Research Assistant | Literature Review,<br />Blood Splatter Modeling
-|                     | Student _(Post Grad. Dip. Teaching)_ | Pedagogy, Acting, <br />Crowd-control                            |
-| [Unlimited Paenga Tawhiti](/p/unlimited) | Teacher | Customised Learning,<br />Mentoring, Pastoral Care,<br />Bitcoin-trading, Lock-picking<br /> |
+| Entity                                   | Role                                 | Skills                                                                                  |
+|------------------------------------------|--------------------------------------|-----------------------------------------------------------------------------------------|
+| University of Otago                      | Student _(BSc. Hons. Maths)_         | Mathematics, Physics, Biology, Neuroscience,<br />Tutoring                              |
+|                                          | Research Assistant                   | Literature Review, Blood Splatter Modeling                                              |
+|                                          | Student _(Post Grad. Dip. Teaching)_ | Pedagogy, Acting, Crowd-control                                                         |
+| [Unlimited Paenga Tawhiti](/p/unlimited) | Teacher                              | Customised Learning, Mentoring, Pastoral Care,<br />Bitcoin-trading, Lock-picking<br /> |
+
 
 
 
@@ -42,11 +43,23 @@ page and [posts](http://localhost:1313/archives/) for a broader picture._
   <img src='2010s.svg' />
 </figure>
 
-:construction:
+| Entity                                   | Role                                   | Skills                                                                                                                                                                                          |
+|------------------------------------------|----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Unlimited Paenga Tawhiti](/p/unlimited) | Teacher                                | (see above)                                                                                                                                                                                     |
+| Victoria University                      | Student _(Fine Art)_                   | Parametric Design, Python,<br />Critical Theory                                                                                                                                                 |
+| Loomio                                   | Owner, Programmer                      | Ruby, Javascript, i18n<br />Facilitation, Retrospectives, Scrum Master,<br />Translation Coordination                                                                                           |
+| Cobudget                                 | Programmer                             | Ruby, Javascript, i18n                                                                                                                                                                          |
+| POC21                                    | Support Team                           | System Tuner, Facilitator                                                                                                                                                                       |
+| [Scuttlebutt](/p/scuttlebutt)            | Programmer, Community Gardener, Leader | NodeJS, GraphQL, React/ Vue, Distributed Ledgers, P2P, CRDT, Technical Specification, Cryptography, Architecture, UX + UI,<br />Strategy, Facilitation, Grant Management, Community Growth, ... |
+| [Protozoa](/p/protozoa)                  | Owner                                  | Business Process, Radical Income Sharing, DEI work, Facilitation                                                                                                                                |
+| [Dark Crystal](/p/dark-crystal)          | Co-founder, Programmer                 | NodeJS, Technical Specification, Cryptography, UX + UI, Facilitation                                                                                                                            |
+| [Āhau](/p/ahau)                          | CTO, Programmer                        | Strategy, System Architecture, NodeJS, Vue, GraphQL, Group Encryption, CRDT, Technical Specification, UX + UI, Facilitation, Mentoring, Community support, ...                                  |
+
+:construction: Under Construction 
 
 <figure>
   <img src='2020s.svg' />
 </figure>
 
-:construction:
+:construction: Under Construction 
 
