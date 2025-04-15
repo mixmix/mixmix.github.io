@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mātou on mixmix</title><link>https://mixmix.nz/tags/m%C4%81tou/</link><description>Recent content in Mātou on mixmix</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 02 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mixmix.nz/tags/m%C4%81tou/index.xml" rel="self" type="application/rss+xml"/><item><title>Mātou</title><link>https://mixmix.nz/p/matou/</link><pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate><guid>https://mixmix.nz/p/matou/</guid><description>&lt;img src="https://mixmix.nz/p/matou/cover.png" alt="Featured image of post Mātou" />&lt;blockquote>
+&lt;p>⏳ 2024 &amp;ndash; ongoing &lt;br />&lt;/p>&lt;/blockquote>
+&lt;h2 id="about">About
+&lt;/h2>&lt;p>Mātou (&amp;ldquo;we are&amp;rdquo;) is a collective that exists to grow the digital infrastructure
+needed to support transformational growth for Māori communities. Māori already
+have centuries of experience in collective governance of shared resources and
+distributed governance. The problem is that most &amp;ldquo;modern&amp;rdquo; organisational tools
+on offer are reflections of colonial patterns. See &lt;a class="link" href="https://en.wikipedia.org/wiki/Conway%27s_law" target="_blank" rel="noopener"
+>Conway&amp;rsquo;s
+Law&lt;/a> :&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;em>Organizations which design systems are constrained to produce designs which
+are copies of the communication structures of these organizations.&lt;/em>
+— Melvin E. Conway&lt;/p>&lt;/blockquote>
+&lt;p>In Aotearoa (New Zealand), this means that Māori are currently struggling to
+organise collectively (as is their tradition) because most of the tools are
+fundamentally propertarian/ individualist/ overly top-down&amp;hellip; in short, do not
+serve.&lt;/p>
+&lt;p>The core observation of &lt;a class="link" href="https://mixmix.nz/p/ahau" >Āhau&lt;/a> (&amp;ldquo;I am&amp;rdquo;) was that we must start by
+rebuilding right tools starting with &lt;strong>identity&lt;/strong> &amp;ndash; this is the foundation by
+which we know ourselves (through our history, our relationships), and from here
+move into coordinating and building new things. Crucially, this &lt;strong>must&lt;/strong> be
+rooted in absolute sovereignty (no rented domain names, no foreign servers
+controlling authorship, no singlar souce of truth).&lt;/p>
+&lt;p>As a radical exploration of data-sovereign identity Āhau succeeded in part, but
+ultimately surfaced challenges blocking our grand vision:&lt;/p>
+&lt;ul>
+&lt;li>identity tools must be &lt;strong>free&lt;/strong>&amp;hellip; but maintaining them with grants is
+unsustainable&lt;/li>
+&lt;li>each community has it&amp;rsquo;s own tikanga (cultural practice), and we cannot (and
+should not) build for all of them&lt;/li>
+&lt;li>Limited Liability Company governing an identity commons is a misalignment with
+our &lt;a class="link" href="https://maoridictionary.co.nz/search?keywords=kaupapa" target="_blank" rel="noopener"
+>kaupapa&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Mātou is being designed to be a multi-stakeholder entity which gives community
+real say in the systems being built, fosters ecosystems, acknowledges and
+rewards participation, growing wealth for all. Currently we are coordinating
+through &lt;a class="link" href="https://opencollective.com/matoucollective" target="_blank" rel="noopener"
+>Open Collective&lt;/a> (with the
+NZ based &lt;a class="link" href="https://thegifttrust.org.nz/" target="_blank" rel="noopener"
+>Gift Trust&lt;/a> as a fiscal host), which
+lets us work transparently under a charity umbrella.&lt;/p>
+&lt;p>Some projects we&amp;rsquo;ve been involved in recently::&lt;/p>
+&lt;ul>
+&lt;li>Supporting the &lt;a class="link" href="https://whangaroapapahapu.org.nz" target="_blank" rel="noopener"
+>Whangaroa Papa Hapū&lt;/a> towards
+Treaty Settlement with cutting edge, culturally appropriate and resilient
+tools&lt;/li>
+&lt;li>R+D on the fusion of millenia of Indigenous collective organising patterns
+with modern DAO tooling&lt;/li>
+&lt;li>Partnering with &lt;a class="link" href="https://kautepasifika.co.nz/" target="_blank" rel="noopener"
+>K&amp;rsquo;aute Pasifika&lt;/a> to prototype
+data-sovereignty preserving health/ wellbeing systems&lt;/li>
+&lt;li>Guiding the &lt;a class="link" href="https://constitution.gov.tools/en" target="_blank" rel="noopener"
+>Cardano Constitution&lt;/a> process
+&amp;ndash; practicing world-scale collective governance&lt;/li>
+&lt;/ul></description></item><item><title>Āhau : Distributed Replicating Tribal Archives</title><link>https://mixmix.nz/p/govis-2023/</link><pubDate>Fri, 16 Jun 2023 00:00:00 +0000</pubDate><guid>https://mixmix.nz/p/govis-2023/</guid><description>&lt;img src="https://mixmix.nz/p/govis-2023/cover.png" alt="Featured image of post Āhau : Distributed Replicating Tribal Archives" />&lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/GhpyYbakOj0"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
+&lt;/div></description></item><item><title>Āhau : Māori Identity &amp; Data Sovereignty</title><link>https://mixmix.nz/p/fosdem-22/</link><pubDate>Sat, 05 Feb 2022 00:00:00 +0000</pubDate><guid>https://mixmix.nz/p/fosdem-22/</guid><description>&lt;img src="https://mixmix.nz/p/fosdem-22/cover.png" alt="Featured image of post Āhau : Māori Identity &amp; Data Sovereignty" />&lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/g2yE9t0d7ac"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
+&lt;/div></description></item><item><title>Āhau</title><link>https://mixmix.nz/p/ahau/</link><pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate><guid>https://mixmix.nz/p/ahau/</guid><description>&lt;img src="https://mixmix.nz/p/ahau/cover.png" alt="Featured image of post Āhau" />&lt;blockquote>
+&lt;p>⏳ 2019 &amp;ndash; 2024 &lt;br />
+🌱 has evolved into &lt;a class="link" href="https://mixmix.nz/p/matou" >Mātou&lt;/a>&lt;/p>&lt;/blockquote>
+&lt;h2 id="about">About
+&lt;/h2>&lt;p>Āhau is an desktop + phone application for creating collaborative family trees,
+and the archiving of records which are linked to that family (photos, videos,
+documents).&lt;/p>
+&lt;p>&lt;img src="https://mixmix.nz/p/ahau/irving_family.png"
+width="1613"
+height="989"
+srcset="https://mixmix.nz/p/ahau/irving_family_hu_453252c404e83a24.png 480w, https://mixmix.nz/p/ahau/irving_family_hu_4abefa9baa51af11.png 1024w"
+loading="lazy"
+alt="Screenshot a family tree in Āhau"
+class="gallery-image"
+data-flex-grow="163"
+data-flex-basis="391px"
+>&lt;/p>
+&lt;p>In Te Ao Māori, relationships with family (and land) form the foundation from
+which all identity, sense making, and coordination flow. Āhau was designed to
+help strengthen this foundation, and be infrastructure that was held by the
+people &amp;ndash; identity is precious taonga (treasure) after all.&lt;/p>
+&lt;p>&lt;img src="https://mixmix.nz/p/ahau/whakapapa-wananga.png"
+width="1077"
+height="611"
+srcset="https://mixmix.nz/p/ahau/whakapapa-wananga_hu_ffc7601b3d340a2a.png 480w, https://mixmix.nz/p/ahau/whakapapa-wananga_hu_7864003a2c25afaa.png 1024w"
+loading="lazy"
+alt="Āhau training session in community"
+class="gallery-image"
+data-flex-grow="176"
+data-flex-basis="423px"
+>&lt;/p>
+&lt;p>To make self-hosting accessible, Āhau was built on top of a peer-2-peer system
+called &lt;a class="link" href="https://scuttlebutt.nz" target="_blank" rel="noopener"
+>Scuttlebutt&lt;/a>. This put data in community hands
+(not the company&amp;rsquo;s), and the distributed nature meant any servers were just
+light-weight relays which anyone in a family could run from home on a computer.&lt;/p>
+&lt;p>&lt;img src="https://mixmix.nz/p/ahau/multiple-p%C4%81taka_css.svg"
+loading="lazy"
+alt="distributed nature of Āhau"
+>&lt;/p>
+&lt;blockquote>
+&lt;p>&amp;#x2139;&amp;#xfe0f;
+&lt;em>There&amp;rsquo;s a lot more I could write on this topic. I&amp;rsquo;m really passionate about
+what we worked on and achieved, so if you&amp;rsquo;re interested to learn more please
+ask, or check out &lt;a class="link" href="https://mixmix.nz/p/govis-2023/" >these&lt;/a> &lt;a class="link" href="https://mixmix.nz/p/fosdem-22/" >talks&lt;/a>&lt;/em>&lt;/p>&lt;/blockquote>
+&lt;h2 id="relationship">Relationship
+&lt;/h2>&lt;p>When I first met this project they were exploring blockchains as a space. I
+reached out to offer my learning from the more pluralistic p2p/ Distributed
+Ledger space. Our collaboration blossomed into a longer term working
+partnership, where I took on the role of technical leader / CTO.&lt;/p>
+&lt;p>I&amp;rsquo;ve formed life long relationships with the team that worked on this. Honestly
+being part of a Māori team has been an absolute honour and joy.&lt;/p>
+&lt;h2 id="leadership">Leadership
+&lt;/h2>&lt;p>Some of the things I lead out on&lt;/p>
+&lt;ul>
+&lt;li>establishing internal processes
+&lt;ul>
+&lt;li>retrospectives&lt;/li>
+&lt;li>sprints&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>integrating tikanga into our work
+&lt;ul>
+&lt;li>working with community leaders to design software which serves their needs&lt;/li>
+&lt;li>karakia are embedded into our codebase&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>education
+&lt;ul>
+&lt;li>mentoring Māori graduates from Waikato&lt;/li>
+&lt;li>working with a designer to produce animated infographics to make p2p
+concepts more accessible&lt;/li>
+&lt;li>conference talks&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>fostering international partnerships
+&lt;ul>
+&lt;li>p2panda, awana digital, earth defenders toolkit&lt;/li>
+&lt;li>internet archive / dweb camp&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="technical">Technical
+&lt;/h2>&lt;p>I designed and built many things (along and with others) but these are the what
+I&amp;rsquo;m most proud of :&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Library&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;a class="link" href="https://github.com/ssbc/envelope-spec/" target="_blank" rel="noopener"
+>envelope-spec&lt;/a>, &lt;a class="link" href="https://github.com/ssbc/private-group-spec" target="_blank" rel="noopener"
+>private-group-spec&lt;/a>&lt;/td>
+&lt;td>A large-scale group encryption specifications&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a class="link" href="https://www.npmjs.com/package/ssb-tribes" target="_blank" rel="noopener"
+>ssb-tribes&lt;/a>&lt;/td>
+&lt;td>Implementation of above specs in Scuttlebutt&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a class="link" href="https://www.npmjs.com/package/artefact-server" target="_blank" rel="noopener"
+>artefact-server&lt;/a>&lt;/td>
+&lt;td>Encrypted, streaming, peer-2-peer video&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a class="link" href="https://www.npmjs.com/package/ssb-crut" target="_blank" rel="noopener"
+>ssb-crut&lt;/a>&lt;/td>
+&lt;td>A byzantine fault-tolerant &lt;a class="link" href="https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type" target="_blank" rel="noopener"
+>CRDT&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a class="link" href="https://www.npmjs.com/package/ssb-atala-prism" target="_blank" rel="noopener"
+>ssb-atala-prism&lt;/a>&lt;/td>
+&lt;td>Plugin which adds Verifiable Credentials to Āhau&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a class="link" href="https://www.npmjs.com/package/ahau-graphql-server" target="_blank" rel="noopener"
+>ahau-graphql-server&lt;/a>&lt;/td>
+&lt;td>A GraphQL endpoint which made UI dev more accessible for all our developers&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>Code within Āhau:&lt;/p>
+&lt;ul>
+&lt;li>an algorithm for progressively loading huge family trees (5000+ people)
+smoothly&lt;/li>
+&lt;li>export function which converts a D3 tree into an SVG with embedded images
+&lt;ul>
+&lt;li>this was to support a community member to create an upated whakapapa 10
+meters wide, 2 meters high, including 1200 people.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item></channel></rss>
