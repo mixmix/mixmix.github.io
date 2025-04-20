@@ -9,6 +9,7 @@ categories:
 tags:
     - learning
 weight: 1
+draft: true
 ---
 
 ## The death of a friendship :skull: :seedling:
@@ -36,7 +37,7 @@ generative dynamitcs which I'd not foreseen :seedling:
 ## Work Chats
 
 These were the first. In Signal I started creating dedicated 1:1 chats to
-protect against this mistake. Here's how that looks 
+protect against this mistake. Here's how that looks:
 
 <div class='chats'>
   <details open="">
@@ -45,10 +46,12 @@ protect against this mistake. Here's how that looks
       <div class='title'>Ben</div>
       <div class='expand-symbol'>+</div>
     </summary>
+    <div class='body'>
 
   If I write something in here it's me writing to Ben as a
   friend. He doesn't need to worry I'm coming at him with some work request, this
   is about us connecting as friends.
+    </div>
   </details>
 
   <details>
@@ -57,36 +60,165 @@ protect against this mistake. Here's how that looks
       <div class='title'>Ben/ Mix work</div>
       <div class='expand-symbol'>+</div>
     </summary>
+    <div class='body'>
 
   Work coordination. If it's out-of-office hours, this can wait.
+    </div>
   </details>
 
 :information_source: &nbsp; _click to expand_
 </div>
 
 
-## Family Partitions
+## Family Chats
 
-Some of the first partitions I introduced were to clarify
+Some of the first partitions I introduced were to clarify...
+
+<div class='chats'>
+  <details>
+    <summary>
+      <div class='icon'>🏡</div>
+      <div class='title'>Family Admin</div>
+      <div class='expand-symbol'>+</div>
+    </summary>
+    <div class='body'>
+
+  I've got a couple young kids. Family administration is a whole category, it's kinda 
+  a grind and I got scared that this would dominate all my communication with my wife.
+  This channel is mundane, but like the "work" chat above it allows us to protect our
+  relationship (to a degree) from the onslaught of logistics.
+
+   </div>
+  </details>
+
+  <details open=true>
+    <summary>
+      <div class='icon'>🚑</div>
+      <div class='title'>Family Health Stuff</div>
+      <div class='expand-symbol'>+</div>
+    </summary>
+    <div class='body'>
+
+  This channel started when I noticed that there are some health symptoms which
+  are not a threat ... unless they've been running longer than a few
+  weeks. This is a dumping ground for misc observations on the wellbeing
+  on anyone in the family:
+  - <Daughter> ears / ear - seemed to clear yesterday "everything is so loud"
+  - son, dry cough still
+  - daughter: 5mL Parecetamol
+  - Mix: 81KG, blood pressure 126/80
+
+  Things
+   </div>
+  </details>
+
+  <details>
+    <summary>
+      <div class='icon'>🌈</div>
+      <div class='title'>Read/ Watch/ Do</div>
+      <div class='expand-symbol'>+</div>
+    </summary>
+    <div class='body'>
+    </div>
+  </details>
+
+  <details>
+    <summary>
+      <div class='icon'>🎉</div>
+      <div class='title'>Family Dreams</div>
+      <div class='expand-symbol'>+</div>
+    </summary>
+    <div class='body'>
+    </div>
+  </details>
+
+  <details>
+    <summary>
+      <div class='icon icon-double'>💬 😅</div>
+      <div class='title'>Family Quotes</div>
+      <div class='expand-symbol'>+</div>
+    </summary>
+    <div class='body'>
+    </div>
+  </details>
+
+  <details>
+    <summary>
+      <div class='icon'>🥵</div>
+      <div class='title'>Only Fans</div>
+      <div class='note'>(not lewd)</div>
+      <div class='expand-symbol'>+</div>
+    </summary>
+    <div class='body'>
+    </div>
+  </details>
+
+  <details>
+    <summary>
+      <div class='icon'>T_T</div>
+      <div class='title'>Emotional Damage</div>
+      <div class='expand-symbol'>+</div>
+    </summary>
+    <div class='body'>
+    </div>
+  </details>
+
+  <details>
+    <summary>
+      <div class='icon'>❤️</div>
+      <div class='title'>Relationship Retro</div>
+      <div class='expand-symbol'>+</div>
+    </summary>
+    <div class='body'>
+    </div>
+  </details>
+</div>
+
+
+## Community Chats
+
+<div class='chats'>
+  <details >
+    <summary>
+      <div class='icon'>☀️</div>
+      <div class='title'>Pōneke Toddler Wranglers</div>
+      <div class='expand-symbol'>+</div>
+    </summary>
+    <div class='body'>
+    </div>
+</div>
+
 
 <style>
 .chats {
-  --summary-bg: var(--body-background);
-  --icon-bg: white;
+  --summary-bg: var(--card-background);
+  --icon-bg: rgb(255, 245, 255);
   --details-bg: var(--card-background);
 
-  background: var(--body-background);
+  background: var(--summary-bg);
   padding: 2rem calc(var(--card-padding) + 0rem);
   /* border-radius: 1rem; */
+  border: 1px solid var(--body-text-color);
+  /* box-shadow:  */
+  /*   0px 3px 5px -1px rgba(0, 0, 0, 0.10) inset, */
+  /*   0px 6px 10px 0px rgba(0, 0, 0, 0.05) inset, */
+  /*   0px 1px 18px 0px rgba(0, 0, 0, 0.02) inset; */
   margin: 0 calc(-1 * var(--card-padding));
 
   display: grid;
-  grid-gap: 1rem;
+  grid-gap: 1.5rem;
 
   > p {
+    /* color: white; */
     padding-left: 1rem;
-    opacity: 0.7;
+    opacity: 0.8;
   }
+
+  --lum: 95%;
+  details:nth-last-child(-2n) { --icon-bg: hsl(180deg, 100%, var(--lum)); }
+  details:nth-last-child(2n+1) { --icon-bg: hsl(270deg, 100%, var(--lum)); }
+  details:nth-last-child(4n+1) { --icon-bg: hsl(0deg, 100%, var(--lum)); }
+  details:nth-last-child(3n+2) { --icon-bg:  hsl(80deg, 100%, var(--lum)); }
 }
 
 details {
@@ -99,29 +231,42 @@ details {
 
   summary {
     list-style: none;
+    /* color: white; */
     background: var(--summary-bg);
 
     display: grid;
-    grid-template-columns: auto 1fr auto;
+    grid-template-columns: auto 1fr auto auto;
     align-items: center;
-    grid-gap: 1rem;
+    grid-gap: 1.5rem;
 
     .icon {
       width: 6rem;
       height: 6rem;
-      font-size: 2.5rem;
+      font-size: 3.2rem;
       background: var(--icon-bg);
+      color: #333;
+
       border-radius: 50%;
+      box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.10);
 
       display: grid;
       justify-items: center;
       align-items: center;
+
+      &.icon-double {
+        font-size: 2.4rem;
+      }
     }
     .title {
       font-size: 1.8rem;
-      font-weight: 600;
+      font-weight: 500;
+    }
+    .note {
+      opacity: 0.6;
+      margin-right: 2rem;
     }
     .expand-symbol {
+      grid-column: 4;
       font-size: 3rem;
       margin-right: 2rem;
 
@@ -131,41 +276,39 @@ details {
       transition: all linear .2s;
     }
   }
-}
 
-details p {
-  cursor: auto;
-  background: var(--details-bg);
-  padding: 1rem;
-  margin: 1rem;
-  /* width: 250px; */
-  /* position: absolute; */
-  left: 0;
-  top: 35px;
-  border-radius: 4px;
-  right: 0;
+  .body {
+    min-height: 6rem;
+    cursor: auto;
+    background: var(--details-bg);
+    padding: 4px 0;
+    border-radius: 4px;
+    margin: 1rem;
 
-  box-shadow:
-    0px 3px 5px -1px rgba(0, 0, 0, 0.08),
-    0px 6px 10px 0px rgba(0, 0, 0, 0.05),
-    0px 1px 18px 0px rgba(0, 0, 0, 0.02);
+    /* carat thing */
+    &:before {
+      content: "";
+      width: 0;
+      height: 0;
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-bottom: 12px solid var(--details-bg);
+      top: -10px;
+      position: absolute;
+      left: 10px;
+    }
 
-  &:before {
-    content: "";
-    width: 0;
-    height: 0;
-    border-left: 8px solid transparent;
-    border-right: 8px solid transparent;
-    border-bottom: 12px solid var(--details-bg);
-    top: -10px;
-    position: absolute;
-    left: 10px;
+    filter:
+      drop-shadow(0px 3px 5px  rgba(0, 0, 0, 0.12))
+      drop-shadow(0px 6px 10px rgba(0, 0, 0, 0.05))
+      drop-shadow(0px 1px 18px rgba(0, 0, 0, 0.03));
   }
 }
 
+
 details[open] {
   .expand-symbol {
-    transform: rotate(45deg);
+    transform: rotate(-45deg);
     opacity: 0.4;
   }
 
