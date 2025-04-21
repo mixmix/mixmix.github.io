@@ -219,3 +219,54 @@ I primarily communicate digitally via [Signal](https://signal.org/).
 You can also contact me at `hello@mixmix.nz`
 
 <div style="height: 10vh" />
+
+
+<style>
+.endorsement {
+  --avatar-size: 5rem;
+  --pad: 2rem;
+
+  /* border: 1px solid grey; */
+  padding: var(--pad);
+  border-radius: 7px;
+  box-shadow:
+    0px 3px 5px -1px rgba(0, 0, 0, 0.15),
+    0px 6px 10px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 18px 0px rgba(0, 0, 0, 0.08);
+  margin-top: calc(var(--avatar-size) / 2 + 3rem);
+  margin-bottom: calc(var(--avatar-size) / 2 + 3rem);
+
+  .header {
+    margin-top: calc(-1 * var(--pad) - var(--avatar-size) / 2);
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: start;
+    align-content: center;
+    align-items: center;
+    grid-gap: 10px;
+
+    .avatar {
+      height: var(--avatar-size);
+      width: var(--avatar-size);
+      border-radius: 50%;
+    }
+    .name {
+      /* background: white; */
+      filter:
+        drop-shadow(0px 0px 5px var(--card-background)) 
+        drop-shadow(0px 0px 5px var(--card-background)) 
+        drop-shadow(0px 0px 5px var(--card-background)) 
+      ;
+      /* box-shadow: 0 0 10px #fff; */
+      padding: 0 4px;
+    }
+  }
+
+  .quote {
+    margin-top: 1rem;
+    /* font-style: italic; */
+    font-family: serif;
+    font-size: 1.5rem;
+  }
+}
+</style>
