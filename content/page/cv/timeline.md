@@ -42,7 +42,7 @@ gantt
   
   Section Teaching
     Unlimited Paenga Tawhiti :done, 2010-01-01, 2y
-    Ensipiral Dev Academy    :done, after ae, 2017-04-30
+    Enspiral Dev Academy    :done, after ae, 2017-04-30
   
   Section University
     Fine Arts                :done, 2012-01-01, 1y

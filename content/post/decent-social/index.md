@@ -19,11 +19,11 @@ links:
 
 This project was a collaboration with peers from the Dweb Community, many of
 whom I met through Scuttlebutt and Dweb Camp work. We wanted to continue
-connecting, learning from one another, and to build more centers for connection
+connecting, learning from one another, and to build more centres for connection
 beyond the one we'd mostly been gathering around in California.
 
 Decent Social was a 24 hour rolling conference that spanned 3 timezones
 (Asia-Pacific, Africa-Europe, and Americas). We (the organising team) put a lot
-of work in making the event accessible, and safe for participants. I was the the
+of work in making the event accessible, and safe for participants. I was the
 regional host for Asia-Pacific, and on call for any moderation or Code of
 Conduct issues.

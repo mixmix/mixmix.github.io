@@ -45,7 +45,7 @@ Every time someone generously shares their work, we save hours / days / weeks of
 ## Cooperatives
 
 Protozoa is a worker owner cooperative.
-While I'm writing this, Piet and Dominic are hard at work on different things - contract work, and forming collaborations with other deceltralised projects (we're currently crushing on the [Economic Space Agency](https://economicspace.agency/) a bit).
+While I'm writing this, Piet and Dominic are hard at work on different things - contract work, and forming collaborations with other decentralised projects (we're currently crushing on the [Economic Space Agency](https://economicspace.agency/) a bit).
 
 For us, contributing to the commons is an important part of our work - it makes all our future work better, and helps build working relationships with other excellent humans.
 

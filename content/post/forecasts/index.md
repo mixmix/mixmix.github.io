@@ -53,7 +53,7 @@ be too complex, but you've seen this pattern before ⇒ weather forecasts!
 
 So I started experimenting with a friend I play
 [Magic](https://cubecobra.com/cube/list/peach?view=spoiler) with. Our
-conversations shifted from being more of a rollercoaster: 
+conversations shifted from being more of a roller-coaster: 
 
 > **Mix** : How are things looking for a game tonight? <br />
 > **Eric** : :+1: Yeah I'm on! See you at 8pm <br />
@@ -93,12 +93,12 @@ AND explanation, AND **in the exact moment of some disaster unfolding** :-1:.
 
 ## Commitment + Context
 
-One thing I immediately noticed was that communicating this way seperated our
+One thing I immediately noticed was that communicating this way separated our
 commitment to the relationship from the challenges of our context.
 
 In the past I feel like generally people wanted to make a plan work -- to honour
 the organising + time people have contributed, the relationship -- and that to
-cancel plans felt like some damage that needed acknowledgment and repair.
+cancel plans felt like some damage that needed acknowledgement and repair.
 
 Now I it's really easy for me to say:
 1. :heart: I would love to hang out with you! (commitment)

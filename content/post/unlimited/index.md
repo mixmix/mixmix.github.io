@@ -22,14 +22,14 @@ I enjoyed working as a tutor when I was at uni, so after some sloppy (failed)
 post-grad maths research on blood splatter analysis, I decided to try out
 teaching. The training was pretty meh, but I wandered into a skype call with
 this place called Unlimited (some polytechnic or something?), anyway young
-people telling us about producing albums, making videogames, managing their own
+people telling us about producing albums, making video games, managing their own
 time and  talking like mature adults. Towards the end of the call it turned out
-we'd been talking to highscool students as young as 14. I asked for a placement
+we'd been talking to high school students as young as 14. I asked for a placement
 there, and after doing practicum in the sort of place where people gave a fuck
 about other people and supported actual learning I refused to take a job
 anywhere else. 
 
-So I lived in christchurch for 4 years and, and worked with some wonderful
+So I lived in Christchurch for 4 years and, and worked with some wonderful
 learning advisors and some amazing young people.
 
 ![My homegroup. Yes that young lady has a machete](homegroup.jpeg)
@@ -65,7 +65,7 @@ advisor (Duncan) and the student (Hamish)
 Things that stood out clear as day to me : 
 - no bullshit authoritarianism, i.e. I was expecting _"DONT swing on your chair,
   GET BACK into focus!"_ (teacher training taught me that ~ 50% of the job is
-  coercian / crowd control / acting)
+  coercion / crowd control / acting)
 - the 'student' was open and honest
 - it was an even mature conversation
 - the outcome was awesome, everyone won (was respected, and supporting the
@@ -74,10 +74,10 @@ Things that stood out clear as day to me :
 
 ### Real learning
 
-Later, when I was an Learning Advisor (official role title, recenters "teachers"
-as supporters, facillitaters, mentors), I had
-a group of students who'd chosen to work with me (mostly nerds). On of them
-(Harley) was keen to go skiing.
+Later, when I was an Learning Advisor (official role title, re-centres
+"teachers" as supporters, facilitators, mentors), I had a group of students
+who'd chosen to work with me (mostly nerds). On of them (Harley) was keen to go
+skiing.
 
 > **Harley**: hey Mix, can we go skiing?
 >
@@ -95,14 +95,14 @@ a group of students who'd chosen to work with me (mostly nerds). On of them
 So we went skiing. Responsibility was shared, Harley and friends learnt how to
 budget, plan, and coordinate. We did similar things all the time, like making a
 ~VR headset with wii controllers, and building a RepRap (3d printer... this one
-got interupted by the quake).
+got interrupted by the quake).
 
 
 ### Everyone is a teacher, everyone is a learner
 
 Every wednesday afternoon the whole school would stop and do some sort of
-excercise. The most minimal one was _Walking_ - we'd walk through the CBD and
-around the gardens of Hagley Park (christchurch has a huge central park). My
+exercise. The most minimal one was _Walking_ - we'd walk through the CBD and
+around the gardens of Hagley Park (Christchurch has a huge central park). My
 first time out, I lost like 60% of the students, and was freaking out. When I
 got back, my supervising teacher said "oh yeah, they'll have just walked home,
 it's fine".
@@ -114,21 +114,22 @@ didn't know how to skate at the time, and one day one of them said "Hey Mix,
 you should learn how to drop in on the half-pipe".
 
 Part of me was like _NOPE_ but the other part of me was like "You gotta do this,
-it's really important you role model incompetance and perseverance in
+it's really important you role model incompetence and perseverance in
 learning". So they taught me very kindly and patiently how to skate. After a
 month of this, we'd built a bunch of trust and the boys were asking what other
-classes I took and genuinly sounded open to checking out stuff they wouldn't
+classes I took and genuinely sounded open to checking out stuff they wouldn't
 otherwise have been into. You can grow curiosity. Relationships matter.
 
 The school had a core mantra: **everyone is a teacher, everyone is a learner**.
 This story kinda sums that up for me.
 
-_Students also taught me to how to :lock: pick locks, :pizza: trade Bitcoin for pizza, :car: change the oil on my car, etc._
+_Students also taught me to how to :lock: pick locks, :pizza: trade Bitcoin for
+pizza, :car: change the oil on my car, etc._
 
 
 ## Earthquakes
 
-At the time of the quake, I was 2 blocks from the city center, on my way to a
+At the time of the quake, I was 2 blocks from the city centre, on my way to a
 teachers union meeting.
 
 Major traumatic events do weird things to your perception and memory. I don't
@@ -148,7 +149,7 @@ the half dozen teachers I had been walking with, only 2 were still there. I
 don't know where everyone went. For sure those with children of their own left
 without pause at top speed. As we made our way back towards the school (a 4
 storey building on the other side of the city square, 3 blocks away), we passed
-people saying things like "The Cathedral is down". Not being inclinded to
+people saying things like "The Cathedral is down". Not being inclined to
 investigate, the 3 of us set out to go the long way round. One of us decided to
 cut through an arcade with a glass roof. I chose to take another street. There
 wasn't much discussion.
@@ -172,7 +173,7 @@ union meeting). I become a redirection node, like in that classic game
 lemmings. I found myself directing adults who were wandering as well.
 
 We ultimately joined the train, and made our way to a nearby park. As we went,
-the students in the towles (I think?) asked me "are those people ok?". I said I
+the students in the towels (I think?) asked me "are those people ok?". I said I
 didn't know, and that we needed to keep moving. I was later told we walked past
 people bleeding from injuries, and past bodies being pulled from the rubble. We
 also walked passed a film studio where my girlfriends flatmate worked. It was
@@ -181,16 +182,16 @@ along with dozens of others. I remember seeing that, and the noxious smoke
 coming out of the rubble, but I don't remember seeing any dead.
 
 We got to the small park (2 small city blocks in size), and started to try to
-take stock. I understand more how and why the romans organised they did (under
+take stock. I understand more how and why the Romans organised they did (under
 standards/flags, with command-tents, and information runners). It was pretty
 chaotic. Try organising ~400 people with no spatial physical system. Hierarchy
-and layers of responsibility become really valuable. Over time a triage center
+and layers of responsibility become really valuable. Over time a triage centre
 and helipad were set up down one end of the park. I stayed till dark as friends
 and family picked up children. We took food from the nearby supermarket I think?
 
 I met up with my girlfriend, we walked through the deserted streets. Down one
 street cars were half sunk into the road like the ground was quicksand
-(liquifaction).
+(liquefaction).
 
 I didn't know if my house was still standing. The tunnel to Lyttelton was
 closed. The next day, 4 of us decided to risk driving over the hill. We passed a
@@ -208,11 +209,13 @@ I'll write about the damage to the social fabric later.
 
 ## More learning
 
-I stayed a year (or more?) after the quake. The school was seriously disrupted (moved half-way across the city, sharing with another school), my relationship broke up, I did some therapy.
+I stayed a year (or more?) after the quake. The school was seriously disrupted
+(moved half-way across the city, sharing with another school), my relationship
+broke up, I did some therapy.
 
-I was in my 20s, and I'd just poured 4 years of my life and soul into lifting up
-others learning and lives. I wanted to do some of that for myself, so I decided
-to move to Wellington and attend Art School.
+I was in my 20s, and I'd just poured 4 years of my life and soul into lifting
+up others learning and lives. I wanted to do some of that for myself, so I
+decided to move to Wellington and attend Art School.
 
 
 ## Reflections
@@ -224,7 +227,7 @@ collectivism into the spirit of the place -- extend the focus beyond _"what's my
 learning pathway?"_ towards _**"what can we achieve together?"**_.
 
 Unlimited forever changed how I see institutions and learning. I was
-radicalized... am now forever an advocate for holistic education, of systems
+radicalised... am now forever an advocate for holistic education, of systems
 which embed care. I wouldn't change a thing about that, but it's also a
 heart-breaking burden to bear sometimes.
 

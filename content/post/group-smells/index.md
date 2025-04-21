@@ -11,32 +11,42 @@ tags:
 weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
 
-As a programmer, part of my job is to spot _‘code smells’_.
-Like being alert for musky over-ripeness somewhere in your fridge, or unwanted acridity of burning plastic coming from your computer, smells hint that nearby, something is amiss, and it’s probably going to get worse.
+As a programmer, part of my job is to spot _‘code smells’_. Like being alert
+for musky over-ripeness somewhere in your fridge, or unwanted acridity of
+burning plastic coming from your computer, smells hint that nearby, something
+is amiss, and it’s probably going to get worse.
 
-In code it’s usually that you’ve used a pattern that seemed good when you started, but as you continue to add things, suddenly it gets volatile.
-An everyday example would be running too many appliances off a multi-board.
+In code it’s usually that you’ve used a pattern that seemed good when you
+started, but as you continue to add things, suddenly it gets volatile. An
+everyday example would be running too many appliances off a multi-board.
 
 Patterns of coding that lead to  future instability we call anti-patterns.
 
-Code smells are the whiffs that help us notice anti-patterns.
-Naming them helps us spot vulnerabilities, avert catastrophes, and support an evolving discourse about best (and worst) practice.
+Code smells are the whiffs that help us notice anti-patterns. Naming them helps
+us spot vulnerabilities, avert catastrophes, and support an evolving discourse
+about best (and worst) practice.
 
 ---
 
-My flatmate just came back from a conference where she was pulling her hair out because the way the group was working together was counter-productive.
-It occurred to me that it would be useful to port anti-patterns into the  group-work context.
+My flatmate just came back from a conference where she was pulling her hair out
+because the way the group was working together was counter-productive. It
+occurred to me that it would be useful to port anti-patterns into the
+group-work context.
 
-I want to know what group-smells are.
-Here’s a few we were able to name in my lounge just now:
+I want to know what group-smells are. Here’s a few we were able to name in my
+lounge just now:
 
 ## Cargo-cult collaboration
 
-A variant of Richard Feynman’s [cargo-cult science](https://en.wikipedia.org/wiki/Cargo_cult_science), this is implementation of collaboration through shallow adoption of whatever latest buzzword. 
+A variant of Richard Feynman’s [cargo-cult
+science](https://en.wikipedia.org/wiki/Cargo_cult_science), this is
+implementation of collaboration through shallow adoption of whatever latest
+buzzword.
 
-A classic example you might hear is people asserting “we’re a totally flat self-organised group”.
-Self-organisation is a thing, but it doesn’t grow just anywhere.
-There are certain conditions in which it tends to work well, and many in which it doesn’t
+A classic example you might hear is people asserting “we’re a totally flat
+self-organised group”. Self-organisation is a thing, but it doesn’t grow just
+anywhere. There are certain conditions in which it tends to work well, and many
+in which it doesn’t.
 
 Some smells to watch out for :
 - lack of clarity about where and how decision making is happening
@@ -49,7 +59,7 @@ The anti-pattern :
 - you think you’re making space for an ecosystem to magically appear, but you forgot to resource it
 
 Where this anti-pattern can lead :
-- invisible power structures which priviledge some actors without them being aware of it
+- invisible power structures which privilege some actors without them being aware of it
 - emergent inside / outside groups
 - poor communication systems that lead to distrust
 - people taking on too many things and burning out
@@ -92,12 +102,14 @@ split into smaller groups, get everyone to write thoughts on cards, go for a wal
 ## Miscy meeting
 
 _(pronounced ‘misky’, *misc = miscellaneous,)_
-There’s a bunch of you in a room talking about your project and raising relevant ideas.
-The conversation energy is good, and you’re discussing all the things. 
+There’s a bunch of you in a room talking about your project and raising
+relevant ideas. The conversation energy is good, and you’re discussing all the
+things. 
 
-This is a great space for combining ideas, exploring shared values, and connecting with each other.
-If you were intending to run a discovery session, or a workshop, that's great.
-If you were expecting decisions and action, it might be worth checking whether you're in a miscy meeting.
+This is a great space for combining ideas, exploring shared values, and
+connecting with each other. If you were intending to run a discovery session,
+or a workshop, that's great. If you were expecting decisions and action, it
+might be worth checking whether you're in a miscy meeting.
 
 You might smell:
 - no-one recording any actions / agreements

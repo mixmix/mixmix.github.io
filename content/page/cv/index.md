@@ -17,9 +17,9 @@ links:
 ---
 
 
-I work on growing systems which help people, ideally communities or soceity.
-I've practiced this across many domains and weild tools from education,
-social-entereprise, startups, open-source software, parenting. I prioritise
+I work on growing systems which help people, ideally communities or society.
+I've practised this across many domains and wield tools from education,
+social-enterprise, startups, open-source software, parenting. I prioritise
 working with excellent humans.
 
 _This page maps raw activities and skills deployed. Check out my [About](/about)

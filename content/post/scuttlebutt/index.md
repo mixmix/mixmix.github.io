@@ -34,7 +34,7 @@ continent and honestly it's a challenge hard to summarize.
 Here's an incomplete summary of the many roles/ projects/ things I did:
 
 - Hosted a Theory of Change workshop
-- Lead development discourse from IRC to Scuttlbutt itself ([dogfooding](https://en.wikipedia.org/wiki/Eating_your_own_dog_food))
+- Lead development discourse from IRC to Scuttlebutt itself ([dogfooding](https://en.wikipedia.org/wiki/Eating_your_own_dog_food))
 - Ran distributed strategy setting process
 - Wrote many libraries + plugins
 - Developed many applications on top of Scuttlebutt

@@ -61,7 +61,7 @@ conclusion.
   - spots edge cases in systems _(quirks which lead to unintended consequences)_
   - asks incisive questions
   - understands deeply
-  - forbearant _(not quick to judge)_
+  - forebearant _(not quick to judge)_
 
 **Negatives** :-1:
   - slow reader
@@ -205,7 +205,7 @@ touch and I'll update <3
 
 I'm passionate about growing ecosystems and community. I’m an open
 source programmer, and prioritize working with excellent humans who dare to dream
-more positive futures into reality. I bring a great mix of people / orginisation / technical skills.
+more positive futures into reality. I bring a great mix of people / organisation / technical skills.
 
 If you'd like more detail, perhaps check out:
 - [Projects](/categoties/projects) -- things I'm proud to have contributed to
