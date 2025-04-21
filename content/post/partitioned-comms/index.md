@@ -72,6 +72,28 @@ protect against this mistake. Here's how that looks:
 
 ## Family Chats
 
+```
+WIP NOTES
+- family dreams : @Richard (magic) this was inspired by your "cool activities lucky dip bowl"  you described!
+- onlyfans : just me posting cute selfies to my #1 subsciber. Should be luder than it is, but who's got the time
+
+
+So my partner and I have a range of group-chats which help us categorize/ contextualise our chats. We have things like
+- Family Admin - a boring kids logistics channel. important but not very personal
+- Family Dreams - a space we plant little hopes + dreams for our future
+- Read/ Watch/ Do - a collection place for media/ activities we come across
+- OnlyFans - a joke chat which is just me and my wife, it's not as lewd as you'd think, more cute
+- Emotional Damage << THIS is a recent addition, and why I'm sharing this in a Clown channel
+
+
+
+
+
+
+
+
+```
+
 Some of the first partitions I introduced were to clarify...
 
 <div class='chats'>
@@ -83,15 +105,14 @@ Some of the first partitions I introduced were to clarify...
     </summary>
     <div class='body'>
 
-  I've got a couple young kids. Family administration is a whole category, it's kinda 
-  a grind and I got scared that this would dominate all my communication with my wife.
-  This channel is mundane, but like the "work" chat above it allows us to protect our
-  relationship (to a degree) from the onslaught of logistics.
+  Boring but necessary house + kid stuff. I got scared that this would dominate all
+    my communication with my wife. Like the "work" chat above it allows us to protect
+    our relationship (to a degree) from the onslaught of logistics.
 
    </div>
   </details>
 
-  <details open=true>
+  <details>
     <summary>
       <div class='icon'>🚑</div>
       <div class='title'>Family Health Stuff</div>
@@ -160,6 +181,19 @@ Some of the first partitions I introduced were to clarify...
       <div class='expand-symbol'>+</div>
     </summary>
     <div class='body'>
+
+Emotional Damage is a phrase which comes from
+[this video](https://www.youtube.com/watch?v=cQpq56FmIN4). This channel
+started as a venting space for challenging interactions with family. It's
+become a space for solidarity, reflection, and has transcended into healthy
+processing / transmutation.
+
+Example (non-personal): <br />
+_This morning I was taking the trash out, and the bag snagged on the bin as
+I lifted it, disgorging all this juicy trash on the floor. I was immediately
+crest-fallen (this was just one more damn thing on top of an already rough 24
+hours), but then I transmuted it into cosmic humour. It was so bad I was able
+to laugh 🤣😭_
     </div>
   </details>
 
