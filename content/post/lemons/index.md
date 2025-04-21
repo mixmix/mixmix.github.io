@@ -53,7 +53,7 @@ in nz) ... now you've got 2 lemons
 Again this is not that big a deal... except you already have that 1 lemon, so
 now you've got someone in your group who's getting cold. I guess you can see the
 trend. Any one of these things is no big deal, but a series of little
-misfortunes have a _cummulative_ effect in terms of the odds you're playing
+misfortunes have a _cumulative_ effect in terms of the odds you're playing
 with. So if you're in this position
 
 # :lemon: :lemon: :lemon: :lemon: :white_large_square:
@@ -89,21 +89,21 @@ significantly re-asses your plans. Things like:
 ## But mix, I'm not a mountaineer
 
 This is relevant to anyone on any adventure (solo, or as a team). You could be
-voyaging into literal moutains, or sailing to Great Barrier Island, or you could
+voyaging into literal mountains, or sailing to Great Barrier Island, or you could
 be a distributed team building FOSS tools on a limited / no budget.
 
 Some lemons that have fucked up quests I've been on:
-- having no retrosepctives (process for iterating, adaptation)
+- having no retrospectives (process for iterating, adaptation)
 - just trusting that everyone remembers the agreement we made _(contracts, pay,
   expectations)_
 - forgetting to ask how people are feeling
-- "figuring it out later" for onboarding / offboarding / holidays / sick leave
+- "figuring it out later" for on-boarding / off-boarding / holidays / sick leave
 - not telling each other vital quest-changing info _(assuming mind-reading or
   avoiding conflict)_
 - being unclear on who's doing what
 - using too many different tools for communication / coordination
 - being unclear about ownership / responsibility
-- saying "this is a flat strucutre, everyone is equal" (but not actually doing
+- saying "this is a flat structure, everyone is equal" (but not actually doing
   anything to actively distribute power)
 - forgetting to account for how disruptive travel can be
 
@@ -189,17 +189,17 @@ expectations of how much complexity we can perhaps carry.
 
 Concretely, while going to a kids birthday in the morning followed by a friends bbq
 in the afternoon may seem easy, if we only have 4 spoons, and
-this plan takes us to 0 spoon exactly... that leaves no capacity for unforseen
+this plan takes us to 0 spoon exactly... that leaves no capacity for unforeseen
 lemons, which world put us in spoon deficit. Better to plan one just the one
 activity and have spare capacity for curveballs and still be within safe
 operating bounds.
 
 This concept is also useful in the context of startups. Startups are typically
 operating with very limited resources (spoons). Basic operations cost capacity
-(spoons), and innovation tends to cost in unforseen complexity (lemons). To that
+(spoons), and innovation tends to cost in unforeseen complexity (lemons). To that
 end it's important not to innovate on too many fronts simultaneously. Examples of
 things which incur complexity cost:
-- :lemon: "fancy" legal strucures - e.g. coop, foundation + for-profit symbiosis, ....
+- :lemon: "fancy" legal structures - e.g. coop, foundation + for-profit symbiosis, ....
 - :lemon: novel technologies - e.g. encrypted replicatable database
 - :lemon: ethical investment mechanisms - e.g. non-voting shares, redeemable preference shares, ...
 - :lemon: world-spanning teams - e.g. NZ, EU, USA

@@ -38,7 +38,7 @@ this phase the Potato.
     <h2> 2. 👶 Chublin </h2>
   </summary>
 
-Your goblin is somewhat active and has started looking a little roley. They've
+Your goblin is somewhat active and has started looking a little rolley. They've
 got creases part way down their limbs, big cheeks, and very little neck to
 speak of. 
 
@@ -62,7 +62,7 @@ Grubby goblin → Grublin
     <h2>4. 👹 Grumplin </h2>
   </summary>
 
-Your groblin is growing a lot (which hurts) and they've also developed enough
+Your grublin is growing a lot (which hurts) and they've also developed enough
 theory of mind to realise they can say "No!", and just straight up defy your
 requests.
 

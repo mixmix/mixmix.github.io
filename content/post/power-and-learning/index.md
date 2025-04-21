@@ -194,7 +194,7 @@ Being able to say "I don't know" is the beginning of some fantastic cascading ef
   - critical thinking/problem solving (process over rote learning)
   - asking for help
   - listening
-- shows teacher as human, relateable
+- shows teacher as human, relatable
   - more trust, less lying
   - more humanistic dynamic, better conversations
 - drop shame, move to a growth mindset

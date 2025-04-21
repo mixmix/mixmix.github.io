@@ -44,7 +44,7 @@ rebuilding right tools starting with **identity** -- this is the foundation by
 which we know ourselves (through our history, our relationships), and from here
 move into coordinating and building new things. Crucially, this **must** be
 rooted in absolute sovereignty (no rented domain names, no foreign servers
-controlling authorship, no singlar souce of truth).
+controlling authorship, no singular source of truth).
 
 As a radical exploration of data-sovereign identity Āhau succeeded in part, but
 ultimately surfaced challenges blocking our grand vision:
@@ -66,9 +66,9 @@ Some projects we've been involved in recently::
 - Supporting the [Whangaroa Papa Hapū](https://whangaroapapahapu.org.nz) towards
   Treaty Settlement with cutting edge, culturally appropriate and resilient
   tools
-- R+D on the fusion of millenia of Indigenous collective organising patterns
+- R+D on the fusion of millennia of Indigenous collective organising patterns
   with modern DAO tooling
 - Partnering with [K'aute Pasifika](https://kautepasifika.co.nz/) to prototype
   data-sovereignty preserving health/ wellbeing systems
 - Guiding the [Cardano Constitution](https://constitution.gov.tools/en) process
-  -- practicing world-scale collective governance
+  -- practising world-scale collective governance

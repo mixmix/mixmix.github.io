@@ -26,7 +26,7 @@ links:
 > democracy and digital sovereignty
 
 This was a project brought together by an emerging group of Pōneke activists/
-programmers/ artists/ community organisers. I helped pull the webiste together,
+programmers/ artists/ community organisers. I helped pull the website together,
 and also hosted a workshop on [Māori Data
 Sovereignty](https://beautifulsignals.nz/workshops/maori_data_sovereignty/).
 

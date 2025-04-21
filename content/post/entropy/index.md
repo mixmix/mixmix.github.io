@@ -32,7 +32,7 @@ The core proposition was
 - users can set up "accounts" which have configuration held on a global
   blockchain. This includes
     - who may initiate signatures for this account?
-    - what data are they allowed to sign (e.g. raw binary? transations < 0.5 ETH?)
+    - what data are they allowed to sign (e.g. raw binary? Transactions < 0.5 ETH?)
 - any user may request a signature on some data, and if the user + data pass
   validation, then the network initiates distributed threshold signing, and a
   signature is returned.

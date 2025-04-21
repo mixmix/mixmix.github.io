@@ -78,8 +78,8 @@ Some of the things I lead out on
       concepts more accessible
     - conference talks
 - fostering international partnerships
-    - p2panda, awana digital, earth defenders toolkit
-    - internet archive / dweb camp
+    - p2panda, Awana Digital, Earth Defenders Toolkit
+    - Internet Archive / Dweb Camp
 
 
 ## Technical
@@ -100,7 +100,7 @@ Code within Āhau:
 - an algorithm for progressively loading huge family trees (5000+ people)
   smoothly
 - export function which converts a D3 tree into an SVG with embedded images
-    - this was to support a community member to create an upated whakapapa 10
+    - this was to support a community member to create an updated whakapapa 10
       meters wide, 2 meters high, including 1200 people.
 
 

@@ -40,7 +40,7 @@ community that I'm really proud of. Including but not limited to:
 - **Conference Organising**
     - [Dweb Camp](https://dwebcamp.org/)
     - [ScuttleCamp](https://one.camp.scuttlebutt.nz/) <!-- TODO split out project -->
-    - [Decent Social](https://decentsocial.net/) <!-- TODO split out project-->
+    - [Decent Social](/p/decent-social)
 - **Diversity, Equity, and Inclusion**
     - grant fundraising
     - design + execution of scholarships
@@ -54,10 +54,10 @@ community that I'm really proud of. Including but not limited to:
 
 ## Alumni
 
-| Name | Up to now |
+| Name                                           | Up to now |
 |---|---|
-| [Dominic Tarr](https://dominictarr.com/) | sailing the seas |
+| [Dominic Tarr](https://dominictarr.com/)       | sailing the seas |
 | [Piet Geursen](https://pietgeursen.github.io/) | working on fusion with [Open Star](https://www.openstar.tech/) |
-| [Alanna Irving](https://www.alanna.space/) | reforming NZ Lotteries processes within [DIA](https://www.dia.govt.nz/), launching [Fundsorter](https://www.fundsorter.com/) |
-| Ember Buck | unknown! |
+| [Alanna Irving](https://www.alanna.space/)     | reforming NZ Lotteries processes within [DIA](https://www.dia.govt.nz/), launching [Fundsorter](https://www.fundsorter.com/) |
+| Ember Buck                                     | unknown!  |
 
