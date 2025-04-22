@@ -1,5 +1,5 @@
 ---
-title: Comms Gardening
+title: Cybernetic Signal
 description: How I use Signal groups for memory, dreaming, sense-making, coherance.
 # slug:
 date: 2025-04-19 00:00:00+0000
@@ -12,26 +12,24 @@ weight: 1
 draft: true
 ---
 
-## The death of a friendship :skull: :seedling:
+## Composting Friendship :skull: :seedling:
 
-This pattern was born of the death of a relationship. I helped grow an really
-successful open-source project with this person - we grew a community,
-distributed grant funds, started a coop, and took on contracts to build products
-based on the tech.
+This pattern was born of the death of a friendship. I helped grow an really
+successful open-source project with this friend -- community, grants funds,
+co-founding a co-op, authoring specs, contracting together.
 
 The problem that snuck up on us was that our personal communications were
-interleavened with our technical (and work) conversations. This was not so
+interleaved with our technical (and work) conversations. This was not so
 uncommon in my experience from social-enterprise -- we bring our "whole selves"
 to the grand project right? Ultimately my friend raised that he was having trouble
 distinguishing whether my messages were us connecting as friends or me filing
 support tickets. Seeing unread messages from me had started to generate
-confusion and I guess anxiety.
+confusion and anxiety.
 
-We managed to name the problem, but too late. Too much damage had been done and
-we were unable to recover. I was gutted -- I was complicit, naive, and deeply
-mourned the loss of our friendship. I never wanted to make this mistake again...
-and so I started partitioning my comms. As this pattern evolved I noticed new
-generative dynamics which I'd not foreseen :seedling:
+We managed to name the problem, but too late to be able to recover. I was gutted
+-- I was complicit, naive, and deeply mourned the loss of our friendship. I never
+wanted to make this mistake again... and so I started partitioning my comms.
+As this pattern evolved I noticed new generative dynamics which I'd not foreseen.
 
 
 ## Work Chats
@@ -72,28 +70,8 @@ protect against this mistake. Here's how that looks:
 
 ## Family Chats
 
-```
-WIP NOTES
-- family dreams : @Richard (magic) this was inspired by your "cool activities lucky dip bowl"  you described!
-- onlyfans : just me posting cute selfies to my #1 subsciber. Should be luder than it is, but who's got the time
-
-
-So my partner and I have a range of group-chats which help us categorize/ contextualise our chats. We have things like
-- Family Dreams - a space we plant little hopes + dreams for our future
-- Read/ Watch/ Do - a collection place for media/ activities we come across
-- OnlyFans - a joke chat which is just me and my wife, it's not as lewd as you'd think, more cute
-- Emotional Damage << THIS is a recent addition, and why I'm sharing this in a Clown channel
-
-
-
-
-
-
-
-
-```
-
 Some of the first partitions I introduced were to clarify...
+WIP
 
 <div class='chats'>
   <details>
@@ -111,7 +89,7 @@ Some of the first partitions I introduced were to clarify...
    </div>
   </details>
 
-  <details open>
+  <details>
     <summary>
       <div class='icon icon-first-aid'>+</div>
       <div class='title'>Family Health Stuff</div>
@@ -124,20 +102,20 @@ Some of the first partitions I introduced were to clarify...
   is in here, but to give you an idea, here's a slice of one pattern we spotted that
   lead to an escalation in care:
 
-  | Time         | Message                                                                                                                                            |
-  |--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-  | Sep 24, 11pm | \<Daughter\> right ear pain → paracetamol                                                                                                          |
-  | Nov 07, 8pm  | \<Daughter\> right ear sore, stopped then started.                                                                                                 |
-  | Feb 19, 10am | \<Daughter\> doctor says ear looks ok, referring to ENT                                                                                            |
+  | Time         | Message                                                                                                                                        |
+  |--------------|------------------------------------------------------------------------------------------------------------------------------------------------|
+  | Sep 24, 11pm | \<Daughter\> right ear pain → paracetamol                                                                                                      |
+  | Nov 07, 8pm  | \<Daughter\> right ear sore, stopped then started.                                                                                             |
+  | Feb 19, 10am | \<Daughter\> doctor says ear looks ok, referring to ENT                                                                                        |
   | Mar 12, 2am  | \<Daughter\> woke with ear pain (left only)<br /> - gave half paracetamol<br /> - may have had some liquid come out (swimming, or burst drum?) |
-  | Mar 25, 8pm  | \<Daughter\> ear seemed to clear "everything is so loud"                                                                                           |
+  | Mar 25, 8pm  | \<Daughter\> ear seemed to clear "everything is so loud"                                                                                       |
 
   We dump details about night wake-ups (invaluable for handing over care context),
   medicine administered, readings (height/ weight/ blood pressure/ temperature),
   questions for doctors, appointment times, notes from doctors visit.
 
-  Formatting like `name` + `topic/ body area` + `info` make patterns easy to search.
-  Timestamps are auto-added (it's a chat).
+  **Format** -- `name` + `topic/ body area` + `info` <br />
+  Makes patterns easy to search. Timestamps are essential, but auto-added by chat.
 
    </div>
   </details>
@@ -149,6 +127,12 @@ Some of the first partitions I introduced were to clarify...
       <div class='expand-symbol'>+</div>
     </summary>
     <div class='body'>
+
+  A record of books / films / series that we've encountered and would like to
+  queue up. Raw titles alone means you lose the context for _why_ this caught your
+  attention, so I'd recommend a format like:
+
+ `title` + `genre` + `link?` + `why?`
     </div>
   </details>
 
@@ -159,6 +143,18 @@ Some of the first partitions I introduced were to clarify...
       <div class='expand-symbol'>+</div>
     </summary>
     <div class='body'>
+
+  **Origin** -- My friend Richard and his partner have a bowl of cards, and on the cards
+  are written fun activities. When they're bored they pull a card from the bowl, and
+  they're off on adventure. I copied that. When my wife or I come across a recommended
+  location, fun kids activity, or upcoming event, they get dumped into this chat.
+
+  **Evolution** -- It's like a shared memory space... but for for possible futures. This
+  chat has increased our capacity for bringing dreams into the world. We started at
+  simple (_Real Fruit Ice-cream_), and have grown in scale (_International trip with
+  another family_), and depth (_Take a night-class to explore this shy aspect of myself_).
+
+  I cannot recommend this pattern enough.
     </div>
   </details>
 
@@ -169,7 +165,23 @@ Some of the first partitions I introduced were to clarify...
       <div class='expand-symbol'>+</div>
     </summary>
     <div class='body'>
-    </div>
+
+  **Origin** -- We have two young kids and wanted to remember some of the crack-up things
+  they've said.
+
+  | Time   | Message                                                                                                                        |
+  |--------|---------------------------------------------------------------------------------------------------------------------------------|
+  | Jan 14 | **Son** : I have the opposite program to most people. I have my dreams while I'm awake instead of while I'm sleeping.          |
+  | Apr 19 | **Daughter** : I feel bad, like I hurt someone... but it's just that I fell in love with tacos                                 |
+  | Apr 21 | **Daughter** : hey I'm following you, you're the role model<br />**Grandma**: don't follow me -- I don't know where I'm going! |
+
+  **Evolution** -- One of the greatest gift kids offer is the chance to see the world
+  afresh. Their observations are uncoloured by idioms, uncluttered by... 'grown up'
+  context? Their questions side-step social norms and drive (unknowing or sensing?)
+  into the heart of things. We're invited to reflect on our assumptions, our knowledge,
+  what we really values, and to summarise those thoughts in under 2mins in simple terms.
+
+  </div>
   </details>
 
   <details>
@@ -180,6 +192,11 @@ Some of the first partitions I introduced were to clarify...
       <div class='expand-symbol'>+</div>
     </summary>
     <div class='body'>
+
+  **Origin** -- a joke chat I set up for my #1 subscriber (my wife). In practice just
+  me sending cute selfies.
+
+  **Evolution** -- WIP
     </div>
   </details>
 
@@ -191,18 +208,26 @@ Some of the first partitions I introduced were to clarify...
     </summary>
     <div class='body'>
 
-Emotional Damage is a phrase which comes from
-[this video](https://www.youtube.com/watch?v=cQpq56FmIN4). This channel
-started as a venting space for challenging interactions with family. It's
-become a space for solidarity, reflection, and has transcended into healthy
-processing / transmutation.
+  **Origin** -- interacting with our families sometimes results in _emotional
+  damage_ (see [comedy video](https://www.youtube.com/watch?v=cQpq56FmIN4)).
+  Started as a high-context, high-trust channel for my wife and I venting about
+  interactions which were cringe or hurt.
 
-Example (non-personal): <br />
-_This morning I was taking the trash out, and the bag snagged on the bin as
-I lifted it, disgorging all this juicy trash on the floor. I was immediately
-crest-fallen (this was just one more damn thing on top of an already rough 24
-hours), but then I transmuted it into cosmic humour. It was so bad I was able
-to laugh 🤣😭_
+  **Evolution** -- I'm aware it might sound nasty, but sharing the experience 
+  of suffering shifted something. Laughing together at a predicament is a 
+  quick was to affirm shared values and step away from any fight/flight response.
+  If it's not funny, then we can move into more careful support of each other.
+  Whatever the path, stabilisation/ alignment/ distressing make it easier to 
+  engage curiosity (about ourselves, our loved ones, how we relate), name the 
+  kernel of a conflict, explore upstream solutions, etc.
+
+  We use this channel now to support any ongoing interpersonal challenges -
+  family, work, community, friendships. Sometimes it's just sharing general
+  suffering to defuse it.
+
+  | Time   | Message                                                                                                                                                                                                                                                                                  |
+  |--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+  | Nov 22 | This morning I was taking the trash out and the bag snagged, disgorging all this juicy trash all over the floor. I was crest-fallen (just one more damn thing on top of an already rough 24 hours), but then I transmuted it into cosmic humour. It was so bad I was able to laugh 🤣 😭 |
     </div>
   </details>
 
@@ -213,6 +238,8 @@ to laugh 🤣😭_
       <div class='expand-symbol'>+</div>
     </summary>
     <div class='body'>
+
+  WIP
     </div>
   </details>
 </div>
@@ -220,6 +247,9 @@ to laugh 🤣😭_
 
 ## Community Chats
 
+:construction: more to follow!
+
+<!--
 <div class='chats'>
   <details >
     <summary>
@@ -230,7 +260,7 @@ to laugh 🤣😭_
     <div class='body'>
     </div>
 </div>
-
+-->
 
 <style>
 .chats {
