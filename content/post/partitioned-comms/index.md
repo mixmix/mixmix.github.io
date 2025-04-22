@@ -79,7 +79,6 @@ WIP NOTES
 
 
 So my partner and I have a range of group-chats which help us categorize/ contextualise our chats. We have things like
-- Family Admin - a boring kids logistics channel. important but not very personal
 - Family Dreams - a space we plant little hopes + dreams for our future
 - Read/ Watch/ Do - a collection place for media/ activities we come across
 - OnlyFans - a joke chat which is just me and my wife, it's not as lewd as you'd think, more cute
@@ -125,13 +124,13 @@ Some of the first partitions I introduced were to clarify...
   is in here, but to give you an idea, here's a slice of one pattern we spotted that
   lead to an escalation in care:
 
-  | Time         | Message                                                                                                                                                     |
-  |--------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-  | Sep 24, 11pm | \<Daughter\> right ear pain → paracetamol                                                                                                                   |
-  | Nov 07, 8pm  | \<Daughter\> right ear sore, stopped then started.                                                                                                          |
-  | Feb 19, 10am | \<Daughter\> doctor says ear looks ok, referring to ENT                                                                                                     |
-  | Mar 12, 2am  | \<Daughter\> woke up with ear pain (left only)<br /> - gave half paracetamol<br /> - may have had some liquid come out (swimming at school, or burst drum?) |
-  | Mar 25, 8pm  | \<Daughter\> ear seemed to clear "everything is so loud"                                                                                                    |
+  | Time         | Message                                                                                                                                            |
+  |--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+  | Sep 24, 11pm | \<Daughter\> right ear pain → paracetamol                                                                                                          |
+  | Nov 07, 8pm  | \<Daughter\> right ear sore, stopped then started.                                                                                                 |
+  | Feb 19, 10am | \<Daughter\> doctor says ear looks ok, referring to ENT                                                                                            |
+  | Mar 12, 2am  | \<Daughter\> woke with ear pain (left only)<br /> - gave half paracetamol<br /> - may have had some liquid come out (swimming, or burst drum?) |
+  | Mar 25, 8pm  | \<Daughter\> ear seemed to clear "everything is so loud"                                                                                           |
 
   We dump details about night wake-ups (invaluable for handing over care context),
   medicine administered, readings (height/ weight/ blood pressure/ temperature),
@@ -146,7 +145,7 @@ Some of the first partitions I introduced were to clarify...
   <details>
     <summary>
       <div class='icon'>🌈</div>
-      <div class='title'>Read/ Watch/ Do</div>
+      <div class='title'>Read/ Watch</div>
       <div class='expand-symbol'>+</div>
     </summary>
     <div class='body'>
@@ -239,14 +238,9 @@ to laugh 🤣😭_
   --icon-bg: rgb(255, 245, 255);
   --details-bg: var(--card-background);
 
-  background: var(--summary-bg);
+  /* background: var(--summary-bg); */
   padding: 2rem calc(var(--card-padding) + 0rem);
-  /* border-radius: 1rem; */
-  border: 1px solid var(--body-text-color);
-  /* box-shadow:  */
-  /*   0px 3px 5px -1px rgba(0, 0, 0, 0.10) inset, */
-  /*   0px 6px 10px 0px rgba(0, 0, 0, 0.05) inset, */
-  /*   0px 1px 18px 0px rgba(0, 0, 0, 0.02) inset; */
+  /* border: 1px solid var(--body-text-color); */
   margin: 0 calc(-1 * var(--card-padding));
 
   display: grid;
@@ -375,8 +369,7 @@ details {
         }
         tbody {
           tr {
-          margin-left: 1rem;
-            margin-bottom: 0.6rem;
+            margin: 0 .7rem;
 
             display: grid;
             grid-template-columns: auto;
@@ -384,17 +377,24 @@ details {
             justify-content: start;
 
             td {
-              background: rgba(0,0,0, 0.08);
+              background: #0854ef;
               font-size: 1.6rem;
-              border-radius: 10px;
+
+              border-radius: 1rem;
               border: none;
             }
             td:first-child {
-              background: none;
-              opacity: 0.7;
               font-size: 1.2rem;
               letter-spacing: 1px;
               text-wrap: nowrap;
+
+              background: none;
+              padding: 0 4px;
+              opacity: 0.7;
+            }
+            td:nth-child(2) {
+              color: white;
+              margin-bottom: 4px;
             }
           }
         }
