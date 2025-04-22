@@ -17,13 +17,13 @@ draft: true
 This pattern was born of the death of a relationship. I helped grow an really
 successful open-source project with this person - we grew a community,
 distributed grant funds, started a coop, and took on contracts to build products
-based on the tech. 
+based on the tech.
 
 The problem that snuck up on us was that our personal communications were
 interleavened with our technical (and work) conversations. This was not so
 uncommon in my experience from social-enterprise -- we bring our "whole selves"
 to the grand project right? Ultimately my friend raised that he was having trouble
-distinguising whether my messages were us connecting as friends or me filing
+distinguishing whether my messages were us connecting as friends or me filing
 support tickets. Seeing unread messages from me had started to generate
 confusion and I guess anxiety.
 
@@ -31,7 +31,7 @@ We managed to name the problem, but too late. Too much damage had been done and
 we were unable to recover. I was gutted -- I was complicit, naive, and deeply
 mourned the loss of our friendship. I never wanted to make this mistake again...
 and so I started partitioning my comms. As this pattern evolved I noticed new
-generative dynamitcs which I'd not foreseen :seedling:
+generative dynamics which I'd not foreseen :seedling:
 
 
 ## Work Chats
@@ -40,7 +40,7 @@ These were the first. In Signal I started creating dedicated 1:1 chats to
 protect against this mistake. Here's how that looks:
 
 <div class='chats'>
-  <details open="">
+  <details>
     <summary>
       <div class='icon'>😀</div>
       <div class='title'>Ben</div>
@@ -54,7 +54,7 @@ protect against this mistake. Here's how that looks:
     </div>
   </details>
 
-  <details>
+  <details open=true>
     <summary>
       <div class='icon'>💼</div>
       <div class='title'>Ben/ Mix work</div>
@@ -107,29 +107,39 @@ Some of the first partitions I introduced were to clarify...
 
   Boring but necessary house + kid stuff. I got scared that this would dominate all
     my communication with my wife. Like the "work" chat above it allows us to protect
-    our relationship (to a degree) from the onslaught of logistics.
+    our relationship (somewhat) from the onslaught of logistics.
 
    </div>
   </details>
 
-  <details>
+  <details open>
     <summary>
-      <div class='icon'>🚑</div>
+      <div class='icon icon-first-aid'>+</div>
       <div class='title'>Family Health Stuff</div>
       <div class='expand-symbol'>+</div>
     </summary>
     <div class='body'>
 
-  This channel started when I noticed that there are some health symptoms which
-  are not a threat ... unless they've been running longer than a few
-  weeks. This is a dumping ground for misc observations on the wellbeing
-  on anyone in the family:
-  - <Daughter> ears / ear - seemed to clear yesterday "everything is so loud"
-  - son, dry cough still
-  - daughter: 5mL Parecetamol
-  - Mix: 81KG, blood pressure 126/80
+  A memory augmenting channel. Dumping observations that are maybe insignificant,
+  but could be vital as part of a bigger arc is an easy win. Our whole family health
+  is in here, but to give you an idea, here's a slice of one pattern we spotted that
+  lead to an escalation in care:
 
-  Things
+  | Time         | Message                                                                                                                                                     |
+  |--------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+  | Sep 24, 11pm | \<Daughter\> right ear pain → paracetamol                                                                                                                   |
+  | Nov 07, 8pm  | \<Daughter\> right ear sore, stopped then started.                                                                                                          |
+  | Feb 19, 10am | \<Daughter\> doctor says ear looks ok, referring to ENT                                                                                                     |
+  | Mar 12, 2am  | \<Daughter\> woke up with ear pain (left only)<br /> - gave half paracetamol<br /> - may have had some liquid come out (swimming at school, or burst drum?) |
+  | Mar 25, 8pm  | \<Daughter\> ear seemed to clear "everything is so loud"                                                                                                    |
+
+  We dump details about night wake-ups (invaluable for handing over care context),
+  medicine administered, readings (height/ weight/ blood pressure/ temperature),
+  questions for doctors, appointment times, notes from doctors visit.
+
+  Formatting like `name` + `topic/ body area` + `info` make patterns easy to search.
+  Timestamps are auto-added (it's a chat).
+
    </div>
   </details>
 
@@ -274,9 +284,10 @@ details {
     grid-gap: 1.5rem;
 
     .icon {
-      width: 6rem;
-      height: 6rem;
-      font-size: 3.2rem;
+      --icon-size: 6rem;
+      width: var(--icon-size);
+      height: var(--icon-size);
+      font-size: calc(var(--icon-size) * 0.52);
       background: var(--icon-bg);
       color: #333;
 
@@ -284,11 +295,20 @@ details {
       box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.10);
 
       display: grid;
-      justify-items: center;
+      grid-template-rows: var(--icon-size);
+      grid-template-columns: var(--icon-size);
       align-items: center;
+      justify-items: center;
 
       &.icon-double {
-        font-size: 2.4rem;
+        font-size: calc(var(--icon-size) * 0.32);
+      }
+
+      &.icon-first-aid {
+        color: red;
+        background: white;
+        font-weight: 800;
+        font-size: var(--icon-size);
       }
     }
     .title {
@@ -319,6 +339,11 @@ details {
     border-radius: 4px;
     margin: 1rem;
 
+    filter:
+      drop-shadow(0px 3px 5px  rgba(0, 0, 0, 0.16))
+      drop-shadow(0px 6px 10px rgba(0, 0, 0, 0.08))
+      drop-shadow(0px 1px 18px rgba(0, 0, 0, 0.03));
+
     /* carat thing */
     &:before {
       content: "";
@@ -332,10 +357,49 @@ details {
       left: 10px;
     }
 
-    filter:
-      drop-shadow(0px 3px 5px  rgba(0, 0, 0, 0.12))
-      drop-shadow(0px 6px 10px rgba(0, 0, 0, 0.05))
-      drop-shadow(0px 1px 18px rgba(0, 0, 0, 0.03));
+    p, ul {
+      padding-right: 1rem;
+    }
+
+    .table-wrapper {
+      width: 100%;
+      padding: 0 1rem;
+      margin-left: 0;
+      margin-right: 0;
+
+      table {
+        margin-bottom: 0.6rem;
+
+        thead {
+          display: none;
+        }
+        tbody {
+          tr {
+          margin-left: 1rem;
+            margin-bottom: 0.6rem;
+
+            display: grid;
+            grid-template-columns: auto;
+            grid-template-rows: auto auto;
+            justify-content: start;
+
+            td {
+              background: rgba(0,0,0, 0.08);
+              font-size: 1.6rem;
+              border-radius: 10px;
+              border: none;
+            }
+            td:first-child {
+              background: none;
+              opacity: 0.7;
+              font-size: 1.2rem;
+              letter-spacing: 1px;
+              text-wrap: nowrap;
+            }
+          }
+        }
+      }
+    }
   }
 }
 
