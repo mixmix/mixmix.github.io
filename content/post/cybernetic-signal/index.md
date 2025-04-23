@@ -1,9 +1,8 @@
 ---
 title: Cybernetic Signal
-description: How I use Signal groups for memory, dreaming, sense-making, coherance.
+description: How I use Signal groups for memory, dreaming, sense-making, coherence.
 # slug:
 date: 2025-04-19 00:00:00+0000
-# image: cover.jpg
 image: magmatic-channeler.jpg
 categories:
     - patterns
