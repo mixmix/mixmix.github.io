@@ -3,34 +3,38 @@ title: Cybernetic Signal
 description: How I use Signal groups for memory, dreaming, sense-making, coherance.
 # slug:
 date: 2025-04-19 00:00:00+0000
-# image: cover.jpeg
+# image: cover.jpg
+image: magmatic-channeler.jpg
 categories:
     - patterns
 tags:
     - learning
 weight: 1
-draft: true
+# draft: true
+
+links:
+  - title: Magmatic Channeler
+    description: art by Bryan Sola
+    website: https://scryfall.com/card/j22/571/magmatic-channeler
+    image: magmatic-channeler.jpg
 ---
 
-## Composting Friendship :skull: :seedling:
+## Origins :skull: :seedling:
 
-This pattern was born of the death of a friendship. I helped grow an really
-successful open-source project with this friend -- community, grants funds,
-co-founding a co-op, authoring specs, contracting together.
+These patterns were born of the death of a friendship. TL;DR we muddled
+personal and work comms to the point where communication got confused, and
+trust broke down. We managed to name the problem, but too late to be able to
+recover. I was gutted -- I was naive, complicit, and had lost a dear friend. My
+response was to start partitioning my comms, obsessively asking:
 
-The problem that snuck up on us was that our personal communications were
-interleaved with our technical (and work) conversations. This was not so
-uncommon in my experience from social-enterprise -- we bring our "whole selves"
-to the grand project right? Ultimately my friend raised that he was having trouble
-distinguishing whether my messages were us connecting as friends or me filing
-support tickets. Seeing unread messages from me had started to generate
-confusion and anxiety.
+**What is the best space to relay this message into?**
 
-We managed to name the problem, but too late to be able to recover. I was gutted
--- I was complicit, naive, and deeply mourned the loss of our friendship. I never
-wanted to make this mistake again... and so I started partitioning my comms.
-As this pattern evolved I noticed new generative dynamics which I'd not foreseen.
+Over time this query has evolved
+how I think and relate. Please enjoy a sampler of how I use Signal, presented
+as an explorable simulacrum -- _click in to read more about those you're
+curious about._
 
+:heart:
 
 ## Work Chats
 
@@ -70,8 +74,10 @@ protect against this mistake. Here's how that looks:
 
 ## Family Chats
 
-Some of the first partitions I introduced were to clarify...
-WIP
+Another reason I shifted hard into more exobrain use is also that having babies
+turned my endobrain into mush. Gotta record everything or it's gone. Here are
+some chat groups that are just me and my partner -- our collective memory,
+sense-making, and futuring.
 
 <div class='chats'>
   <details>
@@ -83,8 +89,8 @@ WIP
     <div class='body'>
 
   Boring but necessary house + kid stuff. I got scared that this would dominate all
-    my communication with my wife. Like the "work" chat above it allows us to protect
-    our relationship (somewhat) from the onslaught of logistics.
+  my communication with my partner. Like the "work" chat above it allows us to protect
+  our relationship (somewhat) from the onslaught of logistics.
 
    </div>
   </details>
@@ -146,7 +152,7 @@ WIP
 
   **Origin** -- My friend Richard and his partner have a bowl of cards, and on the cards
   are written fun activities. When they're bored they pull a card from the bowl, and
-  they're off on adventure. I copied that. When my wife or I come across a recommended
+  they're off on adventure. I copied that. When my partner or I come across a recommended
   location, fun kids activity, or upcoming event, they get dumped into this chat.
 
   **Evolution** -- It's like a shared memory space... but for for possible futures. This
@@ -193,10 +199,17 @@ WIP
     </summary>
     <div class='body'>
 
-  **Origin** -- a joke chat I set up for my #1 subscriber (my wife). In practice just
-  me sending cute selfies.
+  **Origin** -- started as a joke chat. I added my partner and posted a couple cute selfies.
 
-  **Evolution** -- WIP
+  | Time   | Message                                                                                                                                                                                                                                               |
+  |--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+  | Jan 24 | This chat is being repurposed frow sfw duckface selfies to things I love about our life and want to remember to share with you                                                                                                                        |
+  | Mar 2  | **mix** : "remind me about leadership call"?! <br /> **partner** : thanks! I scheduled that message 5 days ago, you're like my meatware in this situation <br /> **mix** : I am your meatware, that's what we signed up for <br /> **partner** : awww |
+
+  **Evolution** -- reflecting on what having a "premium subscription" might mean,
+  I noticed this channel was a perfect place to post post celebrations of beauty
+  we see unfolding in our lives, appreciation of one another, and the occasional
+  insights from therapy.
     </div>
   </details>
 
@@ -208,26 +221,16 @@ WIP
     </summary>
     <div class='body'>
 
-  **Origin** -- interacting with our families sometimes results in _emotional
-  damage_ (see [comedy video](https://www.youtube.com/watch?v=cQpq56FmIN4)).
-  Started as a high-context, high-trust channel for my wife and I venting about
-  interactions which were cringe or hurt.
+  **Origin** -- Inspired by this [comedy video](https://www.youtube.com/watch?v=cQpq56FmIN4),
+  this started as a high-context, high-trust channel for my partner and I to 
+  vent about those cringe or painful moments in life.
 
-  **Evolution** -- I'm aware it might sound nasty, but sharing the experience 
-  of suffering shifted something. Laughing together at a predicament is a 
-  quick was to affirm shared values and step away from any fight/flight response.
+  **Evolution** -- Laughing together at a predicament is a quick way to affirm
+  shared values and step away from any fight/flight/freeze/fawn response.
   If it's not funny, then we can move into more careful support of each other.
-  Whatever the path, stabilisation/ alignment/ distressing make it easier to 
-  engage curiosity (about ourselves, our loved ones, how we relate), name the 
-  kernel of a conflict, explore upstream solutions, etc.
-
-  We use this channel now to support any ongoing interpersonal challenges -
-  family, work, community, friendships. Sometimes it's just sharing general
-  suffering to defuse it.
-
-  | Time   | Message                                                                                                                                                                                                                                                                                  |
-  |--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-  | Nov 22 | This morning I was taking the trash out and the bag snagged, disgorging all this juicy trash all over the floor. I was crest-fallen (just one more damn thing on top of an already rough 24 hours), but then I transmuted it into cosmic humour. It was so bad I was able to laugh 🤣 😭 |
+  Whatever the path, stabilisation/ alignment/ destressing make it easier to
+  engage curiosity, name the kernel of any conflict, explore upstream solutions,
+  etc.
     </div>
   </details>
 
@@ -239,7 +242,18 @@ WIP
     </summary>
     <div class='body'>
 
-  WIP
+  My partner and I run monthly relationship retrospectives. You can read
+  about that pattern [here](https://alannairving.medium.com/running-agile-scrum-on-our-relationship-9b2085c5d747),
+  and evolutions of our process on the Multiamory podcast
+  [[1]](https://www.multiamory.com/podcast/97-agile-relationships)
+  [[2]](https://www.multiamory.com/podcast/147-relationship-radar-scrum-20)
+  !
+
+  This is a simple shared memory archive. When we decide on an iteration
+  of something we'd like to try out, we record it here. This helps us
+  loop back to reflect on how experiments have gone. Later this will likely
+  enable us to reflect on what we continue to struggle with, how far we've
+  come, and what our relationship is.
     </div>
   </details>
 </div>
