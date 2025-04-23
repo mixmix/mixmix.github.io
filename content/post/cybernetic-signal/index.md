@@ -3,14 +3,12 @@ title: Cybernetic Signal
 description: How I use Signal groups for memory, dreaming, sense-making, coherance.
 # slug:
 date: 2025-04-19 00:00:00+0000
-# image: cover.jpg
 image: magmatic-channeler.jpg
 categories:
     - patterns
 tags:
     - learning
 weight: 1
-# draft: true
 
 links:
   - title: Magmatic Channeler
@@ -379,6 +377,38 @@ and what they brought more into the world.
 </div>
 
 
+## Cybernetic Sovereignty
+
+Not sure how many are familiar with
+[Cybernetics](https://en.wikipedia.org/wiki/Cybernetics#Key_concepts_and_theories).
+As a primer for those who things it's just about cyborgs:
+
+> The central theme in cybernetics is feedback. Feedback is a process where the
+> observed outcomes of actions are taken as inputs for further action in ways
+> that support the pursuit, maintenance, or disruption of particular
+> conditions, forming a circular causal relationship.
+
+I'm very interested in the feedback loops present in our information systems.
+In the above sections you see me externalising and collectivising large parts
+of my memory, sense-making, and future dreaming. Concretely, Signal is now a
+core part of my cybernetic feedback loop -- I take actions which effect a system,
+and then I sense the reaction(s) of that system, which stimulated further actions.
+
+It's Signal, because the accessibility and activation cost is very low, and
+because Signal give a shit about privacy/ security. I would have to be in a bad
+place to be doing this on a platform that reads the content (see Meta, Google),
+or in any way shapes my feedback loops. To be crystal clear, feedback
+manipulation you should watch for is any place algorithms are being tuned to
+decide the relevance your posts/ events... based on the advertising goals or
+political agendas of the host corporation. DEI no longer in vogue? How do you
+feel about you your discourse and event organising being tuned down, gradually
+disappeared?
+
+While Signal is great, I am not happy about how fragile Signal is to
+disruption. It's feasible that someone dragging an anchor could cripple New
+Zealand's internet, severing me from my communities (and exobrain). If there
+was a fantastic p2p replacement that had the right security trade-offs, 
+and accessible UX, I would jump.
 
 <style>
 .chats {
