@@ -261,20 +261,124 @@ sense-making, and futuring.
 
 ## Community Chats
 
-:construction: more to follow!
+Here's a collection of groups I've participated in. Each of them has it's
+own dynamics regards the flows of information, the pattern of relating,
+and what they brought more into the world.
 
-<!--
 <div class='chats'>
   <details >
     <summary>
-      <div class='icon'>☀️</div>
+      <div class='icon'>🌅</div>
       <div class='title'>Pōneke Toddler Wranglers</div>
       <div class='expand-symbol'>+</div>
     </summary>
     <div class='body'>
+
+  A support group for a group of 18 parents who were friends and happend
+  to have kids around the same time. This group has covered planning
+  playdates, re-sharing cool event, shared summer holidays for the past 4
+  years, hand-me-downs, baby-sitting, emergency support, etc.
+
+  I deliberately added sharing of vulnerability to this group. I role-modelled
+  _not knowing_, I asked for help. I was met with support, and observing
+  safety and care, others followed suit. I think this deepened relationships,
+  increased resilience, and turbo-charged our collective sense-making.
     </div>
+  </details>
+
+  <details >
+    <summary>
+      <div class='icon'>🐚</div>
+      <div class='title'>Social Labryinth</div>
+      <div class='expand-symbol'>+</div>
+    </summary>
+    <div class='body'>
+
+  I met a nice guy at [Dweb Camp](https://dwebcamp.org/), and said "we should
+  keep in touch!". He dropped me into a Signal chat with 23 people called
+  "Social Labryinth" with zero context. Turns out this was a group of people
+  that were mostly friends of his at the conference, along with a handful of
+  seemingly aligned odd-bods.
+
+  I have never seen such sustained and rich discourse beyond a conference. I
+  attribute this to the lovely host, their great taste in friends, and our
+  alignment in interests (all at a radical tech conference). This group went
+  on to birth another parallel group, an [online conference](/p/decent-social),
+  and many of the people I met are now trusted peers and collaborators.
+
+    </div>
+  </details>
+
+  <details >
+    <summary>
+      <div class='icon'>🤡</div>
+      <div class='title'>Clown Capitalism</div>
+      <div class='expand-symbol'>+</div>
+    </summary>
+    <div class='body'>
+
+  The origin of this group are somewhat shrouded in mystery. It _seems_ like
+  I made it as a joke in 2023 and then forgot about it, only to stumble across
+  it a year later while searching my chat for clowns.
+
+  ![](heyoka.jpg)
+  ![](clown.png)
+
+  Over the past year this chat has evolved into a critical discourse on clowning,
+  their role as bridges between possible realities, and has been slowly gathering
+  real clowns who are now helping shape the conversation. Was I always a clown,
+  or am I becoming one?
+    </div>
+  </details>
+
+  <details >
+    <summary>
+      <div class='icon'>♻️ </div>
+      <div class='title'>Knowledge Ecology</div>
+      <div class='expand-symbol'>+</div>
+    </summary>
+    <div class='body'>
+
+  I met an Ecologist at a conference, and really wanted to learn more about the
+  systems thinking lenses of Ecology, and how this person had been applying them
+  to groups. We are both short on time, so started a chat group as a way to
+  share learning through dialogue. Along the way we've been adding resources
+  and people that match the theme.
+
+  We could have just kept this as a DM chat, but opening this to trusted friends
+  we were able to share learning more widely while also building trust as we
+  observe mutual friends interacting.
+    </div>
+  </details>
+
+  <details >
+    <summary>
+      <div class='icon'>🚴</div>
+      <div class='title'>Spare cycles for commons</div>
+      <div class='expand-symbol'>+</div>
+    </summary>
+    <div class='body'>
+ 
+
+  This is an off-shoot from a chain of collaborations between myself and
+  [nonlinear](https://nonlinear.nyc/). We share a passion for building
+  human-centred digital commons. A major challenge is there are so many
+  open-source projects / tools that auditing and testing them as an
+  individual is overwhelming.
+
+  The focus of this group is then _"do you have a spare 30 mins to kick the
+  tyres on a project?"_. We post links to things that have crossed our
+  radar _"anyone seen this?"_, and either someone has or maybe we
+  co-ordinate a small scouting party to go test it out and report back.
+  Cheerleading is also welcome. This is gentle volunteering.
+
+  Functionally we are surfacing aligned tools, extending our capacity to
+  sense, progressing common-good, and making friends.
+    </div>
+  </details>
 </div>
--->
+
+
 
 <style>
 .chats {
@@ -396,7 +500,7 @@ details {
     }
 
     p, ul {
-      padding-right: 1rem;
+      padding-right: 1.8rem;
     }
 
     .table-wrapper {
@@ -443,6 +547,15 @@ details {
           }
         }
       }
+    }
+
+    .no-text, .gallery {
+      margin: 0;
+    }
+    .gallery {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
     }
   }
 }
