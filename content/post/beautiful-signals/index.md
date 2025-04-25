@@ -19,6 +19,8 @@ links:
   - title: Website (source)
     website: https://gitlab.com/mixmix/beautifulsignals
     icon: git
+  - title: TinySSB
+    website: https://mixmix.nz/p/tiny-ssb
 ---
 
 > Beautiful Signals is an event series engaging art practices and a series of
