@@ -61,5 +61,9 @@ page and [posts](http://localhost:1313/archives/) for a broader picture._
   <img src='2020s.svg' />
 </figure>
 
+| Entity                            | Role       | Skills                                      |
+|-----------------------------------|------------|---------------------------------------------|
+| [Open Measures](/p/open-measures) | Programmer | API architecture, GraphQL, VueJS, Pinia, D3 |
+
 :construction: Under Construction 
 
