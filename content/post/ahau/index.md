@@ -8,6 +8,8 @@ categories:
   - projects
 tags:
   - data sovereignty
+  - open source
+  - peer-2-peer
   - scuttlebutt
   - mātou
 weight: 1

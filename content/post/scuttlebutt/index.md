@@ -7,8 +7,9 @@ image: bandana.jpg
 categories:
   - projects
 tags:
+  - peer-2-peer
+  - open source
   - scuttlebutt
-
 
 weight: 1
 

@@ -8,6 +8,8 @@ categories:
   - projects
 tags:
   - cryptography
+  - open source
+  - peer-2-peer
   - scuttlebutt
   - accessibility
 weight: 1
