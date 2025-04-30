@@ -103,3 +103,67 @@ main {
   letter-spacing: 1px;
 }
 
+
+.article-list--projects {
+  --image-size: 100px;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, var(--image-size));
+  grid-gap: 10px;
+  justify-content: space-between;
+
+  @include respond(md) {
+    --image-size: 180px;
+    grid-gap: 20px;
+  }
+
+  article {
+    /* background-color: var(--card-background); */
+
+    & > a {
+      display: grid;
+      grid-template-rows: auto auto;
+    }
+
+    &:not(:last-of-type) {
+    }
+
+    .article-image {
+      img {
+        width: var(--image-size);
+        height: var(--image-size);
+        object-fit: cover;
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+      }
+    }
+
+    .article-details {
+      padding: 4px 8px;
+
+      @include respond(md) {
+        padding: 10px;
+      }
+    }
+
+    .article-title {
+      margin: 0;
+      font-size: 1.6rem;
+
+      @include respond(md) {
+        font-size: 1.8rem;
+      }
+    }
+
+    /* .article-time { */
+    /*   font-size: 1.4rem; */
+    /* } */
+
+    .article-preview {
+      font-size: 1.4rem;
+      color: var(--card-text-color-tertiary);
+      margin-top: 10px;
+      line-height: 1.5;
+    }
+  }
+}
