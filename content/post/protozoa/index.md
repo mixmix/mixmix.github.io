@@ -7,6 +7,7 @@ image: cover.jpg
 categories:
   - projects
 tags:
+  - co-op
 
 weight: 1
 
