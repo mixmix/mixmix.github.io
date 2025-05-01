@@ -27,7 +27,7 @@ Loomio was a project born out of the Occupy Wallstreet movement meeting
 decision making - specifically timely, iterative, consensus/consent building
 process, with a focus on clearly stated (and archival) records of results.
 
-![A peek into the movile app (outdated!)](app.png)
+![A peek into the mobile app (old ui)](app.png)
 
 Read about all the places this tool has been used on the [blog](https://www.loomio.com/blog)
 
