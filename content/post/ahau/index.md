@@ -1,9 +1,9 @@
 ---
 title: Āhau
-description: Data-sovereignty first Indigenous knowledge management
+description: Data-sovereignty first Indigenous identity + archiving
 date: 2019-06-01
 slug: ahau
-image: cover.png
+image: logo_red.svg
 categories:
   - projects
 tags:
@@ -46,7 +46,15 @@ called [Scuttlebutt](https://scuttlebutt.nz). This put data in community hands
 light-weight relays which anyone in a family could run from home on a computer.
 
 
-![distributed nature of Āhau](multiple-pātaka_css.svg)
+![The peer-2-peer nature of Āhau](p2p.png)
+
+<details>
+  <summary>
+  Click to see animated
+  </summary>
+
+  ![distributed nature of Āhau](multiple-pātaka_css.svg)
+</details>
 
 > :information_source:
 _There's a lot more I could write on this topic. I'm really passionate about
