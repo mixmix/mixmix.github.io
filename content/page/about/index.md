@@ -201,22 +201,30 @@ touch and I'll update <3
 
 ## Work :balance_scale:
 
+<div class='work-status'>
+
 **Status** -- I'm currently available for work!
 
-I'm passionate about growing ecosystems and community. I’m an open
-source programmer, and prioritize working with excellent humans who dare to dream
-more positive futures into reality. I bring a great mix of people / organisation / technical skills.
+</div>
 
-If you'd like more detail, perhaps check out:
-- [Projects](/categoties/projects) -- things I'm proud to have contributed to
-- [CV](/cv) -- a record of my skills and employment
+My specialisations include:
+- Data-sovereignty, digital identity, peer-2-peer networks
+- Bridging the technical with Community/ Org
+- Collective leadership, co-operative organising
+
+I love working on systems that serve humanity :heart: I work with excellent
+humans, teams which know how to collaborate, orgs with great leadership.
+
+[**Projects**](/categories/projects) -- things I'm proud to have contributed to
+<br />
+[**CV**](/cv) -- a record of my skills & employment
 
 
 ## Contact :pencil:
 
-I primarily communicate digitally via [Signal](https://signal.org/).
-
-You can also contact me at `hello@mixmix.nz`
+You can contact me at `hello@mixmix.nz`
+<br />
+Prefer to [Signal](https://signal.org/) if we're connected.
 
 <div style="height: 10vh" />
 
@@ -268,5 +276,12 @@ You can also contact me at `hello@mixmix.nz`
     font-family: serif;
     font-size: 1.5rem;
   }
+}
+
+.work-status {
+  background: rgba(0,0,255, 0.1);
+  padding: 0 2rem;
+  border: 2px solid rgba(0,0,255, 0.3);
+  border-radius: 10px;
 }
 </style>
