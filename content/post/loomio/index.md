@@ -27,7 +27,7 @@ Loomio was a project born out of the Occupy Wallstreet movement meeting
 decision making - specifically timely, iterative, consensus/consent building
 process, with a focus on clearly stated (and archival) records of results.
 
-![A peek into the movile app (outdated!)](app.png)
+![A peek into the mobile app (old ui)](app.png)
 
 Read about all the places this tool has been used on the [blog](https://www.loomio.com/blog)
 
@@ -37,7 +37,7 @@ I was a member-owner of the cooperative that formed around building this, a
 programmer, a coordinator of translation, a
 [scrum-master](https://www.loomio.com/blog/2013/10/30/our-people-scrum-master-mix/).
 
-This was my first major FOSS (Open Source) project, my friend cooperative experience.
+This was my first major FOSS (Open Source) project, my first cooperative experience.
 I was transformed forever by the commitment to values aligned technology, investment, ownership,
 group processes.
 
