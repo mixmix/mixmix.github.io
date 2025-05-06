@@ -3,17 +3,19 @@ title: Pōneke Mesh
 description: A primer and opinionated guide to getting Wellington set up with LoRa comms
 date: 2025-05-05
 slug: poneke-mesh
-image: cover.png
+image: mesh-network.png
 categories:
-  - projects
+  - invocation
 tags:
   - meshtastic
+  - peer-2-peer
   - LoRA
 weight: 1
 
 links:
   - title: SensecCAP T1000e
     website: https://www.seeedstudio.com/SenseCAP-Card-Tracker-T1000-E-for-Meshtastic-p-5913.html
+
 draft: true
 ---
 
@@ -76,6 +78,20 @@ other, passing messages to their neigbours to get messages to travel further.
 is one which is made up of a bunch of peers/ nodes which talk to each other, and
 pass messages to one another.
 
+---
+
+
+![](LoRa-case.jpg)
+
+
+
+![Meshtastic Nodes, (May 2025)](poneke-nodes.png)
+![Mesh network connections (May 2025)](poneke-neighbours.png)
+
+[Map](https://meshtastic.liamcottle.net/?lat=-41.24651893516453&lng=174.869384765625&zoom=11)
+
+![](poneke-nodes.julian.jpg)
+>>>>>>> origin/mesh
 
 
 

@@ -16,5 +16,7 @@ hasCJKLanguage = false
 disqusShortname = "hugo-theme-stack"
 
 [pagination]
-pagerSize = 10
+  pagerSize = 10
 
+[imaging]
+  anchor = 'Center'
