@@ -215,9 +215,9 @@ My specialisations include:
 I love working on systems that serve humanity :heart: I work with excellent
 humans, teams which know how to collaborate, orgs with great leadership.
 
-[**Projects**](/categories/projects) -- things I'm proud to have contributed to
+:heart_on_fire: [**Projects**](/categories/projects) -- things I'm proud to have contributed to
 <br />
-[**CV**](/cv) -- a record of my skills & employment
+:briefcase: [**CV**](/cv) -- a record of my skills & employment
 
 
 ## Contact :pencil:

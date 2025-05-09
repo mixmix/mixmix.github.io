@@ -1,7 +1,42 @@
-<svg aria-roledescription="gantt" role="graphics-document document" style="max-width: 686px;" viewBox="0 0 686 484" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="100%" id="mermaid-1744596835074">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   aria-roledescription="gantt"
+   role="graphics-document document"
+   viewBox="0 0 633 484"
+   width="633"
+   id="mermaid-1744596835074"
+   version="1.1"
+   sodipodi:docname="2010s.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   height="484"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs709" />
+  <sodipodi:namedview
+     id="namedview707"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="2.4979339"
+     inkscape:cx="340.68156"
+     inkscape:cy="242.40033"
+     inkscape:window-width="2560"
+     inkscape:window-height="1393"
+     inkscape:window-x="0"
+     inkscape:window-y="22"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g680" />
   <!-- custom -->
-
-  <style>
+  <style
+     id="style538">
 
     :root {
       /* from https://colorhunt.co/palette/fcffc1ffe893fbb4a5fb9ec6 */
@@ -48,10 +83,10 @@
         fill: var(--contracting) !important;
       }
   </style>
-
-  <style>
+  <style
+     id="style540">
     #mermaid-1744596835074 {
-      font-family: "trebuchet ms", verdana, arial, sans-serif;
+      font-family: &quot;trebuchet ms&quot;, verdana, arial, sans-serif;
       font-size: 16px;
       fill: #333;
     }
@@ -95,12 +130,12 @@
     }
 
     #mermaid-1744596835074 svg {
-      font-family: "trebuchet ms", verdana, arial, sans-serif;
+      font-family: &quot;trebuchet ms&quot;, verdana, arial, sans-serif;
       font-size: 16px;
     }
 
     #mermaid-1744596835074 .mermaid-main-font {
-      font-family: var(--mermaid-font-family, "trebuchet ms", verdana, arial, sans-serif);
+      font-family: var(--mermaid-font-family, &quot;trebuchet ms&quot;, verdana, arial, sans-serif);
     }
 
     #mermaid-1744596835074 .exclude-range {
@@ -144,7 +179,7 @@
 
     #mermaid-1744596835074 .sectionTitle {
       text-anchor: start;
-      font-family: var(--mermaid-font-family, "trebuchet ms", verdana, arial, sans-serif);
+      font-family: var(--mermaid-font-family, &quot;trebuchet ms&quot;, verdana, arial, sans-serif);
     }
 
     #mermaid-1744596835074 .grid .tick {
@@ -154,7 +189,7 @@
     }
 
     #mermaid-1744596835074 .grid .tick text {
-      font-family: "trebuchet ms", verdana, arial, sans-serif;
+      font-family: &quot;trebuchet ms&quot;, verdana, arial, sans-serif;
       fill: #333;
     }
 
@@ -174,13 +209,13 @@
 
     #mermaid-1744596835074 .taskText {
       text-anchor: middle;
-      font-family: var(--mermaid-font-family, "trebuchet ms", verdana, arial, sans-serif);
+      font-family: var(--mermaid-font-family, &quot;trebuchet ms&quot;, verdana, arial, sans-serif);
     }
 
     #mermaid-1744596835074 .taskTextOutsideRight {
       fill: black;
       text-anchor: start;
-      font-family: var(--mermaid-font-family, "trebuchet ms", verdana, arial, sans-serif);
+      font-family: var(--mermaid-font-family, &quot;trebuchet ms&quot;, verdana, arial, sans-serif);
     }
 
     #mermaid-1744596835074 .taskTextOutsideLeft {
@@ -321,129 +356,715 @@
       text-anchor: middle;
       font-size: 18px;
       fill: #333;
-      font-family: var(--mermaid-font-family, "trebuchet ms", verdana, arial, sans-serif);
+      font-family: var(--mermaid-font-family, &quot;trebuchet ms&quot;, verdana, arial, sans-serif);
     }
 
     #mermaid-1744596835074 :root {
-      --mermaid-font-family: "trebuchet ms", verdana, arial, sans-serif;
+      --mermaid-font-family: &quot;trebuchet ms&quot;, verdana, arial, sans-serif;
     }
   </style>
-  <g></g>
-  <g text-anchor="middle" font-family="sans-serif" font-size="10" fill="none" transform="translate(75, 434)" class="grid">
-    <path d="M0.5,-399V0.5H536.5V-399" stroke="currentColor" class="domain"></path>
-    <g transform="translate(0.5,0)" opacity="1" class="tick">
-      <line y2="-399" stroke="currentColor"></line>
-      <text font-size="10" stroke="none" style="text-anchor: middle;" dy="1em" y="3" fill="#000">2010</text>
+  <g
+     id="g542"
+     style="display:inline" />
+  <g
+     text-anchor="middle"
+     font-family="sans-serif"
+     font-size="10px"
+     fill="none"
+     transform="translate(75,434)"
+     class="grid"
+     id="g612"
+     style="display:inline">
+    <path
+       d="M 0.5,-399 V 0.5 h 536 V -399"
+       stroke="currentColor"
+       class="domain"
+       id="path544" />
+    <g
+       transform="translate(0.5)"
+       opacity="1"
+       class="tick"
+       id="g550">
+      <line
+         y2="-399"
+         stroke="currentColor"
+         id="line546"
+         x1="0"
+         y1="0"
+         x2="0" />
+      <text
+         font-size="10px"
+         stroke="none"
+         style="text-anchor:middle"
+         dy="1em"
+         y="3"
+         fill="#000000"
+         id="text548">2010</text>
     </g>
-    <g transform="translate(54.5,0)" opacity="1" class="tick">
-      <line y2="-399" stroke="currentColor"></line>
-      <text font-size="10" stroke="none" style="text-anchor: middle;" dy="1em" y="3" fill="#000">2011</text>
+    <g
+       transform="translate(54.5)"
+       opacity="1"
+       class="tick"
+       id="g556">
+      <line
+         y2="-399"
+         stroke="currentColor"
+         id="line552"
+         x1="0"
+         y1="0"
+         x2="0" />
+      <text
+         font-size="10px"
+         stroke="none"
+         style="text-anchor:middle"
+         dy="1em"
+         y="3"
+         fill="#000000"
+         id="text554">2011</text>
     </g>
-    <g transform="translate(107.5,0)" opacity="1" class="tick">
-      <line y2="-399" stroke="currentColor"></line>
-      <text font-size="10" stroke="none" style="text-anchor: middle;" dy="1em" y="3" fill="#000">2012</text>
+    <g
+       transform="translate(107.5)"
+       opacity="1"
+       class="tick"
+       id="g562">
+      <line
+         y2="-399"
+         stroke="currentColor"
+         id="line558"
+         x1="0"
+         y1="0"
+         x2="0" />
+      <text
+         font-size="10px"
+         stroke="none"
+         style="text-anchor:middle"
+         dy="1em"
+         y="3"
+         fill="#000000"
+         id="text560">2012</text>
     </g>
-    <g transform="translate(161.5,0)" opacity="1" class="tick">
-      <line y2="-399" stroke="currentColor"></line>
-      <text font-size="10" stroke="none" style="text-anchor: middle;" dy="1em" y="3" fill="#000">2013</text>
+    <g
+       transform="translate(161.5)"
+       opacity="1"
+       class="tick"
+       id="g568">
+      <line
+         y2="-399"
+         stroke="currentColor"
+         id="line564"
+         x1="0"
+         y1="0"
+         x2="0" />
+      <text
+         font-size="10px"
+         stroke="none"
+         style="text-anchor:middle"
+         dy="1em"
+         y="3"
+         fill="#000000"
+         id="text566">2013</text>
     </g>
-    <g transform="translate(214.5,0)" opacity="1" class="tick">
-      <line y2="-399" stroke="currentColor"></line>
-      <text font-size="10" stroke="none" style="text-anchor: middle;" dy="1em" y="3" fill="#000">2014</text>
+    <g
+       transform="translate(214.5)"
+       opacity="1"
+       class="tick"
+       id="g574">
+      <line
+         y2="-399"
+         stroke="currentColor"
+         id="line570"
+         x1="0"
+         y1="0"
+         x2="0" />
+      <text
+         font-size="10px"
+         stroke="none"
+         style="text-anchor:middle"
+         dy="1em"
+         y="3"
+         fill="#000000"
+         id="text572">2014</text>
     </g>
-    <g transform="translate(268.5,0)" opacity="1" class="tick">
-      <line y2="-399" stroke="currentColor"></line>
-      <text font-size="10" stroke="none" style="text-anchor: middle;" dy="1em" y="3" fill="#000">2015</text>
+    <g
+       transform="translate(268.5)"
+       opacity="1"
+       class="tick"
+       id="g580">
+      <line
+         y2="-399"
+         stroke="currentColor"
+         id="line576"
+         x1="0"
+         y1="0"
+         x2="0" />
+      <text
+         font-size="10px"
+         stroke="none"
+         style="text-anchor:middle"
+         dy="1em"
+         y="3"
+         fill="#000000"
+         id="text578">2015</text>
     </g>
-    <g transform="translate(322.5,0)" opacity="1" class="tick">
-      <line y2="-399" stroke="currentColor"></line>
-      <text font-size="10" stroke="none" style="text-anchor: middle;" dy="1em" y="3" fill="#000">2016</text>
+    <g
+       transform="translate(322.5)"
+       opacity="1"
+       class="tick"
+       id="g586">
+      <line
+         y2="-399"
+         stroke="currentColor"
+         id="line582"
+         x1="0"
+         y1="0"
+         x2="0" />
+      <text
+         font-size="10px"
+         stroke="none"
+         style="text-anchor:middle"
+         dy="1em"
+         y="3"
+         fill="#000000"
+         id="text584">2016</text>
     </g>
-    <g transform="translate(375.5,0)" opacity="1" class="tick">
-      <line y2="-399" stroke="currentColor"></line>
-      <text font-size="10" stroke="none" style="text-anchor: middle;" dy="1em" y="3" fill="#000">2017</text>
+    <g
+       transform="translate(375.5)"
+       opacity="1"
+       class="tick"
+       id="g592">
+      <line
+         y2="-399"
+         stroke="currentColor"
+         id="line588"
+         x1="0"
+         y1="0"
+         x2="0" />
+      <text
+         font-size="10px"
+         stroke="none"
+         style="text-anchor:middle"
+         dy="1em"
+         y="3"
+         fill="#000000"
+         id="text590">2017</text>
     </g>
-    <g transform="translate(429.5,0)" opacity="1" class="tick">
-      <line y2="-399" stroke="currentColor"></line>
-      <text font-size="10" stroke="none" style="text-anchor: middle;" dy="1em" y="3" fill="#000">2018</text>
+    <g
+       transform="translate(429.5)"
+       opacity="1"
+       class="tick"
+       id="g598">
+      <line
+         y2="-399"
+         stroke="currentColor"
+         id="line594"
+         x1="0"
+         y1="0"
+         x2="0" />
+      <text
+         font-size="10px"
+         stroke="none"
+         style="text-anchor:middle"
+         dy="1em"
+         y="3"
+         fill="#000000"
+         id="text596">2018</text>
     </g>
-    <g transform="translate(482.5,0)" opacity="1" class="tick">
-      <line y2="-399" stroke="currentColor"></line>
-      <text font-size="10" stroke="none" style="text-anchor: middle;" dy="1em" y="3" fill="#000">2019</text>
+    <g
+       transform="translate(482.5)"
+       opacity="1"
+       class="tick"
+       id="g604">
+      <line
+         y2="-399"
+         stroke="currentColor"
+         id="line600"
+         x1="0"
+         y1="0"
+         x2="0" />
+      <text
+         font-size="10px"
+         stroke="none"
+         style="text-anchor:middle"
+         dy="1em"
+         y="3"
+         fill="#000000"
+         id="text602">2019</text>
     </g>
-    <g transform="translate(536.5,0)" opacity="1" class="tick">
-      <line y2="-399" stroke="currentColor"></line>
-      <text font-size="10" stroke="none" style="text-anchor: middle;" dy="1em" y="3" fill="#000">2020</text>
+    <g
+       transform="translate(536.5)"
+       opacity="1"
+       class="tick"
+       id="g610">
+      <line
+         y2="-399"
+         stroke="currentColor"
+         id="line606"
+         x1="0"
+         y1="0"
+         x2="0" />
+      <text
+         font-size="10px"
+         stroke="none"
+         style="text-anchor:middle"
+         dy="1em"
+         y="3"
+         fill="#000000"
+         id="text608">2020</text>
     </g>
   </g>
-  <g>
-    <rect class="section section0" height="24" width="648.5" y="48" x="0"></rect>
-    <rect class="section section1" height="24" width="648.5" y="96" x="0"></rect>
-    <rect class="section section2" height="24" width="648.5" y="120" x="0"></rect>
-    <rect class="section section2" height="24" width="648.5" y="144" x="0"></rect>
-    <rect class="section section3" height="24" width="648.5" y="336" x="0"></rect>
-    <rect class="section section3" height="24" width="648.5" y="360" x="0"></rect>
-    <rect class="section section2" height="24" width="648.5" y="168" x="0"></rect>
-    <rect class="section section2" height="24" width="648.5" y="192" x="0"></rect>
-    <rect class="section section3" height="24" width="648.5" y="384" x="0"></rect>
-    <rect class="section section0" height="24" width="648.5" y="72" x="0"></rect>
-    <rect class="section section2" height="24" width="648.5" y="216" x="0"></rect>
-    <rect class="section section3" height="24" width="648.5" y="408" x="0"></rect>
-    <rect class="section section2" height="24" width="648.5" y="240" x="0"></rect>
-    <rect class="section section2" height="24" width="648.5" y="264" x="0"></rect>
-    <rect class="section section2" height="24" width="648.5" y="288" x="0"></rect>
-    <rect class="section section2" height="24" width="648.5" y="312" x="0"></rect>
+  <g
+     id="g646"
+     style="display:inline;stroke-width:1.09685"
+     transform="matrix(0.82722816,0,0,1.0048048,75.342235,-0.23062883)"
+     inkscape:label="backgrounds">
+    <rect
+       class="section section0"
+       height="24"
+       width="648.5"
+       y="48"
+       x="0"
+       id="rect614"
+       style="stroke-width:1.09685" />
+    <rect
+       class="section section1"
+       height="24"
+       width="648.5"
+       y="96"
+       x="0"
+       id="rect616"
+       style="stroke-width:1.09685" />
+    <rect
+       class="section section2"
+       height="24"
+       width="648.5"
+       y="120"
+       x="0"
+       id="rect618"
+       style="stroke-width:1.09685" />
+    <rect
+       class="section section2"
+       height="24"
+       width="648.5"
+       y="144"
+       x="0"
+       id="rect620"
+       style="stroke-width:1.09685" />
+    <rect
+       class="section section3"
+       height="24"
+       width="648.5"
+       y="336"
+       x="0"
+       id="rect622"
+       style="stroke-width:1.09685" />
+    <rect
+       class="section section3"
+       height="24"
+       width="648.5"
+       y="360"
+       x="0"
+       id="rect624"
+       style="stroke-width:1.09685" />
+    <rect
+       class="section section2"
+       height="24"
+       width="648.5"
+       y="168"
+       x="0"
+       id="rect626"
+       style="stroke-width:1.09685" />
+    <rect
+       class="section section2"
+       height="24"
+       width="648.5"
+       y="192"
+       x="0"
+       id="rect628"
+       style="stroke-width:1.09685" />
+    <rect
+       class="section section3"
+       height="24"
+       width="648.5"
+       y="384"
+       x="0"
+       id="rect630"
+       style="stroke-width:1.09685" />
+    <rect
+       class="section section0"
+       height="24"
+       width="648.5"
+       y="72"
+       x="0"
+       id="rect632"
+       style="stroke-width:1.09685" />
+    <rect
+       class="section section2"
+       height="24"
+       width="648.5"
+       y="216"
+       x="0"
+       id="rect634"
+       style="stroke-width:1.09685" />
+    <rect
+       class="section section3"
+       height="24"
+       width="648.5"
+       y="408"
+       x="0"
+       id="rect636"
+       style="stroke-width:1.09685" />
+    <rect
+       class="section section2"
+       height="24"
+       width="648.5"
+       y="240"
+       x="0"
+       id="rect638"
+       style="stroke-width:1.09685" />
+    <rect
+       class="section section2"
+       height="24"
+       width="648.5"
+       y="264"
+       x="0"
+       id="rect640"
+       style="stroke-width:1.09685" />
+    <rect
+       class="section section2"
+       height="24"
+       width="648.5"
+       y="288"
+       x="0"
+       id="rect642"
+       style="stroke-width:1.09685" />
+    <rect
+       class="section section2"
+       height="24"
+       width="648.5"
+       y="312"
+       x="0"
+       id="rect644"
+       style="stroke-width:1.09685" />
   </g>
-  <g>
-    <rect class="task done0" transform-origin="128.5px 60px" height="20" width="107" y="50" x="75" ry="3" rx="3" id="task1"></rect>
-    <rect class="task done1" transform-origin="209px 108px" height="20" width="54" y="98" x="182" ry="3" rx="3" id="task3"></rect>
-    <rect class="task done2" transform-origin="303px 132px" height="20" width="134" y="122" x="236" ry="3" rx="3" id="task4"></rect>
-    <rect class="task done2" transform-origin="327.5px 156px" height="20" width="41" y="146" x="307" ry="3" rx="3" id="task5"></rect>
-    <rect class="task done3" transform-origin="330px 348px" height="20" width="36" y="338" x="312" ry="3" rx="3" id="task13"></rect>
-    <rect class="task done3" transform-origin="361px 372px" height="20" width="36" y="362" x="343" ry="3" rx="3" id="task14"></rect>
-    <rect class="task done2" transform-origin="383.5px 180px" height="20" width="9" y="170" x="379" ry="3" rx="3" id="task6"></rect>
-    <rect class="task active2" transform-origin="497px 204px" height="20" width="228" y="194" x="383" ry="3" rx="3" id="task7"></rect>
-    <rect class="task done3" transform-origin="387px 396px" height="20" width="8" y="386" x="383" ry="3" rx="3" id="ae"></rect>
-    <rect class="task done0" transform-origin="429.5px 84px" height="20" width="77" y="74" x="391" ry="3" rx="3" id="task2"></rect>
-    <rect class="task active2" transform-origin="539.5px 228px" height="20" width="143" y="218" x="468" ry="3" rx="3" id="task8"></rect>
-    <rect class="task done3" transform-origin="474.5px 420px" height="20" width="13" y="410" x="468" ry="3" rx="3" id="task15"></rect>
-    <rect class="task done2" transform-origin="543.5px 252px" height="20" width="27" y="242" x="530" ry="3" rx="3" id="task9"></rect>
-    <rect class="task done2" transform-origin="560px 276px" height="20" width="14" y="266" x="553" ry="3" rx="3" id="task10"></rect>
-    <rect class="task active2" transform-origin="584px 300px" height="20" width="54" y="290" x="557" ry="3" rx="3" id="task11"></rect>
-    <rect class="task done2" transform-origin="581.5px 324px" height="20" width="19" y="314" x="572" ry="3" rx="3" id="task12"></rect>
-    <text class="taskTextOutsideRight taskTextOutside0  doneText0 width-135.31666564941406" y="63.5" x="187" font-size="11" id="task1-text">Unlimited Paenga Tawhiti </text>
-    <text class="taskText taskText1  doneText1 width-50.54999923706055" y="111.5" x="209" font-size="11" id="task3-text">Fine Arts </text>
-    <text class="taskText taskText2  doneText2 width-41.58333206176758" y="135.5" x="303" font-size="11" id="task4-text">Loomio </text>
-    <text class="taskTextOutsideRight taskTextOutside2  doneText2 width-53.900001525878906" y="159.5" x="353" font-size="11" id="task5-text">Cobudget </text>
-    <text class="taskTextOutsideRight taskTextOutside3  doneText3 width-91.19999694824219" y="351.5" x="353" font-size="11" id="task13-text">Spanner Planner </text>
-    <text class="taskTextOutsideRight taskTextOutside3  doneText3 width-59.79999923706055" y="375.5" x="384" font-size="11" id="task14-text">WebPunch </text>
-    <text class="taskTextOutsideRight taskTextOutside2  doneText2 width-41.21666717529297" y="183.5" x="393" font-size="11" id="task6-text">POC21 </text>
-    <text class="taskText taskText2 activeText2 width-59.20000076293945" y="207.5" x="497" font-size="11" id="task7-text">Scuttlebutt </text>
-    <text class="taskTextOutsideRight taskTextOutside3  doneText3 width-111.53333282470703" y="399.5" x="396" font-size="11" id="ae-text">Accredited Employer </text>
-    <text class="taskTextOutsideRight taskTextOutside0  doneText0 width-124.46666717529297" y="87.5" x="473" font-size="11" id="task2-text">Enspiral Dev Academy </text>
-    <text class="taskText taskText2 activeText2 width-50.21666717529297" y="231.5" x="539.5" font-size="11" id="task8-text">Protozoa </text>
-    <text class="taskTextOutsideRight taskTextOutside3  doneText3 width-72.76667022705078" y="423.5" x="486" font-size="11" id="task15-text">Civic Dinners </text>
-    <text class="taskTextOutsideRight taskTextOutside2  doneText2 width-68.11666870117188" y="255.5" x="562" font-size="11" id="task9-text">Dark Crystal </text>
-    <text class="taskTextOutsideRight taskTextOutside2  doneText2 width-70.21666717529297" y="279.5" x="572" font-size="11" id="task10-text">ScuttleCamp </text>
-    <text class="taskText taskText2 activeText2 width-30.483333587646484" y="303.5" x="584" font-size="11" id="task11-text">Ahau </text>
-    <text class="taskTextOutsideRight taskTextOutside2  doneText2 width-55.71666717529297" y="327.5" x="596" font-size="11" id="task12-text">Dweb DEI </text>
+  <g
+     id="g680"
+     style="display:inline">
+    <rect
+       class="task done0"
+       transform-origin="128.5px 60px"
+       height="20"
+       width="107"
+       y="50"
+       x="75"
+       ry="3"
+       rx="3"
+       id="task1" />
+    <rect
+       class="task done1"
+       transform-origin="209px 108px"
+       height="20"
+       width="54"
+       y="98"
+       x="182"
+       ry="3"
+       rx="3"
+       id="task3" />
+    <rect
+       class="task done2"
+       transform-origin="303px 132px"
+       height="20"
+       width="134"
+       y="122"
+       x="236"
+       ry="3"
+       rx="3"
+       id="task4" />
+    <rect
+       class="task done2"
+       transform-origin="327.5px 156px"
+       height="20"
+       width="41"
+       y="146"
+       x="307"
+       ry="3"
+       rx="3"
+       id="task5" />
+    <rect
+       class="task done3"
+       transform-origin="330px 348px"
+       height="20"
+       width="36"
+       y="338"
+       x="312"
+       ry="3"
+       rx="3"
+       id="task13" />
+    <rect
+       class="task done3"
+       transform-origin="361px 372px"
+       height="20"
+       width="36"
+       y="362"
+       x="343"
+       ry="3"
+       rx="3"
+       id="task14" />
+    <rect
+       class="task done2"
+       transform-origin="383.5px 180px"
+       height="20"
+       width="9"
+       y="170"
+       x="379"
+       ry="3"
+       rx="3"
+       id="task6" />
+    <rect
+       class="task active2"
+       transform-origin="497px 204px"
+       height="20"
+       width="228"
+       y="194"
+       x="383"
+       ry="3"
+       rx="3"
+       id="task7" />
+    <rect
+       class="task done3"
+       transform-origin="387px 396px"
+       height="20"
+       width="8"
+       y="386"
+       x="383"
+       ry="3"
+       rx="3"
+       id="ae" />
+    <rect
+       class="task done0"
+       transform-origin="429.5px 84px"
+       height="20"
+       width="77"
+       y="74"
+       x="391"
+       ry="3"
+       rx="3"
+       id="task2" />
+    <rect
+       class="task active2"
+       transform-origin="539.5px 228px"
+       height="20"
+       width="143"
+       y="218"
+       x="468"
+       ry="3"
+       rx="3"
+       id="task8" />
+    <rect
+       class="task done3"
+       transform-origin="474.5px 420px"
+       height="20"
+       width="13"
+       y="410"
+       x="468"
+       ry="3"
+       rx="3"
+       id="task15" />
+    <rect
+       class="task done2"
+       transform-origin="543.5px 252px"
+       height="20"
+       width="27"
+       y="242"
+       x="530"
+       ry="3"
+       rx="3"
+       id="task9" />
+    <rect
+       class="task done2"
+       transform-origin="560px 276px"
+       height="20"
+       width="14"
+       y="266"
+       x="553"
+       ry="3"
+       rx="3"
+       id="task10" />
+    <rect
+       class="task active2"
+       transform-origin="584px 300px"
+       height="20"
+       width="54"
+       y="290"
+       x="557"
+       ry="3"
+       rx="3"
+       id="task11" />
+    <rect
+       class="task done2"
+       transform-origin="581.5px 324px"
+       height="20"
+       width="19"
+       y="314"
+       x="572"
+       ry="3"
+       rx="3"
+       id="task12" />
+    <text
+       class="taskTextOutsideRight taskTextOutside0  doneText0 width-135.31666564941406"
+       y="63.5"
+       x="187"
+       font-size="11px"
+       id="task1-text">Unlimited Paenga Tawhiti</text>
+    <text
+       class="taskText taskText1  doneText1 width-50.54999923706055"
+       y="112.28084"
+       x="263.66467"
+       font-size="11px"
+       id="task3-text">Fine Arts</text>
+    <text
+       class="taskText taskText2  doneText2 width-41.58333206176758"
+       y="135.5"
+       x="303"
+       font-size="11px"
+       id="task4-text">Loomio</text>
+    <text
+       class="taskTextOutsideRight taskTextOutside2  doneText2 width-53.900001525878906"
+       y="159.5"
+       x="353"
+       font-size="11px"
+       id="task5-text">Cobudget</text>
+    <text
+       class="taskTextOutsideRight taskTextOutside3  doneText3 width-91.19999694824219"
+       y="351.5"
+       x="353"
+       font-size="11px"
+       id="task13-text">Spanner Planner</text>
+    <text
+       class="taskTextOutsideRight taskTextOutside3  doneText3 width-59.79999923706055"
+       y="375.5"
+       x="384"
+       font-size="11px"
+       id="task14-text">WebPunch</text>
+    <text
+       class="taskTextOutsideRight taskTextOutside2  doneText2 width-41.21666717529297"
+       y="183.5"
+       x="393"
+       font-size="11px"
+       id="task6-text">POC21</text>
+    <text
+       class="taskText taskText2 activeText2 width-59.20000076293945"
+       y="207.5"
+       x="497"
+       font-size="11px"
+       id="task7-text">Scuttlebutt</text>
+    <text
+       class="taskTextOutsideRight taskTextOutside3  doneText3 width-111.53333282470703"
+       y="399.5"
+       x="396"
+       font-size="11px"
+       id="ae-text">Accredited Employer</text>
+    <text
+       class="taskTextOutsideRight taskTextOutside0  doneText0 width-124.46666717529297"
+       y="87.5"
+       x="473"
+       font-size="11px"
+       id="task2-text">Enspiral Dev Academy</text>
+    <text
+       class="taskText taskText2 activeText2 width-50.21666717529297"
+       y="231.5"
+       x="539.5"
+       font-size="11px"
+       id="task8-text">Protozoa</text>
+    <text
+       class="taskTextOutsideRight taskTextOutside3  doneText3 width-72.76667022705078"
+       y="423.5"
+       x="486"
+       font-size="11px"
+       id="task15-text">Civic Dinners</text>
+    <text
+       class="taskTextOutsideRight taskTextOutside2  doneText2 width-68.11666870117188"
+       y="255.5"
+       x="466.48102"
+       font-size="11px"
+       id="task9-text">Dark Crystal</text>
+    <text
+       class="taskTextOutsideRight taskTextOutside2  doneText2 width-70.21666717529297"
+       y="279.5"
+       x="485.64822"
+       font-size="11px"
+       id="task10-text">ScuttleCamp</text>
+    <text
+       class="taskText taskText2 activeText2 width-30.483333587646484"
+       y="303.5"
+       x="584"
+       font-size="11px"
+       id="task11-text">Ahau</text>
+    <text
+       class="taskTextOutsideRight taskTextOutside2  doneText2 width-55.71666717529297"
+       y="327.5"
+       x="519.52069"
+       font-size="11px"
+       id="task12-text">Dweb DEI</text>
   </g>
-  <g>
-    <text class="sectionTitle sectionTitle0" font-size="11" y="74" x="10" dy="0em">
-      <tspan x="10" alignment-baseline="central">Teaching</tspan>
-    </text>
-    <text class="sectionTitle sectionTitle1" font-size="11" y="110" x="10" dy="0em">
-      <tspan x="10" alignment-baseline="central">University</tspan>
-    </text>
-    <text class="sectionTitle sectionTitle2" font-size="11" y="230" x="10" dy="0em">
-      <tspan x="10" alignment-baseline="central">Social Ent.</tspan>
-    </text>
-    <text class="sectionTitle sectionTitle3" font-size="11" y="386" x="10" dy="0em">
-      <tspan x="10" alignment-baseline="central">Contracting</tspan>
-    </text>
+  <g
+     id="g698"
+     style="display:inline">
+    <text
+       class="sectionTitle sectionTitle0"
+       font-size="11px"
+       y="74"
+       x="10"
+       dy="0em"
+       id="text684"><tspan
+         x="10"
+         alignment-baseline="central"
+         id="tspan682">Teaching</tspan></text>
+    <text
+       class="sectionTitle sectionTitle1"
+       font-size="11px"
+       y="110"
+       x="10"
+       dy="0em"
+       id="text688"><tspan
+         x="10"
+         alignment-baseline="central"
+         id="tspan686">University</tspan></text>
+    <text
+       class="sectionTitle sectionTitle2"
+       font-size="11px"
+       y="230"
+       x="10"
+       dy="0em"
+       id="text692"><tspan
+         x="10"
+         alignment-baseline="central"
+         id="tspan690">Social Ent.</tspan></text>
+    <text
+       class="sectionTitle sectionTitle3"
+       font-size="11px"
+       y="386"
+       x="10"
+       dy="0em"
+       id="text696"><tspan
+         x="10"
+         alignment-baseline="central"
+         id="tspan694">Contracting</tspan></text>
   </g>
-  <g class="today">
-    <line class="today" y2="459" y1="25" x2="894" x1="894"></line>
+  <g
+     class="today"
+     id="g702"
+     style="display:inline">
+    <line
+       class="today"
+       y2="459"
+       y1="25"
+       x2="894"
+       x1="894"
+       id="line700" />
   </g>
-  <text class="titleText" y="25" x="343">2010s</text>
+  <text
+     class="titleText"
+     y="25"
+     x="343"
+     id="text704">2010s</text>
 </svg>

@@ -1,8 +1,42 @@
-<svg aria-roledescription="gantt" role="graphics-document document" style="max-width: 686px;" viewBox="0 0 686 316" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="100%" id="mermaid-1744597946320">
-
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   aria-roledescription="gantt"
+   role="graphics-document document"
+   viewBox="8 0 631 316"
+   width="631"
+   id="mermaid-1744597946320"
+   version="1.1"
+   sodipodi:docname="2000s.svg"
+   height="316"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1182" />
+  <sodipodi:namedview
+     id="namedview1180"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="2.0860058"
+     inkscape:cx="279.0021"
+     inkscape:cy="148.84906"
+     inkscape:window-width="2560"
+     inkscape:window-height="1393"
+     inkscape:window-x="0"
+     inkscape:window-y="22"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g1157" />
   <!-- custom -->
-
-  <style>
+  <style
+     id="style1043">
 
     :root {
       /* from https://colorhunt.co/palette/fcffc1ffe893fbb4a5fb9ec6 */
@@ -37,10 +71,10 @@
         fill: var(--teaching) !important;
       }
   </style>
-
-  <style>
+  <style
+     id="style1045">
     #mermaid-1744597946320 {
-      font-family: "trebuchet ms", verdana, arial, sans-serif;
+      font-family: &quot;trebuchet ms&quot;, verdana, arial, sans-serif;
       font-size: 16px;
       fill: #333;
     }
@@ -84,12 +118,12 @@
     }
 
     #mermaid-1744597946320 svg {
-      font-family: "trebuchet ms", verdana, arial, sans-serif;
+      font-family: &quot;trebuchet ms&quot;, verdana, arial, sans-serif;
       font-size: 16px;
     }
 
     #mermaid-1744597946320 .mermaid-main-font {
-      font-family: var(--mermaid-font-family, "trebuchet ms", verdana, arial, sans-serif);
+      font-family: var(--mermaid-font-family, &quot;trebuchet ms&quot;, verdana, arial, sans-serif);
     }
 
     #mermaid-1744597946320 .exclude-range {
@@ -133,7 +167,7 @@
 
     #mermaid-1744597946320 .sectionTitle {
       text-anchor: start;
-      font-family: var(--mermaid-font-family, "trebuchet ms", verdana, arial, sans-serif);
+      font-family: var(--mermaid-font-family, &quot;trebuchet ms&quot;, verdana, arial, sans-serif);
     }
 
     #mermaid-1744597946320 .grid .tick {
@@ -143,7 +177,7 @@
     }
 
     #mermaid-1744597946320 .grid .tick text {
-      font-family: "trebuchet ms", verdana, arial, sans-serif;
+      font-family: &quot;trebuchet ms&quot;, verdana, arial, sans-serif;
       fill: #333;
     }
 
@@ -163,13 +197,13 @@
 
     #mermaid-1744597946320 .taskText {
       text-anchor: middle;
-      font-family: var(--mermaid-font-family, "trebuchet ms", verdana, arial, sans-serif);
+      font-family: var(--mermaid-font-family, &quot;trebuchet ms&quot;, verdana, arial, sans-serif);
     }
 
     #mermaid-1744597946320 .taskTextOutsideRight {
       fill: black;
       text-anchor: start;
-      font-family: var(--mermaid-font-family, "trebuchet ms", verdana, arial, sans-serif);
+      font-family: var(--mermaid-font-family, &quot;trebuchet ms&quot;, verdana, arial, sans-serif);
     }
 
     #mermaid-1744597946320 .taskTextOutsideLeft {
@@ -310,105 +344,521 @@
       text-anchor: middle;
       font-size: 18px;
       fill: #333;
-      font-family: var(--mermaid-font-family, "trebuchet ms", verdana, arial, sans-serif);
+      font-family: var(--mermaid-font-family, &quot;trebuchet ms&quot;, verdana, arial, sans-serif);
     }
 
     #mermaid-1744597946320 :root {
-      --mermaid-font-family: "trebuchet ms", verdana, arial, sans-serif;
+      --mermaid-font-family: &quot;trebuchet ms&quot;, verdana, arial, sans-serif;
     }
   </style>
-  <g></g>
-  <g text-anchor="middle" font-family="sans-serif" font-size="10" fill="none" transform="translate(75, 266)" class="grid">
-    <path d="M0.5,-231V0.5H536.5V-231" stroke="currentColor" class="domain"></path>
-    <g transform="translate(0.5,0)" opacity="1" class="tick">
-      <line y2="-231" stroke="currentColor"></line>
-      <text font-size="10" stroke="none" style="text-anchor: middle;" dy="1em" y="3" fill="#000">2000</text>
+  <g
+     id="g1047" />
+  <g
+     text-anchor="middle"
+     font-family="sans-serif"
+     font-size="10px"
+     fill="none"
+     transform="translate(75,266)"
+     class="grid"
+     id="g1117">
+    <path
+       d="M 0.5,-231 V 0.5 h 536 V -231"
+       stroke="currentColor"
+       class="domain"
+       id="path1049" />
+    <g
+       transform="translate(0.5)"
+       opacity="1"
+       class="tick"
+       id="g1055">
+      <line
+         y2="-231"
+         stroke="currentColor"
+         id="line1051"
+         x1="0"
+         y1="0"
+         x2="0" />
+      <text
+         font-size="10px"
+         stroke="none"
+         style="text-anchor:middle"
+         dy="1em"
+         y="3"
+         fill="#000000"
+         id="text1053">2000</text>
     </g>
-    <g transform="translate(54.5,0)" opacity="1" class="tick">
-      <line y2="-231" stroke="currentColor"></line>
-      <text font-size="10" stroke="none" style="text-anchor: middle;" dy="1em" y="3" fill="#000">2001</text>
+    <g
+       transform="translate(54.5)"
+       opacity="1"
+       class="tick"
+       id="g1061">
+      <line
+         y2="-231"
+         stroke="currentColor"
+         id="line1057"
+         x1="0"
+         y1="0"
+         x2="0" />
+      <text
+         font-size="10px"
+         stroke="none"
+         style="text-anchor:middle"
+         dy="1em"
+         y="3"
+         fill="#000000"
+         id="text1059">2001</text>
     </g>
-    <g transform="translate(107.5,0)" opacity="1" class="tick">
-      <line y2="-231" stroke="currentColor"></line>
-      <text font-size="10" stroke="none" style="text-anchor: middle;" dy="1em" y="3" fill="#000">2002</text>
+    <g
+       transform="translate(107.5)"
+       opacity="1"
+       class="tick"
+       id="g1067">
+      <line
+         y2="-231"
+         stroke="currentColor"
+         id="line1063"
+         x1="0"
+         y1="0"
+         x2="0" />
+      <text
+         font-size="10px"
+         stroke="none"
+         style="text-anchor:middle"
+         dy="1em"
+         y="3"
+         fill="#000000"
+         id="text1065">2002</text>
     </g>
-    <g transform="translate(161.5,0)" opacity="1" class="tick">
-      <line y2="-231" stroke="currentColor"></line>
-      <text font-size="10" stroke="none" style="text-anchor: middle;" dy="1em" y="3" fill="#000">2003</text>
+    <g
+       transform="translate(161.5)"
+       opacity="1"
+       class="tick"
+       id="g1073">
+      <line
+         y2="-231"
+         stroke="currentColor"
+         id="line1069"
+         x1="0"
+         y1="0"
+         x2="0" />
+      <text
+         font-size="10px"
+         stroke="none"
+         style="text-anchor:middle"
+         dy="1em"
+         y="3"
+         fill="#000000"
+         id="text1071">2003</text>
     </g>
-    <g transform="translate(214.5,0)" opacity="1" class="tick">
-      <line y2="-231" stroke="currentColor"></line>
-      <text font-size="10" stroke="none" style="text-anchor: middle;" dy="1em" y="3" fill="#000">2004</text>
+    <g
+       transform="translate(214.5)"
+       opacity="1"
+       class="tick"
+       id="g1079">
+      <line
+         y2="-231"
+         stroke="currentColor"
+         id="line1075"
+         x1="0"
+         y1="0"
+         x2="0" />
+      <text
+         font-size="10px"
+         stroke="none"
+         style="text-anchor:middle"
+         dy="1em"
+         y="3"
+         fill="#000000"
+         id="text1077">2004</text>
     </g>
-    <g transform="translate(268.5,0)" opacity="1" class="tick">
-      <line y2="-231" stroke="currentColor"></line>
-      <text font-size="10" stroke="none" style="text-anchor: middle;" dy="1em" y="3" fill="#000">2005</text>
+    <g
+       transform="translate(268.5)"
+       opacity="1"
+       class="tick"
+       id="g1085">
+      <line
+         y2="-231"
+         stroke="currentColor"
+         id="line1081"
+         x1="0"
+         y1="0"
+         x2="0" />
+      <text
+         font-size="10px"
+         stroke="none"
+         style="text-anchor:middle"
+         dy="1em"
+         y="3"
+         fill="#000000"
+         id="text1083">2005</text>
     </g>
-    <g transform="translate(322.5,0)" opacity="1" class="tick">
-      <line y2="-231" stroke="currentColor"></line>
-      <text font-size="10" stroke="none" style="text-anchor: middle;" dy="1em" y="3" fill="#000">2006</text>
+    <g
+       transform="translate(322.5)"
+       opacity="1"
+       class="tick"
+       id="g1091">
+      <line
+         y2="-231"
+         stroke="currentColor"
+         id="line1087"
+         x1="0"
+         y1="0"
+         x2="0" />
+      <text
+         font-size="10px"
+         stroke="none"
+         style="text-anchor:middle"
+         dy="1em"
+         y="3"
+         fill="#000000"
+         id="text1089">2006</text>
     </g>
-    <g transform="translate(375.5,0)" opacity="1" class="tick">
-      <line y2="-231" stroke="currentColor"></line>
-      <text font-size="10" stroke="none" style="text-anchor: middle;" dy="1em" y="3" fill="#000">2007</text>
+    <g
+       transform="translate(375.5)"
+       opacity="1"
+       class="tick"
+       id="g1097">
+      <line
+         y2="-231"
+         stroke="currentColor"
+         id="line1093"
+         x1="0"
+         y1="0"
+         x2="0" />
+      <text
+         font-size="10px"
+         stroke="none"
+         style="text-anchor:middle"
+         dy="1em"
+         y="3"
+         fill="#000000"
+         id="text1095">2007</text>
     </g>
-    <g transform="translate(429.5,0)" opacity="1" class="tick">
-      <line y2="-231" stroke="currentColor"></line>
-      <text font-size="10" stroke="none" style="text-anchor: middle;" dy="1em" y="3" fill="#000">2008</text>
+    <g
+       transform="translate(429.5)"
+       opacity="1"
+       class="tick"
+       id="g1103">
+      <line
+         y2="-231"
+         stroke="currentColor"
+         id="line1099"
+         x1="0"
+         y1="0"
+         x2="0" />
+      <text
+         font-size="10px"
+         stroke="none"
+         style="text-anchor:middle"
+         dy="1em"
+         y="3"
+         fill="#000000"
+         id="text1101">2008</text>
     </g>
-    <g transform="translate(482.5,0)" opacity="1" class="tick">
-      <line y2="-231" stroke="currentColor"></line>
-      <text font-size="10" stroke="none" style="text-anchor: middle;" dy="1em" y="3" fill="#000">2009</text>
+    <g
+       transform="translate(482.5)"
+       opacity="1"
+       class="tick"
+       id="g1109">
+      <line
+         y2="-231"
+         stroke="currentColor"
+         id="line1105"
+         x1="0"
+         y1="0"
+         x2="0" />
+      <text
+         font-size="10px"
+         stroke="none"
+         style="text-anchor:middle"
+         dy="1em"
+         y="3"
+         fill="#000000"
+         id="text1107">2009</text>
     </g>
-    <g transform="translate(536.5,0)" opacity="1" class="tick">
-      <line y2="-231" stroke="currentColor"></line>
-      <text font-size="10" stroke="none" style="text-anchor: middle;" dy="1em" y="3" fill="#000">2010</text>
+    <g
+       transform="translate(536.5)"
+       opacity="1"
+       class="tick"
+       id="g1115">
+      <line
+         y2="-231"
+         stroke="currentColor"
+         id="line1111"
+         x1="0"
+         y1="0"
+         x2="0" />
+      <text
+         font-size="10px"
+         stroke="none"
+         style="text-anchor:middle"
+         dy="1em"
+         y="3"
+         fill="#000000"
+         id="text1113">2010</text>
     </g>
   </g>
-  <g>
-    <rect class="section section0" height="24" width="648.5" y="48" x="0"></rect>
-    <rect class="section section1" height="24" width="648.5" y="72" x="0"></rect>
-    <rect class="section section1" height="24" width="648.5" y="96" x="0"></rect>
-    <rect class="section section1" height="24" width="648.5" y="120" x="0"></rect>
-    <rect class="section section1" height="24" width="648.5" y="144" x="0"></rect>
-    <rect class="section section1" height="24" width="648.5" y="168" x="0"></rect>
-    <rect class="section section1" height="24" width="648.5" y="192" x="0"></rect>
-    <rect class="section section1" height="24" width="648.5" y="216" x="0"></rect>
-    <rect class="section section2" height="24" width="648.5" y="240" x="0"></rect>
+  <g
+     id="g1137"
+     transform="matrix(0.82659254,0,0,1.0091622,75.855398,-0.4397874)"
+     style="display:inline;stroke-width:1.0949"
+     inkscape:label="bacgrounds">
+    <rect
+       class="section section0"
+       height="24"
+       width="648.5"
+       y="48"
+       x="0"
+       id="rect1119"
+       style="stroke-width:1.0949" />
+    <rect
+       class="section section1"
+       height="24"
+       width="648.5"
+       y="72"
+       x="0"
+       id="rect1121"
+       style="stroke-width:1.0949" />
+    <rect
+       class="section section1"
+       height="24"
+       width="648.5"
+       y="96"
+       x="0"
+       id="rect1123"
+       style="stroke-width:1.0949" />
+    <rect
+       class="section section1"
+       height="24"
+       width="648.5"
+       y="120"
+       x="0"
+       id="rect1125"
+       style="stroke-width:1.0949" />
+    <rect
+       class="section section1"
+       height="24"
+       width="648.5"
+       y="144"
+       x="0"
+       id="rect1127"
+       style="stroke-width:1.0949" />
+    <rect
+       class="section section1"
+       height="24"
+       width="648.5"
+       y="168"
+       x="0"
+       id="rect1129"
+       style="stroke-width:1.0949" />
+    <rect
+       class="section section1"
+       height="24"
+       width="648.5"
+       y="192"
+       x="0"
+       id="rect1131"
+       style="stroke-width:1.0949" />
+    <rect
+       class="section section1"
+       height="24"
+       width="648.5"
+       y="216"
+       x="0"
+       id="rect1133"
+       style="stroke-width:1.0949" />
+    <rect
+       class="section section2"
+       height="24"
+       width="648.5"
+       y="240"
+       x="0"
+       id="rect1135"
+       style="stroke-width:1.0949" />
   </g>
-  <g>
-    <rect class="task milestone  task0" transform-origin="75px 60px" height="20" width="20" y="50" x="65" ry="3" rx="3" id="task1"></rect>
-    <rect class="task done1" transform-origin="222px 84px" height="20" width="80" y="74" x="182" ry="3" rx="3" id="task2"></rect>
-    <rect class="task done1" transform-origin="289.5px 108px" height="20" width="215" y="98" x="182" ry="3" rx="3" id="maths"></rect>
-    <rect class="task done1" transform-origin="329.5px 132px" height="20" width="135" y="122" x="262" ry="3" rx="3" id="task3"></rect>
-    <rect class="task milestone  task1" transform-origin="397px 156px" height="20" width="20" y="146" x="387" ry="3" rx="3" id="task4"></rect>
-    <rect class="task done1" transform-origin="423.5px 180px" height="20" width="53" y="170" x="397" ry="3" rx="3" id="task5"></rect>
-    <rect class="task done1" transform-origin="477px 204px" height="20" width="54" y="194" x="450" ry="3" rx="3" id="tcol"></rect>
-    <rect class="task milestone  task1" transform-origin="504px 228px" height="20" width="20" y="218" x="494" ry="3" rx="3" id="task6"></rect>
-    <rect class="task done2" transform-origin="557.5px 252px" height="20" width="107" y="242" x="504" ry="3" rx="3" id="task7"></rect>
-    <text class="taskTextOutsideRight taskTextOutside0  milestoneText width-26.53333282470703" y="63.5" x="90" font-size="11" id="task1-text">start </text>
-    <text class="taskText taskText1  doneText1 width-74.86666870117188" y="87.5" x="222" font-size="11" id="task2-text">Neuroscience </text>
-    <text class="taskText taskText1  doneText1 width-35.099998474121094" y="111.5" x="289.5" font-size="11" id="maths-text">Maths </text>
-    <text class="taskText taskText1  doneText1 width-43.75" y="135.5" x="329.5" font-size="11" id="task3-text">Physics </text>
-    <text class="taskTextOutsideRight taskTextOutside1  milestoneText width-93.5999984741211" y="159.5" x="412" font-size="11" id="task4-text">BSc Hons. Maths </text>
-    <text class="taskTextOutsideRight taskTextOutside1  doneText1 width-53.28333282470703" y="183.5" x="455" font-size="11" id="task5-text">Research </text>
-    <text class="taskText taskText1  doneText1 width-28.03333282470703" y="207.5" x="477" font-size="11" id="tcol-text">TCol </text>
-    <text class="taskTextOutsideLeft taskTextOutside1  milestoneText" y="231.5" x="519" font-size="11" id="task6-text">Post Grad. Dip. Teaching </text>
-    <text class="taskTextOutsideLeft taskTextOutside2  doneText2" y="255.5" x="499" font-size="11" id="task7-text">Unlimited Paenga Tawhiti </text>
+  <g
+     id="g1157"
+     style="display:inline">
+    <rect
+       class="task done1"
+       transform-origin="222px 84px"
+       height="20"
+       width="80"
+       y="74"
+       x="182"
+       ry="3"
+       rx="3"
+       id="task2" />
+    <rect
+       class="task done1"
+       transform-origin="289.5px 108px"
+       height="20"
+       width="215"
+       y="98"
+       x="182"
+       ry="3"
+       rx="3"
+       id="maths" />
+    <rect
+       class="task done1"
+       transform-origin="329.5px 132px"
+       height="20"
+       width="135"
+       y="122"
+       x="262"
+       ry="3"
+       rx="3"
+       id="task3" />
+    <rect
+       class="task milestone  task1"
+       transform-origin="397px 156px"
+       height="20"
+       width="20"
+       y="146"
+       x="387"
+       ry="3"
+       rx="3"
+       id="task4" />
+    <rect
+       class="task done1"
+       transform-origin="423.5px 180px"
+       height="20"
+       width="53"
+       y="170"
+       x="397"
+       ry="3"
+       rx="3"
+       id="task5" />
+    <rect
+       class="task done1"
+       transform-origin="477px 204px"
+       height="20"
+       width="54"
+       y="194"
+       x="450"
+       ry="3"
+       rx="3"
+       id="tcol" />
+    <rect
+       class="task milestone  task1"
+       transform-origin="504px 228px"
+       height="20"
+       width="20"
+       y="218"
+       x="494"
+       ry="3"
+       rx="3"
+       id="task6" />
+    <rect
+       class="task done2"
+       transform-origin="557.5px 252px"
+       height="20"
+       width="107"
+       y="242"
+       x="504"
+       ry="3"
+       rx="3"
+       id="task7" />
+    <text
+       class="taskText taskText1  doneText1 width-74.86666870117188"
+       y="87.5"
+       x="301.33438"
+       font-size="11px"
+       id="task2-text">Neuroscience</text>
+    <text
+       class="taskText taskText1  doneText1 width-35.099998474121094"
+       y="111.5"
+       x="289.5"
+       font-size="11px"
+       id="maths-text">Maths</text>
+    <text
+       class="taskText taskText1  doneText1 width-43.75"
+       y="135.5"
+       x="329.5"
+       font-size="11px"
+       id="task3-text">Physics</text>
+    <text
+       class="taskTextOutsideRight taskTextOutside1  milestoneText width-93.5999984741211"
+       y="159.5"
+       x="412"
+       font-size="11px"
+       id="task4-text">BSc Hons. Maths</text>
+    <text
+       class="taskTextOutsideRight taskTextOutside1  doneText1 width-53.28333282470703"
+       y="183.5"
+       x="455"
+       font-size="11px"
+       id="task5-text">Research</text>
+    <text
+       class="taskText taskText1  doneText1 width-28.03333282470703"
+       y="207.5"
+       x="477"
+       font-size="11px"
+       id="tcol-text">TCol</text>
+    <text
+       class="taskTextOutsideLeft taskTextOutside1  milestoneText"
+       y="231.5"
+       x="484.86847"
+       font-size="11px"
+       id="task6-text">Post Grad. Dip. Teaching</text>
+    <text
+       class="taskTextOutsideLeft taskTextOutside2  doneText2"
+       y="255.5"
+       x="487.71317"
+       font-size="11px"
+       id="task7-text">Unlimited Paenga Tawhiti</text>
   </g>
-  <g>
-    <text class="sectionTitle sectionTitle0" font-size="11" y="62" x="10" dy="0em">
-      <tspan x="10" alignment-baseline="central"></tspan>
-    </text>
-    <text class="sectionTitle sectionTitle1" font-size="11" y="158" x="10" dy="0em">
-      <tspan x="10" alignment-baseline="central">University</tspan>
-    </text>
-    <text class="sectionTitle sectionTitle2" font-size="11" y="254" x="10" dy="0em">
-      <tspan x="10" alignment-baseline="central">Teaching</tspan>
-    </text>
+  <g
+     id="g1171"
+     style="display:inline"
+     transform="translate(7.2515473)">
+    <text
+       class="sectionTitle sectionTitle0"
+       font-size="11px"
+       y="62"
+       x="10"
+       dy="0em"
+       id="text1161"><tspan
+         x="10"
+         alignment-baseline="central"
+         id="tspan1159" /></text>
+    <text
+       class="sectionTitle sectionTitle1"
+       font-size="11px"
+       y="158"
+       x="10"
+       dy="0em"
+       id="text1165"><tspan
+         x="10"
+         alignment-baseline="central"
+         id="tspan1163">University</tspan></text>
+    <text
+       class="sectionTitle sectionTitle2"
+       font-size="11px"
+       y="254"
+       x="10"
+       dy="0em"
+       id="text1169"><tspan
+         x="10"
+         alignment-baseline="central"
+         id="tspan1167">Teaching</tspan></text>
   </g>
-  <g class="today">
-    <line class="today" y2="291" y1="25" x2="1430" x1="1430"></line>
+  <g
+     class="today"
+     id="g1175"
+     style="display:inline">
+    <line
+       class="today"
+       y2="291"
+       y1="25"
+       x2="1430"
+       x1="1430"
+       id="line1173" />
   </g>
-  <text class="titleText" y="25" x="343">2000s</text>
+  <text
+     class="titleText"
+     y="25"
+     x="343"
+     id="text1177"
+     style="display:inline">2000s</text>
 </svg>
