@@ -151,13 +151,16 @@ touch and I'll update <3
   <div class="quote">
     Had a ton of creative ideas, wrote new software to explore those ideas
         (either UI or backend modules), as well as documentation and
-        specifications. But I want to specifically highlight his people skills.
-        I can easily say that Mix was the heart of <a
-            href="/p/scuttlebutt">Scuttlebutt</a>. Dominic Tarr definitely
+        specifications.
+    But I want to specifically highlight his people skills. I can easily say
+        that Mix was the heart of <a href="/p/scuttlebutt">Scuttlebutt</a>
+    <!--
+        Dominic Tarr definitely
         created it, but Mix played a unique role that hardly anyone else did:
-        he welcomed and cared for every newcomer, was a mediator in
+    -->
+    - he welcomed and cared for every newcomer, was a mediator in
         discussions, proactively connected people outside with people inside,
-        and fostered collaboration across projects
+        and fostered collaboration across projects.
   </div>
 </div>
 
@@ -183,6 +186,28 @@ touch and I'll update <3
   <div class="quote">
     A kindred curiosity spirit. Asking questions, and enquiring. Often
     about stuff I have no clue about, but with a deep interest that I respect.
+  </div>
+</div>
+
+<div class="endorsement">
+  <a class="header" href="https://www.linkedin.com/in/ben-tairea/" >
+    <img class="avatar" src="avatar/ben.png" />
+    <div class="name">
+      Ben Tairea
+    </div>
+  </a>
+  <div class="quote">
+    An amazing developer, a great coordinator and communicator, and a good
+        friend.
+    I've had the privilege of working with Mix for the past 6 years building
+        complex systems, bridging the gap between culture and technology.
+    <!--
+    I have learnt from him, working at his side.
+    He was employed as our head of technology, but he also contributed to (and
+        at times led) finances, fundraising efforts and project management.
+    -->
+    He has helped shape not only the technology we built, but also the type of
+        organisation we wanted be.
   </div>
 </div>
 
@@ -251,10 +276,10 @@ Prefer to [Signal](https://signal.org/) if we're connected.
     justify-content: start;
     align-content: center;
     align-items: center;
-    grid-gap: 10px;
+    grid-gap: 5px;
 
     .avatar {
-      height: var(--avatar-size);
+      height: var(--avatar-size) !important;
       width: var(--avatar-size);
       border-radius: 50%;
     }
