@@ -211,6 +211,20 @@ touch and I'll update <3
   </div>
 </div>
 
+<div class="endorsement">
+  <a class="header" href="https://awana.digital/team/luandro-vieira" >
+    <img class="avatar" src="avatar/luandro.jpg" />
+    <div class="name">
+      Luandro Vieira
+    </div>
+  </a>
+  <div class="quote">
+    Mix knows how to unlock more than just encrypted systems, he unlocks
+        potential in people. With the mind of an engineer and the heart of a
+        community gardener, he never enters alone. He brings others with him,
+        opening paths that change lives. Mine was one of them.
+  </div>
+</div>
 <!--
 <div class="endorsement">
   <a class="header" href="" >
