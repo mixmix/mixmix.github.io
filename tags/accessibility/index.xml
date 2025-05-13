@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Accessibility on mixmix</title><link>https://mixmix.nz/tags/accessibility/</link><description>Recent content in Accessibility on mixmix</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 01 Jul 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://mixmix.nz/tags/accessibility/index.xml" rel="self" type="application/rss+xml"/><item><title>Dark Crystal</title><link>https://mixmix.nz/p/dark-crystal/</link><pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate><guid>https://mixmix.nz/p/dark-crystal/</guid><description>&lt;img src="https://mixmix.nz/p/dark-crystal/logo.jpeg" alt="Featured image of post Dark Crystal" />&lt;h2 id="about">About
+&lt;/h2>&lt;p>Some friends and I were exploring blockers to cryptocurrency being accessible
+and identified that &amp;ldquo;recovery&amp;rdquo; (of secrets) was perhaps the number 1 challenge.&lt;/p>
+&lt;p>In 2017 I&amp;rsquo;d messed around with &lt;a class="link" href="https://en.wikipedia.org/wiki/Shamir%27s_secret_sharing" target="_blank" rel="noopener"
+>Shamir&amp;rsquo;s secret sharing&lt;/a>, and we noticed that we could use this concept in concert with a social network in order to safely store backups. Here&amp;rsquo;s some art I made describing the process:&lt;/p>
+&lt;p>
+&lt;img src="https://mixmix.nz/p/dark-crystal/shard_1.jpeg"
+width="1455"
+height="983"
+srcset="https://mixmix.nz/p/dark-crystal/shard_1_hu_39abd9f4f94a9295.webp 480w, https://mixmix.nz/p/dark-crystal/shard_1_hu_a49e3fdf060344d5.webp 1024w"
+loading="lazy"
+alt="1. sharding and distributing"
+class="gallery-image"
+data-flex-grow="148"
+data-flex-basis="355px"
+>
+&lt;img src="https://mixmix.nz/p/dark-crystal/shard_2.jpeg"
+width="1455"
+height="983"
+srcset="https://mixmix.nz/p/dark-crystal/shard_2_hu_9b83a731016bb4b0.webp 480w, https://mixmix.nz/p/dark-crystal/shard_2_hu_457977bb19bd5d86.webp 1024w"
+loading="lazy"
+alt="2. recovering shards"
+class="gallery-image"
+data-flex-grow="148"
+data-flex-basis="355px"
+>
+&lt;img src="https://mixmix.nz/p/dark-crystal/shard_3.jpeg"
+width="837"
+height="829"
+srcset="https://mixmix.nz/p/dark-crystal/shard_3_hu_2b06717730b294da.webp 480w, https://mixmix.nz/p/dark-crystal/shard_3_hu_bfade4133bf923a1.webp 1024w"
+loading="lazy"
+alt="3. recombining shards"
+class="gallery-image"
+data-flex-grow="100"
+data-flex-basis="242px"
+>
+&lt;img src="https://mixmix.nz/p/dark-crystal/shard_4.jpeg"
+width="869"
+height="977"
+srcset="https://mixmix.nz/p/dark-crystal/shard_4_hu_75e33fa8a98c0b32.webp 480w, https://mixmix.nz/p/dark-crystal/shard_4_hu_8bd4c7fefdc19db5.webp 1024w"
+loading="lazy"
+alt="4. secret recovered"
+class="gallery-image"
+data-flex-grow="88"
+data-flex-basis="213px"
+>
+&lt;/p>
+&lt;p>We designed a protocol, wrote a specification, and implemented a prototype in Scuttlebutt (a social p2p/ local-first social network).&lt;/p>
+&lt;p>
+&lt;img src="https://mixmix.nz/p/dark-crystal/screenshot.jpeg"
+width="1039"
+height="856"
+srcset="https://mixmix.nz/p/dark-crystal/screenshot_hu_9fbb42d6445f1681.webp 480w, https://mixmix.nz/p/dark-crystal/screenshot_hu_73c33225e024c39a.webp 1024w"
+loading="lazy"
+alt="Dark Crystal in Patchbay"
+class="gallery-image"
+data-flex-grow="121"
+data-flex-basis="291px"
+>
+&lt;/p>
+&lt;p>We presented our work at &lt;a class="link" href="https://www.youtube.com/watch?v=pOloj658DtQ" target="_blank" rel="noopener"
+>DevCon 4&lt;/a>
+and this led to grants from the Ethereum Foundation, further iterations on
+protocol, user-research, partnership with Briar, a java implementation and more.&lt;/p>
+&lt;h2 id="technical">Technical
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Library&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;a class="link" href="https://github.com/blockades/scuttle-dark-crystal" target="_blank" rel="noopener"
+>scuttle-dark-crystal&lt;/a>&lt;/td>
+&lt;td>Raw function for running Dark Crystal over Scuttlebutt&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a class="link" href="https://github.com/blockades/patchbay-dark-crystal" target="_blank" rel="noopener"
+>patchbay-dard-crystal&lt;/a>&lt;/td>
+&lt;td>plugin for &lt;a class="link" href="https://mixmix.nz/p/patchbay" >Patchbay&lt;/a> (a Scuttlebutt client)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item></channel></rss>
