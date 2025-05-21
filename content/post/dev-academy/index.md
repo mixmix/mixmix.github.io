@@ -1,6 +1,6 @@
 ---
 title: Dev Academy Aotearoa
-description: Distributed threshold signing, smart contracts
+description: Making the tech sector more accessible through intensive, highly supported short courses.
 date: 2017-05-01
 slug: dev-academy
 image: logo.svg
