@@ -69,7 +69,6 @@ main {
 
     details {
       summary {
-        /* display: inline-text; */
         &::marker {
         }
         h2,h3 {
@@ -94,7 +93,6 @@ main {
     max-width: var(--max-width);
     margin-top: auto;
   }
-
 }
 
 

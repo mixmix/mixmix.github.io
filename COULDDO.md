@@ -16,9 +16,14 @@
     - intro project here
     - own website
 
+## Hobbies
+
+
 ## Patterns
 
-- social-spells
+- invocation
+- spell-casting
+    - mundane magic
     - check scuttlebutt
 - ice-cream licence
 - cybernetic-sovereignty
