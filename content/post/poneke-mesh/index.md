@@ -5,7 +5,7 @@ date: 2025-05-05
 slug: poneke-mesh
 image: cover.png
 categories:
-  - invocation
+  - invocations
 tags:
   - Pōneke
   - Peer-2-Peer
@@ -107,10 +107,9 @@ community
 | Smart phone | _screen + keyboard_ | BYO |
 | [SenseCAP T1000e](https://www.seeedstudio.com/SenseCAP-Card-Tracker-T1000-E-for-Meshtastic-p-5913.html) | _LoRa radio_ |  $40 USD + shipping | 
 
-The T1000e is the device my community is recommending. I've played with one for
-a morning and was **very** impressed -- it works out of the box, required only a
-little setup, and there was no command-line hacking. You connect to it via
-Bluetooth and it takes care of all the LoRa stuff.
+The T1000e is the device I'm recommending. It works out of the box, requires
+only a little setup, and there was no command-line hacking. You connect to it
+via Bluetooth and it takes care of all the LoRa stuff.
 
 NOTE: you need 1 x T1000e per person
 
@@ -137,18 +136,120 @@ the network - there is functionality for public messages, private group chat
 ![Config](meshtastic-config.jpg)
 
 
-### Steps
+### Setup
 
-For detailed guides see:
+1. Install Meshtastic from an app-store
+2. Power on your T1000e
+    - push the center of the raised circle → :musical_note:
+3. Pair your phone
+    - turn on Bluetooth
+    - open the Meshtastic App
+    - go to Config :gear: tab (far-right)
+    - push the **(+)** at bottom-right
+    - select your device, use default PIN `123456`
+4. Set the spectrum
+    - go to the Config :gear: tab
+    - open the "Region" dropdown, and pick `ANZ`
+    - the device will restart → :musical_note:
+5. Get channel config from a friend
+    - Wellington uses public channel "ShortFast"
+
+### Setup -- optional extras
+
+<details>
+  <summary>Set your name</summary>
+
+  1. Push the vertical ellipsis **⋮** (top-right)
+  2. Select "Radio Config"
+  3. Open "User >"
+  4. Set your name
+      - Long name: publicly visible name
+      - Short name: publicly visible name, limited to 4 characters
+  5. Push "Send"
+      - wait for device to restart → :musical_note:
+
+  :warning: use a name other than your full legal name. Recommended because the device
+  by default reveals your approximate position (within 100m)
+
+</details>
+
+<details>
+  <summary>Turn off that beep!</summary>
+
+  When you receive a new message, the default behaviour of the Sensecap is
+  for it to beep repeatedly. You can dismiss that beeping by pushing the power
+  button on the Sensecap once.
+
+  If dislike beeps (and are happy with just notifications on your phone):
+
+  1. Push the vertical ellipsis **⋮** (top-right)
+  2. Select "Radio Config"
+  3. Open "External Notification >"
+  4. Toggle "External notification enabled" to "off"
+  5. Push "Send"
+      - wait for device to restart → :musical_note:
+
+</details>
+
+<details>
+  <summary>Change your Position settings</summary>
+
+  By default this device broadcasts your approximate position (within 100m).
+  You can change this up or down depending on your context (safety/ privacy).
+
+  1. Push the vertical ellipsis **⋮** (top-right)
+  2. Select "Radio Config"
+  3. Open "Position >"
+  4. Change "Smart broadcast minimum distance (meters)"
+      - the default is 100
+  5. Push "Send"
+      - wait for device to restart → :musical_note:
+
+</details>
+
+
+## Important Info
+
+**Message delivery is not guaranteed.** There are several ways a message may not
+make it to the person you want it to:
+
+1. Your device is not in range of any other
+   - e.g. you are alone in an isolated valley
+   - e.g. there are heaps of buildings blocking you in
+2. There is no pathway from you to your friend
+   - your message makes it to another device, is passed on, ... but doesn't
+make it as far as your intended recipient
+
+Missing messages is a side-effect of Meshtastics approach to replicating data.
+Not all mesh systems have this problem, and this is a space that is being
+[actively researched](/p/tiny-ssb).
+
+The design of Meshtastic does let you see **some** information about delivery:
+
+### Direct Message Delivery
+
+In the case of direct messages, there are 4 symbols you see
+- **sending** -- a cloud :cloud:
+- **picked up by mesh** -- a cloud :cloud: + :heavy_check_mark:
+- **delivery confirmed** -- a person :bust_in_silhouette: + :heavy_check_mark:
+- **error?** -- a cloud :cloud: with a line through it
+
+
+### Group Chat Delivery
+
+In group chats it is much less clear. You may get some confirmation of delivery,
+but I would only trust this to mean it was acknowledged by *some member* of that
+group.
+
+You should discuss with your community what your protocol is for adapting to
+this. A simple one would be to put thumbs-up on messages that have been
+received.
+
+
+## Documentation
+
 - :link: [Official T1000e docs](https://wiki.seeedstudio.com/sensecap_t1000_e/)
 - :link: [Meshtastic config](https://meshtastic.org/docs/getting-started/initial-config/)
-
-Rough overview you can probably get away with:
-1. Install Meshtastic from an app-store
-2. Unbox and power on your T1000e
-3. Bluetooth pair your phone + T1000e (default pin: `123456`)
-4. Open Meshtastic and configure your T1000e to `ANZ` radio spectrum
-5. _push all the buttons_...
 
 
 ## FAQ
@@ -168,8 +269,9 @@ both be see to other mesh nodes as the same author.
 
 :construction: Under construction
 
-![](LoRa-case.jpg)
-![](LoRa-case.inside.jpg)
+
+![A Meshtastic device made by Julian](LoRa-case.jpg)
+![Inside, mostly battery + chips](LoRa-case.inside.jpg)
 
 
 
