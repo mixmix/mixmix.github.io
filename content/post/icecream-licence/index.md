@@ -1,6 +1,6 @@
 ---
 title: Icecream Licence
-# description: 
+description: How a conversation about icecream led me to a harmonious, agency-enhancing way of working my my kids.
 # slug:
 date: 2025-05-31 00:00:00+0000
 image: cover.png
