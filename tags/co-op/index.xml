@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Co-Op on mixmix</title><link>https://mixmix.nz/tags/co-op/</link><description>Recent content in Co-Op on mixmix</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 13 Sep 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://mixmix.nz/tags/co-op/index.xml" rel="self" type="application/rss+xml"/><item><title>Co-op source</title><link>https://mixmix.nz/p/co-op-source/</link><pubDate>Wed, 13 Sep 2017 00:00:00 +0000</pubDate><guid>https://mixmix.nz/p/co-op-source/</guid><description>&lt;img src="https://mixmix.nz/p/co-op-source/cover.jpg" alt="Featured image of post Co-op source" />&lt;p>&lt;em>&lt;a class="link" href="https://www.protozoa.nz" target="_blank" rel="noopener"
+>Protozoa&lt;/a> is a tech coop, and we write open source code.
+This is a little bit about what that means, and how open source is the foundation on which we&amp;rsquo;re building an aspirational future.&lt;/em>&lt;/p>
+&lt;p>I recently published a new feauture for &lt;a class="link" href="https://github.com/ssbc/patchbay" target="_blank" rel="noopener"
+>Patchbay&lt;/a> - an open source project I maintain.
+It allows you to easily @-mention people in the &lt;a class="link" href="https://www.scuttlebutt.nz" target="_blank" rel="noopener"
+>scuttleverse&lt;/a>.
+This isn&amp;rsquo;t straightforward because it&amp;rsquo;s a decentralised space where identity is subjective - many people have more than one use-name. (I gave &lt;a class="link" href="https://www.youtube.com/watch?v=P5K18XssVBg" target="_blank" rel="noopener"
+>a whole talk on subjectiviy here&lt;/a>).&lt;/p>
+&lt;p>
+&lt;img src="https://mixmix.nz/p/co-op-source/at_mention.png"
+width="831"
+height="420"
+srcset="https://mixmix.nz/p/co-op-source/at_mention_hu_b042009e5ebbc0d8.webp 480w, https://mixmix.nz/p/co-op-source/at_mention_hu_7004cd0a1b9a177f.webp 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="197"
+data-flex-basis="474px"
+>
+&lt;/p>
+&lt;p>&lt;em>I mention Mikey by a name that people in our coding context will be familiar with (dinosaur).&lt;/em>&lt;/p>
+&lt;blockquote>
+&lt;p>Why is this significant?&lt;/p>&lt;/blockquote>
+&lt;p>I&amp;rsquo;m proud of this feature, but the more important parts of this story are the open source and the cooperative culture making this possible.&lt;/p>
+&lt;h2 id="open-source">Open source
+&lt;/h2>&lt;p>Over the next couple of days, I&amp;rsquo;m going to generalise this code into a &lt;em>module&lt;/em> called &lt;code>patch-mentions&lt;/code>.
+Then I&amp;rsquo;m going to propose changes to Patchbay, and a sister project called &lt;a class="link" href="https://github.com/ssbc/patchwork" target="_blank" rel="noopener"
+>Patchwork&lt;/a> so that they use use this new module.&lt;/p>
+&lt;p>That way everyone gets the new functionality, and when we find bugs in what I&amp;rsquo;ve done, we&amp;rsquo;ll all benefit from the solution.
+I&amp;rsquo;ll also be able to use this in subsequent contracting work - a massive speed and reliability boost for myself and for clients.&lt;/p>
+&lt;p>(I&amp;rsquo;ve actually already done this with a couple of other modules &lt;code>patch-profile&lt;/code> (an easy profile editor) and &lt;code>patch-settings&lt;/code> (which manages client preference settings).&lt;/p>
+&lt;p>If you&amp;rsquo;re talking to a programmer about what excites them about open source, this is probably the heart of it.
+Every time someone generously shares their work, we save hours / days / weeks of work, and are able to channel these savings into things that matter - like making more accessible interfaces, or building a feature to flag abusive actors (next on my todo list).&lt;/p>
+&lt;h2 id="cooperatives">Cooperatives
+&lt;/h2>&lt;p>Protozoa is a worker owner cooperative.
+While I&amp;rsquo;m writing this, Piet and Dominic are hard at work on different things - contract work, and forming collaborations with other decentralised projects (we&amp;rsquo;re currently crushing on the &lt;a class="link" href="https://economicspace.agency/" target="_blank" rel="noopener"
+>Economic Space Agency&lt;/a> a bit).&lt;/p>
+&lt;p>For us, contributing to the commons is an important part of our work - it makes all our future work better, and helps build working relationships with other excellent humans.&lt;/p>
+&lt;p>Here&amp;rsquo;s an example of that:&lt;/p>
+&lt;p>
+&lt;img src="https://mixmix.nz/p/co-op-source/protoflip.png"
+width="854"
+height="262"
+srcset="https://mixmix.nz/p/co-op-source/protoflip_hu_533881b1adfb0007.webp 480w, https://mixmix.nz/p/co-op-source/protoflip_hu_176e883704b4789b.webp 1024w"
+loading="lazy"
+alt="protoflip"
+class="gallery-image"
+data-flex-grow="325"
+data-flex-basis="782px"
+>
+&lt;/p>
+&lt;p>&lt;a class="link" href="https://tableflip.io/" target="_blank" rel="noopener"
+>Tableflip&lt;/a> are a UK based tech coop we&amp;rsquo;ve been working with.
+We met them through the scuttleverse and this is a calendar invite to a catchup planning more work in the future.
+By working together, we&amp;rsquo;re able to work on bigger and more exciting projects with the confidence that we can expand to support each other.&lt;/p>
+&lt;p>The cal invite here is another tool we built is called &lt;code>gatherings&lt;/code>.
+It&amp;rsquo;s a module Piet and I made to enable more community interaction.
+Other gatherings I&amp;rsquo;ve seen in the past week in include &amp;ldquo;Art~Hack Wellington: decommidify your creativity&amp;rdquo;, &amp;ldquo;Westhaven Car Boot sale&amp;rdquo;, and &amp;ldquo;Bad Ukulele Club&amp;rdquo;.&lt;/p>
+&lt;p>It feels amazing to have been able to support more connections between people, and to be doing business in a values aligned space - I honestly don&amp;rsquo;t know TableFlip&amp;rsquo;s email addresses&amp;hellip;&lt;/p>
+&lt;p>
+&lt;img src="https://mixmix.nz/p/co-op-source/protozoa_logo.png"
+width="829"
+height="155"
+srcset="https://mixmix.nz/p/co-op-source/protozoa_logo_hu_468376b443bd6ad8.webp 480w, https://mixmix.nz/p/co-op-source/protozoa_logo_hu_df6cac19689adb84.webp 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="534"
+data-flex-basis="1283px"
+>
+&lt;/p>
+&lt;p>&lt;em>If you&amp;rsquo;re an excellent human with a rad project you&amp;rsquo;d like to collaborate on, we&amp;rsquo;d love to hear from you. I&amp;rsquo;m &lt;a class="link" href="mailto:mix@protozoa.nz" >mix@protozoa.nz&lt;/a>, or you can join the scuttleverse from &lt;a class="link" href="https://www.scuttlebutt.nz" target="_blank" rel="noopener"
+>scuttlebutt.nz&lt;/a>&lt;/em>&lt;/p></description></item><item><title>Protozoa</title><link>https://mixmix.nz/p/protozoa/</link><pubDate>Wed, 03 May 2017 00:00:00 +0000</pubDate><guid>https://mixmix.nz/p/protozoa/</guid><description>&lt;img src="https://mixmix.nz/p/protozoa/cover.jpg" alt="Featured image of post Protozoa" />&lt;blockquote>
+&lt;p>⏳ 2017 &amp;ndash; ongoing &lt;br />&lt;/p>&lt;/blockquote>
+&lt;h2 id="about">About
+&lt;/h2>&lt;p>Protozoa is a Cooperative Company registered in New Zealand. It was established
+by 3 friends as a way to work flexibly with great people, on important problems.&lt;/p>
+&lt;p>Over the course of it&amp;rsquo;s existence Protozoa has run in a bunch of ways to support
+these goals:&lt;/p>
+&lt;ul>
+&lt;li>full income sharing&lt;/li>
+&lt;li>peer mentoring&lt;/li>
+&lt;li>supporting immigration from hostile countries (USA)&lt;/li>
+&lt;li>accessing mortgages by providing more fiscal legibility to banks easily&lt;/li>
+&lt;/ul>
+&lt;p>I was a founding member of the Cooperative. Over the years many different people
+have been contributors or owners we&amp;rsquo;ve grown to 5
+co-owners.&lt;/p>
+&lt;h2 id="pro-bono-work">Pro Bono work
+&lt;/h2>&lt;p>Through collective power we&amp;rsquo;ve also been able to resource some contributions to
+community that I&amp;rsquo;m really proud of. Including but not limited to:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Conference Organising&lt;/strong>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://dwebcamp.org/" target="_blank" rel="noopener"
+>Dweb Camp&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://one.camp.scuttlebutt.nz/" target="_blank" rel="noopener"
+>ScuttleCamp&lt;/a> &lt;!-- TODO split out project -->&lt;/li>
+&lt;li>&lt;a class="link" href="https://mixmix.nz/p/decent-social" >Decent Social&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Diversity, Equity, and Inclusion&lt;/strong>
+&lt;ul>
+&lt;li>grant fundraising&lt;/li>
+&lt;li>design + execution of scholarships&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.tauiwitautoko.com/" target="_blank" rel="noopener"
+>Tauiwi Tautoko&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Community Grant Management&lt;/strong>
+&lt;ul>
+&lt;li>SSBC Dfinity Grants&lt;/li>
+&lt;li>&lt;a class="link" href="https://opencollective.com/scuttlebutt-maintenance" target="_blank" rel="noopener"
+>Scuttlebutt Maintenance&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://opencollective.com/scuttlebutt-grantwriting" target="_blank" rel="noopener"
+>Scuttlebutt Grantwriting&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="alumni">Alumni
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Up to now&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;a class="link" href="https://dominictarr.com/" target="_blank" rel="noopener"
+>Dominic Tarr&lt;/a>&lt;/td>
+&lt;td>sailing the seas&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a class="link" href="https://pietgeursen.github.io/" target="_blank" rel="noopener"
+>Piet Geursen&lt;/a>&lt;/td>
+&lt;td>working on fusion with &lt;a class="link" href="https://www.openstar.tech/" target="_blank" rel="noopener"
+>Open Star&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a class="link" href="https://www.alanna.space/" target="_blank" rel="noopener"
+>Alanna Irving&lt;/a>&lt;/td>
+&lt;td>reforming NZ Lotteries processes within &lt;a class="link" href="https://www.dia.govt.nz/" target="_blank" rel="noopener"
+>DIA&lt;/a>, launching &lt;a class="link" href="https://www.fundsorter.com/" target="_blank" rel="noopener"
+>Fundsorter&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ember Buck&lt;/td>
+&lt;td>unknown!&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Loomio</title><link>https://mixmix.nz/p/loomio/</link><pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate><guid>https://mixmix.nz/p/loomio/</guid><description>&lt;img src="https://mixmix.nz/p/loomio/nanz-graphic.png" alt="Featured image of post Loomio" />&lt;h2 id="about">About
+&lt;/h2>&lt;p>Loomio was a project born out of the Occupy Wallstreet movement meeting
+&lt;a class="link" href="www.enspiral.com" >Enspiral&lt;/a>. It&amp;rsquo;s a open source tool which supports
+decision making - specifically timely, iterative, consensus/consent building
+process, with a focus on clearly stated (and archival) records of results.&lt;/p>
+&lt;p>
+&lt;img src="https://mixmix.nz/p/loomio/app.png"
+width="600"
+height="329"
+srcset="https://mixmix.nz/p/loomio/app_hu_3ae81cc6276c80d.webp 480w, https://mixmix.nz/p/loomio/app_hu_4093fe33442188c8.webp 1024w"
+loading="lazy"
+alt="A peek into the mobile app (old ui)"
+class="gallery-image"
+data-flex-grow="182"
+data-flex-basis="437px"
+>
+&lt;/p>
+&lt;p>Read about all the places this tool has been used on the &lt;a class="link" href="https://www.loomio.com/blog" target="_blank" rel="noopener"
+>blog&lt;/a>&lt;/p>
+&lt;h2 id="relationship">Relationship
+&lt;/h2>&lt;p>I was a member-owner of the cooperative that formed around building this, a
+programmer, a coordinator of translation, a
+&lt;a class="link" href="https://www.loomio.com/blog/2013/10/30/our-people-scrum-master-mix/" target="_blank" rel="noopener"
+>scrum-master&lt;/a>.&lt;/p>
+&lt;p>This was my first major FOSS (Open Source) project, my first cooperative experience.
+I was transformed forever by the commitment to values aligned technology, investment, ownership,
+group processes.&lt;/p>
+&lt;p>
+&lt;img src="https://mixmix.nz/p/loomio/party.jpg"
+width="3000"
+height="2000"
+srcset="https://mixmix.nz/p/loomio/party_hu_8df8ace8b53f877.webp 480w, https://mixmix.nz/p/loomio/party_hu_2ff868252f21e483.webp 1024w"
+loading="lazy"
+alt="The Loomio team (and friends) circa 2013"
+class="gallery-image"
+data-flex-grow="150"
+data-flex-basis="360px"
+>
+&lt;/p>
+&lt;p>This project brought me into contact with collectives in New Zealand, and
+around the world. I also worked with activists who volunteered translating
+Loomio into their native languages &amp;ndash; people working to grow collective power,
+support better discourse, bolster democracy.&lt;/p>
+&lt;p>&lt;strong>Tech I worked with&lt;/strong>: Ruby on Rails, Javascript, NodeJS, i18n, and Amazon S3.&lt;/p>
+&lt;p>
+&lt;img src="https://mixmix.nz/p/loomio/mix-drawing.jpg"
+width="1000"
+height="293"
+srcset="https://mixmix.nz/p/loomio/mix-drawing_hu_b027179ffb45e5a2.webp 480w, https://mixmix.nz/p/loomio/mix-drawing_hu_7ca76e03b5a5be5b.webp 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="341"
+data-flex-basis="819px"
+>
+&lt;/p></description></item></channel></rss>
