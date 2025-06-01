@@ -1,0 +1,1047 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   aria-roledescription="gantt"
+   role="graphics-document document"
+   viewBox="0 0 640 484"
+   width="640"
+   id="mermaid-1744596919720"
+   version="1.1"
+   sodipodi:docname="2020s.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   height="484"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs924" />
+  <sodipodi:namedview
+     id="namedview922"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="2.0860058"
+     inkscape:cx="340.36338"
+     inkscape:cy="242.32914"
+     inkscape:window-width="2560"
+     inkscape:window-height="1393"
+     inkscape:window-x="0"
+     inkscape:window-y="22"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="mermaid-1744596919720" />
+  <!-- custom -->
+  <style
+     id="style761">
+    :root {
+      /* from https://colorhunt.co/palette/fcffc1ffe893fbb4a5fb9ec6 */
+      --university: #FCFFC1;
+      --teaching: #FFE893;
+      --social-ent: #FBB4A5;
+      --contracting: #FB9EC6;
+    }
+
+    .section {
+      opacity: 0.5 !important;
+    }
+
+    /* 2000s */
+      /* filler */
+      #mermaid-1744597946320 .section0 {
+        fill: none !important;
+      }
+      #mermaid-1744597946320 .milestone.task0,
+      #mermaid-1744597946320 #task1-text.milestoneText
+      {
+        display: none; 
+      }
+
+      #mermaid-1744597946320 .section1 {
+        fill: var(--university) !important;
+      }
+
+      #mermaid-1744597946320 .section2 {
+        fill: var(--teaching) !important;
+      }
+
+    /* 2010s */
+      #mermaid-1744596835074 .section0 {
+        fill: var(--teaching) !important;
+      }
+      #mermaid-1744596835074 .section1 {
+        fill: var(--university) !important;
+      }
+      #mermaid-1744596835074 .section2 {
+        fill: var(--social-ent) !important;
+      }
+      #mermaid-1744596835074 .section3 {
+        fill: var(--contracting) !important;
+      }
+
+    /* 2020s */
+      #mermaid-1744596919720 .section0 {
+        fill: var(--social-ent) !important;
+      }
+      #mermaid-1744596919720 .section1 {
+        fill: var(--contracting) !important;
+      }
+  </style>
+  <style
+     id="style763">
+    #mermaid-1744596919720 {
+      font-family: &quot;trebuchet ms&quot;, verdana, arial, sans-serif;
+      font-size: 16px;
+      fill: #333;
+    }
+
+    #mermaid-1744596919720 .error-icon {
+      fill: #552222;
+    }
+
+    #mermaid-1744596919720 .error-text {
+      fill: #552222;
+      stroke: #552222;
+    }
+
+    #mermaid-1744596919720 .edge-thickness-normal {
+      stroke-width: 2px;
+    }
+
+    #mermaid-1744596919720 .edge-thickness-thick {
+      stroke-width: 3.5px;
+    }
+
+    #mermaid-1744596919720 .edge-pattern-solid {
+      stroke-dasharray: 0;
+    }
+
+    #mermaid-1744596919720 .edge-pattern-dashed {
+      stroke-dasharray: 3;
+    }
+
+    #mermaid-1744596919720 .edge-pattern-dotted {
+      stroke-dasharray: 2;
+    }
+
+    #mermaid-1744596919720 .marker {
+      fill: #333333;
+      stroke: #333333;
+    }
+
+    #mermaid-1744596919720 .marker.cross {
+      stroke: #333333;
+    }
+
+    #mermaid-1744596919720 svg {
+      font-family: &quot;trebuchet ms&quot;, verdana, arial, sans-serif;
+      font-size: 16px;
+    }
+
+    #mermaid-1744596919720 .mermaid-main-font {
+      font-family: var(--mermaid-font-family, &quot;trebuchet ms&quot;, verdana, arial, sans-serif);
+    }
+
+    #mermaid-1744596919720 .exclude-range {
+      fill: #eeeeee;
+    }
+
+    #mermaid-1744596919720 .section {
+      stroke: none;
+      opacity: 0.2;
+    }
+
+    #mermaid-1744596919720 .section0 {
+      fill: rgba(102, 102, 255, 0.49);
+    }
+
+    #mermaid-1744596919720 .section2 {
+      fill: #fff400;
+    }
+
+    #mermaid-1744596919720 .section1,
+    #mermaid-1744596919720 .section3 {
+      fill: white;
+      opacity: 0.2;
+    }
+
+    #mermaid-1744596919720 .sectionTitle0 {
+      fill: #333;
+    }
+
+    #mermaid-1744596919720 .sectionTitle1 {
+      fill: #333;
+    }
+
+    #mermaid-1744596919720 .sectionTitle2 {
+      fill: #333;
+    }
+
+    #mermaid-1744596919720 .sectionTitle3 {
+      fill: #333;
+    }
+
+    #mermaid-1744596919720 .sectionTitle {
+      text-anchor: start;
+      font-family: var(--mermaid-font-family, &quot;trebuchet ms&quot;, verdana, arial, sans-serif);
+    }
+
+    #mermaid-1744596919720 .grid .tick {
+      stroke: lightgrey;
+      opacity: 0.8;
+      shape-rendering: crispEdges;
+    }
+
+    #mermaid-1744596919720 .grid .tick text {
+      font-family: &quot;trebuchet ms&quot;, verdana, arial, sans-serif;
+      fill: #333;
+    }
+
+    #mermaid-1744596919720 .grid path {
+      stroke-width: 0;
+    }
+
+    #mermaid-1744596919720 .today {
+      fill: none;
+      stroke: red;
+      stroke-width: 2px;
+    }
+
+    #mermaid-1744596919720 .task {
+      stroke-width: 2;
+    }
+
+    #mermaid-1744596919720 .taskText {
+      text-anchor: middle;
+      font-family: var(--mermaid-font-family, &quot;trebuchet ms&quot;, verdana, arial, sans-serif);
+    }
+
+    #mermaid-1744596919720 .taskTextOutsideRight {
+      fill: black;
+      text-anchor: start;
+      font-family: var(--mermaid-font-family, &quot;trebuchet ms&quot;, verdana, arial, sans-serif);
+    }
+
+    #mermaid-1744596919720 .taskTextOutsideLeft {
+      fill: black;
+      text-anchor: end;
+    }
+
+    #mermaid-1744596919720 .task.clickable {
+      cursor: pointer;
+    }
+
+    #mermaid-1744596919720 .taskText.clickable {
+      cursor: pointer;
+      fill: #003163 !important;
+      font-weight: bold;
+    }
+
+    #mermaid-1744596919720 .taskTextOutsideLeft.clickable {
+      cursor: pointer;
+      fill: #003163 !important;
+      font-weight: bold;
+    }
+
+    #mermaid-1744596919720 .taskTextOutsideRight.clickable {
+      cursor: pointer;
+      fill: #003163 !important;
+      font-weight: bold;
+    }
+
+    #mermaid-1744596919720 .taskText0,
+    #mermaid-1744596919720 .taskText1,
+    #mermaid-1744596919720 .taskText2,
+    #mermaid-1744596919720 .taskText3 {
+      fill: white;
+    }
+
+    #mermaid-1744596919720 .task0,
+    #mermaid-1744596919720 .task1,
+    #mermaid-1744596919720 .task2,
+    #mermaid-1744596919720 .task3 {
+      fill: #8a90dd;
+      stroke: #534fbc;
+    }
+
+    #mermaid-1744596919720 .taskTextOutside0,
+    #mermaid-1744596919720 .taskTextOutside2 {
+      fill: black;
+    }
+
+    #mermaid-1744596919720 .taskTextOutside1,
+    #mermaid-1744596919720 .taskTextOutside3 {
+      fill: black;
+    }
+
+    #mermaid-1744596919720 .active0,
+    #mermaid-1744596919720 .active1,
+    #mermaid-1744596919720 .active2,
+    #mermaid-1744596919720 .active3 {
+      fill: #bfc7ff;
+      stroke: #534fbc;
+    }
+
+    #mermaid-1744596919720 .activeText0,
+    #mermaid-1744596919720 .activeText1,
+    #mermaid-1744596919720 .activeText2,
+    #mermaid-1744596919720 .activeText3 {
+      fill: black !important;
+    }
+
+    #mermaid-1744596919720 .done0,
+    #mermaid-1744596919720 .done1,
+    #mermaid-1744596919720 .done2,
+    #mermaid-1744596919720 .done3 {
+      stroke: grey;
+      fill: lightgrey;
+      stroke-width: 2;
+    }
+
+    #mermaid-1744596919720 .doneText0,
+    #mermaid-1744596919720 .doneText1,
+    #mermaid-1744596919720 .doneText2,
+    #mermaid-1744596919720 .doneText3 {
+      fill: black !important;
+    }
+
+    #mermaid-1744596919720 .crit0,
+    #mermaid-1744596919720 .crit1,
+    #mermaid-1744596919720 .crit2,
+    #mermaid-1744596919720 .crit3 {
+      stroke: #ff8888;
+      fill: red;
+      stroke-width: 2;
+    }
+
+    #mermaid-1744596919720 .activeCrit0,
+    #mermaid-1744596919720 .activeCrit1,
+    #mermaid-1744596919720 .activeCrit2,
+    #mermaid-1744596919720 .activeCrit3 {
+      stroke: #ff8888;
+      fill: #bfc7ff;
+      stroke-width: 2;
+    }
+
+    #mermaid-1744596919720 .doneCrit0,
+    #mermaid-1744596919720 .doneCrit1,
+    #mermaid-1744596919720 .doneCrit2,
+    #mermaid-1744596919720 .doneCrit3 {
+      stroke: #ff8888;
+      fill: lightgrey;
+      stroke-width: 2;
+      cursor: pointer;
+      shape-rendering: crispEdges;
+    }
+
+    #mermaid-1744596919720 .milestone {
+      transform: rotate(45deg) scale(0.8, 0.8);
+    }
+
+    #mermaid-1744596919720 .milestoneText {
+      font-style: italic;
+    }
+
+    #mermaid-1744596919720 .doneCritText0,
+    #mermaid-1744596919720 .doneCritText1,
+    #mermaid-1744596919720 .doneCritText2,
+    #mermaid-1744596919720 .doneCritText3 {
+      fill: black !important;
+    }
+
+    #mermaid-1744596919720 .activeCritText0,
+    #mermaid-1744596919720 .activeCritText1,
+    #mermaid-1744596919720 .activeCritText2,
+    #mermaid-1744596919720 .activeCritText3 {
+      fill: black !important;
+    }
+
+    #mermaid-1744596919720 .titleText {
+      text-anchor: middle;
+      font-size: 18px;
+      fill: #333;
+      font-family: var(--mermaid-font-family, &quot;trebuchet ms&quot;, verdana, arial, sans-serif);
+    }
+
+    #mermaid-1744596919720 :root {
+      --mermaid-font-family: &quot;trebuchet ms&quot;, verdana, arial, sans-serif;
+    }
+  </style>
+  <g
+     id="g765" />
+  <g
+     text-anchor="middle"
+     font-family="sans-serif"
+     font-size="10px"
+     fill="none"
+     transform="translate(75,434)"
+     class="grid"
+     id="g835">
+    <path
+       d="M 0.5,-399 V 0.5 h 536 V -399"
+       stroke="currentColor"
+       class="domain"
+       id="path767" />
+    <g
+       transform="translate(0.5)"
+       opacity="1"
+       class="tick"
+       id="g773">
+      <line
+         y2="-399"
+         stroke="currentColor"
+         id="line769"
+         x1="0"
+         y1="0"
+         x2="0" />
+      <text
+         font-size="10px"
+         stroke="none"
+         style="text-anchor:middle"
+         dy="1em"
+         y="3"
+         fill="#000000"
+         id="text771">2020</text>
+    </g>
+    <g
+       transform="translate(54.5)"
+       opacity="1"
+       class="tick"
+       id="g779">
+      <line
+         y2="-399"
+         stroke="currentColor"
+         id="line775"
+         x1="0"
+         y1="0"
+         x2="0" />
+      <text
+         font-size="10px"
+         stroke="none"
+         style="text-anchor:middle"
+         dy="1em"
+         y="3"
+         fill="#000000"
+         id="text777">2021</text>
+    </g>
+    <g
+       transform="translate(107.5)"
+       opacity="1"
+       class="tick"
+       id="g785">
+      <line
+         y2="-399"
+         stroke="currentColor"
+         id="line781"
+         x1="0"
+         y1="0"
+         x2="0" />
+      <text
+         font-size="10px"
+         stroke="none"
+         style="text-anchor:middle"
+         dy="1em"
+         y="3"
+         fill="#000000"
+         id="text783">2022</text>
+    </g>
+    <g
+       transform="translate(161.5)"
+       opacity="1"
+       class="tick"
+       id="g791">
+      <line
+         y2="-399"
+         stroke="currentColor"
+         id="line787"
+         x1="0"
+         y1="0"
+         x2="0" />
+      <text
+         font-size="10px"
+         stroke="none"
+         style="text-anchor:middle"
+         dy="1em"
+         y="3"
+         fill="#000000"
+         id="text789">2023</text>
+    </g>
+    <g
+       transform="translate(214.5)"
+       opacity="1"
+       class="tick"
+       id="g797">
+      <line
+         y2="-399"
+         stroke="currentColor"
+         id="line793"
+         x1="0"
+         y1="0"
+         x2="0" />
+      <text
+         font-size="10px"
+         stroke="none"
+         style="text-anchor:middle"
+         dy="1em"
+         y="3"
+         fill="#000000"
+         id="text795">2024</text>
+    </g>
+    <g
+       transform="translate(268.5)"
+       opacity="1"
+       class="tick"
+       id="g803">
+      <line
+         y2="-399"
+         stroke="currentColor"
+         id="line799"
+         x1="0"
+         y1="0"
+         x2="0" />
+      <text
+         font-size="10px"
+         stroke="none"
+         style="text-anchor:middle"
+         dy="1em"
+         y="3"
+         fill="#000000"
+         id="text801">2025</text>
+    </g>
+    <g
+       transform="translate(322.5)"
+       opacity="1"
+       class="tick"
+       id="g809">
+      <line
+         y2="-399"
+         stroke="currentColor"
+         id="line805"
+         x1="0"
+         y1="0"
+         x2="0" />
+      <text
+         font-size="10px"
+         stroke="none"
+         style="text-anchor:middle"
+         dy="1em"
+         y="3"
+         fill="#000000"
+         id="text807">2026</text>
+    </g>
+    <g
+       transform="translate(375.5)"
+       opacity="1"
+       class="tick"
+       id="g815">
+      <line
+         y2="-399"
+         stroke="currentColor"
+         id="line811"
+         x1="0"
+         y1="0"
+         x2="0" />
+      <text
+         font-size="10px"
+         stroke="none"
+         style="text-anchor:middle"
+         dy="1em"
+         y="3"
+         fill="#000000"
+         id="text813">2027</text>
+    </g>
+    <g
+       transform="translate(429.5)"
+       opacity="1"
+       class="tick"
+       id="g821">
+      <line
+         y2="-399"
+         stroke="currentColor"
+         id="line817"
+         x1="0"
+         y1="0"
+         x2="0" />
+      <text
+         font-size="10px"
+         stroke="none"
+         style="text-anchor:middle"
+         dy="1em"
+         y="3"
+         fill="#000000"
+         id="text819">2028</text>
+    </g>
+    <g
+       transform="translate(482.5)"
+       opacity="1"
+       class="tick"
+       id="g827">
+      <line
+         y2="-399"
+         stroke="currentColor"
+         id="line823"
+         x1="0"
+         y1="0"
+         x2="0" />
+      <text
+         font-size="10px"
+         stroke="none"
+         style="text-anchor:middle"
+         dy="1em"
+         y="3"
+         fill="#000000"
+         id="text825">2029</text>
+    </g>
+    <g
+       transform="translate(536.5)"
+       opacity="1"
+       class="tick"
+       id="g833">
+      <line
+         y2="-399"
+         stroke="currentColor"
+         id="line829"
+         x1="0"
+         y1="0"
+         x2="0" />
+      <text
+         font-size="10px"
+         stroke="none"
+         style="text-anchor:middle"
+         dy="1em"
+         y="3"
+         fill="#000000"
+         id="text831">2030</text>
+    </g>
+  </g>
+  <g
+     id="g869"
+     transform="matrix(0.82759584,0,0,1.005468,74.670131,-0.2624636)"
+     style="display:inline;stroke-width:1.09623"
+     inkscape:label="backgrounds">
+    <rect
+       class="section section0"
+       height="24"
+       width="648.5"
+       y="48"
+       x="0"
+       id="rect837"
+       style="stroke-width:1.09623" />
+    <rect
+       class="section section0"
+       height="24"
+       width="648.5"
+       y="72"
+       x="0"
+       id="rect839"
+       style="stroke-width:1.09623" />
+    <rect
+       class="section section0"
+       height="24"
+       width="648.5"
+       y="96"
+       x="0"
+       id="rect841"
+       style="stroke-width:1.09623" />
+    <rect
+       class="section section1"
+       height="24"
+       width="648.5"
+       y="312"
+       x="0"
+       id="rect843"
+       style="stroke-width:1.09623" />
+    <rect
+       class="section section1"
+       height="24"
+       width="648.5"
+       y="336"
+       x="0"
+       id="rect845"
+       style="stroke-width:1.09623" />
+    <rect
+       class="section section0"
+       height="24"
+       width="648.5"
+       y="168"
+       x="0"
+       id="rect847"
+       style="stroke-width:1.09623" />
+    <rect
+       class="section section0"
+       height="24"
+       width="648.5"
+       y="192"
+       x="0"
+       id="rect849"
+       style="stroke-width:1.09623" />
+    <rect
+       class="section section0"
+       height="24"
+       width="648.5"
+       y="216"
+       x="0"
+       id="rect851"
+       style="stroke-width:1.09623" />
+    <rect
+       class="section section0"
+       height="24"
+       width="648.5"
+       y="240"
+       x="0"
+       id="rect853"
+       style="stroke-width:1.09623" />
+    <rect
+       class="section section1"
+       height="24"
+       width="648.5"
+       y="360"
+       x="0"
+       id="rect855"
+       style="stroke-width:1.09623" />
+    <rect
+       class="section section0"
+       height="24"
+       width="648.5"
+       y="120"
+       x="0"
+       id="rect857"
+       style="stroke-width:1.09623" />
+    <rect
+       class="section section0"
+       height="24"
+       width="648.5"
+       y="144"
+       x="0"
+       id="rect859"
+       style="stroke-width:1.09623" />
+    <rect
+       class="section section0"
+       height="24"
+       width="648.5"
+       y="264"
+       x="0"
+       id="rect861"
+       style="stroke-width:1.09623" />
+    <rect
+       class="section section0"
+       height="24"
+       width="648.5"
+       y="288"
+       x="0"
+       id="rect863"
+       style="stroke-width:1.09623" />
+    <rect
+       class="section section1"
+       height="24"
+       width="648.5"
+       y="384"
+       x="0"
+       id="rect865"
+       style="stroke-width:1.09623" />
+    <rect
+       class="section section1"
+       height="24"
+       width="648.5"
+       y="408"
+       x="0"
+       id="rect867"
+       style="stroke-width:1.09623" />
+  </g>
+  <g
+     id="g903">
+    <rect
+       class="task active0"
+       transform-origin="216.5px 60px"
+       height="20"
+       width="283"
+       y="50"
+       x="75"
+       ry="3"
+       rx="3"
+       id="task1" />
+    <rect
+       class="task active0"
+       transform-origin="216.5px 84px"
+       height="20"
+       width="283"
+       y="74"
+       x="75"
+       ry="3"
+       rx="3"
+       id="task2" />
+    <rect
+       class="task active0"
+       transform-origin="193.5px 108px"
+       height="20"
+       width="237"
+       y="98"
+       x="75"
+       ry="3"
+       rx="3"
+       id="ahau" />
+    <rect
+       class="task done1"
+       transform-origin="88.5px 324px"
+       height="20"
+       width="27"
+       y="314"
+       x="75"
+       ry="3"
+       rx="3"
+       id="task11" />
+    <rect
+       class="task done1"
+       transform-origin="215px 348px"
+       height="20"
+       width="44"
+       y="338"
+       x="193"
+       ry="3"
+       rx="3"
+       id="task12" />
+    <rect
+       class="task done0"
+       transform-origin="238.5px 180px"
+       height="20"
+       width="77"
+       y="170"
+       x="200"
+       ry="3"
+       rx="3"
+       id="task5" />
+    <rect
+       class="task done0"
+       transform-origin="213px 204px"
+       height="20"
+       width="14"
+       y="194"
+       x="206"
+       ry="3"
+       rx="3"
+       id="task6" />
+    <rect
+       class="task done0"
+       transform-origin="221px 228px"
+       height="20"
+       width="26"
+       y="218"
+       x="208"
+       ry="3"
+       rx="3"
+       id="task7" />
+    <rect
+       class="task done0"
+       transform-origin="293.5px 252px"
+       height="20"
+       width="9"
+       y="242"
+       x="289"
+       ry="3"
+       rx="3"
+       id="task8" />
+    <rect
+       class="task done1"
+       transform-origin="327.5px 372px"
+       height="20"
+       width="41"
+       y="362"
+       x="307"
+       ry="3"
+       rx="3"
+       id="task13" />
+    <rect
+       class="task milestone  task0"
+       transform-origin="312px 132px"
+       height="20"
+       width="20"
+       y="122"
+       x="302"
+       ry="3"
+       rx="3"
+       id="task3" />
+    <rect
+       class="task active0"
+       transform-origin="335px 156px"
+       height="20"
+       width="46"
+       y="146"
+       x="312"
+       ry="3"
+       rx="3"
+       id="task4" />
+    <rect
+       class="task done0"
+       transform-origin="318.5px 276px"
+       height="20"
+       width="13"
+       y="266"
+       x="312"
+       ry="3"
+       rx="3"
+       id="task9" />
+    <rect
+       class="task done0"
+       transform-origin="338.5px 300px"
+       height="20"
+       width="9"
+       y="290"
+       x="334"
+       ry="3"
+       rx="3"
+       id="task10" />
+    <rect
+       class="task milestone  task1"
+       transform-origin="358px 396px"
+       height="20"
+       width="20"
+       y="386"
+       x="348"
+       ry="3"
+       rx="3"
+       id="last_updated" />
+    <rect
+       class="task task1"
+       transform-origin="611px 420px"
+       height="20"
+       width="0"
+       y="410"
+       x="611"
+       ry="3"
+       rx="3"
+       id="milestone done" />
+    <text
+       class="taskText taskText0 activeText0 width-59.20000076293945"
+       y="63.5"
+       x="216.5"
+       font-size="11px"
+       id="task1-text">Scuttlebutt</text>
+    <text
+       class="taskText taskText0 activeText0 width-50.21666717529297"
+       y="87.5"
+       x="216.5"
+       font-size="11px"
+       id="task2-text">Protozoa</text>
+    <text
+       class="taskText taskText0 activeText0 width-30.483333587646484"
+       y="111.5"
+       x="193.5"
+       font-size="11px"
+       id="ahau-text">Ahau</text>
+    <text
+       class="taskTextOutsideRight taskTextOutside1  doneText1 width-86.19999694824219"
+       y="327.5"
+       x="107"
+       font-size="11px"
+       id="task11-text">Open Measures</text>
+    <text
+       class="taskTextOutsideRight taskTextOutside1  doneText1 width-86.19999694824219"
+       y="351.5"
+       x="242"
+       font-size="11px"
+       id="task12-text">Open Measures</text>
+    <text
+       class="taskTextOutsideRight taskTextOutside0  doneText0 width-87.75"
+       y="183.5"
+       x="282"
+       font-size="11px"
+       id="task5-text">Manyverse, NGI</text>
+    <text
+       class="taskTextOutsideRight taskTextOutside0  doneText0 width-103.51667022705078"
+       y="207.5"
+       x="225"
+       font-size="11px"
+       id="task6-text">Dweb Scholarships</text>
+    <text
+       class="taskTextOutsideRight taskTextOutside0  doneText0 width-53.016666412353516"
+       y="231.5"
+       x="239"
+       font-size="11px"
+       id="task7-text">Planetary</text>
+    <text
+       class="taskTextOutsideRight taskTextOutside0  doneText0 width-75.81666564941406"
+       y="255.5"
+       x="303"
+       font-size="11px"
+       id="task8-text">Decent Social</text>
+    <text
+       class="taskTextOutsideRight taskTextOutside1  doneText1 width-43.75"
+       y="375.5"
+       x="353"
+       font-size="11px"
+       id="task13-text">Entropy</text>
+    <text
+       class="taskTextOutsideRight taskTextOutside0  milestoneText width-80.38333129882812"
+       y="135.5"
+       x="327"
+       font-size="11px"
+       id="task3-text">Ahau → Matou</text>
+    <text
+       class="taskText taskText0 activeText0 width-35.71666717529297"
+       y="159.5"
+       x="363.60999"
+       font-size="11px"
+       id="task4-text">Matou</text>
+    <text
+       class="taskTextOutsideRight taskTextOutside0  doneText0 width-81.38333129882812"
+       y="279.5"
+       x="330"
+       font-size="11px"
+       id="task9-text">Dweb Weaving</text>
+    <text
+       class="taskTextOutsideRight taskTextOutside0  doneText0 width-91.28333282470703"
+       y="303.5"
+       x="348"
+       font-size="11px"
+       id="task10-text">Beautiful Signals</text>
+    <text
+       class="taskTextOutsideRight taskTextOutside1  milestoneText width-67.51667022705078"
+       y="399.5"
+       x="373"
+       font-size="11px"
+       id="last_updated-text">last updated</text>
+  </g>
+  <g
+     id="g913">
+    <text
+       class="sectionTitle sectionTitle0"
+       font-size="11px"
+       y="182"
+       x="10"
+       dy="0em"
+       id="text907"><tspan
+         x="10"
+         alignment-baseline="central"
+         id="tspan905">Social Ent.</tspan></text>
+    <text
+       class="sectionTitle sectionTitle1"
+       font-size="11px"
+       y="374"
+       x="10"
+       dy="0em"
+       id="text911"><tspan
+         x="10"
+         alignment-baseline="central"
+         id="tspan909">Contracting</tspan></text>
+  </g>
+  <g
+     class="today"
+     id="g917">
+    <line
+       class="today"
+       y2="459"
+       y1="25"
+       x2="358"
+       x1="358"
+       id="line915"
+       style="opacity:0.5" />
+  </g>
+  <text
+     class="titleText"
+     y="25"
+     x="343"
+     id="text919">2020s</text>
+</svg>

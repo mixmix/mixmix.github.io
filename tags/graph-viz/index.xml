@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Graph-Viz on mixmix</title><link>https://mixmix.nz/tags/graph-viz/</link><description>Recent content in Graph-Viz on mixmix</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 01 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mixmix.nz/tags/graph-viz/index.xml" rel="self" type="application/rss+xml"/><item><title>Open Measures</title><link>https://mixmix.nz/p/open-measures/</link><pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate><guid>https://mixmix.nz/p/open-measures/</guid><description>&lt;img src="https://mixmix.nz/p/open-measures/cover.png" alt="Featured image of post Open Measures" />&lt;blockquote>
+&lt;p>⏳ 2020 + 2022&lt;/p>&lt;/blockquote>
+&lt;h2 id="about">About
+&lt;/h2>&lt;p>Open Measures (fka SMAT) is a project which archives social media data, and
+makes that data explorable via APIs or data visualisations.&lt;/p>
+&lt;p>
+&lt;img src="https://mixmix.nz/p/open-measures/bar_graphs.png"
+width="1600"
+height="1155"
+srcset="https://mixmix.nz/p/open-measures/bar_graphs_hu_7e92d17045c99a6.webp 480w, https://mixmix.nz/p/open-measures/bar_graphs_hu_468906647338e4ef.webp 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="138"
+data-flex-basis="332px"
+>
+&lt;img src="https://mixmix.nz/p/open-measures/graph_iteration.jpg"
+width="1024"
+height="519"
+srcset="https://mixmix.nz/p/open-measures/graph_iteration_hu_f63d2cacb0ea16f6.webp 480w, https://mixmix.nz/p/open-measures/graph_iteration_hu_6772a99358b9db77.webp 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="197"
+data-flex-basis="473px"
+>
+&lt;/p>
+&lt;p>It was designed to support journalists and academics do things like research
+the spread of misinformation, identify war criminals, and explore patterns in
+discourse.&lt;/p>
+&lt;p>
+&lt;img src="https://mixmix.nz/p/open-measures/war_criminals.png"
+width="588"
+height="707"
+srcset="https://mixmix.nz/p/open-measures/war_criminals_hu_4d930160cc5b84c5.webp 480w, https://mixmix.nz/p/open-measures/war_criminals_hu_9ef3a70bbf6b74d2.webp 1024w"
+loading="lazy"
+alt="Open Measures team hunting war criminals"
+class="gallery-image"
+data-flex-grow="83"
+data-flex-basis="199px"
+>
+&lt;/p>
+&lt;p>&amp;#x1f517; &lt;a class="link" href="https://blog.openmeasures.io/p/vk-war-criminals" target="_blank" rel="noopener"
+>War Criminals on VKontakte&lt;/a>&lt;/p>
+&lt;h2 id="relationship">Relationship
+&lt;/h2>&lt;p>I&amp;rsquo;ve worked with Open Measures a couple of times over the years. I helped design
+their GraphQL API, and was responsible for implementing a graph visualisation
+tool to explore politician&amp;rsquo;s social media interactions leading up to the 2020
+USA elections (&lt;a class="link" href="https://foundation.mozilla.org/en/blog/fellow-introducing-us-election-twitter-network-graph-tool" target="_blank" rel="noopener"
+>read more here&lt;/a>)&lt;/p>
+&lt;p>
+&lt;img src="https://mixmix.nz/p/open-measures/election.png"
+width="2754"
+height="1372"
+srcset="https://mixmix.nz/p/open-measures/election_hu_85a20ddf9d9a5d2f.webp 480w, https://mixmix.nz/p/open-measures/election_hu_bfeff7507a129925.webp 1024w"
+loading="lazy"
+alt="Graph of social media links to/ from Donald Trump around the 2020 election"
+class="gallery-image"
+data-flex-grow="200"
+data-flex-basis="481px"
+>
+&lt;/p>
+&lt;p>I also mentored + trained junior developers working on the project, and later
+worked on a more complete version of the graph tool.&lt;/p>
+&lt;p>&lt;strong>Tech I used&lt;/strong>: Vue.js, Pinia, GraphQL, D3&lt;/p></description></item></channel></rss>
