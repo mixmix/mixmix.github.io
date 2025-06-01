@@ -38,10 +38,10 @@ might would save us all a lot of time in the long-run.
 The **Icecream Licence** was bootstrapped directly off the Drivers Licence.
 
 In the case of the car we want people to have agency in their life, and to
-balance that freedom with the the safety of other citizens. In the case of the
+balance that freedom with the safety of other citizens. In the case of the
 icecream, I want my kids to relax and have fun, AND I want a harmonious house
-(one where I'm not yelling *STICKY FINGERS ARGGHH!!!!* nor resentfully sponguing
-dairy out of soft furniships).
+(one where I'm not yelling *STICKY FINGERS ARGGHH!!!!* nor resentfully sponging
+dairy out of soft furnishings).
 
 My ultimate goal is for my kids to be fully autonomous, self-actualizing,
 socially integrated humans. There are lot of places freedom is dangerous (to
@@ -49,7 +49,7 @@ self and/or others). The "Licence" is a really clear way to support people to
 grow into that freedom.
 
 This is very similar to an education context, which works in "qualifications",
-often defined by "key competencies" which need to be be demonstraded in some
+often defined by "key competencies" which need to be be demonstrated in some
 way. Qualifications are usually used to boundary access to additional course/
 programmes/ jobs. Licences are a sort of qualification which often boundary
 something dangerous to an individual / group / system.
@@ -70,7 +70,7 @@ a) There is something adult or dangerous here :fire:
 <br />
 b) There is a pathway I'm here to support you on _(when you're ready)_ :heart:
 
-Here's some eeflective questions to support you exploring Licences:
+Here's some reflective questions to support you exploring Licences:
 
 
 ### Why are you _really_ blocking your child?
