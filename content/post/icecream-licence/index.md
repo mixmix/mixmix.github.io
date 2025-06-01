@@ -17,7 +17,7 @@ weight: 1
 ## Origin
 
 _"How come you get to eat icecream on the couch and I don't"_ my kid asked.
-_"Because I have my Icecream Licence!"_ This was intended as a joke but lead to
+_"Because I have my Icecream Licence!"_. This was intended as a joke but lead to
 me outlining the key competencies you have to demonstrate to access this licence:
 
 1. You don't spill icecream on the couch
@@ -35,10 +35,9 @@ might would save us all a lot of time in the long-run.
 
 ## Reflections
 
-The **Icecream Licence** was bootstrapped directly off the Drivers Licence.
-
-In the case of the car we want people to have agency in their life, and to
-balance that freedom with the safety of other citizens. In the case of the
+The **Icecream Licence** was bootstrapped directly off the Drivers Licence. In
+the case of the car we want people to have agency in their life, and to balance
+that freedom with the safety of other citizens. In the case of the
 icecream, I want my kids to relax and have fun, AND I want a harmonious house
 (one where I'm not yelling *STICKY FINGERS ARGGHH!!!!* nor resentfully sponging
 dairy out of soft furnishings).
@@ -76,12 +75,12 @@ Here's some reflective questions to support you exploring Licences:
 ### Why are you _really_ blocking your child?
 
 You've probably been giving your child "some reason(s)", but it's likely
-truncated because you lacked the time, and your child lacks context.
-
-Pause and unpack it more fully. This provides hints about what your child might
+truncated because you lacked the time, and your child lacks context. Pause and
+unpack it more fully. This provides hints about what your child might
 need to learn / master.
 
-_e.g. icecream isn't directly dangerous, but it can attract animals, breed microbes, damage relationships_
+_e.g. icecream isn't directly dangerous, but it can attract animals, breed
+microbes, damage relationships_
 
 
 ### What does doing this well look like?
@@ -104,12 +103,22 @@ often this involves sensing failure early, and knowing how to gently correct.
 
 ### Could this Licence have levels?
 
-- _How can we practice basics and succeed before adding more context/
-  complexity/ skills?_
-- _e.g. ice-cream in a bowl, in a cone, with/ without chocolate sauce (see
+How can we practice basics and succeed before adding more context/ complexity/
+skills?
+
+_e.g. ice-cream in a bowl, in a cone, with/ without chocolate sauce (see
   Dangerous Goods Licence)_
 
+### What's your policy on Licence revocation?
 
+In our house you can definitely lose your Icecream Licence. Sounds kinda
+punitive perhaps, but we've found having clear expectations about what's
+involved with a Licence makes it really easy to outline outcomes.
+
+It's totally ok to not want to have responsibility for everything all the time!
+If you want to pause on some of those responsibilities, it just means that some
+of your freedom/ autonomy may be curtailed. We align power with responsibility
+<3
 
 
 
