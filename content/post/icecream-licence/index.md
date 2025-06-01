@@ -1,6 +1,6 @@
 ---
 title: Icecream Licence
-description: How a conversation about icecream led me to a harmonious, agency-enhancing way of working my my kids.
+description: How a conversation about icecream led me to a harmonious, agency-enhancing way of working with my kids.
 # slug:
 date: 2025-05-31 00:00:00+0000
 image: cover.png
@@ -16,9 +16,12 @@ weight: 1
 
 ## Origin
 
-_"How come you get to eat icecream on the couch and I don't"_ my kid asked.
-_"Because I have my Icecream Licence!"_. This was intended as a joke but lead to
-me outlining the key competencies you have to demonstrate to access this licence:
+> **Child** : How come you get to eat icecream on the couch?
+> <br/>
+> **Mix** : Because I have my Icecream Licence!"
+
+This was intended as a joke but lead to me outlining the key competencies you
+have to demonstrate to access this licence:
 
 1. You don't spill icecream on the couch
 2. If you do, you notice it
@@ -28,9 +31,8 @@ me outlining the key competencies you have to demonstrate to access this licence
 As of writing this, my oldest has the licence, my youngest has decided they're
 not ready for the responsibility yet, and happily eat at the table.
 
-I took the time to outline the requirements because I was exhausted by the
-repeat-querying from my kids, and I realised that naming the desired end-state
-might would save us all a lot of time in the long-run.
+Why? I was exhausted by repeat queries, and while "because I said so" is sometimes
+appropriate, it's more often a lazy response which doesn't support learning.
 
 
 ## Reflections
@@ -55,9 +57,14 @@ something dangerous to an individual / group / system.
 
 Qualifications and Licences are both awarded by "authorities" - entities we've
 invested with the right to author, and to authorise (extend authorship/
-autonomy). There's a clear power dynamic in here, which needs some attention and
-care. For myself, I try to keep in mind that my authority is in service of that
-longer-term goal - my kids being conscientious authors of their reality.
+autonomy). There's a clear power dynamic in here, which needs some attention
+and care. While I still often hold the ultimate authority, the shift has been
+towards defining access to power, and supporting my kids to access that safely.
+
+It feels great to shift from _"No, because I am tired and I said so"_ to _"Yes,
+when you can demonstrate X,Y,Z"_. It can also be a constructive "No" like
+_"Cool! I can't help you go for your Licence today, but would you like to try
+together tmrw?"_
 
 
 ## Creating Licences
