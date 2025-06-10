@@ -102,15 +102,18 @@ my sense processing is tuned a little different than others.
   </summary>
 
 When I find something I love in the world, or something that has potential for
-greatness, I often ask myself "how could more people benefit from this?" or
-"what would further enhance this?". I'm thinking in the long term, about scaling
-the pattern I see, and ensuring it's longevity.
+greatness, I often ask myself _"how could more people benefit from this?"_ or
+_"what would further enhance this?"_. I'm thinking in the long term, about scaling
+the pattern I see, and ensuring it's accessibility and longevity.
 
 **Positives** :+1:
   - sees potentials
   - amazing first-follower / cheerleader / support character
-  - very active bridger and weaver of people
-  - unperturbed by any short-term awkwardness _(e.g. love giving constructive feedback)_
+  - active bridger and weaver of people
+  - unperturbed by short-term social costs
+    - _loves constructive feedback_
+    - _asks questions so minorities don't have to_
+    - _breaks ice_
 
 **Negatives** :-1:
   - jumps too far ahead
