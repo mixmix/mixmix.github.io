@@ -37,9 +37,9 @@ accessible.
 Businesses (and relationships) are complex systems in that they have a lot of
 moving, deeply inter-related parts, and are embedded in still greater
 ecosystems. Navigation in such a context can be really challenging, and there
-are a lot of tools which can help. My favourate of these "the feedback loop". 
+are a lot of tools that can help. My favourate of these is "the feedback loop". 
 
-If we extend the sailing metaphor, a feedback loop is as simple as :
+If we extend the sailing metaphor from 'navigation', a feedback loop is as simple as :
   1. Take a bearing -- where are we now?
   2. Set a course -- what should we move towards?
   3. Sail a bit
@@ -47,7 +47,7 @@ If we extend the sailing metaphor, a feedback loop is as simple as :
 
 This doesn't preclude having a long term goal / desired destination, but it does
 acknowledge that you're sailing with a certain amount of "unknown", and complex
-interactions may mean you find yourself "off-course" and need to adjustments.
+interactions may mean you find yourself "off-course" and need adjustments.
 What I really want to emphasise is that we discard the impossible ideal of "a
 perfect course to desired end" and replace it with "an ongoing journey of
 improvement".
@@ -58,7 +58,7 @@ In software development we often use Scrum / Agile and the feedback loop looks l
   3. Build a bit
   4. (repeat)
 
-But we ALSO apply the feedback loop to the our team process too (it's part of
+But we ALSO apply the feedback loop to our team process (it's part of
 the building, why not?):
   1. Take a bearing -- how we feeling about that last round?
   2. Set a course -- any changes we should make to how we're working?
@@ -66,7 +66,7 @@ the building, why not?):
   4. (repeat)
 
 In the context of a ship, this would be like a crew evolving their roles/
-protocols/ processes e.g. _"hey they chef is sick... how about we each take a
+protocols/ processes e.g. _"hey the chef is sick... how about we each take a
 turn cooking for the next week?"_.
 
 Retrospective just means "look back", but it's often used as a short hand for
@@ -87,9 +87,9 @@ means things like:
 We run relationship retrospectives ~ once a month, and set aside 90
 minutes uninterupted time for our process. This is a ritual which draws a bunch
 of energy, so I'd strongly advise not going over 90 minutes - it can burn you
-out.
+out. This was especially true once we had kids.
 
-Here are the phases:
+Here are the phases of our current process:
 
 ### 1. Load Context
 
@@ -103,7 +103,7 @@ got back to my exercise routine; We had that fight._
 
 > **Why** -- In checking in and remembering the last month we're aligning our
 > contexts. Knowing I have a headache helps us communicate better by improving
-> your model of my current state. Reing reminded of we each found important
+> your model of my current state. Being reminded of what we each found important
 > helps prime us for things we might discuss, and factors that are going to feed
 > into those conversations.
 >
@@ -150,7 +150,7 @@ We move through prioritized topics one at a time. The aim is to
   - ask ourselves "what could we try different?"
   - write down what we agreed to as the final step in discussing a topic 
 
-**Time** -- 45 min
+**Time** -- 60? min
 
 > **Notes** -- We keep notes of "actions" (agreed things someone is gonna do, or
 > changes in role/ process) in a shared Signal. We check the time and energy
