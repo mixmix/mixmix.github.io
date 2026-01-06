@@ -144,7 +144,7 @@ We decide the top 2-3 things we want to discuss today. We tend to ask ourselves
 
 ### 4. Discuss
 
-We move through prioritized topics one at a time. The aim is to
+We move through prioritised topics one at a time. The aim is to
   - share some context on the topic
   - listen and be curious together about what's going on
   - ask ourselves "what could we try different?"
@@ -153,9 +153,9 @@ We move through prioritized topics one at a time. The aim is to
 **Time** -- 60? min
 
 > **Notes** -- We keep notes of "actions" (agreed things someone is gonna do, or
-> changes in role/ process) in a shared Signal. We check the time and energy
+> changes in role/ process) in a shared Signal chat. We check the time and energy
 > before launching into another topic -- sometimes changing the priorities to
-> fit what's emerged is needed
+> fit what's emerged as needed
 
 ### 5. Appreciation
 
