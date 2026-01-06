@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Invocations on mixmix</title><link>https://mixmix.nz/categories/invocations/</link><description>Recent content in Invocations on mixmix</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 05 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://mixmix.nz/categories/invocations/index.xml" rel="self" type="application/rss+xml"/><item><title>Pōneke Mesh</title><link>https://mixmix.nz/p/poneke-mesh/</link><pubDate>Mon, 05 May 2025 00:00:00 +0000</pubDate><guid>https://mixmix.nz/p/poneke-mesh/</guid><description>&lt;img src="https://mixmix.nz/p/poneke-mesh/cover.png" alt="Featured image of post Pōneke Mesh" /&gt;&lt;p&gt;In an earthquake, you need to coordinate with those you love.&lt;/p&gt;
+&lt;div class='chat'&gt;
+&lt;div class='msg'&gt;
+&lt;div class='txt'&gt; Are you ok? &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class='msg'&gt;
+&lt;div class='txt'&gt; Where are you? &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class='msg'&gt;
+&lt;div class='txt'&gt; Do you have the kids? &lt;/div&gt;
+&lt;div class='time'&gt;23m&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The cellular network is great, AND you should expect it to be disrupted. Cell
+towers require a lot of power, and intact data/phone lines. If one goes down,
+others take on more load, and when everyone is over-loading networks trying
+to connect, they&amp;rsquo;re even less reliable.&lt;/p&gt;
+&lt;p&gt;So&amp;hellip; what do we do?&lt;/p&gt;
+&lt;h2 id="mesh-networks"&gt;Mesh Networks
+&lt;/h2&gt;&lt;p&gt;A mesh network is made up of many devices, each of which can talk to it&amp;rsquo;s
+neighbour. In a mesh network you can get a message across the city by passing
+it through a series of peers. The good news is there&amp;rsquo;s already an active mesh
+in Wellington, and joining it will only make communication more resilient.&lt;/p&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/poneke-mesh/poneke-nodes.png"
+width="1038"
+height="929"
+srcset="https://mixmix.nz/p/poneke-mesh/poneke-nodes_hu_b54183561edf88c6.webp 480w, https://mixmix.nz/p/poneke-mesh/poneke-nodes_hu_c6d97898b34219a3.webp 1024w"
+loading="lazy"
+alt="Mesh devices"
+class="gallery-image"
+data-flex-grow="111"
+data-flex-basis="268px"
+&gt;
+&lt;img src="https://mixmix.nz/p/poneke-mesh/poneke-neighbours.png"
+width="980"
+height="912"
+srcset="https://mixmix.nz/p/poneke-mesh/poneke-neighbours_hu_29d75866d7abcf46.webp 480w, https://mixmix.nz/p/poneke-mesh/poneke-neighbours_hu_d71a1aa3179418e3.webp 1024w"
+loading="lazy"
+alt="Connections forming the Mesh network"
+class="gallery-image"
+data-flex-grow="107"
+data-flex-basis="257px"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Images taken from this &lt;a class="link" href="https://meshtastic.liamcottle.net/?lat=-41.24651893516453&amp;amp;lng=174.869384765625&amp;amp;zoom=11" target="_blank" rel="noopener"
+&gt;Live Map&lt;/a&gt;, May 2025.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Some interesting things to note about this mesh network&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;what a mess!&lt;/strong&gt; &amp;ndash; correct, this is mostly an uncoordinated (ad-hoc)
+network. It evolves over time as nodes move, turn on/ off. Messages just take
+the paths that are open and it mostly &amp;ldquo;just works&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;how come some line are real long?&lt;/strong&gt; &amp;ndash; some devices are on top of mountains,
+and/ or have special antennas, which means signals can jump further (like the
+top of the South Island).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;isn&amp;rsquo;t revealing your location a security risk&lt;/strong&gt; &amp;ndash; Yes! Not all devices opt
+into broadcasting their position, i.e. there are likely more devices in the mesh
+that pictured. I believe you can also choose to have a &amp;ldquo;rough&amp;rdquo; location
+broadcast so people others can map your neighbourhood, but not your (latitude,
+longitude)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/poneke-mesh/poneke-path.png"
+width="1019"
+height="932"
+srcset="https://mixmix.nz/p/poneke-mesh/poneke-path_hu_90160af1e78a519d.webp 480w, https://mixmix.nz/p/poneke-mesh/poneke-path_hu_654146fcb984bd74.webp 1024w"
+loading="lazy"
+alt="Bold line showing the path a message took from Miramar → Upper Hutt"
+class="gallery-image"
+data-flex-grow="109"
+data-flex-basis="262px"
+&gt;
+&lt;/p&gt;
+&lt;h2 id="beginners-recipe"&gt;Beginners Recipe
+&lt;/h2&gt;&lt;p&gt;Cell phones don&amp;rsquo;t currently have LoRa (long range radio) capability built in,
+but we can easily add that functionality via a Bluetooth accessory.&lt;/p&gt;
+&lt;figure&gt;
+&lt;img src='recipe.svg' /&gt;
+&lt;figcaption&gt;
+Two phones message via LoRa devices they are each connected to.
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;This recipe gives you &lt;strong&gt;text messaging&lt;/strong&gt; + GPS location over a mesh network.
+The battery on the LoRa device should last a couple days, and not take much to
+charge.&lt;/p&gt;
+&lt;h3 id="ingredients"&gt;Ingredients
+&lt;/h3&gt;&lt;p&gt;I recommend you buy parts for you and a friend - you immediately have someone
+you can communicate with AND you further strengthen the mesh for the wider
+community&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Hardware&lt;/th&gt;
+&lt;th&gt;Function&lt;/th&gt;
+&lt;th&gt;Cost&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Smart phone&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;screen + keyboard&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;BYO&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class="link" href="https://www.seeedstudio.com/SenseCAP-Card-Tracker-T1000-E-for-Meshtastic-p-5913.html" target="_blank" rel="noopener"
+&gt;SenseCAP T1000e&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;LoRa radio&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;$40 USD + shipping&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;The T1000e is the device I&amp;rsquo;m recommending. It works out of the box, requires
+only a little setup, and there was no command-line hacking. You connect to it
+via Bluetooth and it takes care of all the LoRa stuff.&lt;/p&gt;
+&lt;p&gt;NOTE: you need 1 x T1000e per person&lt;/p&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/poneke-mesh/sensecap_t1000e.kate.jpeg"
+width="1200"
+height="1600"
+srcset="https://mixmix.nz/p/poneke-mesh/sensecap_t1000e.kate_hu_7c5d5e0e7a72798a.webp 480w, https://mixmix.nz/p/poneke-mesh/sensecap_t1000e.kate_hu_1224ec25b3027134.webp 1024w"
+loading="lazy"
+alt="T1000e’s tiny form-factor"
+class="gallery-image"
+data-flex-grow="75"
+data-flex-basis="180px"
+&gt;
+&lt;img src="https://mixmix.nz/p/poneke-mesh/sensecap_t1000e_close_up.png"
+width="1093"
+height="799"
+srcset="https://mixmix.nz/p/poneke-mesh/sensecap_t1000e_close_up_hu_404442ccf7913466.webp 480w, https://mixmix.nz/p/poneke-mesh/sensecap_t1000e_close_up_hu_fe3531b8f46b449e.webp 1024w"
+loading="lazy"
+alt="Waterproof translucent shell"
+class="gallery-image"
+data-flex-grow="136"
+data-flex-basis="328px"
+&gt;
+&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Software&lt;/th&gt;
+&lt;th&gt;Function&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class="link" href="https://meshtastic.org/downloads/" target="_blank" rel="noopener"
+&gt;Meshtastic App&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;messaging app + device config&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Meshtastic is an open-source project with builds mesh-networks via LoRa devices.
+It&amp;rsquo;s been designed to work with a range of devices, and lets you configure them
+via Bluetooth. It is also the main interface by which you message other peers in
+the network - there is functionality for public messages, private group chat
+(encrypted), and direct messages (encrypted)&lt;/p&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/poneke-mesh/meshtastic-public.jpg"
+width="664"
+height="1440"
+srcset="https://mixmix.nz/p/poneke-mesh/meshtastic-public_hu_4a363bb6127464f8.webp 480w, https://mixmix.nz/p/poneke-mesh/meshtastic-public_hu_62638f82400e076d.webp 1024w"
+loading="lazy"
+alt="Public chat"
+class="gallery-image"
+data-flex-grow="46"
+data-flex-basis="110px"
+&gt;
+&lt;img src="https://mixmix.nz/p/poneke-mesh/meshtastic-dm.jpg"
+width="664"
+height="1440"
+srcset="https://mixmix.nz/p/poneke-mesh/meshtastic-dm_hu_60d2680e5cac9c8f.webp 480w, https://mixmix.nz/p/poneke-mesh/meshtastic-dm_hu_35b62c888349a9a0.webp 1024w"
+loading="lazy"
+alt="DMs"
+class="gallery-image"
+data-flex-grow="46"
+data-flex-basis="110px"
+&gt;
+&lt;img src="https://mixmix.nz/p/poneke-mesh/meshtastic-map.jpg"
+width="664"
+height="1440"
+srcset="https://mixmix.nz/p/poneke-mesh/meshtastic-map_hu_44681adbe2345dee.webp 480w, https://mixmix.nz/p/poneke-mesh/meshtastic-map_hu_49cfb845c1055867.webp 1024w"
+loading="lazy"
+alt="Live Map"
+class="gallery-image"
+data-flex-grow="46"
+data-flex-basis="110px"
+&gt;
+&lt;img src="https://mixmix.nz/p/poneke-mesh/meshtastic-config.jpg"
+width="664"
+height="1440"
+srcset="https://mixmix.nz/p/poneke-mesh/meshtastic-config_hu_83725c83176dab73.webp 480w, https://mixmix.nz/p/poneke-mesh/meshtastic-config_hu_2e58b3dc5ff6273b.webp 1024w"
+loading="lazy"
+alt="Config"
+class="gallery-image"
+data-flex-grow="46"
+data-flex-basis="110px"
+&gt;
+&lt;/p&gt;
+&lt;h3 id="setup"&gt;Setup
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Install Meshtastic from an app-store&lt;/li&gt;
+&lt;li&gt;Power on your T1000e
+&lt;ul&gt;
+&lt;li&gt;push the center of the raised circle → &amp;#x1f3b5;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Pair your phone
+&lt;ul&gt;
+&lt;li&gt;turn on Bluetooth&lt;/li&gt;
+&lt;li&gt;open the Meshtastic App&lt;/li&gt;
+&lt;li&gt;go to Config &amp;#x2699;&amp;#xfe0f; tab (far-right)&lt;/li&gt;
+&lt;li&gt;push the &lt;strong&gt;(+)&lt;/strong&gt; at bottom-right&lt;/li&gt;
+&lt;li&gt;select your device, use default PIN &lt;code&gt;123456&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Set the spectrum
+&lt;ul&gt;
+&lt;li&gt;go to the Config &amp;#x2699;&amp;#xfe0f; tab&lt;/li&gt;
+&lt;li&gt;open the &amp;ldquo;Region&amp;rdquo; dropdown, and pick &lt;code&gt;ANZ&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;the device will restart → &amp;#x1f3b5;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Get channel config from a friend
+&lt;ul&gt;
+&lt;li&gt;Wellington uses public channel &amp;ldquo;ShortFast&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="setup--optional-extras"&gt;Setup &amp;ndash; optional extras
+&lt;/h3&gt;&lt;details&gt;
+&lt;summary&gt;Set your name&lt;/summary&gt;
+&lt;ol&gt;
+&lt;li&gt;Push the vertical ellipsis &lt;strong&gt;⋮&lt;/strong&gt; (top-right)&lt;/li&gt;
+&lt;li&gt;Select &amp;ldquo;Radio Config&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Open &amp;ldquo;User &amp;gt;&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Set your name
+&lt;ul&gt;
+&lt;li&gt;Long name: publicly visible name&lt;/li&gt;
+&lt;li&gt;Short name: publicly visible name, limited to 4 characters&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Push &amp;ldquo;Send&amp;rdquo;
+&lt;ul&gt;
+&lt;li&gt;wait for device to restart → &amp;#x1f3b5;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&amp;#x26a0;&amp;#xfe0f; use a name other than your full legal name. Recommended because the device
+by default reveals your approximate position (within 100m)&lt;/p&gt;
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Turn off that beep!&lt;/summary&gt;
+&lt;p&gt;When you receive a new message, the default behaviour of the Sensecap is
+for it to beep repeatedly. You can dismiss that beeping by pushing the power
+button on the Sensecap once.&lt;/p&gt;
+&lt;p&gt;If dislike beeps (and are happy with just notifications on your phone):&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Push the vertical ellipsis &lt;strong&gt;⋮&lt;/strong&gt; (top-right)&lt;/li&gt;
+&lt;li&gt;Select &amp;ldquo;Radio Config&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Open &amp;ldquo;External Notification &amp;gt;&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Toggle &amp;ldquo;External notification enabled&amp;rdquo; to &amp;ldquo;off&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Push &amp;ldquo;Send&amp;rdquo;
+&lt;ul&gt;
+&lt;li&gt;wait for device to restart → &amp;#x1f3b5;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Change your Position settings&lt;/summary&gt;
+&lt;p&gt;By default this device broadcasts your approximate position (within 100m).
+You can change this up or down depending on your context (safety/ privacy).&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Push the vertical ellipsis &lt;strong&gt;⋮&lt;/strong&gt; (top-right)&lt;/li&gt;
+&lt;li&gt;Select &amp;ldquo;Radio Config&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Open &amp;ldquo;Position &amp;gt;&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Change &amp;ldquo;Smart broadcast minimum distance (meters)&amp;rdquo;
+&lt;ul&gt;
+&lt;li&gt;the default is 100&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Push &amp;ldquo;Send&amp;rdquo;
+&lt;ul&gt;
+&lt;li&gt;wait for device to restart → &amp;#x1f3b5;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/details&gt;
+&lt;h2 id="important-info"&gt;Important Info
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Message delivery is not guaranteed.&lt;/strong&gt; There are several ways a message may not
+make it to the person you want it to:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Your device is not in range of any other
+&lt;ul&gt;
+&lt;li&gt;e.g. you are alone in an isolated valley&lt;/li&gt;
+&lt;li&gt;e.g. there are heaps of buildings blocking you in&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;There is no pathway from you to your friend
+&lt;ul&gt;
+&lt;li&gt;your message makes it to another device, is passed on, &amp;hellip; but doesn&amp;rsquo;t
+make it as far as your intended recipient&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Missing messages is a side-effect of Meshtastics approach to replicating data.
+Not all mesh systems have this problem, and this is a space that is being
+&lt;a class="link" href="https://mixmix.nz/p/tiny-ssb" &gt;actively researched&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The design of Meshtastic does let you see &lt;strong&gt;some&lt;/strong&gt; information about delivery:&lt;/p&gt;
+&lt;h3 id="direct-message-delivery"&gt;Direct Message Delivery
+&lt;/h3&gt;&lt;p&gt;In the case of direct messages, there are 4 symbols you see&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;sending&lt;/strong&gt; &amp;ndash; a cloud &amp;#x2601;&amp;#xfe0f;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;picked up by mesh&lt;/strong&gt; &amp;ndash; a cloud &amp;#x2601;&amp;#xfe0f; + &amp;#x2714;&amp;#xfe0f;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;delivery confirmed&lt;/strong&gt; &amp;ndash; a person &amp;#x1f464; + &amp;#x2714;&amp;#xfe0f;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;error?&lt;/strong&gt; &amp;ndash; a cloud &amp;#x2601;&amp;#xfe0f; with a line through it&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="group-chat-delivery"&gt;Group Chat Delivery
+&lt;/h3&gt;&lt;p&gt;In group chats it is much less clear. You may get some confirmation of delivery,
+but I would only trust this to mean it was acknowledged by &lt;em&gt;some member&lt;/em&gt; of that
+group.&lt;/p&gt;
+&lt;p&gt;You should discuss with your community what your protocol is for adapting to
+this. A simple one would be to put thumbs-up on messages that have been
+received.&lt;/p&gt;
+&lt;h2 id="documentation"&gt;Documentation
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&amp;#x1f517; &lt;a class="link" href="https://wiki.seeedstudio.com/sensecap_t1000_e/" target="_blank" rel="noopener"
+&gt;Official T1000e docs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&amp;#x1f517; &lt;a class="link" href="https://meshtastic.org/docs/getting-started/initial-config/" target="_blank" rel="noopener"
+&gt;Meshtastic config&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="faq"&gt;FAQ
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Q: Can I do voice/ video calls?&lt;/strong&gt; &lt;br /&gt;
+A: No. This is optimised to be very low-energy comms, so does not support
+high-bandwidth needed for live voice / video&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q: Can multiple phones connect to a T1000e?&lt;/strong&gt;
+A: I&amp;rsquo;m not sure. Be aware that as it&amp;rsquo;s currently built your &amp;ldquo;identity&amp;rdquo; if bound
+to your T1000e (not your phone), meaning if 2 phones are connected, they will
+both be see to other mesh nodes as the same author.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="advanced"&gt;Advanced
+&lt;/h2&gt;&lt;p&gt;&amp;#x1f6a7; Under construction&lt;/p&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/poneke-mesh/LoRa-case.jpg"
+width="1542"
+height="2048"
+srcset="https://mixmix.nz/p/poneke-mesh/LoRa-case_hu_427fa49c5a35e209.webp 480w, https://mixmix.nz/p/poneke-mesh/LoRa-case_hu_84c861599cfc0ca8.webp 1024w"
+loading="lazy"
+alt="A Meshtastic device made by Julian"
+class="gallery-image"
+data-flex-grow="75"
+data-flex-basis="180px"
+&gt;
+&lt;img src="https://mixmix.nz/p/poneke-mesh/LoRa-case.inside.jpg"
+width="1542"
+height="2048"
+srcset="https://mixmix.nz/p/poneke-mesh/LoRa-case.inside_hu_1741eb75aab62a88.webp 480w, https://mixmix.nz/p/poneke-mesh/LoRa-case.inside_hu_42b6def190c33b70.webp 1024w"
+loading="lazy"
+alt="Inside, mostly battery &amp;#43; chips"
+class="gallery-image"
+data-flex-grow="75"
+data-flex-basis="180px"
+&gt;
+&lt;/p&gt;
+&lt;style&gt;
+.subtle {
+opacity: .6;
+}
+.chat {
+display: grid;
+grid-gap: 1px;
+--rad-lg: 1.5rem;
+--rad-sm: 5px;
+.msg {
+background: #1060f0;
+color: white;
+padding: 8px 14px 8px 12px;
+border-radius: var(--rad-sm) var(--rad-lg) var(--rad-lg) var(--rad-sm);
+&amp;:first-child {
+border-radius: var(--rad-lg) var(--rad-lg) var(--rad-lg) var(--rad-sm);
+}
+&amp;:last-child {
+border-radius: var(--rad-sm) var(--rad-lg) var(--rad-lg) var(--rad-lg);
+.txt {
+padding-right: 30px;
+}
+}
+justify-self: start;
+display: grid;
+grid-template-rows: auto auto;
+/* grid-gap: 1rem; */
+align-content: baseline;
+.txt {
+font-size: 1.6rem;
+line-height: 1.6rem;
+}
+.time {
+font-size: 1.2rem;
+line-height: 1.2rem;
+display: grid;
+justify-content: end;
+}
+}
+}
+table {
+margin-bottom: 0 !important;
+}
+&lt;/style&gt;</description></item></channel></rss>

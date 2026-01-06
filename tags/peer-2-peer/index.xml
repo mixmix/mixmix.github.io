@@ -1,0 +1,1339 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Peer-2-Peer on mixmix</title><link>https://mixmix.nz/tags/peer-2-peer/</link><description>Recent content in Peer-2-Peer on mixmix</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 05 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://mixmix.nz/tags/peer-2-peer/index.xml" rel="self" type="application/rss+xml"/><item><title>Pōneke Mesh</title><link>https://mixmix.nz/p/poneke-mesh/</link><pubDate>Mon, 05 May 2025 00:00:00 +0000</pubDate><guid>https://mixmix.nz/p/poneke-mesh/</guid><description>&lt;img src="https://mixmix.nz/p/poneke-mesh/cover.png" alt="Featured image of post Pōneke Mesh" /&gt;&lt;p&gt;In an earthquake, you need to coordinate with those you love.&lt;/p&gt;
+&lt;div class='chat'&gt;
+&lt;div class='msg'&gt;
+&lt;div class='txt'&gt; Are you ok? &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class='msg'&gt;
+&lt;div class='txt'&gt; Where are you? &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class='msg'&gt;
+&lt;div class='txt'&gt; Do you have the kids? &lt;/div&gt;
+&lt;div class='time'&gt;23m&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The cellular network is great, AND you should expect it to be disrupted. Cell
+towers require a lot of power, and intact data/phone lines. If one goes down,
+others take on more load, and when everyone is over-loading networks trying
+to connect, they&amp;rsquo;re even less reliable.&lt;/p&gt;
+&lt;p&gt;So&amp;hellip; what do we do?&lt;/p&gt;
+&lt;h2 id="mesh-networks"&gt;Mesh Networks
+&lt;/h2&gt;&lt;p&gt;A mesh network is made up of many devices, each of which can talk to it&amp;rsquo;s
+neighbour. In a mesh network you can get a message across the city by passing
+it through a series of peers. The good news is there&amp;rsquo;s already an active mesh
+in Wellington, and joining it will only make communication more resilient.&lt;/p&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/poneke-mesh/poneke-nodes.png"
+width="1038"
+height="929"
+srcset="https://mixmix.nz/p/poneke-mesh/poneke-nodes_hu_b54183561edf88c6.webp 480w, https://mixmix.nz/p/poneke-mesh/poneke-nodes_hu_c6d97898b34219a3.webp 1024w"
+loading="lazy"
+alt="Mesh devices"
+class="gallery-image"
+data-flex-grow="111"
+data-flex-basis="268px"
+&gt;
+&lt;img src="https://mixmix.nz/p/poneke-mesh/poneke-neighbours.png"
+width="980"
+height="912"
+srcset="https://mixmix.nz/p/poneke-mesh/poneke-neighbours_hu_29d75866d7abcf46.webp 480w, https://mixmix.nz/p/poneke-mesh/poneke-neighbours_hu_d71a1aa3179418e3.webp 1024w"
+loading="lazy"
+alt="Connections forming the Mesh network"
+class="gallery-image"
+data-flex-grow="107"
+data-flex-basis="257px"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Images taken from this &lt;a class="link" href="https://meshtastic.liamcottle.net/?lat=-41.24651893516453&amp;amp;lng=174.869384765625&amp;amp;zoom=11" target="_blank" rel="noopener"
+&gt;Live Map&lt;/a&gt;, May 2025.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Some interesting things to note about this mesh network&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;what a mess!&lt;/strong&gt; &amp;ndash; correct, this is mostly an uncoordinated (ad-hoc)
+network. It evolves over time as nodes move, turn on/ off. Messages just take
+the paths that are open and it mostly &amp;ldquo;just works&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;how come some line are real long?&lt;/strong&gt; &amp;ndash; some devices are on top of mountains,
+and/ or have special antennas, which means signals can jump further (like the
+top of the South Island).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;isn&amp;rsquo;t revealing your location a security risk&lt;/strong&gt; &amp;ndash; Yes! Not all devices opt
+into broadcasting their position, i.e. there are likely more devices in the mesh
+that pictured. I believe you can also choose to have a &amp;ldquo;rough&amp;rdquo; location
+broadcast so people others can map your neighbourhood, but not your (latitude,
+longitude)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/poneke-mesh/poneke-path.png"
+width="1019"
+height="932"
+srcset="https://mixmix.nz/p/poneke-mesh/poneke-path_hu_90160af1e78a519d.webp 480w, https://mixmix.nz/p/poneke-mesh/poneke-path_hu_654146fcb984bd74.webp 1024w"
+loading="lazy"
+alt="Bold line showing the path a message took from Miramar → Upper Hutt"
+class="gallery-image"
+data-flex-grow="109"
+data-flex-basis="262px"
+&gt;
+&lt;/p&gt;
+&lt;h2 id="beginners-recipe"&gt;Beginners Recipe
+&lt;/h2&gt;&lt;p&gt;Cell phones don&amp;rsquo;t currently have LoRa (long range radio) capability built in,
+but we can easily add that functionality via a Bluetooth accessory.&lt;/p&gt;
+&lt;figure&gt;
+&lt;img src='recipe.svg' /&gt;
+&lt;figcaption&gt;
+Two phones message via LoRa devices they are each connected to.
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;This recipe gives you &lt;strong&gt;text messaging&lt;/strong&gt; + GPS location over a mesh network.
+The battery on the LoRa device should last a couple days, and not take much to
+charge.&lt;/p&gt;
+&lt;h3 id="ingredients"&gt;Ingredients
+&lt;/h3&gt;&lt;p&gt;I recommend you buy parts for you and a friend - you immediately have someone
+you can communicate with AND you further strengthen the mesh for the wider
+community&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Hardware&lt;/th&gt;
+&lt;th&gt;Function&lt;/th&gt;
+&lt;th&gt;Cost&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Smart phone&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;screen + keyboard&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;BYO&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class="link" href="https://www.seeedstudio.com/SenseCAP-Card-Tracker-T1000-E-for-Meshtastic-p-5913.html" target="_blank" rel="noopener"
+&gt;SenseCAP T1000e&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;LoRa radio&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;$40 USD + shipping&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;The T1000e is the device I&amp;rsquo;m recommending. It works out of the box, requires
+only a little setup, and there was no command-line hacking. You connect to it
+via Bluetooth and it takes care of all the LoRa stuff.&lt;/p&gt;
+&lt;p&gt;NOTE: you need 1 x T1000e per person&lt;/p&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/poneke-mesh/sensecap_t1000e.kate.jpeg"
+width="1200"
+height="1600"
+srcset="https://mixmix.nz/p/poneke-mesh/sensecap_t1000e.kate_hu_7c5d5e0e7a72798a.webp 480w, https://mixmix.nz/p/poneke-mesh/sensecap_t1000e.kate_hu_1224ec25b3027134.webp 1024w"
+loading="lazy"
+alt="T1000e’s tiny form-factor"
+class="gallery-image"
+data-flex-grow="75"
+data-flex-basis="180px"
+&gt;
+&lt;img src="https://mixmix.nz/p/poneke-mesh/sensecap_t1000e_close_up.png"
+width="1093"
+height="799"
+srcset="https://mixmix.nz/p/poneke-mesh/sensecap_t1000e_close_up_hu_404442ccf7913466.webp 480w, https://mixmix.nz/p/poneke-mesh/sensecap_t1000e_close_up_hu_fe3531b8f46b449e.webp 1024w"
+loading="lazy"
+alt="Waterproof translucent shell"
+class="gallery-image"
+data-flex-grow="136"
+data-flex-basis="328px"
+&gt;
+&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Software&lt;/th&gt;
+&lt;th&gt;Function&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class="link" href="https://meshtastic.org/downloads/" target="_blank" rel="noopener"
+&gt;Meshtastic App&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;messaging app + device config&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Meshtastic is an open-source project with builds mesh-networks via LoRa devices.
+It&amp;rsquo;s been designed to work with a range of devices, and lets you configure them
+via Bluetooth. It is also the main interface by which you message other peers in
+the network - there is functionality for public messages, private group chat
+(encrypted), and direct messages (encrypted)&lt;/p&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/poneke-mesh/meshtastic-public.jpg"
+width="664"
+height="1440"
+srcset="https://mixmix.nz/p/poneke-mesh/meshtastic-public_hu_4a363bb6127464f8.webp 480w, https://mixmix.nz/p/poneke-mesh/meshtastic-public_hu_62638f82400e076d.webp 1024w"
+loading="lazy"
+alt="Public chat"
+class="gallery-image"
+data-flex-grow="46"
+data-flex-basis="110px"
+&gt;
+&lt;img src="https://mixmix.nz/p/poneke-mesh/meshtastic-dm.jpg"
+width="664"
+height="1440"
+srcset="https://mixmix.nz/p/poneke-mesh/meshtastic-dm_hu_60d2680e5cac9c8f.webp 480w, https://mixmix.nz/p/poneke-mesh/meshtastic-dm_hu_35b62c888349a9a0.webp 1024w"
+loading="lazy"
+alt="DMs"
+class="gallery-image"
+data-flex-grow="46"
+data-flex-basis="110px"
+&gt;
+&lt;img src="https://mixmix.nz/p/poneke-mesh/meshtastic-map.jpg"
+width="664"
+height="1440"
+srcset="https://mixmix.nz/p/poneke-mesh/meshtastic-map_hu_44681adbe2345dee.webp 480w, https://mixmix.nz/p/poneke-mesh/meshtastic-map_hu_49cfb845c1055867.webp 1024w"
+loading="lazy"
+alt="Live Map"
+class="gallery-image"
+data-flex-grow="46"
+data-flex-basis="110px"
+&gt;
+&lt;img src="https://mixmix.nz/p/poneke-mesh/meshtastic-config.jpg"
+width="664"
+height="1440"
+srcset="https://mixmix.nz/p/poneke-mesh/meshtastic-config_hu_83725c83176dab73.webp 480w, https://mixmix.nz/p/poneke-mesh/meshtastic-config_hu_2e58b3dc5ff6273b.webp 1024w"
+loading="lazy"
+alt="Config"
+class="gallery-image"
+data-flex-grow="46"
+data-flex-basis="110px"
+&gt;
+&lt;/p&gt;
+&lt;h3 id="setup"&gt;Setup
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Install Meshtastic from an app-store&lt;/li&gt;
+&lt;li&gt;Power on your T1000e
+&lt;ul&gt;
+&lt;li&gt;push the center of the raised circle → &amp;#x1f3b5;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Pair your phone
+&lt;ul&gt;
+&lt;li&gt;turn on Bluetooth&lt;/li&gt;
+&lt;li&gt;open the Meshtastic App&lt;/li&gt;
+&lt;li&gt;go to Config &amp;#x2699;&amp;#xfe0f; tab (far-right)&lt;/li&gt;
+&lt;li&gt;push the &lt;strong&gt;(+)&lt;/strong&gt; at bottom-right&lt;/li&gt;
+&lt;li&gt;select your device, use default PIN &lt;code&gt;123456&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Set the spectrum
+&lt;ul&gt;
+&lt;li&gt;go to the Config &amp;#x2699;&amp;#xfe0f; tab&lt;/li&gt;
+&lt;li&gt;open the &amp;ldquo;Region&amp;rdquo; dropdown, and pick &lt;code&gt;ANZ&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;the device will restart → &amp;#x1f3b5;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Get channel config from a friend
+&lt;ul&gt;
+&lt;li&gt;Wellington uses public channel &amp;ldquo;ShortFast&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="setup--optional-extras"&gt;Setup &amp;ndash; optional extras
+&lt;/h3&gt;&lt;details&gt;
+&lt;summary&gt;Set your name&lt;/summary&gt;
+&lt;ol&gt;
+&lt;li&gt;Push the vertical ellipsis &lt;strong&gt;⋮&lt;/strong&gt; (top-right)&lt;/li&gt;
+&lt;li&gt;Select &amp;ldquo;Radio Config&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Open &amp;ldquo;User &amp;gt;&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Set your name
+&lt;ul&gt;
+&lt;li&gt;Long name: publicly visible name&lt;/li&gt;
+&lt;li&gt;Short name: publicly visible name, limited to 4 characters&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Push &amp;ldquo;Send&amp;rdquo;
+&lt;ul&gt;
+&lt;li&gt;wait for device to restart → &amp;#x1f3b5;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&amp;#x26a0;&amp;#xfe0f; use a name other than your full legal name. Recommended because the device
+by default reveals your approximate position (within 100m)&lt;/p&gt;
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Turn off that beep!&lt;/summary&gt;
+&lt;p&gt;When you receive a new message, the default behaviour of the Sensecap is
+for it to beep repeatedly. You can dismiss that beeping by pushing the power
+button on the Sensecap once.&lt;/p&gt;
+&lt;p&gt;If dislike beeps (and are happy with just notifications on your phone):&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Push the vertical ellipsis &lt;strong&gt;⋮&lt;/strong&gt; (top-right)&lt;/li&gt;
+&lt;li&gt;Select &amp;ldquo;Radio Config&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Open &amp;ldquo;External Notification &amp;gt;&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Toggle &amp;ldquo;External notification enabled&amp;rdquo; to &amp;ldquo;off&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Push &amp;ldquo;Send&amp;rdquo;
+&lt;ul&gt;
+&lt;li&gt;wait for device to restart → &amp;#x1f3b5;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Change your Position settings&lt;/summary&gt;
+&lt;p&gt;By default this device broadcasts your approximate position (within 100m).
+You can change this up or down depending on your context (safety/ privacy).&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Push the vertical ellipsis &lt;strong&gt;⋮&lt;/strong&gt; (top-right)&lt;/li&gt;
+&lt;li&gt;Select &amp;ldquo;Radio Config&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Open &amp;ldquo;Position &amp;gt;&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Change &amp;ldquo;Smart broadcast minimum distance (meters)&amp;rdquo;
+&lt;ul&gt;
+&lt;li&gt;the default is 100&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Push &amp;ldquo;Send&amp;rdquo;
+&lt;ul&gt;
+&lt;li&gt;wait for device to restart → &amp;#x1f3b5;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/details&gt;
+&lt;h2 id="important-info"&gt;Important Info
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Message delivery is not guaranteed.&lt;/strong&gt; There are several ways a message may not
+make it to the person you want it to:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Your device is not in range of any other
+&lt;ul&gt;
+&lt;li&gt;e.g. you are alone in an isolated valley&lt;/li&gt;
+&lt;li&gt;e.g. there are heaps of buildings blocking you in&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;There is no pathway from you to your friend
+&lt;ul&gt;
+&lt;li&gt;your message makes it to another device, is passed on, &amp;hellip; but doesn&amp;rsquo;t
+make it as far as your intended recipient&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Missing messages is a side-effect of Meshtastics approach to replicating data.
+Not all mesh systems have this problem, and this is a space that is being
+&lt;a class="link" href="https://mixmix.nz/p/tiny-ssb" &gt;actively researched&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The design of Meshtastic does let you see &lt;strong&gt;some&lt;/strong&gt; information about delivery:&lt;/p&gt;
+&lt;h3 id="direct-message-delivery"&gt;Direct Message Delivery
+&lt;/h3&gt;&lt;p&gt;In the case of direct messages, there are 4 symbols you see&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;sending&lt;/strong&gt; &amp;ndash; a cloud &amp;#x2601;&amp;#xfe0f;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;picked up by mesh&lt;/strong&gt; &amp;ndash; a cloud &amp;#x2601;&amp;#xfe0f; + &amp;#x2714;&amp;#xfe0f;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;delivery confirmed&lt;/strong&gt; &amp;ndash; a person &amp;#x1f464; + &amp;#x2714;&amp;#xfe0f;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;error?&lt;/strong&gt; &amp;ndash; a cloud &amp;#x2601;&amp;#xfe0f; with a line through it&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="group-chat-delivery"&gt;Group Chat Delivery
+&lt;/h3&gt;&lt;p&gt;In group chats it is much less clear. You may get some confirmation of delivery,
+but I would only trust this to mean it was acknowledged by &lt;em&gt;some member&lt;/em&gt; of that
+group.&lt;/p&gt;
+&lt;p&gt;You should discuss with your community what your protocol is for adapting to
+this. A simple one would be to put thumbs-up on messages that have been
+received.&lt;/p&gt;
+&lt;h2 id="documentation"&gt;Documentation
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&amp;#x1f517; &lt;a class="link" href="https://wiki.seeedstudio.com/sensecap_t1000_e/" target="_blank" rel="noopener"
+&gt;Official T1000e docs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&amp;#x1f517; &lt;a class="link" href="https://meshtastic.org/docs/getting-started/initial-config/" target="_blank" rel="noopener"
+&gt;Meshtastic config&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="faq"&gt;FAQ
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Q: Can I do voice/ video calls?&lt;/strong&gt; &lt;br /&gt;
+A: No. This is optimised to be very low-energy comms, so does not support
+high-bandwidth needed for live voice / video&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q: Can multiple phones connect to a T1000e?&lt;/strong&gt;
+A: I&amp;rsquo;m not sure. Be aware that as it&amp;rsquo;s currently built your &amp;ldquo;identity&amp;rdquo; if bound
+to your T1000e (not your phone), meaning if 2 phones are connected, they will
+both be see to other mesh nodes as the same author.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="advanced"&gt;Advanced
+&lt;/h2&gt;&lt;p&gt;&amp;#x1f6a7; Under construction&lt;/p&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/poneke-mesh/LoRa-case.jpg"
+width="1542"
+height="2048"
+srcset="https://mixmix.nz/p/poneke-mesh/LoRa-case_hu_427fa49c5a35e209.webp 480w, https://mixmix.nz/p/poneke-mesh/LoRa-case_hu_84c861599cfc0ca8.webp 1024w"
+loading="lazy"
+alt="A Meshtastic device made by Julian"
+class="gallery-image"
+data-flex-grow="75"
+data-flex-basis="180px"
+&gt;
+&lt;img src="https://mixmix.nz/p/poneke-mesh/LoRa-case.inside.jpg"
+width="1542"
+height="2048"
+srcset="https://mixmix.nz/p/poneke-mesh/LoRa-case.inside_hu_1741eb75aab62a88.webp 480w, https://mixmix.nz/p/poneke-mesh/LoRa-case.inside_hu_42b6def190c33b70.webp 1024w"
+loading="lazy"
+alt="Inside, mostly battery &amp;#43; chips"
+class="gallery-image"
+data-flex-grow="75"
+data-flex-basis="180px"
+&gt;
+&lt;/p&gt;
+&lt;style&gt;
+.subtle {
+opacity: .6;
+}
+.chat {
+display: grid;
+grid-gap: 1px;
+--rad-lg: 1.5rem;
+--rad-sm: 5px;
+.msg {
+background: #1060f0;
+color: white;
+padding: 8px 14px 8px 12px;
+border-radius: var(--rad-sm) var(--rad-lg) var(--rad-lg) var(--rad-sm);
+&amp;:first-child {
+border-radius: var(--rad-lg) var(--rad-lg) var(--rad-lg) var(--rad-sm);
+}
+&amp;:last-child {
+border-radius: var(--rad-sm) var(--rad-lg) var(--rad-lg) var(--rad-lg);
+.txt {
+padding-right: 30px;
+}
+}
+justify-self: start;
+display: grid;
+grid-template-rows: auto auto;
+/* grid-gap: 1rem; */
+align-content: baseline;
+.txt {
+font-size: 1.6rem;
+line-height: 1.6rem;
+}
+.time {
+font-size: 1.2rem;
+line-height: 1.2rem;
+display: grid;
+justify-content: end;
+}
+}
+}
+table {
+margin-bottom: 0 !important;
+}
+&lt;/style&gt;</description></item><item><title>Mātou</title><link>https://mixmix.nz/p/matou/</link><pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate><guid>https://mixmix.nz/p/matou/</guid><description>&lt;img src="https://mixmix.nz/p/matou/cover.png" alt="Featured image of post Mātou" /&gt;&lt;blockquote&gt;
+&lt;p&gt;⏳ 2024 &amp;ndash; ongoing &lt;br /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="about"&gt;About
+&lt;/h2&gt;&lt;p&gt;Mātou (&amp;ldquo;we are&amp;rdquo;) is a collective that exists to grow the digital infrastructure
+needed to support transformational growth for Māori communities. Māori already
+have centuries of experience in collective governance of shared resources and
+distributed governance. The problem is that most &amp;ldquo;modern&amp;rdquo; organisational tools
+on offer are reflections of colonial patterns. See &lt;a class="link" href="https://en.wikipedia.org/wiki/Conway%27s_law" target="_blank" rel="noopener"
+&gt;Conway&amp;rsquo;s
+Law&lt;/a&gt; :&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Organizations which design systems are constrained to produce designs which
+are copies of the communication structures of these organizations.&lt;/em&gt;
+— Melvin E. Conway&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;In Aotearoa (New Zealand), this means that Māori are currently struggling to
+organise collectively (as is their tradition) because most of the tools are
+fundamentally propertarian/ individualist/ overly top-down&amp;hellip; in short, do not
+serve.&lt;/p&gt;
+&lt;p&gt;The core observation of &lt;a class="link" href="https://mixmix.nz/p/ahau" &gt;Āhau&lt;/a&gt; (&amp;ldquo;I am&amp;rdquo;) was that we must start by
+rebuilding right tools starting with &lt;strong&gt;identity&lt;/strong&gt; &amp;ndash; this is the foundation by
+which we know ourselves (through our history, our relationships), and from here
+move into coordinating and building new things. Crucially, this &lt;strong&gt;must&lt;/strong&gt; be
+rooted in absolute sovereignty (no rented domain names, no foreign servers
+controlling authorship, no singular source of truth).&lt;/p&gt;
+&lt;p&gt;As a radical exploration of data-sovereign identity Āhau succeeded in part, but
+ultimately surfaced challenges blocking our grand vision:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;identity tools must be &lt;strong&gt;free&lt;/strong&gt;&amp;hellip; but maintaining them with grants is
+unsustainable&lt;/li&gt;
+&lt;li&gt;each community has it&amp;rsquo;s own tikanga (cultural practice), and we cannot (and
+should not) build for all of them&lt;/li&gt;
+&lt;li&gt;Limited Liability Company governing an identity commons is a misalignment with
+our &lt;a class="link" href="https://maoridictionary.co.nz/search?keywords=kaupapa" target="_blank" rel="noopener"
+&gt;kaupapa&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Mātou is being designed to be a multi-stakeholder entity which gives community
+real say in the systems being built, fosters ecosystems, acknowledges and
+rewards participation, growing wealth for all. Currently we are coordinating
+through &lt;a class="link" href="https://opencollective.com/matoucollective" target="_blank" rel="noopener"
+&gt;Open Collective&lt;/a&gt; (with the
+NZ based &lt;a class="link" href="https://thegifttrust.org.nz/" target="_blank" rel="noopener"
+&gt;Gift Trust&lt;/a&gt; as a fiscal host), which
+lets us work transparently under a charity umbrella.&lt;/p&gt;
+&lt;p&gt;Some projects we&amp;rsquo;ve been involved in recently::&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Supporting the &lt;a class="link" href="https://whangaroapapahapu.org.nz" target="_blank" rel="noopener"
+&gt;Whangaroa Papa Hapū&lt;/a&gt; towards
+Treaty Settlement with cutting edge, culturally appropriate and resilient
+tools&lt;/li&gt;
+&lt;li&gt;R+D on the fusion of millennia of Indigenous collective organising patterns
+with modern DAO tooling&lt;/li&gt;
+&lt;li&gt;Partnering with &lt;a class="link" href="https://kautepasifika.co.nz/" target="_blank" rel="noopener"
+&gt;K&amp;rsquo;aute Pasifika&lt;/a&gt; to prototype
+data-sovereignty preserving health/ wellbeing systems&lt;/li&gt;
+&lt;li&gt;Guiding the &lt;a class="link" href="https://constitution.gov.tools/en" target="_blank" rel="noopener"
+&gt;Cardano Constitution&lt;/a&gt; process
+&amp;ndash; practising world-scale collective governance&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Āhau</title><link>https://mixmix.nz/p/ahau/</link><pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate><guid>https://mixmix.nz/p/ahau/</guid><description>&lt;img src="https://mixmix.nz/p/ahau/logo_red.svg" alt="Featured image of post Āhau" /&gt;&lt;blockquote&gt;
+&lt;p&gt;⏳ 2019 &amp;ndash; 2024 &lt;br /&gt;
+🌱 has evolved into &lt;a class="link" href="https://mixmix.nz/p/matou" &gt;Mātou&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="about"&gt;About
+&lt;/h2&gt;&lt;p&gt;Āhau is an desktop + phone application for creating collaborative family trees,
+and the archiving of records which are linked to that family (photos, videos,
+documents).&lt;/p&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/ahau/irving_family.png"
+width="1613"
+height="989"
+srcset="https://mixmix.nz/p/ahau/irving_family_hu_7d34090ef5f41c3e.webp 480w, https://mixmix.nz/p/ahau/irving_family_hu_18b47d28cf40a43.webp 1024w"
+loading="lazy"
+alt="Screenshot a family tree in Āhau"
+class="gallery-image"
+data-flex-grow="163"
+data-flex-basis="391px"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;In Te Ao Māori, relationships with family (and land) form the foundation from
+which all identity, sense making, and coordination flow. Āhau was designed to
+help strengthen this foundation, and be infrastructure that was held by the
+people &amp;ndash; identity is precious taonga (treasure) after all.&lt;/p&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/ahau/whakapapa-wananga.png"
+width="1077"
+height="611"
+srcset="https://mixmix.nz/p/ahau/whakapapa-wananga_hu_a35656c7ccc34b29.webp 480w, https://mixmix.nz/p/ahau/whakapapa-wananga_hu_6f273ddbfc182193.webp 1024w"
+loading="lazy"
+alt="Āhau training session in community"
+class="gallery-image"
+data-flex-grow="176"
+data-flex-basis="423px"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;To make self-hosting accessible, Āhau was built on top of a peer-2-peer system
+called &lt;a class="link" href="https://scuttlebutt.nz" target="_blank" rel="noopener"
+&gt;Scuttlebutt&lt;/a&gt;. This put data in community hands
+(not the company&amp;rsquo;s), and the distributed nature meant any servers were just
+light-weight relays which anyone in a family could run from home on a computer.&lt;/p&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/ahau/p2p.png"
+width="591"
+height="614"
+srcset="https://mixmix.nz/p/ahau/p2p_hu_51d60310be3737cc.webp 480w, https://mixmix.nz/p/ahau/p2p_hu_5b01fba7d07bcd14.webp 1024w"
+loading="lazy"
+alt="The peer-2-peer nature of Āhau"
+class="gallery-image"
+data-flex-grow="96"
+data-flex-basis="231px"
+&gt;
+&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;
+Click to see animated
+&lt;/summary&gt;
+&lt;p&gt;&lt;img src="https://mixmix.nz/p/ahau/multiple-p%C4%81taka_css.svg"
+loading="lazy"
+alt="distributed nature of Āhau"
+&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;#x2139;&amp;#xfe0f;
+&lt;em&gt;There&amp;rsquo;s a lot more I could write on this topic. I&amp;rsquo;m really passionate about
+what we worked on and achieved, so if you&amp;rsquo;re interested to learn more please
+ask, or check out &lt;a class="link" href="https://mixmix.nz/p/govis-2023/" &gt;these&lt;/a&gt; &lt;a class="link" href="https://mixmix.nz/p/fosdem-22/" &gt;talks&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="relationship"&gt;Relationship
+&lt;/h2&gt;&lt;p&gt;When I first met this project they were exploring blockchains as a space. I
+reached out to offer my learning from the more pluralistic p2p/ Distributed
+Ledger space. Our collaboration blossomed into a longer term working
+partnership, where I took on the role of technical leader / CTO.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve formed life long relationships with the team that worked on this. Honestly
+being part of a Māori team has been an absolute honour and joy.&lt;/p&gt;
+&lt;h2 id="leadership"&gt;Leadership
+&lt;/h2&gt;&lt;p&gt;Some of the things I lead out on&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;establishing internal processes
+&lt;ul&gt;
+&lt;li&gt;retrospectives&lt;/li&gt;
+&lt;li&gt;sprints&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;integrating tikanga into our work
+&lt;ul&gt;
+&lt;li&gt;working with community leaders to design software which serves their needs&lt;/li&gt;
+&lt;li&gt;karakia are embedded into our codebase&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;education
+&lt;ul&gt;
+&lt;li&gt;mentoring Māori graduates from Waikato&lt;/li&gt;
+&lt;li&gt;working with a designer to produce animated infographics to make p2p
+concepts more accessible&lt;/li&gt;
+&lt;li&gt;conference talks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;fostering international partnerships
+&lt;ul&gt;
+&lt;li&gt;p2panda, Awana Digital, Earth Defenders Toolkit&lt;/li&gt;
+&lt;li&gt;Internet Archive / Dweb Camp&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="technical"&gt;Technical
+&lt;/h2&gt;&lt;p&gt;I designed and built many things (along and with others) but these are the what
+I&amp;rsquo;m most proud of :&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Library&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class="link" href="https://github.com/ssbc/envelope-spec/" target="_blank" rel="noopener"
+&gt;envelope-spec&lt;/a&gt;, &lt;a class="link" href="https://github.com/ssbc/private-group-spec" target="_blank" rel="noopener"
+&gt;private-group-spec&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;A large-scale group encryption specifications&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class="link" href="https://www.npmjs.com/package/ssb-tribes" target="_blank" rel="noopener"
+&gt;ssb-tribes&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Implementation of above specs in Scuttlebutt&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class="link" href="https://www.npmjs.com/package/artefact-server" target="_blank" rel="noopener"
+&gt;artefact-server&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Encrypted, streaming, peer-2-peer video&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class="link" href="https://www.npmjs.com/package/ssb-crut" target="_blank" rel="noopener"
+&gt;ssb-crut&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;A byzantine fault-tolerant &lt;a class="link" href="https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type" target="_blank" rel="noopener"
+&gt;CRDT&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class="link" href="https://www.npmjs.com/package/ssb-atala-prism" target="_blank" rel="noopener"
+&gt;ssb-atala-prism&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Plugin which adds Verifiable Credentials to Āhau&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class="link" href="https://www.npmjs.com/package/ahau-graphql-server" target="_blank" rel="noopener"
+&gt;ahau-graphql-server&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;A GraphQL endpoint which made UI dev more accessible for all our developers&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Code within Āhau:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;an algorithm for progressively loading huge family trees (5000+ people)
+smoothly&lt;/li&gt;
+&lt;li&gt;export function which converts a D3 tree into an SVG with embedded images
+&lt;ul&gt;
+&lt;li&gt;this was to support a community member to create an updated whakapapa 10
+meters wide, 2 meters high, including 1200 people.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Dark Crystal</title><link>https://mixmix.nz/p/dark-crystal/</link><pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate><guid>https://mixmix.nz/p/dark-crystal/</guid><description>&lt;img src="https://mixmix.nz/p/dark-crystal/logo.jpeg" alt="Featured image of post Dark Crystal" /&gt;&lt;h2 id="about"&gt;About
+&lt;/h2&gt;&lt;p&gt;Some friends and I were exploring blockers to cryptocurrency being accessible
+and identified that &amp;ldquo;recovery&amp;rdquo; (of secrets) was perhaps the number 1 challenge.&lt;/p&gt;
+&lt;p&gt;In 2017 I&amp;rsquo;d messed around with &lt;a class="link" href="https://en.wikipedia.org/wiki/Shamir%27s_secret_sharing" target="_blank" rel="noopener"
+&gt;Shamir&amp;rsquo;s secret sharing&lt;/a&gt;, and we noticed that we could use this concept in concert with a social network in order to safely store backups. Here&amp;rsquo;s some art I made describing the process:&lt;/p&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/dark-crystal/shard_1.jpeg"
+width="1455"
+height="983"
+srcset="https://mixmix.nz/p/dark-crystal/shard_1_hu_732ca23a41daa276.webp 480w, https://mixmix.nz/p/dark-crystal/shard_1_hu_384d9b50919b412d.webp 1024w"
+loading="lazy"
+alt="1. sharding and distributing"
+class="gallery-image"
+data-flex-grow="148"
+data-flex-basis="355px"
+&gt;
+&lt;img src="https://mixmix.nz/p/dark-crystal/shard_2.jpeg"
+width="1455"
+height="983"
+srcset="https://mixmix.nz/p/dark-crystal/shard_2_hu_98fbebe97e58fffb.webp 480w, https://mixmix.nz/p/dark-crystal/shard_2_hu_6cfefaf76a2ebd62.webp 1024w"
+loading="lazy"
+alt="2. recovering shards"
+class="gallery-image"
+data-flex-grow="148"
+data-flex-basis="355px"
+&gt;
+&lt;img src="https://mixmix.nz/p/dark-crystal/shard_3.jpeg"
+width="837"
+height="829"
+srcset="https://mixmix.nz/p/dark-crystal/shard_3_hu_6bdb071a7a98ca98.webp 480w, https://mixmix.nz/p/dark-crystal/shard_3_hu_87be79a764bd0c28.webp 1024w"
+loading="lazy"
+alt="3. recombining shards"
+class="gallery-image"
+data-flex-grow="100"
+data-flex-basis="242px"
+&gt;
+&lt;img src="https://mixmix.nz/p/dark-crystal/shard_4.jpeg"
+width="869"
+height="977"
+srcset="https://mixmix.nz/p/dark-crystal/shard_4_hu_6150edc313bdf3f3.webp 480w, https://mixmix.nz/p/dark-crystal/shard_4_hu_b317ddacde16bb5a.webp 1024w"
+loading="lazy"
+alt="4. secret recovered"
+class="gallery-image"
+data-flex-grow="88"
+data-flex-basis="213px"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;We designed a protocol, wrote a specification, and implemented a prototype in Scuttlebutt (a social p2p/ local-first social network).&lt;/p&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/dark-crystal/screenshot.jpeg"
+width="1039"
+height="856"
+srcset="https://mixmix.nz/p/dark-crystal/screenshot_hu_59a038e8a9ae197b.webp 480w, https://mixmix.nz/p/dark-crystal/screenshot_hu_60d40396d7da3d41.webp 1024w"
+loading="lazy"
+alt="Dark Crystal in Patchbay"
+class="gallery-image"
+data-flex-grow="121"
+data-flex-basis="291px"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;We presented our work at &lt;a class="link" href="https://www.youtube.com/watch?v=pOloj658DtQ" target="_blank" rel="noopener"
+&gt;DevCon 4&lt;/a&gt;
+and this led to grants from the Ethereum Foundation, further iterations on
+protocol, user-research, partnership with Briar, a java implementation and more.&lt;/p&gt;
+&lt;h2 id="technical"&gt;Technical
+&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Library&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class="link" href="https://github.com/blockades/scuttle-dark-crystal" target="_blank" rel="noopener"
+&gt;scuttle-dark-crystal&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Raw function for running Dark Crystal over Scuttlebutt&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class="link" href="https://github.com/blockades/patchbay-dark-crystal" target="_blank" rel="noopener"
+&gt;patchbay-dard-crystal&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;plugin for &lt;a class="link" href="https://mixmix.nz/p/patchbay" &gt;Patchbay&lt;/a&gt; (a Scuttlebutt client)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</description></item><item><title>Personal Safety in a p2p Social Network</title><link>https://mixmix.nz/p/personal-safety-in-a-p2p-social-network/</link><pubDate>Tue, 19 Sep 2017 00:00:00 +0000</pubDate><guid>https://mixmix.nz/p/personal-safety-in-a-p2p-social-network/</guid><description>&lt;img src="https://mixmix.nz/p/personal-safety-in-a-p2p-social-network/cover.jpg" alt="Featured image of post Personal Safety in a p2p Social Network" /&gt;&lt;p&gt;I believe in a free and open web. Over the past 3 years, friends and I have
+been growing and shaping an ecosystem for that purpose — for many, it’s now our
+primary way of communicating. It’s built with cryptography and is p2p. The
+result is a system with fundamentally different behaviours than the old web.
+This is part of a series exploring the sociological and technological
+ramifications. I call it “The Medium is the Message: Cypherspace Edition”.&lt;/p&gt;
+&lt;p&gt;Speaking at a recent &lt;a class="link" href="https://re-publica.com/" target="_blank" rel="noopener"
+&gt;re:publica&lt;/a&gt; conference, my
+friend &lt;a class="link" href="http://www.richdecibels.com/" target="_blank" rel="noopener"
+&gt;Rich Bartlett&lt;/a&gt; voiced his lack of faith
+in blockchain as a solution for all that ails us. Specifically, he threw this
+challenge:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“If you’re going to claim that your project is decentralising power, please
+explain it in terms of justice, rather than just efficiency and
+disintermediation.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This got me wondering how our project
+&lt;a class="link" href="https://www.scuttlebutt.nz" target="_blank" rel="noopener"
+&gt;Scuttlebutt&lt;/a&gt;, a decentralised social network, is
+any different from other hype. Most pressing was the question, “Can we
+guarantee that people will be safe from bullying and abuse?” If we can’t build
+a community which is free and open for everyone to participate in — if it’s a
+space where some people are sexually harassed, or receive threats of violence —
+then we’re wasting our time.&lt;/p&gt;
+&lt;p&gt;Our decentralised architecture certainly makes global spamming attacks hard,
+and data only flows along lines of trust. But it’s still technically possible
+for people to abuse others within our community, particularly if they have a
+lot of friends in common. In our history to date, we’ve only had a few
+incidents of behaviour and communication that run strongly against the
+community culture I want to support.&lt;/p&gt;
+&lt;p&gt;So how have we dealt with abuse?&lt;/p&gt;
+&lt;h2 id="just-kick-them-out"&gt;Just kick them out
+&lt;/h2&gt;&lt;p&gt;On corporate platforms like Twitter, Youtube, or Facebook, there’s a single
+central organisation with (essentially) a single data storage system. In that
+context, it’s easy for the owners of the system to delete content or users — in
+fact it’s their prerogative and, some would say, responsibility to do so. Most
+platforms have a “report” or “flag” feature which marks content or users for
+review/exclusion. This can be good, but also results in endless arguments about
+these rulings, since policing and judging fairly is expensive and difficult.&lt;/p&gt;
+&lt;p&gt;Companies like Reddit get around some of this overhead by being a platform for
+community-moderated ‘subreddits’ (channels for specific topics). Sometimes
+Reddit admins will still step in and ‘moderate’ user content, like when &lt;a class="link" href="https://www.washingtonpost.com/news/the-switch/wp/2016/11/26/reddits-ceo-regrets-trolling-trump-supporters-by-secretly-editing-their-posts/" target="_blank" rel="noopener"
+&gt;their
+CEO messed with Trump
+posts&lt;/a&gt;
+, which was simultaneously funny and pretty troubling.&lt;/p&gt;
+&lt;p&gt;As a federated network, &lt;a class="link" href="https://mastodon.social/about" target="_blank" rel="noopener"
+&gt;Mastodon&lt;/a&gt; takes this a
+step further — communities self-host their own ‘instances’ of the platform,
+meaning there are many self-governing fiefdoms. Each sets their own rules and
+can kick content and people off their instance. It’s great because there’s no
+corporation shaping your experience, and you don’t need one policy to cover all
+the people in the world. The challenge is you have to be fairly organised as a
+group to set up and pay for the infrastructure, and to actively govern your
+space.&lt;/p&gt;
+&lt;p&gt;Scuttlebutt goes even further: it’s fully decentralised, with no single central
+organisation or federation of fiefs. There are only fully autonomous peers,
+each running the software on their local computer and making their own choices
+about how they want to interact.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;There is no owner of any shared physical space or hardware from which you
+can kick a person&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This is the double edged sword of p2p social networks — it’s a space safe from
+authoritarian interference &lt;em&gt;and&lt;/em&gt; it’s harder to assert boundaries.&lt;/p&gt;
+&lt;h2 id="have-a-strong-culture"&gt;Have a strong culture
+&lt;/h2&gt;&lt;p&gt;As described above, this decentralisation might sound like total anarchy. It
+is, but maybe preconceptions have coloured your expectation of how this might
+pan out. In practice, what emerges is not that different to other networks —
+people migrate toward and away from conversations and people they want to
+interact with. We see ‘islands’ or ‘domains’ of community, which might be
+distinct, overlapping, or totally disconnected. It’s similar to the dynamics of
+Twitter, but while Twitter’s global space leaves it open for witch hunts and
+hashtag storms, Scuttlebutt is more localised and stable.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;What is culture in such a fragmented space?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I can only talk about the parts of the Scuttleverse I interact with. It’s
+filled with open-source programmers, communists, vegans, feminists, sailors,
+and mycologists — and not capitalism or trolls.&lt;/p&gt;
+&lt;p&gt;The community space around me has something like emergent governance. When
+someone presents rough behaviour, it’s common for one or more people to
+intercede and apply some combination of:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;polite inquiry and clarifying questions&lt;/li&gt;
+&lt;li&gt;assertion of what sort of interaction they’d prefer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This costs time and energy, and it’s totally worth it.&lt;/p&gt;
+&lt;p&gt;As individuals and as a group, we get the opportunity to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;check our assumptions, and (maybe) build connections with new cultures&lt;/li&gt;
+&lt;li&gt;clarify our beliefs and who we are&lt;/li&gt;
+&lt;li&gt;role model what respectful conversation and good boundary setting looks like&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Our conflicts have advanced us individually, and as group we have built
+stronger relationships and are more skilled and articulate. I absolutely
+believe this is the fundamental and unavoidable work of community, and that
+community is integral to any human ecosystem.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is all really cool and cerebral, but does this stop rape threats?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;(Hasn’t happened yet to my knowledge, but it’s a decent question.)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/personal-safety-in-a-p2p-social-network/follows.jpg"
+width="1400"
+height="1108"
+srcset="https://mixmix.nz/p/personal-safety-in-a-p2p-social-network/follows_hu_bbacd7c8a22bc4f6.webp 480w, https://mixmix.nz/p/personal-safety-in-a-p2p-social-network/follows_hu_1bceecac73313fc3.webp 1024w"
+loading="lazy"
+alt="information flows in a peer network"
+class="gallery-image"
+data-flex-grow="126"
+data-flex-basis="303px"
+&gt;
+&lt;em&gt;information flows in a peer
+network&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="block-them"&gt;Block them
+&lt;/h2&gt;&lt;p&gt;This is the feature I’ve just finished building. Applying culture only gets you
+so far — it can’t necessarily protect you from a malicious actor.&lt;/p&gt;
+&lt;p&gt;In an extreme situation, the things I want you to be able to avoid are:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;being contacted by someone&lt;/li&gt;
+&lt;li&gt;being stalked by someone&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The first one is easy to implement — you can just tell the interface to not
+show anything new from that person. What I’ve built actually goes further, by
+ceasing propagation of that person’s data to friends of yours not already
+connected with this person.&lt;/p&gt;
+&lt;p&gt;The second part is harder. We’re a p2p network, where messages are &lt;a class="link" href="https://medium.com/enspiral-tales/gossiping-securely-is-the-new-email-6d706d4cd435" target="_blank" rel="noopener"
+&gt;gossiped
+&lt;/a&gt;—
+how do you say things publicly and have them not get to that person? You tell
+your friends that’s what you want, and they respect your decision!&lt;/p&gt;
+&lt;p&gt;In programmatic terms, a ‘block’ is just another type of message which is
+gossiped. As soon as a peer receives it, their local setup effects the change
+and tops passing information about you to the person you’re blocking.&lt;/p&gt;
+&lt;p&gt;In a p2p context, being blocked means you have fewer connected peers, because
+the number of people gossiping your messages is reduced. Highly abusive
+characters might find themselves enjoying just the freedom of their own speech,
+alone.&lt;/p&gt;
+&lt;h2 id="the-medium-is-the-message"&gt;&lt;strong&gt;The Medium is the Message&lt;/strong&gt;
+&lt;/h2&gt;&lt;p&gt;Marshal McLuhan coined this &lt;a class="link" href="https://en.wikipedia.org/wiki/The_medium_is_the_message" target="_blank" rel="noopener"
+&gt;iconic
+phrase&lt;/a&gt;, and I’d
+summarise it roughly as, “The physics of your medium determine what is possible
+in that medium, and so ultimately the message.”&lt;/p&gt;
+&lt;p&gt;Given Scuttlebutt is a cypherspace (a space whose foundational physics is
+cryptography), what is the nature of the medium that is different here, and
+&lt;em&gt;what is that message?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The underlying cryptography is what makes it possible for people to be totally
+autonomous agents in this social network. It affords a level of freedom from
+coercion that is probably unprecedented in a digital space. It also removes all
+responsibility for governance or custodianship of a space from any particular
+entity and devolves it to the level of individuals making choices. So far in
+the Scuttleverse, I’ve seen this lead to a lot of personal responsibility and
+growth.&lt;/p&gt;
+&lt;p&gt;It’s also fascinating to watch how the lack of dependence on shared hosting
+infrastructure means that we can have a multiplicity of overlapping
+communities. A recent example was when I found a user, who calls themselves
+Johnny Null, in the &lt;em&gt;#dads&lt;/em&gt; channel (which I started because I’m going to be a
+dad soon, and wanted to talk about that with other crypto-dads). I was
+surprised, because I had experienced a lot of antagonistic threads with this
+person, leading to some of my friends blocking him, but I hadn’t yet.&lt;/p&gt;
+&lt;p&gt;In this new context, I wasn’t seeing unproductive abuse from him. We found
+another way to connect on a really human topic. I was surprised to learn he was
+a dad, and to receive encouragement and offers of support from him. It was such
+a sharp contrast from previous interactions. The diversity of approaches
+available made it possible for some people to block him, but he wasn’t banned
+from the network, leaving open new possibilities. I don’t know where that will
+go … but perhaps we could still have a chance at understanding each other.&lt;/p&gt;
+&lt;p&gt;I see alignment of the physics of p2p space and the physics of everyday
+in-person space. It feels poetic that the way we’ve implemented a block in
+Scuttlebutt is through communicating boundaries and asking our peers to respect
+them. That’s how it works in offline spaces, too. I see this pattern a lot in
+what we’re building — p2p interactions mirroring human interaction — and it’s
+the heart of what I want to communicate by invoking The Medium is the Message.&lt;/p&gt;
+&lt;p&gt;Building systems with peers means the tools we build might be just a little
+more human, and make space for adaptive communities. My hope is that this space
+will help us re-learn some of what we’ve forgotten in society, and that maybe
+this will make a difference in the rising challenges we have to face.&lt;/p&gt;</description></item><item><title>Uncapturable Distribution</title><link>https://mixmix.nz/p/uncapturable-distribution/</link><pubDate>Sun, 25 Oct 2015 00:00:00 +0000</pubDate><guid>https://mixmix.nz/p/uncapturable-distribution/</guid><description>&lt;img src="https://mixmix.nz/p/uncapturable-distribution/galaxy.jpg" alt="Featured image of post Uncapturable Distribution" /&gt;&lt;p&gt;So I hang out with a bunch of big dreaming nerds with a bunch of different
+interests, but when we explore what it is we want in our future, it&amp;rsquo;s a happy
+thriving civilisation. You&amp;rsquo;ll know we&amp;rsquo;re there because we&amp;rsquo;ll be looking after
+each other, curiously exploring, sharing our successes, and making
+intergalactic friends.&lt;/p&gt;
+&lt;p&gt;The workshops were about developing a Theory of Change for each group.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Theory of Change&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The process of forming a &lt;a class="link" href="http://www.theoryofchange.org/what-is-theory-of-change/" target="_blank" rel="noopener"
+&gt;Theory of
+Change&lt;/a&gt; is about
+coming up with a map of how change will come about in the world. It starts by
+a group building a shared vision of it&amp;rsquo;s particular desired end-state is.You
+then proceed to build a graph of dependent states back from that end point to
+the current state of the world. This is called &amp;lsquo;back-casting&amp;rsquo;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The process has several steps including things like surfacing and testing
+assumptions, detailing how you would measure successful change at each step,
+and assessing the cost and nature of intervention to prgress between states.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;In each of the workshops, 2 hours of conversation made barely a dent in
+completing a fully detailed map, but we&amp;rsquo;d revealed a lot of territory. Both
+workshops explored similar veins, but here I&amp;rsquo;ll explore the second, because
+it&amp;rsquo;s fresher in memory and highly relevant to my current work.&lt;/p&gt;
+&lt;h2 id="why-build-a-decentralised-database"&gt;Why build a decentralised database?
+&lt;/h2&gt;&lt;p&gt;This is a workshop I ran with the Secure Scuttlebutt team who all happened to
+be in San Francisco recently. Here&amp;rsquo;s what the top of our theory of change
+diagram looked like :&lt;/p&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/uncapturable-distribution/TOS_2.jpg"
+width="309"
+height="394"
+srcset="https://mixmix.nz/p/uncapturable-distribution/TOS_2_hu_3a42609665c5f132.webp 480w, https://mixmix.nz/p/uncapturable-distribution/TOS_2_hu_39717d13fba8c6bb.webp 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="78"
+data-flex-basis="188px"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;Some important things we agreed we need to achieve were :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;specialisation without inequity&lt;/li&gt;
+&lt;li&gt;rich ecosystem (supports diverse approaches)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I&amp;rsquo;d like to explore one particular chain of states back. This format makes it
+hard to simultaneously discuss the branching and interconnected dependencies,
+so please forgive me if the analysis seems to narrow. I&amp;rsquo;m interested in this
+particular chain because it raised questions which provided a useful frame or
+lens for projects I&amp;rsquo;m working on or with. From the top it reads :&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Galactic council&lt;/li&gt;
+&lt;li&gt;Large scale social harmony&lt;/li&gt;
+&lt;li&gt;Post scarcity&lt;/li&gt;
+&lt;li&gt;Distribution primarily in service of society&lt;/li&gt;
+&lt;li&gt;Distribution is distributed and un-ownable&lt;/li&gt;
+&lt;li&gt;We build our distribution on un-capturable technologies&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;As distribution surfaced as a theme, we tested our assumptions against real-world examples :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;distribution of food and goods: supermarkets, walmart&lt;/li&gt;
+&lt;li&gt;distribution of information: email, google, facebook&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We observed that &lt;strong&gt;ownership&lt;/strong&gt; of distribution by &lt;strong&gt;actors mainly interested in
+profit&lt;/strong&gt; has lead to problematic dynamics which block us from joining the
+Galactic Council. See massive food waste, destruction of diversity through
+monopoly, development of tools which optimise addiction and consumption,
+development of tools which define value for us.&lt;/p&gt;
+&lt;h2 id="some-examples"&gt;Some examples
+&lt;/h2&gt;&lt;p&gt;Here&amp;rsquo;s a breakdown of a couple of interesting cases in the context of
+information distribution.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[Email]&lt;/strong&gt; : a super successful open protocol. Anyone can send emails to
+anyone. The failing of email is that it has no mechanism for dealing with
+un-wanted noise (see spam). This has generated a niche for organisations to
+offer value (spam filtering), and capture users. For example Gmail is popular
+because it does fairly reliable spam filtering. This makes email less open,
+because small private servers have a harder time generating a good &amp;rsquo;not-spam&amp;rsquo;
+reputation.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Distribution systems must have a solution to noise.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;[Facebook]&lt;/strong&gt; : built on an open protocol - http - but has centralised closed
+databases, and a closed (proprietary) interface. Facebook&amp;rsquo;s primary motivation
+is profit, which inclines it to leverage it&amp;rsquo;s closed-ness (right of refusal of
+access) to extract value from it&amp;rsquo;s user-base.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;All parts of a distribution system need to be uncapturable - open protocols
+are not sufficient&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;a class="link" href="https://www.facebook.com/terms.php" target="_blank" rel="noopener"
+&gt;facebook ToS&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[Google]&lt;/strong&gt; : the growth of the internet beyond easily navigable scales led to
+the birth of search engines. The current winning solution to this problem is an
+algorithm which determines site value based on linkages and references. Again,
+this is a niche which has been captured by a primarily profit motivated
+organisation. This capture looks something like a monopoly through dependence,
+and is &lt;a class="link" href="http://techcrunch.com/2011/03/25/search-googles-castle-moat/" target="_blank" rel="noopener"
+&gt;defended by a suite of related free and powerful
+tools&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Distribution systems need to address capturable searchability&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="things-you-should-consider"&gt;Things you should consider
+&lt;/h2&gt;&lt;p&gt;I&amp;rsquo;ve named a bunch of assumptions and principles that we think need to be
+integrated in order to get us on the road to The Galactic Council.&lt;/p&gt;
+&lt;p&gt;What is your interaction with distribution systems, are you investing in
+systems that build the future you want to see?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;How do you network online, is it via an actor interested mostly in profit?&lt;/li&gt;
+&lt;li&gt;Who holds power over the definition of value of what you&amp;rsquo;re interacting with?&lt;/li&gt;
+&lt;li&gt;Where do you publish your content?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I think it&amp;rsquo;s overly idealistic to transition immediately to decentralised
+uncapturable solutions, but there are small choices that we can and should
+start making if we want to live in a thriving society.&lt;/p&gt;
+&lt;h2 id="possible-solutions"&gt;Possible solutions
+&lt;/h2&gt;&lt;h3 id="open-sourcing"&gt;Open-sourcing
+&lt;/h3&gt;&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/uncapturable-distribution/loomio.jpg"
+width="1100"
+height="885"
+srcset="https://mixmix.nz/p/uncapturable-distribution/loomio_hu_ad53eea31a05028b.webp 480w, https://mixmix.nz/p/uncapturable-distribution/loomio_hu_4df43f939f3fc979.webp 1024w"
+loading="lazy"
+alt="Loomio logo"
+class="gallery-image"
+data-flex-grow="124"
+data-flex-basis="298px"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;With &lt;a class="link" href="http://www.loomio.org/" target="_blank" rel="noopener"
+&gt;Loomio&lt;/a&gt; (a collaborative decision-making
+platform), we&amp;rsquo;ve addressed some of these same problems by a steadfast
+commitment to being &lt;a class="link" href="https://github.com/loomio/loomio" target="_blank" rel="noopener"
+&gt;open-source&lt;/a&gt;. While
+individual instances of the platform may have closed databases, the
+open-sourcing of the platform code means that anyone can own and control their
+own instance. It also makes advertising and data-mining significantly less
+likely, because anyone in the community can fork the code-base and rip anything
+extractive out. For Loomio this is actually a selling point - it&amp;rsquo;s a clear
+signal that our primary value is in serving society.&lt;/p&gt;
+&lt;p&gt;With Loomio, capturing ownership has also been very seriously addressed in how
+we&amp;rsquo;ve written our constitution, and our approach to investment. In short, you
+can&amp;rsquo;t buy Loomio, and no one person can control it.&lt;/p&gt;
+&lt;h3 id="publish-carefully"&gt;Publish carefully
+&lt;/h3&gt;&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/uncapturable-distribution/hypermarkdown.png"
+width="81"
+height="60"
+srcset="https://mixmix.nz/p/uncapturable-distribution/hypermarkdown_hu_2abc2a73d2aa4103.webp 480w, https://mixmix.nz/p/uncapturable-distribution/hypermarkdown_hu_94f93b26643c9939.webp 1024w"
+loading="lazy"
+alt="Hypermarkdown logo"
+class="gallery-image"
+data-flex-grow="135"
+data-flex-basis="324px"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;You might notice this isn&amp;rsquo;t published on medium. Honestly, this is an
+experiment in document splicing using a tool I made currently called
+&lt;a class="link" href="https://github.com/mixmix/hypermarkdown" target="_blank" rel="noopener"
+&gt;Hypermarkdown&lt;/a&gt;. In retrospect this
+approach does tick some boxes. This content is currently being hosted at
+&lt;a class="link" href="https://github.com/mixmix/blogposts/blob/master/uncapturable_distribution.md" target="_blank" rel="noopener"
+&gt;github.com&lt;/a&gt;&amp;hellip;
+which sounds like my content might be captured buuuut, github is acutally built
+on a distributed content system called &lt;a class="link" href="https://git-scm.com/" target="_blank" rel="noopener"
+&gt;git&lt;/a&gt;. An exact
+mirror of the data lives on my computer as well, and could easily be hosted by
+any git based server, like a self-hosted &lt;a class="link" href="https://about.gitlab.com/" target="_blank" rel="noopener"
+&gt;gitlab&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;There&amp;rsquo;s still the problem of how it is you&amp;rsquo;ve found your way to this blog.
+99.9% liklihood is that in 2015 it was via facebook, or twitter (it probably
+wasn&amp;rsquo;t via google because the way I built this accidentally makes it harder to
+index).&lt;/p&gt;
+&lt;p&gt;(&lt;strong&gt;Edit (2025)&lt;/strong&gt; - I&amp;rsquo;ve since pulled this into another git repo which generates
+this static site using Hugo)&lt;/p&gt;
+&lt;h3 id="build-an-open-combined-protocol-database"&gt;Build an open combined protocol-database
+&lt;/h3&gt;&lt;p&gt;The solution I&amp;rsquo;m currently investing in is &lt;a class="link" href="https://github.com/ssbc/docs" target="_blank" rel="noopener"
+&gt;&lt;strong&gt;Secure Scuttlebutt&lt;/strong&gt;
+&lt;/a&gt;. It&amp;rsquo;s an open and secure decentralised database
+where distribution flows along trust lines, as determined by following
+(positive value) and flagging (negative value).&lt;/p&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/uncapturable-distribution/hermes_logo.png"
+width="200"
+height="200"
+srcset="https://mixmix.nz/p/uncapturable-distribution/hermes_logo_hu_9b6782c4307a29c9.webp 480w, https://mixmix.nz/p/uncapturable-distribution/hermes_logo_hu_cc4a8b51767480b0.webp 1024w"
+loading="lazy"
+alt="Hermes the hermit-crab"
+class="gallery-image"
+data-flex-grow="100"
+data-flex-basis="240px"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;Anyone is free to build an app to interface (read/ write) with this database.
+The first app is a proof of concept messaging app called
+&lt;a class="link" href="https://github.com/ssbc/patchwork" target="_blank" rel="noopener"
+&gt;&lt;strong&gt;Patchwork&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Check out a brief introduction +&lt;a class="link" href="https://www.youtube.com/watch?v=vmQUfZMCVJ0" target="_blank" rel="noopener"
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The Scuttlebutt team is planning to open beta Patchwork in November 2015.&lt;/p&gt;
+&lt;p&gt;An overview of scuttlebutt&amp;rsquo;s solution to some know problems with distribution
+systems:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; All open uncapturable system: the protocol is open and the database is
+open and distributed. People can only edit their own data and reference
+others.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Has an uncapturable solution to noise: distribution only flows along
+trust lines in the network.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Searchable: relevance is similarly determined by trust relationships in
+the network.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;(Which pitfalls have we missed?)&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Scuttlebutt</title><link>https://mixmix.nz/p/scuttlebutt/</link><pubDate>Thu, 01 Oct 2015 00:00:00 +0000</pubDate><guid>https://mixmix.nz/p/scuttlebutt/</guid><description>&lt;img src="https://mixmix.nz/p/scuttlebutt/bandana.jpg" alt="Featured image of post Scuttlebutt" /&gt;&lt;blockquote&gt;
+&lt;p&gt;⏳ 2015 &amp;ndash; ongoing &lt;br /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This is the project I have contributed the most to in my life. It&amp;rsquo;s a p2p
+replicating database, and a solarpunk community that grew up around and through
+it. I&amp;rsquo;ve made life-long friends and built bridges spanning almost every
+continent and honestly it&amp;rsquo;s a challenge hard to summarize.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;#x1f6a7; Please feel free to direct queries to me about what you&amp;rsquo;d like
+to know more about&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="things-ive-done"&gt;Things I&amp;rsquo;ve done
+&lt;/h2&gt;&lt;p&gt;Here&amp;rsquo;s an incomplete summary of the many roles/ projects/ things I did:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hosted a Theory of Change workshop&lt;/li&gt;
+&lt;li&gt;Lead development discourse from IRC to Scuttlebutt itself (&lt;a class="link" href="https://en.wikipedia.org/wiki/Eating_your_own_dog_food" target="_blank" rel="noopener"
+&gt;dogfooding&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Ran distributed strategy setting process&lt;/li&gt;
+&lt;li&gt;Wrote many libraries + plugins&lt;/li&gt;
+&lt;li&gt;Developed many applications on top of Scuttlebutt
+&lt;ul&gt;
+&lt;li&gt;&lt;a class="link" href="https://mixmix.nz/p/ahau" &gt;Āhau&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Infinite Game&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://mixmix.nz/p/dark-crystal" &gt;Dark Crystal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;TikTak&lt;/li&gt;
+&lt;li&gt;Patchbay&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Co-designed new cryptographic primitives&lt;/li&gt;
+&lt;li&gt;Created learning resources + documentation&lt;/li&gt;
+&lt;li&gt;Ran an &lt;a class="link" href="https://one.camp.scuttlebutt.nz/" target="_blank" rel="noopener"
+&gt;international conference&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Ran grant process distributing ~$500K&lt;/li&gt;
+&lt;li&gt;Administered Maintenance and Grant-writing funds&lt;/li&gt;
+&lt;li&gt;Gave conference &lt;a class="link" href="https://mixmix.nz/categories/talks/" &gt;talks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Designed an ran Faerie Rings - a peer support process&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="photos"&gt;Photos
+&lt;/h2&gt;&lt;h3 id="from-things-i-was-involved-in"&gt;From things I was involved in
+&lt;/h3&gt;&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/scuttlebutt/mix-dominic.jpeg"
+width="1600"
+height="1200"
+srcset="https://mixmix.nz/p/scuttlebutt/mix-dominic_hu_6fc63ec449501153.webp 480w, https://mixmix.nz/p/scuttlebutt/mix-dominic_hu_832d2938b4e9ec02.webp 1024w"
+loading="lazy"
+alt="Sailing adventures"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+&gt;
+&lt;img src="https://mixmix.nz/p/scuttlebutt/scuttle-camp.jpeg"
+width="1200"
+height="802"
+srcset="https://mixmix.nz/p/scuttlebutt/scuttle-camp_hu_d72e499f255e9a1.webp 480w, https://mixmix.nz/p/scuttlebutt/scuttle-camp_hu_b0bf5117317f4a65.webp 1024w"
+loading="lazy"
+alt="Scuttle Camp in Wellington, New Zealand"
+class="gallery-image"
+data-flex-grow="149"
+data-flex-basis="359px"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/scuttlebutt/huoim-kalahari.jpeg"
+width="1280"
+height="960"
+srcset="https://mixmix.nz/p/scuttlebutt/huoim-kalahari_hu_f3b639f139ced26b.webp 480w, https://mixmix.nz/p/scuttlebutt/huoim-kalahari_hu_b0b12e885afd5675.webp 1024w"
+loading="lazy"
+alt="Huoim using SSB in the Kalahari"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+&gt;
+&lt;img src="https://mixmix.nz/p/scuttlebutt/faerie-ring-blueberry.jpeg"
+width="1907"
+height="899"
+srcset="https://mixmix.nz/p/scuttlebutt/faerie-ring-blueberry_hu_cbfe01f545802d22.webp 480w, https://mixmix.nz/p/scuttlebutt/faerie-ring-blueberry_hu_827aeaff0c50bf10.webp 1024w"
+loading="lazy"
+alt="Hosting Fairie Rings"
+class="gallery-image"
+data-flex-grow="212"
+data-flex-basis="509px"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/scuttlebutt/patchbay-cal.jpeg"
+width="1698"
+height="1040"
+srcset="https://mixmix.nz/p/scuttlebutt/patchbay-cal_hu_d078d925fe9a07a1.webp 480w, https://mixmix.nz/p/scuttlebutt/patchbay-cal_hu_3a35694e35fd7560.webp 1024w"
+loading="lazy"
+alt="Patchbay: Gatherings"
+class="gallery-image"
+data-flex-grow="163"
+data-flex-basis="391px"
+&gt;
+&lt;img src="https://mixmix.nz/p/scuttlebutt/patchbay-scry.jpeg"
+width="1799"
+height="1031"
+srcset="https://mixmix.nz/p/scuttlebutt/patchbay-scry_hu_cc4a09829393947f.webp 480w, https://mixmix.nz/p/scuttlebutt/patchbay-scry_hu_aa31f74ac97b8b90.webp 1024w"
+loading="lazy"
+alt="Patchbay: Scry"
+class="gallery-image"
+data-flex-grow="174"
+data-flex-basis="418px"
+&gt;
+&lt;img src="https://mixmix.nz/p/scuttlebutt/patchbay-thread.jpeg"
+width="1360"
+height="1020"
+srcset="https://mixmix.nz/p/scuttlebutt/patchbay-thread_hu_b9a1c3feaa118b3c.webp 480w, https://mixmix.nz/p/scuttlebutt/patchbay-thread_hu_64283cccd1cb0c75.webp 1024w"
+loading="lazy"
+alt="Patchbay: Threads"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/scuttlebutt/ssb-graph-viz.png"
+width="1366"
+height="656"
+srcset="https://mixmix.nz/p/scuttlebutt/ssb-graph-viz_hu_eacf5a6d499ea1f3.webp 480w, https://mixmix.nz/p/scuttlebutt/ssb-graph-viz_hu_958347db7acd1412.webp 1024w"
+loading="lazy"
+alt="A view of part of the Scuttleverse via ssb-graph-viz"
+class="gallery-image"
+data-flex-grow="208"
+data-flex-basis="499px"
+&gt;
+&lt;/p&gt;
+&lt;h3 id="from-the-scuttleverse"&gt;From the Scuttleverse
+&lt;/h3&gt;&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/scuttlebutt/bob-greenhouse.jpeg"
+width="2048"
+height="1360"
+srcset="https://mixmix.nz/p/scuttlebutt/bob-greenhouse_hu_bfa47b72f73f2cb1.webp 480w, https://mixmix.nz/p/scuttlebutt/bob-greenhouse_hu_732b3e818f730349.webp 1024w"
+loading="lazy"
+alt="Gardening &amp; gender essentialism"
+class="gallery-image"
+data-flex-grow="150"
+data-flex-basis="361px"
+&gt;
+&lt;img src="https://mixmix.nz/p/scuttlebutt/bob-chillis.jpeg"
+width="2048"
+height="1360"
+srcset="https://mixmix.nz/p/scuttlebutt/bob-chillis_hu_c901f887fbe5d260.webp 480w, https://mixmix.nz/p/scuttlebutt/bob-chillis_hu_3c6aeba7374bfd5b.webp 1024w"
+loading="lazy"
+alt="Comparing chilli varieties"
+class="gallery-image"
+data-flex-grow="150"
+data-flex-basis="361px"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/scuttlebutt/mycology-rich.jpeg"
+width="1400"
+height="788"
+srcset="https://mixmix.nz/p/scuttlebutt/mycology-rich_hu_21a57c533197844f.webp 480w, https://mixmix.nz/p/scuttlebutt/mycology-rich_hu_b0bea41addebc8de.webp 1024w"
+loading="lazy"
+alt="Mushroom identification"
+class="gallery-image"
+data-flex-grow="177"
+data-flex-basis="426px"
+&gt;
+&lt;img src="https://mixmix.nz/p/scuttlebutt/mycology-lions-mane.jpeg"
+width="640"
+height="800"
+srcset="https://mixmix.nz/p/scuttlebutt/mycology-lions-mane_hu_d4d0eccea99bd6b0.webp 480w, https://mixmix.nz/p/scuttlebutt/mycology-lions-mane_hu_7b291cebc7f743b9.webp 1024w"
+loading="lazy"
+alt="Cultivating Reishi"
+class="gallery-image"
+data-flex-grow="80"
+data-flex-basis="192px"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/scuttlebutt/extra-solar.jpeg"
+width="700"
+height="700"
+srcset="https://mixmix.nz/p/scuttlebutt/extra-solar_hu_e52e99bd48a7645d.webp 480w, https://mixmix.nz/p/scuttlebutt/extra-solar_hu_9bee0374b7e32fae.webp 1024w"
+loading="lazy"
+alt="Extra Solar in Tornio, Finland"
+class="gallery-image"
+data-flex-grow="100"
+data-flex-basis="240px"
+&gt;
+&lt;img src="https://mixmix.nz/p/scuttlebutt/dark-crystal-art.jpeg"
+width="1950"
+height="800"
+srcset="https://mixmix.nz/p/scuttlebutt/dark-crystal-art_hu_70502b984f51b3ca.webp 480w, https://mixmix.nz/p/scuttlebutt/dark-crystal-art_hu_6cc34a2d6ba0f4f9.webp 1024w"
+loading="lazy"
+alt="Dark Crystal Art"
+class="gallery-image"
+data-flex-grow="243"
+data-flex-basis="585px"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/scuttlebutt/boat-alchemist.png"
+width="1247"
+height="873"
+srcset="https://mixmix.nz/p/scuttlebutt/boat-alchemist_hu_3ee7ac36fd4dd74c.webp 480w, https://mixmix.nz/p/scuttlebutt/boat-alchemist_hu_c9530532e7467997.webp 1024w"
+loading="lazy"
+alt="Collective boat ownership"
+class="gallery-image"
+data-flex-grow="142"
+data-flex-basis="342px"
+&gt;
+&lt;img src="https://mixmix.nz/p/scuttlebutt/dominic-bosun.jpeg"
+width="2560"
+height="1440"
+srcset="https://mixmix.nz/p/scuttlebutt/dominic-bosun_hu_42207cc1eb52c7a9.webp 480w, https://mixmix.nz/p/scuttlebutt/dominic-bosun_hu_6e76401e2784c2d8.webp 1024w"
+loading="lazy"
+alt="Boat hacking"
+class="gallery-image"
+data-flex-grow="177"
+data-flex-basis="426px"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/scuttlebutt/solar-bike.jpeg"
+width="812"
+height="454"
+srcset="https://mixmix.nz/p/scuttlebutt/solar-bike_hu_e2a8af1841e74fa5.webp 480w, https://mixmix.nz/p/scuttlebutt/solar-bike_hu_ff43aebb2462d083.webp 1024w"
+loading="lazy"
+alt="Solar bikes"
+class="gallery-image"
+data-flex-grow="178"
+data-flex-basis="429px"
+&gt;
+&lt;img src="https://mixmix.nz/p/scuttlebutt/solar-substack.jpeg"
+width="600"
+height="450"
+srcset="https://mixmix.nz/p/scuttlebutt/solar-substack_hu_6326bdf64bd8eafa.webp 480w, https://mixmix.nz/p/scuttlebutt/solar-substack_hu_942e82f897a102d8.webp 1024w"
+loading="lazy"
+alt="Off-grid living"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://mixmix.nz/tags/scuttlebutt" &gt;See related posts&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

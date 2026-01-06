@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cryptography on mixmix</title><link>https://mixmix.nz/tags/cryptography/</link><description>Recent content in Cryptography on mixmix</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 30 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://mixmix.nz/tags/cryptography/index.xml" rel="self" type="application/rss+xml"/><item><title>Entropy Cryptography</title><link>https://mixmix.nz/p/entropy/</link><pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate><guid>https://mixmix.nz/p/entropy/</guid><description>&lt;img src="https://mixmix.nz/p/entropy/cover.jpeg" alt="Featured image of post Entropy Cryptography" /&gt;&lt;blockquote&gt;
+&lt;p&gt;⏳ 2024 &amp;ndash; 2025 &lt;br /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="about"&gt;About
+&lt;/h2&gt;&lt;p&gt;Entropy has been a few things over it&amp;rsquo;s lifetime. At the time I worked on it it
+was a distributed signing service, which would form foundational infrastructure
+for many automated processes. In essence a new sort of coordination and
+financial tooling.&lt;/p&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/entropy/whiteboard.jpeg"
+width="1600"
+height="1163"
+srcset="https://mixmix.nz/p/entropy/whiteboard_hu_a8dc07bbda5d0f23.webp 480w, https://mixmix.nz/p/entropy/whiteboard_hu_7a8ddd707a219f86.webp 1024w"
+loading="lazy"
+alt="A whiteboard diagram I drew mapping Entropy functionality"
+class="gallery-image"
+data-flex-grow="137"
+data-flex-basis="330px"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;The core proposition was&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;users can set up &amp;ldquo;accounts&amp;rdquo; which have configuration held on a global
+blockchain. This includes
+&lt;ul&gt;
+&lt;li&gt;who may initiate signatures for this account?&lt;/li&gt;
+&lt;li&gt;what data are they allowed to sign (e.g. raw binary? Transactions &amp;lt; 0.5 ETH?)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;any user may request a signature on some data, and if the user + data pass
+validation, then the network initiates distributed threshold signing, and a
+signature is returned.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="relationship"&gt;Relationship
+&lt;/h2&gt;&lt;p&gt;I met Entropy through a &lt;a class="link" href="https://mixmix.nz/p/protozoa" &gt;coop&lt;/a&gt; member who had been working with
+them for more than a year. Turns out there were a bunch of p2p friends also
+working there &amp;ndash; 2 from &lt;a class="link" href="https://mixmix.nz/p/dark-crystal" &gt;Dark Crystal&lt;/a&gt;, 1 from
+&lt;a class="link" href="https://mixmix.nz/p/scuttlebutt" &gt;Scuttlebutt&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It was great to work in a social aligned and well resourced team. Bunch of kinda
+crazy and very talented humans. I particularly valued the leadership of
+Frankiebee - my direct team lead.&lt;/p&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/entropy/offsite.jpeg"
+width="1600"
+height="1200"
+srcset="https://mixmix.nz/p/entropy/offsite_hu_8be3cd0b68e6b5d2.webp 480w, https://mixmix.nz/p/entropy/offsite_hu_1dce84cdb29458bd.webp 1024w"
+loading="lazy"
+alt="From an offsite outside Toronto"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+&gt;
+&lt;/p&gt;
+&lt;h2 id="leadership"&gt;Leadership
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;team lead for the JS CLI&lt;/li&gt;
+&lt;li&gt;leading architecture changes&lt;/li&gt;
+&lt;li&gt;hosting cross-team Schema specification&lt;/li&gt;
+&lt;li&gt;retrospectives for the JS team&lt;/li&gt;
+&lt;li&gt;helping structure an offsite&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="technical"&gt;Technical
+&lt;/h2&gt;&lt;p&gt;The libraries I helped develop:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Library&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class="link" href="https://www.npmjs.com/package/@entropyxyz/cli" target="_blank" rel="noopener"
+&gt;@entropyxyz/cli&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;A CLI tool which supports programmatic and TUI interactions. The most accessible entry point for developers using Entroypy. I was the lead dev on this&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class="link" href="https://www.npmjs.com/package/@entropyxyz/sdk" target="_blank" rel="noopener"
+&gt;@entropyxyz/sdk&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Low level NodeJS library. I was a lead reviewer and contributed to design.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Within Entropy I was also responsible for&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;dramatically improving testing
+&lt;ul&gt;
+&lt;li&gt;building CLI testing&lt;/li&gt;
+&lt;li&gt;slashing the run time of CI test pipelines&lt;/li&gt;
+&lt;li&gt;adding logging&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;a major refactor of the CLI&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Dark Crystal</title><link>https://mixmix.nz/p/dark-crystal/</link><pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate><guid>https://mixmix.nz/p/dark-crystal/</guid><description>&lt;img src="https://mixmix.nz/p/dark-crystal/logo.jpeg" alt="Featured image of post Dark Crystal" /&gt;&lt;h2 id="about"&gt;About
+&lt;/h2&gt;&lt;p&gt;Some friends and I were exploring blockers to cryptocurrency being accessible
+and identified that &amp;ldquo;recovery&amp;rdquo; (of secrets) was perhaps the number 1 challenge.&lt;/p&gt;
+&lt;p&gt;In 2017 I&amp;rsquo;d messed around with &lt;a class="link" href="https://en.wikipedia.org/wiki/Shamir%27s_secret_sharing" target="_blank" rel="noopener"
+&gt;Shamir&amp;rsquo;s secret sharing&lt;/a&gt;, and we noticed that we could use this concept in concert with a social network in order to safely store backups. Here&amp;rsquo;s some art I made describing the process:&lt;/p&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/dark-crystal/shard_1.jpeg"
+width="1455"
+height="983"
+srcset="https://mixmix.nz/p/dark-crystal/shard_1_hu_732ca23a41daa276.webp 480w, https://mixmix.nz/p/dark-crystal/shard_1_hu_384d9b50919b412d.webp 1024w"
+loading="lazy"
+alt="1. sharding and distributing"
+class="gallery-image"
+data-flex-grow="148"
+data-flex-basis="355px"
+&gt;
+&lt;img src="https://mixmix.nz/p/dark-crystal/shard_2.jpeg"
+width="1455"
+height="983"
+srcset="https://mixmix.nz/p/dark-crystal/shard_2_hu_98fbebe97e58fffb.webp 480w, https://mixmix.nz/p/dark-crystal/shard_2_hu_6cfefaf76a2ebd62.webp 1024w"
+loading="lazy"
+alt="2. recovering shards"
+class="gallery-image"
+data-flex-grow="148"
+data-flex-basis="355px"
+&gt;
+&lt;img src="https://mixmix.nz/p/dark-crystal/shard_3.jpeg"
+width="837"
+height="829"
+srcset="https://mixmix.nz/p/dark-crystal/shard_3_hu_6bdb071a7a98ca98.webp 480w, https://mixmix.nz/p/dark-crystal/shard_3_hu_87be79a764bd0c28.webp 1024w"
+loading="lazy"
+alt="3. recombining shards"
+class="gallery-image"
+data-flex-grow="100"
+data-flex-basis="242px"
+&gt;
+&lt;img src="https://mixmix.nz/p/dark-crystal/shard_4.jpeg"
+width="869"
+height="977"
+srcset="https://mixmix.nz/p/dark-crystal/shard_4_hu_6150edc313bdf3f3.webp 480w, https://mixmix.nz/p/dark-crystal/shard_4_hu_b317ddacde16bb5a.webp 1024w"
+loading="lazy"
+alt="4. secret recovered"
+class="gallery-image"
+data-flex-grow="88"
+data-flex-basis="213px"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;We designed a protocol, wrote a specification, and implemented a prototype in Scuttlebutt (a social p2p/ local-first social network).&lt;/p&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/dark-crystal/screenshot.jpeg"
+width="1039"
+height="856"
+srcset="https://mixmix.nz/p/dark-crystal/screenshot_hu_59a038e8a9ae197b.webp 480w, https://mixmix.nz/p/dark-crystal/screenshot_hu_60d40396d7da3d41.webp 1024w"
+loading="lazy"
+alt="Dark Crystal in Patchbay"
+class="gallery-image"
+data-flex-grow="121"
+data-flex-basis="291px"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;We presented our work at &lt;a class="link" href="https://www.youtube.com/watch?v=pOloj658DtQ" target="_blank" rel="noopener"
+&gt;DevCon 4&lt;/a&gt;
+and this led to grants from the Ethereum Foundation, further iterations on
+protocol, user-research, partnership with Briar, a java implementation and more.&lt;/p&gt;
+&lt;h2 id="technical"&gt;Technical
+&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Library&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class="link" href="https://github.com/blockades/scuttle-dark-crystal" target="_blank" rel="noopener"
+&gt;scuttle-dark-crystal&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Raw function for running Dark Crystal over Scuttlebutt&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class="link" href="https://github.com/blockades/patchbay-dark-crystal" target="_blank" rel="noopener"
+&gt;patchbay-dard-crystal&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;plugin for &lt;a class="link" href="https://mixmix.nz/p/patchbay" &gt;Patchbay&lt;/a&gt; (a Scuttlebutt client)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</description></item></channel></rss>

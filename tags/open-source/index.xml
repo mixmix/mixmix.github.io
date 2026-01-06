@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Source on mixmix</title><link>https://mixmix.nz/tags/open-source/</link><description>Recent content in Open Source on mixmix</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 30 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://mixmix.nz/tags/open-source/index.xml" rel="self" type="application/rss+xml"/><item><title>Entropy Cryptography</title><link>https://mixmix.nz/p/entropy/</link><pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate><guid>https://mixmix.nz/p/entropy/</guid><description>&lt;img src="https://mixmix.nz/p/entropy/cover.jpeg" alt="Featured image of post Entropy Cryptography" /&gt;&lt;blockquote&gt;
+&lt;p&gt;⏳ 2024 &amp;ndash; 2025 &lt;br /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="about"&gt;About
+&lt;/h2&gt;&lt;p&gt;Entropy has been a few things over it&amp;rsquo;s lifetime. At the time I worked on it it
+was a distributed signing service, which would form foundational infrastructure
+for many automated processes. In essence a new sort of coordination and
+financial tooling.&lt;/p&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/entropy/whiteboard.jpeg"
+width="1600"
+height="1163"
+srcset="https://mixmix.nz/p/entropy/whiteboard_hu_a8dc07bbda5d0f23.webp 480w, https://mixmix.nz/p/entropy/whiteboard_hu_7a8ddd707a219f86.webp 1024w"
+loading="lazy"
+alt="A whiteboard diagram I drew mapping Entropy functionality"
+class="gallery-image"
+data-flex-grow="137"
+data-flex-basis="330px"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;The core proposition was&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;users can set up &amp;ldquo;accounts&amp;rdquo; which have configuration held on a global
+blockchain. This includes
+&lt;ul&gt;
+&lt;li&gt;who may initiate signatures for this account?&lt;/li&gt;
+&lt;li&gt;what data are they allowed to sign (e.g. raw binary? Transactions &amp;lt; 0.5 ETH?)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;any user may request a signature on some data, and if the user + data pass
+validation, then the network initiates distributed threshold signing, and a
+signature is returned.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="relationship"&gt;Relationship
+&lt;/h2&gt;&lt;p&gt;I met Entropy through a &lt;a class="link" href="https://mixmix.nz/p/protozoa" &gt;coop&lt;/a&gt; member who had been working with
+them for more than a year. Turns out there were a bunch of p2p friends also
+working there &amp;ndash; 2 from &lt;a class="link" href="https://mixmix.nz/p/dark-crystal" &gt;Dark Crystal&lt;/a&gt;, 1 from
+&lt;a class="link" href="https://mixmix.nz/p/scuttlebutt" &gt;Scuttlebutt&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It was great to work in a social aligned and well resourced team. Bunch of kinda
+crazy and very talented humans. I particularly valued the leadership of
+Frankiebee - my direct team lead.&lt;/p&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/entropy/offsite.jpeg"
+width="1600"
+height="1200"
+srcset="https://mixmix.nz/p/entropy/offsite_hu_8be3cd0b68e6b5d2.webp 480w, https://mixmix.nz/p/entropy/offsite_hu_1dce84cdb29458bd.webp 1024w"
+loading="lazy"
+alt="From an offsite outside Toronto"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+&gt;
+&lt;/p&gt;
+&lt;h2 id="leadership"&gt;Leadership
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;team lead for the JS CLI&lt;/li&gt;
+&lt;li&gt;leading architecture changes&lt;/li&gt;
+&lt;li&gt;hosting cross-team Schema specification&lt;/li&gt;
+&lt;li&gt;retrospectives for the JS team&lt;/li&gt;
+&lt;li&gt;helping structure an offsite&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="technical"&gt;Technical
+&lt;/h2&gt;&lt;p&gt;The libraries I helped develop:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Library&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class="link" href="https://www.npmjs.com/package/@entropyxyz/cli" target="_blank" rel="noopener"
+&gt;@entropyxyz/cli&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;A CLI tool which supports programmatic and TUI interactions. The most accessible entry point for developers using Entroypy. I was the lead dev on this&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class="link" href="https://www.npmjs.com/package/@entropyxyz/sdk" target="_blank" rel="noopener"
+&gt;@entropyxyz/sdk&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Low level NodeJS library. I was a lead reviewer and contributed to design.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Within Entropy I was also responsible for&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;dramatically improving testing
+&lt;ul&gt;
+&lt;li&gt;building CLI testing&lt;/li&gt;
+&lt;li&gt;slashing the run time of CI test pipelines&lt;/li&gt;
+&lt;li&gt;adding logging&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;a major refactor of the CLI&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Mātou</title><link>https://mixmix.nz/p/matou/</link><pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate><guid>https://mixmix.nz/p/matou/</guid><description>&lt;img src="https://mixmix.nz/p/matou/cover.png" alt="Featured image of post Mātou" /&gt;&lt;blockquote&gt;
+&lt;p&gt;⏳ 2024 &amp;ndash; ongoing &lt;br /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="about"&gt;About
+&lt;/h2&gt;&lt;p&gt;Mātou (&amp;ldquo;we are&amp;rdquo;) is a collective that exists to grow the digital infrastructure
+needed to support transformational growth for Māori communities. Māori already
+have centuries of experience in collective governance of shared resources and
+distributed governance. The problem is that most &amp;ldquo;modern&amp;rdquo; organisational tools
+on offer are reflections of colonial patterns. See &lt;a class="link" href="https://en.wikipedia.org/wiki/Conway%27s_law" target="_blank" rel="noopener"
+&gt;Conway&amp;rsquo;s
+Law&lt;/a&gt; :&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Organizations which design systems are constrained to produce designs which
+are copies of the communication structures of these organizations.&lt;/em&gt;
+— Melvin E. Conway&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;In Aotearoa (New Zealand), this means that Māori are currently struggling to
+organise collectively (as is their tradition) because most of the tools are
+fundamentally propertarian/ individualist/ overly top-down&amp;hellip; in short, do not
+serve.&lt;/p&gt;
+&lt;p&gt;The core observation of &lt;a class="link" href="https://mixmix.nz/p/ahau" &gt;Āhau&lt;/a&gt; (&amp;ldquo;I am&amp;rdquo;) was that we must start by
+rebuilding right tools starting with &lt;strong&gt;identity&lt;/strong&gt; &amp;ndash; this is the foundation by
+which we know ourselves (through our history, our relationships), and from here
+move into coordinating and building new things. Crucially, this &lt;strong&gt;must&lt;/strong&gt; be
+rooted in absolute sovereignty (no rented domain names, no foreign servers
+controlling authorship, no singular source of truth).&lt;/p&gt;
+&lt;p&gt;As a radical exploration of data-sovereign identity Āhau succeeded in part, but
+ultimately surfaced challenges blocking our grand vision:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;identity tools must be &lt;strong&gt;free&lt;/strong&gt;&amp;hellip; but maintaining them with grants is
+unsustainable&lt;/li&gt;
+&lt;li&gt;each community has it&amp;rsquo;s own tikanga (cultural practice), and we cannot (and
+should not) build for all of them&lt;/li&gt;
+&lt;li&gt;Limited Liability Company governing an identity commons is a misalignment with
+our &lt;a class="link" href="https://maoridictionary.co.nz/search?keywords=kaupapa" target="_blank" rel="noopener"
+&gt;kaupapa&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Mātou is being designed to be a multi-stakeholder entity which gives community
+real say in the systems being built, fosters ecosystems, acknowledges and
+rewards participation, growing wealth for all. Currently we are coordinating
+through &lt;a class="link" href="https://opencollective.com/matoucollective" target="_blank" rel="noopener"
+&gt;Open Collective&lt;/a&gt; (with the
+NZ based &lt;a class="link" href="https://thegifttrust.org.nz/" target="_blank" rel="noopener"
+&gt;Gift Trust&lt;/a&gt; as a fiscal host), which
+lets us work transparently under a charity umbrella.&lt;/p&gt;
+&lt;p&gt;Some projects we&amp;rsquo;ve been involved in recently::&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Supporting the &lt;a class="link" href="https://whangaroapapahapu.org.nz" target="_blank" rel="noopener"
+&gt;Whangaroa Papa Hapū&lt;/a&gt; towards
+Treaty Settlement with cutting edge, culturally appropriate and resilient
+tools&lt;/li&gt;
+&lt;li&gt;R+D on the fusion of millennia of Indigenous collective organising patterns
+with modern DAO tooling&lt;/li&gt;
+&lt;li&gt;Partnering with &lt;a class="link" href="https://kautepasifika.co.nz/" target="_blank" rel="noopener"
+&gt;K&amp;rsquo;aute Pasifika&lt;/a&gt; to prototype
+data-sovereignty preserving health/ wellbeing systems&lt;/li&gt;
+&lt;li&gt;Guiding the &lt;a class="link" href="https://constitution.gov.tools/en" target="_blank" rel="noopener"
+&gt;Cardano Constitution&lt;/a&gt; process
+&amp;ndash; practising world-scale collective governance&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Open Measures</title><link>https://mixmix.nz/p/open-measures/</link><pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate><guid>https://mixmix.nz/p/open-measures/</guid><description>&lt;img src="https://mixmix.nz/p/open-measures/cover.png" alt="Featured image of post Open Measures" /&gt;&lt;blockquote&gt;
+&lt;p&gt;⏳ 2020 + 2022&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="about"&gt;About
+&lt;/h2&gt;&lt;p&gt;Open Measures (fka SMAT) is a project which archives social media data, and
+makes that data explorable via APIs or data visualisations.&lt;/p&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/open-measures/bar_graphs.png"
+width="1600"
+height="1155"
+srcset="https://mixmix.nz/p/open-measures/bar_graphs_hu_a3244db7b1b0af5e.webp 480w, https://mixmix.nz/p/open-measures/bar_graphs_hu_f63018aab3bba199.webp 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="138"
+data-flex-basis="332px"
+&gt;
+&lt;img src="https://mixmix.nz/p/open-measures/graph_iteration.jpg"
+width="1024"
+height="519"
+srcset="https://mixmix.nz/p/open-measures/graph_iteration_hu_5dd745ed80d2e1ff.webp 480w, https://mixmix.nz/p/open-measures/graph_iteration_hu_ebed2751359ca033.webp 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="197"
+data-flex-basis="473px"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;It was designed to support journalists and academics do things like research
+the spread of misinformation, identify war criminals, and explore patterns in
+discourse.&lt;/p&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/open-measures/war_criminals.png"
+width="588"
+height="707"
+srcset="https://mixmix.nz/p/open-measures/war_criminals_hu_c883599806fca37f.webp 480w, https://mixmix.nz/p/open-measures/war_criminals_hu_ae16142a0d68de30.webp 1024w"
+loading="lazy"
+alt="Open Measures team hunting war criminals"
+class="gallery-image"
+data-flex-grow="83"
+data-flex-basis="199px"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;&amp;#x1f517; &lt;a class="link" href="https://blog.openmeasures.io/p/vk-war-criminals" target="_blank" rel="noopener"
+&gt;War Criminals on VKontakte&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="relationship"&gt;Relationship
+&lt;/h2&gt;&lt;p&gt;I&amp;rsquo;ve worked with Open Measures a couple of times over the years. I helped design
+their GraphQL API, and was responsible for implementing a graph visualisation
+tool to explore politician&amp;rsquo;s social media interactions leading up to the 2020
+USA elections (&lt;a class="link" href="https://foundation.mozilla.org/en/blog/fellow-introducing-us-election-twitter-network-graph-tool" target="_blank" rel="noopener"
+&gt;read more here&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/open-measures/election.png"
+width="2754"
+height="1372"
+srcset="https://mixmix.nz/p/open-measures/election_hu_80eabe3f0add5db3.webp 480w, https://mixmix.nz/p/open-measures/election_hu_d357db2e25825edf.webp 1024w"
+loading="lazy"
+alt="Graph of social media links to/ from Donald Trump around the 2020 election"
+class="gallery-image"
+data-flex-grow="200"
+data-flex-basis="481px"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;I also mentored + trained junior developers working on the project, and later
+worked on a more complete version of the graph tool.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tech I used&lt;/strong&gt;: Vue.js, Pinia, GraphQL, D3&lt;/p&gt;</description></item><item><title>Āhau</title><link>https://mixmix.nz/p/ahau/</link><pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate><guid>https://mixmix.nz/p/ahau/</guid><description>&lt;img src="https://mixmix.nz/p/ahau/logo_red.svg" alt="Featured image of post Āhau" /&gt;&lt;blockquote&gt;
+&lt;p&gt;⏳ 2019 &amp;ndash; 2024 &lt;br /&gt;
+🌱 has evolved into &lt;a class="link" href="https://mixmix.nz/p/matou" &gt;Mātou&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="about"&gt;About
+&lt;/h2&gt;&lt;p&gt;Āhau is an desktop + phone application for creating collaborative family trees,
+and the archiving of records which are linked to that family (photos, videos,
+documents).&lt;/p&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/ahau/irving_family.png"
+width="1613"
+height="989"
+srcset="https://mixmix.nz/p/ahau/irving_family_hu_7d34090ef5f41c3e.webp 480w, https://mixmix.nz/p/ahau/irving_family_hu_18b47d28cf40a43.webp 1024w"
+loading="lazy"
+alt="Screenshot a family tree in Āhau"
+class="gallery-image"
+data-flex-grow="163"
+data-flex-basis="391px"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;In Te Ao Māori, relationships with family (and land) form the foundation from
+which all identity, sense making, and coordination flow. Āhau was designed to
+help strengthen this foundation, and be infrastructure that was held by the
+people &amp;ndash; identity is precious taonga (treasure) after all.&lt;/p&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/ahau/whakapapa-wananga.png"
+width="1077"
+height="611"
+srcset="https://mixmix.nz/p/ahau/whakapapa-wananga_hu_a35656c7ccc34b29.webp 480w, https://mixmix.nz/p/ahau/whakapapa-wananga_hu_6f273ddbfc182193.webp 1024w"
+loading="lazy"
+alt="Āhau training session in community"
+class="gallery-image"
+data-flex-grow="176"
+data-flex-basis="423px"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;To make self-hosting accessible, Āhau was built on top of a peer-2-peer system
+called &lt;a class="link" href="https://scuttlebutt.nz" target="_blank" rel="noopener"
+&gt;Scuttlebutt&lt;/a&gt;. This put data in community hands
+(not the company&amp;rsquo;s), and the distributed nature meant any servers were just
+light-weight relays which anyone in a family could run from home on a computer.&lt;/p&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/ahau/p2p.png"
+width="591"
+height="614"
+srcset="https://mixmix.nz/p/ahau/p2p_hu_51d60310be3737cc.webp 480w, https://mixmix.nz/p/ahau/p2p_hu_5b01fba7d07bcd14.webp 1024w"
+loading="lazy"
+alt="The peer-2-peer nature of Āhau"
+class="gallery-image"
+data-flex-grow="96"
+data-flex-basis="231px"
+&gt;
+&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;
+Click to see animated
+&lt;/summary&gt;
+&lt;p&gt;&lt;img src="https://mixmix.nz/p/ahau/multiple-p%C4%81taka_css.svg"
+loading="lazy"
+alt="distributed nature of Āhau"
+&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;#x2139;&amp;#xfe0f;
+&lt;em&gt;There&amp;rsquo;s a lot more I could write on this topic. I&amp;rsquo;m really passionate about
+what we worked on and achieved, so if you&amp;rsquo;re interested to learn more please
+ask, or check out &lt;a class="link" href="https://mixmix.nz/p/govis-2023/" &gt;these&lt;/a&gt; &lt;a class="link" href="https://mixmix.nz/p/fosdem-22/" &gt;talks&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="relationship"&gt;Relationship
+&lt;/h2&gt;&lt;p&gt;When I first met this project they were exploring blockchains as a space. I
+reached out to offer my learning from the more pluralistic p2p/ Distributed
+Ledger space. Our collaboration blossomed into a longer term working
+partnership, where I took on the role of technical leader / CTO.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve formed life long relationships with the team that worked on this. Honestly
+being part of a Māori team has been an absolute honour and joy.&lt;/p&gt;
+&lt;h2 id="leadership"&gt;Leadership
+&lt;/h2&gt;&lt;p&gt;Some of the things I lead out on&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;establishing internal processes
+&lt;ul&gt;
+&lt;li&gt;retrospectives&lt;/li&gt;
+&lt;li&gt;sprints&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;integrating tikanga into our work
+&lt;ul&gt;
+&lt;li&gt;working with community leaders to design software which serves their needs&lt;/li&gt;
+&lt;li&gt;karakia are embedded into our codebase&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;education
+&lt;ul&gt;
+&lt;li&gt;mentoring Māori graduates from Waikato&lt;/li&gt;
+&lt;li&gt;working with a designer to produce animated infographics to make p2p
+concepts more accessible&lt;/li&gt;
+&lt;li&gt;conference talks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;fostering international partnerships
+&lt;ul&gt;
+&lt;li&gt;p2panda, Awana Digital, Earth Defenders Toolkit&lt;/li&gt;
+&lt;li&gt;Internet Archive / Dweb Camp&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="technical"&gt;Technical
+&lt;/h2&gt;&lt;p&gt;I designed and built many things (along and with others) but these are the what
+I&amp;rsquo;m most proud of :&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Library&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class="link" href="https://github.com/ssbc/envelope-spec/" target="_blank" rel="noopener"
+&gt;envelope-spec&lt;/a&gt;, &lt;a class="link" href="https://github.com/ssbc/private-group-spec" target="_blank" rel="noopener"
+&gt;private-group-spec&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;A large-scale group encryption specifications&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class="link" href="https://www.npmjs.com/package/ssb-tribes" target="_blank" rel="noopener"
+&gt;ssb-tribes&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Implementation of above specs in Scuttlebutt&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class="link" href="https://www.npmjs.com/package/artefact-server" target="_blank" rel="noopener"
+&gt;artefact-server&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Encrypted, streaming, peer-2-peer video&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class="link" href="https://www.npmjs.com/package/ssb-crut" target="_blank" rel="noopener"
+&gt;ssb-crut&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;A byzantine fault-tolerant &lt;a class="link" href="https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type" target="_blank" rel="noopener"
+&gt;CRDT&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class="link" href="https://www.npmjs.com/package/ssb-atala-prism" target="_blank" rel="noopener"
+&gt;ssb-atala-prism&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Plugin which adds Verifiable Credentials to Āhau&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class="link" href="https://www.npmjs.com/package/ahau-graphql-server" target="_blank" rel="noopener"
+&gt;ahau-graphql-server&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;A GraphQL endpoint which made UI dev more accessible for all our developers&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Code within Āhau:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;an algorithm for progressively loading huge family trees (5000+ people)
+smoothly&lt;/li&gt;
+&lt;li&gt;export function which converts a D3 tree into an SVG with embedded images
+&lt;ul&gt;
+&lt;li&gt;this was to support a community member to create an updated whakapapa 10
+meters wide, 2 meters high, including 1200 people.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Dark Crystal</title><link>https://mixmix.nz/p/dark-crystal/</link><pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate><guid>https://mixmix.nz/p/dark-crystal/</guid><description>&lt;img src="https://mixmix.nz/p/dark-crystal/logo.jpeg" alt="Featured image of post Dark Crystal" /&gt;&lt;h2 id="about"&gt;About
+&lt;/h2&gt;&lt;p&gt;Some friends and I were exploring blockers to cryptocurrency being accessible
+and identified that &amp;ldquo;recovery&amp;rdquo; (of secrets) was perhaps the number 1 challenge.&lt;/p&gt;
+&lt;p&gt;In 2017 I&amp;rsquo;d messed around with &lt;a class="link" href="https://en.wikipedia.org/wiki/Shamir%27s_secret_sharing" target="_blank" rel="noopener"
+&gt;Shamir&amp;rsquo;s secret sharing&lt;/a&gt;, and we noticed that we could use this concept in concert with a social network in order to safely store backups. Here&amp;rsquo;s some art I made describing the process:&lt;/p&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/dark-crystal/shard_1.jpeg"
+width="1455"
+height="983"
+srcset="https://mixmix.nz/p/dark-crystal/shard_1_hu_732ca23a41daa276.webp 480w, https://mixmix.nz/p/dark-crystal/shard_1_hu_384d9b50919b412d.webp 1024w"
+loading="lazy"
+alt="1. sharding and distributing"
+class="gallery-image"
+data-flex-grow="148"
+data-flex-basis="355px"
+&gt;
+&lt;img src="https://mixmix.nz/p/dark-crystal/shard_2.jpeg"
+width="1455"
+height="983"
+srcset="https://mixmix.nz/p/dark-crystal/shard_2_hu_98fbebe97e58fffb.webp 480w, https://mixmix.nz/p/dark-crystal/shard_2_hu_6cfefaf76a2ebd62.webp 1024w"
+loading="lazy"
+alt="2. recovering shards"
+class="gallery-image"
+data-flex-grow="148"
+data-flex-basis="355px"
+&gt;
+&lt;img src="https://mixmix.nz/p/dark-crystal/shard_3.jpeg"
+width="837"
+height="829"
+srcset="https://mixmix.nz/p/dark-crystal/shard_3_hu_6bdb071a7a98ca98.webp 480w, https://mixmix.nz/p/dark-crystal/shard_3_hu_87be79a764bd0c28.webp 1024w"
+loading="lazy"
+alt="3. recombining shards"
+class="gallery-image"
+data-flex-grow="100"
+data-flex-basis="242px"
+&gt;
+&lt;img src="https://mixmix.nz/p/dark-crystal/shard_4.jpeg"
+width="869"
+height="977"
+srcset="https://mixmix.nz/p/dark-crystal/shard_4_hu_6150edc313bdf3f3.webp 480w, https://mixmix.nz/p/dark-crystal/shard_4_hu_b317ddacde16bb5a.webp 1024w"
+loading="lazy"
+alt="4. secret recovered"
+class="gallery-image"
+data-flex-grow="88"
+data-flex-basis="213px"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;We designed a protocol, wrote a specification, and implemented a prototype in Scuttlebutt (a social p2p/ local-first social network).&lt;/p&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/dark-crystal/screenshot.jpeg"
+width="1039"
+height="856"
+srcset="https://mixmix.nz/p/dark-crystal/screenshot_hu_59a038e8a9ae197b.webp 480w, https://mixmix.nz/p/dark-crystal/screenshot_hu_60d40396d7da3d41.webp 1024w"
+loading="lazy"
+alt="Dark Crystal in Patchbay"
+class="gallery-image"
+data-flex-grow="121"
+data-flex-basis="291px"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;We presented our work at &lt;a class="link" href="https://www.youtube.com/watch?v=pOloj658DtQ" target="_blank" rel="noopener"
+&gt;DevCon 4&lt;/a&gt;
+and this led to grants from the Ethereum Foundation, further iterations on
+protocol, user-research, partnership with Briar, a java implementation and more.&lt;/p&gt;
+&lt;h2 id="technical"&gt;Technical
+&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Library&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class="link" href="https://github.com/blockades/scuttle-dark-crystal" target="_blank" rel="noopener"
+&gt;scuttle-dark-crystal&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Raw function for running Dark Crystal over Scuttlebutt&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class="link" href="https://github.com/blockades/patchbay-dark-crystal" target="_blank" rel="noopener"
+&gt;patchbay-dard-crystal&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;plugin for &lt;a class="link" href="https://mixmix.nz/p/patchbay" &gt;Patchbay&lt;/a&gt; (a Scuttlebutt client)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</description></item><item><title>Scuttlebutt</title><link>https://mixmix.nz/p/scuttlebutt/</link><pubDate>Thu, 01 Oct 2015 00:00:00 +0000</pubDate><guid>https://mixmix.nz/p/scuttlebutt/</guid><description>&lt;img src="https://mixmix.nz/p/scuttlebutt/bandana.jpg" alt="Featured image of post Scuttlebutt" /&gt;&lt;blockquote&gt;
+&lt;p&gt;⏳ 2015 &amp;ndash; ongoing &lt;br /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This is the project I have contributed the most to in my life. It&amp;rsquo;s a p2p
+replicating database, and a solarpunk community that grew up around and through
+it. I&amp;rsquo;ve made life-long friends and built bridges spanning almost every
+continent and honestly it&amp;rsquo;s a challenge hard to summarize.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;#x1f6a7; Please feel free to direct queries to me about what you&amp;rsquo;d like
+to know more about&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="things-ive-done"&gt;Things I&amp;rsquo;ve done
+&lt;/h2&gt;&lt;p&gt;Here&amp;rsquo;s an incomplete summary of the many roles/ projects/ things I did:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hosted a Theory of Change workshop&lt;/li&gt;
+&lt;li&gt;Lead development discourse from IRC to Scuttlebutt itself (&lt;a class="link" href="https://en.wikipedia.org/wiki/Eating_your_own_dog_food" target="_blank" rel="noopener"
+&gt;dogfooding&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Ran distributed strategy setting process&lt;/li&gt;
+&lt;li&gt;Wrote many libraries + plugins&lt;/li&gt;
+&lt;li&gt;Developed many applications on top of Scuttlebutt
+&lt;ul&gt;
+&lt;li&gt;&lt;a class="link" href="https://mixmix.nz/p/ahau" &gt;Āhau&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Infinite Game&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://mixmix.nz/p/dark-crystal" &gt;Dark Crystal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;TikTak&lt;/li&gt;
+&lt;li&gt;Patchbay&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Co-designed new cryptographic primitives&lt;/li&gt;
+&lt;li&gt;Created learning resources + documentation&lt;/li&gt;
+&lt;li&gt;Ran an &lt;a class="link" href="https://one.camp.scuttlebutt.nz/" target="_blank" rel="noopener"
+&gt;international conference&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Ran grant process distributing ~$500K&lt;/li&gt;
+&lt;li&gt;Administered Maintenance and Grant-writing funds&lt;/li&gt;
+&lt;li&gt;Gave conference &lt;a class="link" href="https://mixmix.nz/categories/talks/" &gt;talks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Designed an ran Faerie Rings - a peer support process&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="photos"&gt;Photos
+&lt;/h2&gt;&lt;h3 id="from-things-i-was-involved-in"&gt;From things I was involved in
+&lt;/h3&gt;&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/scuttlebutt/mix-dominic.jpeg"
+width="1600"
+height="1200"
+srcset="https://mixmix.nz/p/scuttlebutt/mix-dominic_hu_6fc63ec449501153.webp 480w, https://mixmix.nz/p/scuttlebutt/mix-dominic_hu_832d2938b4e9ec02.webp 1024w"
+loading="lazy"
+alt="Sailing adventures"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+&gt;
+&lt;img src="https://mixmix.nz/p/scuttlebutt/scuttle-camp.jpeg"
+width="1200"
+height="802"
+srcset="https://mixmix.nz/p/scuttlebutt/scuttle-camp_hu_d72e499f255e9a1.webp 480w, https://mixmix.nz/p/scuttlebutt/scuttle-camp_hu_b0bf5117317f4a65.webp 1024w"
+loading="lazy"
+alt="Scuttle Camp in Wellington, New Zealand"
+class="gallery-image"
+data-flex-grow="149"
+data-flex-basis="359px"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/scuttlebutt/huoim-kalahari.jpeg"
+width="1280"
+height="960"
+srcset="https://mixmix.nz/p/scuttlebutt/huoim-kalahari_hu_f3b639f139ced26b.webp 480w, https://mixmix.nz/p/scuttlebutt/huoim-kalahari_hu_b0b12e885afd5675.webp 1024w"
+loading="lazy"
+alt="Huoim using SSB in the Kalahari"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+&gt;
+&lt;img src="https://mixmix.nz/p/scuttlebutt/faerie-ring-blueberry.jpeg"
+width="1907"
+height="899"
+srcset="https://mixmix.nz/p/scuttlebutt/faerie-ring-blueberry_hu_cbfe01f545802d22.webp 480w, https://mixmix.nz/p/scuttlebutt/faerie-ring-blueberry_hu_827aeaff0c50bf10.webp 1024w"
+loading="lazy"
+alt="Hosting Fairie Rings"
+class="gallery-image"
+data-flex-grow="212"
+data-flex-basis="509px"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/scuttlebutt/patchbay-cal.jpeg"
+width="1698"
+height="1040"
+srcset="https://mixmix.nz/p/scuttlebutt/patchbay-cal_hu_d078d925fe9a07a1.webp 480w, https://mixmix.nz/p/scuttlebutt/patchbay-cal_hu_3a35694e35fd7560.webp 1024w"
+loading="lazy"
+alt="Patchbay: Gatherings"
+class="gallery-image"
+data-flex-grow="163"
+data-flex-basis="391px"
+&gt;
+&lt;img src="https://mixmix.nz/p/scuttlebutt/patchbay-scry.jpeg"
+width="1799"
+height="1031"
+srcset="https://mixmix.nz/p/scuttlebutt/patchbay-scry_hu_cc4a09829393947f.webp 480w, https://mixmix.nz/p/scuttlebutt/patchbay-scry_hu_aa31f74ac97b8b90.webp 1024w"
+loading="lazy"
+alt="Patchbay: Scry"
+class="gallery-image"
+data-flex-grow="174"
+data-flex-basis="418px"
+&gt;
+&lt;img src="https://mixmix.nz/p/scuttlebutt/patchbay-thread.jpeg"
+width="1360"
+height="1020"
+srcset="https://mixmix.nz/p/scuttlebutt/patchbay-thread_hu_b9a1c3feaa118b3c.webp 480w, https://mixmix.nz/p/scuttlebutt/patchbay-thread_hu_64283cccd1cb0c75.webp 1024w"
+loading="lazy"
+alt="Patchbay: Threads"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/scuttlebutt/ssb-graph-viz.png"
+width="1366"
+height="656"
+srcset="https://mixmix.nz/p/scuttlebutt/ssb-graph-viz_hu_eacf5a6d499ea1f3.webp 480w, https://mixmix.nz/p/scuttlebutt/ssb-graph-viz_hu_958347db7acd1412.webp 1024w"
+loading="lazy"
+alt="A view of part of the Scuttleverse via ssb-graph-viz"
+class="gallery-image"
+data-flex-grow="208"
+data-flex-basis="499px"
+&gt;
+&lt;/p&gt;
+&lt;h3 id="from-the-scuttleverse"&gt;From the Scuttleverse
+&lt;/h3&gt;&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/scuttlebutt/bob-greenhouse.jpeg"
+width="2048"
+height="1360"
+srcset="https://mixmix.nz/p/scuttlebutt/bob-greenhouse_hu_bfa47b72f73f2cb1.webp 480w, https://mixmix.nz/p/scuttlebutt/bob-greenhouse_hu_732b3e818f730349.webp 1024w"
+loading="lazy"
+alt="Gardening &amp; gender essentialism"
+class="gallery-image"
+data-flex-grow="150"
+data-flex-basis="361px"
+&gt;
+&lt;img src="https://mixmix.nz/p/scuttlebutt/bob-chillis.jpeg"
+width="2048"
+height="1360"
+srcset="https://mixmix.nz/p/scuttlebutt/bob-chillis_hu_c901f887fbe5d260.webp 480w, https://mixmix.nz/p/scuttlebutt/bob-chillis_hu_3c6aeba7374bfd5b.webp 1024w"
+loading="lazy"
+alt="Comparing chilli varieties"
+class="gallery-image"
+data-flex-grow="150"
+data-flex-basis="361px"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/scuttlebutt/mycology-rich.jpeg"
+width="1400"
+height="788"
+srcset="https://mixmix.nz/p/scuttlebutt/mycology-rich_hu_21a57c533197844f.webp 480w, https://mixmix.nz/p/scuttlebutt/mycology-rich_hu_b0bea41addebc8de.webp 1024w"
+loading="lazy"
+alt="Mushroom identification"
+class="gallery-image"
+data-flex-grow="177"
+data-flex-basis="426px"
+&gt;
+&lt;img src="https://mixmix.nz/p/scuttlebutt/mycology-lions-mane.jpeg"
+width="640"
+height="800"
+srcset="https://mixmix.nz/p/scuttlebutt/mycology-lions-mane_hu_d4d0eccea99bd6b0.webp 480w, https://mixmix.nz/p/scuttlebutt/mycology-lions-mane_hu_7b291cebc7f743b9.webp 1024w"
+loading="lazy"
+alt="Cultivating Reishi"
+class="gallery-image"
+data-flex-grow="80"
+data-flex-basis="192px"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/scuttlebutt/extra-solar.jpeg"
+width="700"
+height="700"
+srcset="https://mixmix.nz/p/scuttlebutt/extra-solar_hu_e52e99bd48a7645d.webp 480w, https://mixmix.nz/p/scuttlebutt/extra-solar_hu_9bee0374b7e32fae.webp 1024w"
+loading="lazy"
+alt="Extra Solar in Tornio, Finland"
+class="gallery-image"
+data-flex-grow="100"
+data-flex-basis="240px"
+&gt;
+&lt;img src="https://mixmix.nz/p/scuttlebutt/dark-crystal-art.jpeg"
+width="1950"
+height="800"
+srcset="https://mixmix.nz/p/scuttlebutt/dark-crystal-art_hu_70502b984f51b3ca.webp 480w, https://mixmix.nz/p/scuttlebutt/dark-crystal-art_hu_6cc34a2d6ba0f4f9.webp 1024w"
+loading="lazy"
+alt="Dark Crystal Art"
+class="gallery-image"
+data-flex-grow="243"
+data-flex-basis="585px"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/scuttlebutt/boat-alchemist.png"
+width="1247"
+height="873"
+srcset="https://mixmix.nz/p/scuttlebutt/boat-alchemist_hu_3ee7ac36fd4dd74c.webp 480w, https://mixmix.nz/p/scuttlebutt/boat-alchemist_hu_c9530532e7467997.webp 1024w"
+loading="lazy"
+alt="Collective boat ownership"
+class="gallery-image"
+data-flex-grow="142"
+data-flex-basis="342px"
+&gt;
+&lt;img src="https://mixmix.nz/p/scuttlebutt/dominic-bosun.jpeg"
+width="2560"
+height="1440"
+srcset="https://mixmix.nz/p/scuttlebutt/dominic-bosun_hu_42207cc1eb52c7a9.webp 480w, https://mixmix.nz/p/scuttlebutt/dominic-bosun_hu_6e76401e2784c2d8.webp 1024w"
+loading="lazy"
+alt="Boat hacking"
+class="gallery-image"
+data-flex-grow="177"
+data-flex-basis="426px"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/scuttlebutt/solar-bike.jpeg"
+width="812"
+height="454"
+srcset="https://mixmix.nz/p/scuttlebutt/solar-bike_hu_e2a8af1841e74fa5.webp 480w, https://mixmix.nz/p/scuttlebutt/solar-bike_hu_ff43aebb2462d083.webp 1024w"
+loading="lazy"
+alt="Solar bikes"
+class="gallery-image"
+data-flex-grow="178"
+data-flex-basis="429px"
+&gt;
+&lt;img src="https://mixmix.nz/p/scuttlebutt/solar-substack.jpeg"
+width="600"
+height="450"
+srcset="https://mixmix.nz/p/scuttlebutt/solar-substack_hu_6326bdf64bd8eafa.webp 480w, https://mixmix.nz/p/scuttlebutt/solar-substack_hu_942e82f897a102d8.webp 1024w"
+loading="lazy"
+alt="Off-grid living"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://mixmix.nz/tags/scuttlebutt" &gt;See related posts&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Loomio</title><link>https://mixmix.nz/p/loomio/</link><pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate><guid>https://mixmix.nz/p/loomio/</guid><description>&lt;img src="https://mixmix.nz/p/loomio/nanz-graphic.png" alt="Featured image of post Loomio" /&gt;&lt;h2 id="about"&gt;About
+&lt;/h2&gt;&lt;p&gt;Loomio was a project born out of the Occupy Wallstreet movement meeting
+&lt;a class="link" href="www.enspiral.com" &gt;Enspiral&lt;/a&gt;. It&amp;rsquo;s a open source tool which supports
+decision making - specifically timely, iterative, consensus/consent building
+process, with a focus on clearly stated (and archival) records of results.&lt;/p&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/loomio/app.png"
+width="600"
+height="329"
+srcset="https://mixmix.nz/p/loomio/app_hu_b9261e28d7bb0a19.webp 480w, https://mixmix.nz/p/loomio/app_hu_9118bb5c5a1c43c7.webp 1024w"
+loading="lazy"
+alt="A peek into the mobile app (old ui)"
+class="gallery-image"
+data-flex-grow="182"
+data-flex-basis="437px"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;Read about all the places this tool has been used on the &lt;a class="link" href="https://www.loomio.com/blog" target="_blank" rel="noopener"
+&gt;blog&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="relationship"&gt;Relationship
+&lt;/h2&gt;&lt;p&gt;I was a member-owner of the cooperative that formed around building this, a
+programmer, a coordinator of translation, a
+&lt;a class="link" href="https://www.loomio.com/blog/2013/10/30/our-people-scrum-master-mix/" target="_blank" rel="noopener"
+&gt;scrum-master&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This was my first major FOSS (Open Source) project, my first cooperative experience.
+I was transformed forever by the commitment to values aligned technology, investment, ownership,
+group processes.&lt;/p&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/loomio/party.jpg"
+width="3000"
+height="2000"
+srcset="https://mixmix.nz/p/loomio/party_hu_46113afb65c92d04.webp 480w, https://mixmix.nz/p/loomio/party_hu_241e1036765e8fe5.webp 1024w"
+loading="lazy"
+alt="The Loomio team (and friends) circa 2013"
+class="gallery-image"
+data-flex-grow="150"
+data-flex-basis="360px"
+&gt;
+&lt;/p&gt;
+&lt;p&gt;This project brought me into contact with collectives in New Zealand, and
+around the world. I also worked with activists who volunteered translating
+Loomio into their native languages &amp;ndash; people working to grow collective power,
+support better discourse, bolster democracy.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tech I worked with&lt;/strong&gt;: Ruby on Rails, Javascript, NodeJS, i18n, and Amazon S3.&lt;/p&gt;
+&lt;p&gt;
+&lt;img src="https://mixmix.nz/p/loomio/mix-drawing.jpg"
+width="1000"
+height="293"
+srcset="https://mixmix.nz/p/loomio/mix-drawing_hu_d42a5279f7e56510.webp 480w, https://mixmix.nz/p/loomio/mix-drawing_hu_685dad3f2c6abd0b.webp 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="341"
+data-flex-basis="819px"
+&gt;
+&lt;/p&gt;</description></item></channel></rss>
