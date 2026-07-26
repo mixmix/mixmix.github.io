@@ -11,9 +11,13 @@ links:
   - title: Running Agile Scrum on our Relationship
     description: Alanna Irving's original blog post (2016)
     website: https://alannairving.medium.com/running-agile-scrum-on-our-relationship-9b2085c5d747#.kwrsvo7rm
+    image: running-agile-scrum.jpg
+    alt: Two people walking a railway line into the fog, captioned "One step at a time..."
   - title: RADAR
     description: Multiamory's iteration on the process
     website: https://www.multiamory.com/radar
+    image: multiamory-logo.png
+    alt: Multiamory's logo -- interlocking hearts forming an M
 
 aliases:
   - /p/relationship-retros/
@@ -294,6 +298,47 @@ blockquote {
     &:last-child {
       margin-bottom: calc(var(--step-pad-y) * -1);
     }
+  }
+}
+
+/* the theme gives link thumbnails a small square inset in the row -- give them
+   the full height instead, running flush to the top/ right/ bottom edges */
+.article-list--compact.links {
+  --image-size: 130px;
+  /* so the flush images get clipped to the card's rounded corners */
+  overflow: hidden;
+
+  @media (max-width: 768px) {
+    --image-size: 100px;
+  }
+
+  article > a {
+    padding-block: 0;
+    padding-inline-end: 0;
+    gap: 20px;
+  }
+
+  /* the anchor's padding was carrying the row's height -- the text has to do
+     it now, and it sets how tall the images get */
+  .article-details {
+    padding-block: var(--small-card-padding);
+  }
+
+  .article-image {
+    /* the row centres its children; this one wants the whole height */
+    align-self: stretch;
+
+    img {
+      width: var(--image-size);
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  /* a logo cropped by `cover` loses its outer edges -- fit this one instead */
+  img[src*="multiamory-logo"] {
+    object-fit: contain;
+    padding: 8px;
   }
 }
 

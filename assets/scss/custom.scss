@@ -24,7 +24,10 @@
   margin-top: 0;
 }
 
-li {
+/* Prose lists only. Unscoped, this also hits the sidebar's `<li>`s -- the theme
+   resets their padding but not their margin, so every #main-menu row picks up
+   8px on top of its gap and .menu-social pushes the menu down. */
+.article-content ul li {
   line-height: 1.4;
   margin-bottom: 8px;
 }
@@ -34,15 +37,16 @@ aside.sidebar {
 
   #main-menu {
     @media (min-width: 768px) {
-      margin-top: 30px; /* above menu */
+      margin-top: 10px; 
+      margin-top: 10px; 
     }
-    gap: 20px; /* btwn menu rows */
+    gap: 10px; /* btwn menu rows */
 
     --menu-icon-separation: 20px; /* btwn icon + label */
   }
 
   a[href="/archives/"] {
-    margin-top: 1.4rem;
+    padding-top: 2rem;
   }
   a[href="/archives/"], a[href="/search/"] {
     opacity: 0.6;
@@ -102,6 +106,14 @@ main {
       }
 
       margin-bottom: 1rem;
+    }
+  }
+
+  .links-wrapper {
+    max-width: var(--max-width);
+
+    .section-title {
+      margin-bottom: 10px;
     }
   }
 
@@ -186,6 +198,38 @@ main {
     span.year {
       flex: none;
       line-height: 1.35;
+    }
+  }
+}
+
+/* Related content tiles. The theme covers the whole image to carry the title:
+   a flat 25% black from the tile styles, a 25%->75% gradient from the
+   related-content layout, and then main.ts samples the image's palette and
+   writes a DarkMuted->Vibrant gradient straight onto the element's style
+   attribute. Between them the picture is muted everywhere, including the top
+   half where there's no text at all.
+
+   Replace the lot with a scrim that only reaches as far up as the text does,
+   and let a shadow on the text itself guarantee the edges. The theme's is an
+   inline style, so `!important` is what it takes to outrank it. */
+.article-list--tile,
+.related-content {
+  article.has-image {
+    .article-details {
+      background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.5) 0%,
+        rgba(0, 0, 0, 0.28) 25%,
+        rgba(0, 0, 0, 0) 55%
+      ) !important;
+    }
+
+    /* tight shadow for the letter edges, soft one to lift them off whatever
+       the image happens to be doing behind them */
+    .article-title {
+      text-shadow:
+        0 1px 2px rgba(0, 0, 0, 0.7),
+        0 0 8px rgba(0, 0, 0, 0.45);
     }
   }
 }
