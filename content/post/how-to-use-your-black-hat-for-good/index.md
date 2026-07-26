@@ -4,8 +4,6 @@ description: Learning about host better to weild critical thinking skills in gro
 # slug: hello-world
 date: 2017-02-05 00:00:00+0000
 image: cover.png
-categories:
-    # - peer-2-peer
 tags:
     - learning
 weight: 1       # You can add weight to some posts to override the default sorting (date descending)

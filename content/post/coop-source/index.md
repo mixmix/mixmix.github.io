@@ -4,8 +4,6 @@ description:
 # slug: hello-world
 date: 2017-09-13 00:00:00+0000
 image: cover.jpg
-categories:
-    # - peer-2-peer
 tags:
     - Protozoa
     - Co-Op

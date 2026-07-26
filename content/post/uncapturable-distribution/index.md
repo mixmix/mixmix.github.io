@@ -4,8 +4,6 @@ description: I've hosted two workshops this year where the highest named goal wa
 # slug: power-and-learning
 date: 2015-10-25 00:00:00+0000
 image: galaxy.jpg
-categories:
-    # - peer-2-peer
 tags:
     - peer-2-peer
     - systems

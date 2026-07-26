@@ -5,8 +5,6 @@ description:
 slug: power-and-learning
 date: 2016-06-01 00:00:00+0000
 image: cover.jpg
-categories:
-    # - peer-2-peer
 tags:
     - education
     - systems
@@ -50,7 +48,7 @@ school principals in ripped jeans. I didn't bother attending my graduation (NOTE
 - going off piste often requires more paperwork later).
 
 The irony of teaching engaging learning in a lecture format was a laugh, but the
-university did introduce me to [Ao Tawhiti Unlimited Discovery](/p/unlimited) -
+university did introduce me to [Ao Tawhiti Unlimited Discovery](/project/unlimited/) -
 the only high school I would take a job at. This wasn't an act of rebelion, more
 an extension of my stubornness and pickiness (which I was rich enough to be able
 to afford).
@@ -62,7 +60,7 @@ What was so attractive about Unlimited was the atmosphere (or people dynamics).
 
 ![Students at Unlimited](upt_learning.jpg "Students learning at Unlimited")
 
-[Unlimited](/p/unlimited) is a state funded public secondary school that exists
+[Unlimited](/project/unlimited/) is a state funded public secondary school that exists
 because of a loophole in the law, which allowed the bending of a rule meant for
 the integration of church schools into a rule which allowed the school to write
 its own assessment rules. Its "special character" is "a fundamental tenet that

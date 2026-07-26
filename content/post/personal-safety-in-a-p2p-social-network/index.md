@@ -4,8 +4,6 @@ description:
 # slug: hello-world
 date: 2017-09-19 00:00:00+0000
 image: cover.jpg
-categories:
-    # - peer-2-peer
 tags:
     - peer-2-peer
 weight: 1       # You can add weight to some posts to override the default sorting (date descending)

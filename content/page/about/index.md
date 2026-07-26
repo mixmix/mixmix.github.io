@@ -156,7 +156,7 @@ touch and I'll update <3
         (either UI or backend modules), as well as documentation and
         specifications.
     But I want to specifically highlight his people skills. I can easily say
-        that Mix was the heart of <a href="/p/scuttlebutt">Scuttlebutt</a>
+        that Mix was the heart of <a href="/project/scuttlebutt/">Scuttlebutt</a>
     <!--
         Dominic Tarr definitely
         created it, but Mix played a unique role that hardly anyone else did:
@@ -257,7 +257,7 @@ My specialisations include:
 I love working on systems that serve humanity :heart: I work with excellent
 humans, teams which know how to collaborate, orgs with great leadership.
 
-:heart_on_fire: [**Projects**](/categories/projects) -- things I'm proud to have contributed to
+:heart_on_fire: [**Projects**](/project/) -- things I'm proud to have contributed to
 <br />
 :briefcase: [**CV**](/cv) -- a record of my skills & employment
 
