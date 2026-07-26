@@ -22,25 +22,25 @@ aliases:
 In 2015 I was working in a social enterprise space, and some friends started porting
 some of our business tools to their personal relationships.
 
-It started with my friends Chelsea and Ants deciding to date, and to run that
-as a series of time-bound experiments. Commit to dating for 1 week, then pause,
-reflect, decide whether to continue. Same again for 2, 4, 8 weeks.  We laughed
-about that, but in short order several of us were doing periodic
-"retrospectives" on our relationships. My partner wrote a blog about our
-process -- [Running Agile Scrum on our
+It started with Chelsea and Ants deciding to date... by running a series of
+time-bound experiments. - commit to dating for 1 week, then pause, reflect,
+decide whether to continue. Same again for 2, 4, 8 weeks.  We laughed at them
+, but in short order several of us were doing periodic "retrospectives" on
+our relationships. My partner wrote a blog about our process -- [Running Agile
+Scrum on our
 Relationship](https://alannairving.medium.com/running-agile-scrum-on-our-relationship-9b2085c5d747#.kwrsvo7rm)
 (2016). 
 
-This was picked up by the Multiamory podcast and they iterated on our recipe,
-releasing [RADAR](https://www.multiamory.com/radar). We were stoked to hear
-other people enjoying this pattern. RADAR is a great resource, though it's a
-lot heavier that we can afford to run with small kids. The following is
-our current light-weight process.
+The Multiamory podcast iterated on our recipe, releasing
+[RADAR](https://www.multiamory.com/radar). We were stoked to hear other people
+enjoying this pattern. RADAR is a great resource, though it's a lot heavier
+that we can afford to run with small kids. The following is our current
+light-weight process.
 
 
 ## A Primer on Iteration
 
-**TL;DR** -- continual improvement rather than perfect plans
+**TL;DR -- continual improvement beats "perfect planning"**
 
 Businesses (and relationships) are complex systems in that they have a lot of
 moving, deeply inter-related parts, and are embedded in ecosystems. Navigating 
@@ -79,7 +79,7 @@ of the building, so why not?)
 | 1. Take a bearing | What have we just built?   | How we feeling about that last round?         |
 | 2. Set a course   | What should we build next? | What should the team do different next round? |
 | 3. Do a bit       | Write software             | Run team processes                            |
-| 4. (repeat)       | | |
+| 4. repeat       | | |
 
 In the context of a journey, this would be like a party evolving their roles/
 protocols/ processes e.g. _"hey the cook is sick... how about we each take a
@@ -92,10 +92,9 @@ again, the goal is not perfection, it is to use feedback loops to incrementally
 improve over time. As long as you trend in a good direction you're winning. This
 means things like:
 - we may surface 10 issues... but we don't expect to "solve" them all, as long
-  as we progress 1 of them in the next sprint, that is progress
+  as we progress 1 of them in the next sprint, that's progress
 - we don't know the the perfect solution to this issue... but we can "try
-  something" and see how the system responds... and can try something else next
-  time if this doesn't work
+  something" and see how the system responds (and repeat).
 
 
 ## Our Current Process
@@ -107,6 +106,7 @@ out. This was especially true once we had kids.
 
 Here are the phases of our current process:
 
+{{% step time="10-15m" %}}
 ### 1. Load Context
 
 Check-in by sharing how we're currently feeling, what we're arriving with _e.g.
@@ -115,9 +115,7 @@ month, review our calendars, and speak out loud the important landmarks.  e.g.
 _We were all sick for a week; You finished your government contract; I finally
 got back to my exercise routine; We had that fight._ 
 
-**Time** -- 10-15 min
-
-> **Why** -- In checking in and remembering the last month we're aligning our
+> **Why** -- In checking in and remembering the last month, we're aligning our
 > contexts. Knowing I have a headache helps us communicate better by improving
 > your model of my current state. Being reminded of what we each found important
 > helps prime us for things we might discuss, and factors that are going to feed
@@ -127,25 +125,24 @@ got back to my exercise routine; We had that fight._
 > here you may blow all your time on something that's not the most important.
 > Take the approach of a "reporter naming the facts" with a side of "smile/
 > laugh at the good bits".
+{{% /step %}}
 
+{{% step time="5m" %}}
 ### 2. Possible Agenda
 
 We write a bullet point list of things would **could** talk about. e.g. _Anxiety
 about summer plans; How we're sharing house-hunting labour; That fight we had._
 
-**Time** -- 5 min
-
 > **Notes** -- Avoid "processing" here too
+{{% /step %}}
 
-
+{{% step time="1-2m" %}}
 ### 3. Prioritise
 
 We decide the top 2-3 things we want to discuss today. We tend to ask ourselves
-    - are there any quick wins here?
-    - are any of these urgent?
-    - which of these are most important?
-
-**Time** -- 1-2 min
+  - are there any quick wins here?
+  - are any of these urgent?
+  - which of these are most important?
 
 > **Why** -- It can be tempting to try and cover everything. Invariably if you
 > do this, you end up either rushing / pressurising conversations that would
@@ -154,10 +151,13 @@ We decide the top 2-3 things we want to discuss today. We tend to ask ourselves
 > something really important was missed.
 > 
 > **Notes** -- Prioritisation is personal, decide together. We like to tick a
-> couple easy things off, and maybe 1-2 chunkier topics. If you feel like
-> there's not enough space / time for a topic (good noticing!), name it and
-> perhaps ask "can we plan to dicsuss that another time?".
+> couple small / easy things off first, then process maybe 1-2 chunkier topics.
+> If you feel like there's not enough space / time for a topic (good
+> noticing!), name it and perhaps ask "can we plan to dicsuss that another
+> time?".
+{{% /step %}}
 
+{{% step time="~60m" %}}
 ### 4. Discuss
 
 We move through prioritised topics one at a time. The aim is to
@@ -166,8 +166,6 @@ We move through prioritised topics one at a time. The aim is to
   - ask ourselves "what could we try different?"
   - write down what we agreed to as the final step in discussing a topic 
 
-
-**Time** -- 60? min
 
 > **Notes** -- We keep notes of "actions" (agreed things someone is gonna do, or
 > changes in role/ process) in a shared Signal chat. We check the time and energy
@@ -178,18 +176,19 @@ We move through prioritised topics one at a time. The aim is to
 > publishing this... so maybe it's enough for now to say you need to figure out
 > what good processing looks like for your relationship - paying attention to
 > optimizing for coherencem, connection, and sustainability._
+{{% /step %}}
 
+{{% step time="5m" %}}
 ### 5. Appreciation
 
 We pause, take a breath, then share a bunch of things we appreciate -- about our
 partner, our relationship, our life together. One person goes first and runs for
 a couple minutes while the other listens, then we switch. We finish with a hug.
 
-**Time** -- 5 min
-
 > **Why** -- This whole process can be quite "problem-solving" heavy, and
 > emotionally charged. I usually feel great about the connection and
 > problem-solving, but this ensures we finish on a really sweet high.
+{{% /step %}}
 
 
 ## What Retrospectives Miss
@@ -207,13 +206,94 @@ ol li ol li a::before {
   display: none;
 }
 
+.article-content table {
+  line-height: 1.4;
+  margin-bottom: 0;
+}
+
 blockquote {
   p {
    font-size: 1.4rem;
-   opacity: 0.7;
+   opacity: 0.8;
   }
   p strong {
    font-size: 1.6rem;
+  }
+}
+
+/* Each numbered phase of the process, heading included, reads as one card. */
+.step {
+  --step-pad-x: 25px;
+  --step-pad-y: 14px;
+
+  border: 1px solid var(--card-separator-color);
+  border-radius: var(--card-border-radius);
+  box-shadow: var(--shadow-l1);
+  padding: var(--step-pad-y) var(--step-pad-x);
+  margin: 2em 0;
+  /* so the flush blockquote below gets clipped to the rounded corners */
+  overflow: hidden;
+
+  /* screen is tight enough on mobile without giving away the side padding */
+  @media (max-width: 768px) {
+    --step-pad-x: 15px;
+    --step-pad-y: 13px;
+  }
+
+  > :first-child {
+    margin-top: 0;
+  }
+  > :last-child {
+    margin-bottom: 0;
+  }
+
+  /* the duration sits top-right, on the heading's row -- it's first in source
+     order so the heading's line boxes shorten to make room for it */
+  > .duration {
+    float: inline-end;
+    margin-inline-start: 1em;
+    /* nudge down so it optically centres on the heading's first line rather
+       than aligning with the top of its taller line box */
+    margin-top: 0.4em;
+  }
+
+  /* with the float ahead of it the heading is no longer :first-child, but it's
+     still the first thing on the row */
+  > .duration + h3 {
+    margin-top: 0;
+  }
+
+  /* the theme outdents headings and hangs an accent bar off them; inside a box
+     that just pokes a bar out through the edge */
+  h3 {
+    margin-inline-start: 0;
+    padding-inline-start: 0;
+    border-inline-start: none;
+    margin-bottom: 0;
+  }
+
+  /* the h3's own margin-bottom collapses against this and loses, so the gap
+     under the heading has to be set here */
+  h3 + * {
+    margin-top: 8px;
+  }
+
+  /* the theme full-bleeds blockquotes to the *card* edge -- re-aim that at the
+     step's edge instead, so they sit flush inside the box */
+  blockquote {
+    margin-inline: calc(var(--step-pad-x) * -1);
+    width: auto;
+    border-inline-start: none;
+    padding-inline: var(--step-pad-x);
+    padding-block: 8px;
+    padding-top: 1px;
+    padding-bottom: 4px;
+
+    /* every step ends on one, and a band stopping short of the bottom edge
+       reads as floating -- so run it out to the border */
+    &:last-child {
+      margin-bottom: calc(var(--step-pad-y) * -1);
+    }
   }
 }
 

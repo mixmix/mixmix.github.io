@@ -11,12 +11,16 @@
 }
 
 /* A paragraph that introduces a list sits closer to it than to body text, and
-   the list hangs directly off it -- the 8px is the whole gap. */
-p:has(+ ul) {
-  margin-bottom: 8px;
+   the list hangs directly off it -- the 4px is the whole gap.
+
+   Scoped to .article-content so it outranks the theme's `> p { margin: 1.5em 0 }`;
+   unscoped, that rule wins on specificity and top-level intro paragraphs keep
+   their full 1.5em gap. */
+.article-content p:has(+ ul) {
+  margin-bottom: 4px;
 }
 
-p + ul {
+.article-content p + ul {
   margin-top: 0;
 }
 
@@ -125,8 +129,9 @@ main {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  color: var(--card-text-color-tertiary);
+  /* color: var(--card-text-color-tertiary); */
   font-size: 1.4rem;
+  font-weight: 700;
 
   .duration-icon {
     display: inline-flex;

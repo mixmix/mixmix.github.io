@@ -1,0 +1,14 @@
+{{- /*
+  Wraps a heading and its body in a single element so they can be visually
+  grouped (e.g. a rule down the left). Call it with the percent form so the
+  inner content is rendered as markdown and its heading still reaches the ToC.
+
+    {{% step time="10-15m" %}}
+
+  The optional `time` is emitted ahead of .Inner so it can float up onto the
+  heading's row -- a float only shortens the line boxes that follow it, so
+  source order has to put it first.
+*/ -}}
+<section class="step">{{ with .Get "time" }}{{ partial "helper/duration" . }}{{ end }}
+{{ .Inner }}
+</section>

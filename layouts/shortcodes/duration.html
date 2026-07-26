@@ -1,0 +1,11 @@
+{{- /*
+  Inline "how long this takes" marker, in place of spelling out "Time -- 10m".
+
+    {{< duration "10-15m" >}}
+
+  Takes the duration as a positional arg only -- referencing .Inner here would
+  make Hugo treat this as a block shortcode needing a closing tag, which breaks
+  any enclosing shortcode (e.g. step). Inside a step card, prefer the step's own
+  `time` param, which puts it up on the heading row.
+*/ -}}
+{{ partial "helper/duration" (.Get 0) }}

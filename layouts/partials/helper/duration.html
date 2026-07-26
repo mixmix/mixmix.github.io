@@ -1,0 +1,13 @@
+{{- /*
+  Clock icon + a duration, e.g. "10-15m". The icon carries the meaning
+  visually, so it's labelled for anyone who can't see it.
+
+  Takes the duration string as the context. Shared by the `duration` shortcode
+  and the header row of a `step` card.
+
+  The icon SVG is multi-line on disk, and this markup gets emitted inside
+  markdown-rendered shortcodes -- a newline mid-tag-soup ends Goldmark's raw
+  HTML block and it starts wrapping the remainder in <p>. So flatten to one line.
+*/ -}}
+{{- $icon := partial "helper/icon" "clock" | replaceRE `\s*\n\s*` " " -}}
+{{- printf `<span class="duration"><span class="duration-icon" role="img" aria-label="Time">%s</span>%s</span>` $icon . | safeHTML -}}
