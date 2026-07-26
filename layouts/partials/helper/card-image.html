@@ -1,0 +1,39 @@
+{{/*
+  Like helper/image, but with a fallback chain for project updates:
+    1. the page's own `image` front matter
+    2. the first image in the update's content
+    3. the project's title image
+
+  Args: "Context" (page), "Type" (defaultImage key, as per helper/image)
+  Returns the same shape as helper/image: dict "exists" "permalink" "resource" "isDefault"
+*/}}
+
+{{- $page := .Context -}}
+{{- $type := .Type -}}
+{{- $image := partial "helper/image" (dict "Context" $page "Type" $type) -}}
+
+{{- if and (not $image.exists) (partial "helper/is-project-update" $page) -}}
+
+  {{/* 2. first markdown image in the update's body */}}
+  {{- $match := findRESubmatch `!\[[^\]]*\]\(\s*([^)\s]+)` $page.RawContent 1 -}}
+  {{- with $match -}}
+    {{- $src := index (index . 0) 1 -}}
+    {{- with $page.Resources.GetMatch $src -}}
+      {{- $image = dict "exists" true "permalink" .RelPermalink "resource" nil "isDefault" false -}}
+      {{/* Hugo cannot process SVGs, so only hand back a resource for raster images */}}
+      {{- if ne (path.Ext $src) ".svg" -}}
+        {{- $image = merge $image (dict "resource" .) -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{/* 3. fall back to the project's own image */}}
+  {{- if not $image.exists -}}
+    {{- with $page.Parent -}}
+      {{- $image = partial "helper/image" (dict "Context" . "Type" $type) -}}
+    {{- end -}}
+  {{- end -}}
+
+{{- end -}}
+
+{{- return $image -}}

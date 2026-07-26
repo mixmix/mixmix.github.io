@@ -68,25 +68,18 @@
   {{- end -}}
 
   {{/* List only pages that are not a subsection */}}
+  {{/* NOTE: /project/ has its own layout, see layouts/project/list.html */}}
 
-  {{/* CUSTOM HERE for Projects */}}
-  {{- if eq .Title "Projects" -}}
-    <section class="article-list--projects">
-      {{ range $pages }}
-        {{ partial "article-list/projects" . }}
-      {{ end }}
-    </section>
-  {{- else -}}
-    {{ $paginator := .Paginate $pages }}
+  {{/* via the helper, which is the one place allowed to call .Paginate */}}
+  {{ $paginator := partial "helper/paginator.html" . }}
 
-    <section class="article-list--compact">
-      {{ range $paginator.Pages }}
-        {{ partial "article-list/compact" . }}
-      {{ end }}
-    </section>
+  <section class="article-list--compact">
+    {{ range $paginator.Pages }}
+      {{ partial "article-list/compact" . }}
+    {{ end }}
+  </section>
 
-    {{- partial "pagination.html" . -}}
-  {{- end -}}
+  {{- partial "pagination.html" . -}}
 
 
   {{ partialCached "footer/footer" . }}

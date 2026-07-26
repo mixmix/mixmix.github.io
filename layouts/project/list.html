@@ -1,0 +1,121 @@
+{{/*
+  Serves both levels of the project section, which are both kind "section":
+
+    /project/            -> the grid of all projects        (.Parent is home)
+    /project/<name>/     -> one project: intro + every update compiled onto a
+                            single page, with a jump menu in the right sidebar
+*/}}
+
+{{ define "body-class" }}
+    {{- if not .Parent.IsHome -}}
+        article-page
+        {{- .Scratch.Set "hasWidget" (gt (len .RegularPages) 0) -}}
+    {{- end -}}
+{{ end }}
+
+{{ define "main" }}
+    {{ if .Parent.IsHome }}
+        {{/* ---------- /project/ : the grid ---------- */}}
+        <header>
+            <div class="section-card">
+                <div class="section-details">
+                    <h3 class="section-count">{{ T "list.page" (len .Sections) }}</h3>
+                    <h1 class="section-term">{{ .Title }}</h1>
+                    {{ with .Params.description }}
+                        <h2 class="section-description">{{ . }}</h2>
+                    {{ end }}
+                </div>
+            </div>
+        </header>
+
+        <section class="article-list--projects">
+            {{ range .Sections.ByWeight }}
+                {{ partial "article-list/projects" . }}
+            {{ end }}
+        </section>
+    {{ else }}
+        {{/* ---------- /project/<name>/ : the project ---------- */}}
+        {{ $updates := .RegularPages.ByDate.Reverse }}
+
+        <article class="{{ if .Params.image }}has-image {{ end }}main-article">
+            {{ partial "article/components/header" . }}
+            {{ partial "article/components/content" . }}
+            {{ partial "article/components/footer" . }}
+        </article>
+
+        {{ with $updates }}
+            <div class="project-updates">
+                {{ range . }}
+                    <article class="main-article project-update" id="{{ partial "helper/update-anchor" . }}">
+                        <header class="article-header project-update-header">
+                            <div class="article-details">
+                                <div class="article-title-wrapper">
+                                    <h2 class="article-title">
+                                        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                                    </h2>
+                                    {{ with .Params.description }}
+                                        <h3 class="article-subtitle">{{ . }}</h3>
+                                    {{ end }}
+                                </div>
+                                {{ if not .Date.IsZero }}
+                                    <footer class="article-time">
+                                        <div>
+                                            {{ partial "helper/icon" "date" }}
+                                            <time datetime='{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}'>
+                                                {{- .Date | time.Format (or .Site.Params.dateFormat.published "Jan 02, 2006") -}}
+                                            </time>
+                                        </div>
+                                    </footer>
+                                {{ end }}
+                            </div>
+                        </header>
+
+                        {{ partial "article/components/content" . }}
+
+                        {{ with .Params.links }}
+                            {{ partial "article/components/links" . }}
+                        {{ end }}
+                    </article>
+                {{ end }}
+            </div>
+        {{ end }}
+
+        {{/* the project's own links sit below every update */}}
+        {{ with .Params.links }}
+            {{ partial "article/components/links" $ }}
+        {{ end }}
+    {{ end }}
+
+    {{ partialCached "footer/footer" . }}
+    {{ partialCached "article/components/photoswipe" . }}
+{{ end }}
+
+{{ define "right-sidebar" }}
+    {{ if .Parent.IsHome }}
+        {{ partial "sidebar/right.html" (dict "Context" . "Scope" "homepage") }}
+    {{ else }}
+        {{ with .RegularPages.ByDate.Reverse }}
+            <aside class="sidebar right-sidebar sticky">
+                <section class="widget archives project-update-nav">
+                    <div class="widget-icon">
+                        {{ partial "helper/icon" "date" }}
+                    </div>
+                    <h2 class="widget-title section-title">{{ T "list.updates" | default "Updates" }}</h2>
+
+                    <div class="widget-archive--list">
+                        {{ range . }}
+                            <div class="archives-year">
+                                <a href="#{{ partial "helper/update-anchor" . }}">
+                                    <span class="year">{{ .Title }}</span>
+                                    {{ if not .Date.IsZero }}
+                                        <span class="count">{{ .Date | time.Format "Jan 2006" }}</span>
+                                    {{ end }}
+                                </a>
+                            </div>
+                        {{ end }}
+                    </div>
+                </section>
+            </aside>
+        {{ end }}
+    {{ end }}
+{{ end }}

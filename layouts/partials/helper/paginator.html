@@ -1,0 +1,55 @@
+{{/*
+  Override of the theme's helper/paginator.html.
+
+  This is the single place the paginator may be created. The theme calls it from
+  partials/data/title.html, which renders inside <head> -- i.e. *before* the
+  `main` block. Whoever calls .Paginate first wins, so the homepage's page set
+  has to be decided here rather than in layouts/index.html.
+
+  Homepage rules (see layouts/index.html):
+    - ordered by published date, newest first
+    - a project with updates appears once, as its *latest* update, positioned at
+      that update's date
+    - a project with no updates appears once, as itself, at its own date
+*/}}
+
+{{- $pages := slice -}}
+
+{{- if .IsHome -}}
+    {{ $pages = where .Site.RegularPages "Section" "in" .Site.Params.mainSections }}
+    {{ $pages = where $pages "Params.hidden" "!=" true }}
+
+    {{/* Drop every project update; the latest one per project is added back below. */}}
+    {{ $pages = where $pages "Section" "!=" "project" }}
+
+    {{- with .Site.GetPage "/project" -}}
+        {{- range .Sections -}}
+            {{- if ne .Params.hidden true -}}
+                {{- $updates := (where .RegularPages "Params.hidden" "!=" true).ByDate.Reverse -}}
+                {{- with $updates -}}
+                    {{- $pages = $pages | append (index . 0) -}}
+                {{- else -}}
+                    {{- $pages = $pages | append . -}}
+                {{- end -}}
+            {{- end -}}
+        {{- end -}}
+    {{- end -}}
+
+    {{ $pages = $pages.ByDate.Reverse }}
+
+{{- else if or (eq .Kind "section") (eq .Kind "taxonomy") (eq .Kind "term") -}}
+    {{ $subsections := .Sections }}
+    {{ $pages = .Pages | complement $subsections }}
+    {{ $pages = where $pages "Params.hidden" "!=" true }}
+
+    {{- if eq (len $pages) 0 -}}
+        {{/* See complete logic in list.html */}}
+        {{- $pages = $subsections -}}
+    {{- end -}}
+{{- end -}}
+
+{{- if or .IsHome (eq .Kind "section") (eq .Kind "taxonomy") (eq .Kind "term") -}}
+    {{ $pages = .Paginate $pages }}
+{{- end -}}
+
+{{ return $pages }}

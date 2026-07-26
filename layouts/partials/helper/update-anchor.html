@@ -1,0 +1,9 @@
+{{/*
+  The id an update is given on its project's compiled page. Derived from the
+  update's folder name (usually a date), so it stays stable if the title changes.
+*/}}
+{{- $name := .Title -}}
+{{- with .File -}}
+  {{- $name = .ContentBaseName -}}
+{{- end -}}
+{{- return urlize $name -}}

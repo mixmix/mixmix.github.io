@@ -1,9 +1,10 @@
 <!-- https://github.com/CaiJimmy/hugo-theme-stack/blob/9e6b7b22a9d47478a72287bcdc29e885dcd8f359/layouts/partials/article/components/header.html -->
+{{- $card := partial "helper/card" . -}}
 <header class="article-header">
-  {{- $image := partialCached "helper/image" (dict "Context" . "Type" "article") .RelPermalink "article" -}}
+  {{- $image := partial "helper/card-image" (dict "Context" . "Type" "article") -}}
   {{ if $image.exists }}
     <div class="article-image">
-      <a href="{{ .RelPermalink }}">
+      <a href="{{ $card.link }}">
         {{ if $image.resource }}
           {{- $Permalink := $image.resource.RelPermalink -}}
           {{- $Width := $image.resource.Width -}}
@@ -26,9 +27,9 @@
             width="{{ $Width }}" 
             height="{{ $Height }}" 
             loading="lazy"
-            alt="Featured image of post {{ .Title }}" />
+            alt="Featured image of post {{ $card.title }}" />
         {{ else }}
-          <img src="{{ $image.permalink }}" loading="lazy" alt="Featured image of post {{ .Title }}" />
+          <img src="{{ $image.permalink }}" loading="lazy" alt="Featured image of post {{ $card.title }}" />
         {{ end }}
       </a>
     </div>

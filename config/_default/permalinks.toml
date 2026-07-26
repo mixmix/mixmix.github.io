@@ -1,3 +1,7 @@
-# Permalinks format of each content section
+# Permalinks format of each content section.
+# The type sections (pattern, project, invocation, talk, art) are deliberately
+# absent: they take their URL from the file path, so /pattern/lemons/ and
+# /project/critical-signals/2026-07-26/ both work. A pattern here would flatten
+# project updates onto /project/<update-slug>/.
 post = "/p/:slug/"
 page = "/:slug/"

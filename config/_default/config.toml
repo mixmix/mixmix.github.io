@@ -15,6 +15,11 @@ hasCJKLanguage = false
 # Change it to your Disqus shortname before using
 disqusShortname = "hugo-theme-stack"
 
+# Content types are sections (/pattern/, /project/, ...), not taxonomy terms,
+# so `categories` is disabled. Only `tags` remains.
+[taxonomies]
+  tag = "tags"
+
 [pagination]
   pagerSize = 10
 

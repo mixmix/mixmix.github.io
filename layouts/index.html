@@ -1,0 +1,31 @@
+{{/*
+  Homepage.
+
+  Ordered by published date, newest first. Every project appears exactly once:
+
+    - a project with updates is represented by its *latest* update, and sits in
+      the order at that update's date (older updates are not listed here -- they
+      live on the project's own page)
+    - a project with no updates yet is represented by itself, at its own date
+
+  The page set is built in partials/helper/paginator.html, not here -- the theme
+  creates the paginator from <head> via partials/data/title.html, so this
+  template is too late to choose it.
+*/}}
+
+{{ define "main" }}
+    {{- $paginator := partial "helper/paginator.html" . -}}
+
+    <section class="article-list">
+        {{ range $paginator.Pages }}
+            {{ partial "article-list/default" . }}
+        {{ end }}
+    </section>
+
+    {{- partial "pagination.html" . -}}
+    {{- partial "footer/footer" . -}}
+{{ end }}
+
+{{ define "right-sidebar" }}
+    {{ partial "sidebar/right.html" (dict "Context" . "Scope" "homepage") }}
+{{ end }}

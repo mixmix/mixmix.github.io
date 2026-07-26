@@ -1,0 +1,26 @@
+{{/*
+  Resolves how a page should be presented as a card (homepage, section lists).
+
+  A project update is presented under its project's name, with the update's own
+  title as the subtitle, and links into the compiled project page rather than to
+  its own standalone permalink.
+
+  Returns: dict "title" "subtitle" "link" "isUpdate" "project"
+*/}}
+
+{{- $page := . -}}
+{{- $isUpdate := partial "helper/is-project-update" $page -}}
+
+{{- $title := $page.Title -}}
+{{- $subtitle := $page.Params.description -}}
+{{- $link := $page.RelPermalink -}}
+{{- $project := false -}}
+
+{{- if $isUpdate -}}
+  {{- $project = $page.Parent -}}
+  {{- $title = $project.Title -}}
+  {{- $subtitle = $page.Title -}}
+  {{- $link = printf "%s#%s" $project.RelPermalink (partial "helper/update-anchor" $page) -}}
+{{- end -}}
+
+{{- return dict "title" $title "subtitle" $subtitle "link" $link "isUpdate" $isUpdate "project" $project -}}

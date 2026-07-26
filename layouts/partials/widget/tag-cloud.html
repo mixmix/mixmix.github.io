@@ -1,0 +1,35 @@
+<!--
+  Override of https://github.com/CaiJimmy/hugo-theme-stack/blob/master/layouts/partials/widget/tag-cloud.html
+
+  One change from the theme: instead of a plain `.ByCount`, tags are ranked by
+  how often they've been used in the last year, and ties are broken by their
+  all-time count. Both are folded into a single sort key so the ordering
+  doesn't depend on sort stability.
+-->
+{{- $context := .Context -}}
+{{- $limit := default 10 .Params.limit -}}
+{{- $cutoff := now.AddDate -1 0 0 -}}
+
+{{- $ranked := slice -}}
+{{- range $context.Site.Taxonomies.tags.ByCount -}}
+  {{- $recent := len (where .WeightedPages.Pages "Date" "ge" $cutoff) -}}
+  {{- $ranked = $ranked | append (dict
+    "page" .Page
+    "rank" (add (mul $recent 10000) .Count)
+  ) -}}
+{{- end -}}
+
+<section class="widget tagCloud">
+    <div class="widget-icon">
+        {{ partial "helper/icon" "tag" }}
+    </div>
+    <h2 class="widget-title section-title">{{ T "widget.tagCloud.title" }}</h2>
+
+    <div class="tagCloud-tags">
+        {{ range first $limit (sort $ranked "rank" "desc") }}
+            <a href="{{ .page.RelPermalink }}">
+                {{ .page.Title }}
+            </a>
+        {{ end }}
+    </div>
+</section>

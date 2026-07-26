@@ -1,5 +1,7 @@
 # Pages placed under these sections will be shown on homepage and archive page.
-mainSections = ["post"]
+# `project` is included so project *updates* flow through; projects with no
+# updates yet are added to the homepage by layouts/index.html.
+mainSections = ["post", "pattern", "project", "invocation", "talk", "art"]
 # Output page's full content in RSS.
 rssFullContent = true
 favicon = "/favicon.png"
@@ -35,22 +37,16 @@ default = "Licensed under CC BY-NC-SA 4.0"
 type = "search"
 
 [[widgets.homepage]]
-type = "archives"
-
-[widgets.homepage.params]
-limit = 5
-
-[[widgets.homepage]]
-type = "categories"
-
-[widgets.homepage.params]
-limit = 10
-
-[[widgets.homepage]]
 type = "tag-cloud"
 
 [widgets.homepage.params]
 limit = 10
+
+[[widgets.homepage]]
+type = "archives"
+
+[widgets.homepage.params]
+limit = 5
 
 [[widgets.page]]
 type = "toc"

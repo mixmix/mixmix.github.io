@@ -1,0 +1,78 @@
+<!--
+  Override of https://github.com/CaiJimmy/hugo-theme-stack/blob/master/layouts/partials/article/components/details.html
+
+  Two changes from the theme:
+  - the coloured badge comes from the page's *section* (Pattern, Project, ...)
+    rather than the `categories` taxonomy, which this site no longer uses.
+    The section's `badge` param gives the singular label, falling back to its
+    (plural) title
+  - a project update shows the project's name as its title, and its own title as
+    the subtitle
+-->
+{{- $card := partial "helper/card" . -}}
+{{- $section := .FirstSection -}}
+
+<div class="article-details">
+  {{ if in .Site.Params.mainSections .Section }}
+    {{ with $section }}
+      <header class="article-category">
+        {{ $color := partial "helper/color-from-str" .Title }}
+        {{ $BackgroundColor := default $color.BackgroundColor .Params.style.background }}
+        {{ $TextColor := default $color.TextColor .Params.style.color }}
+        <a href="{{ .RelPermalink }}" style="background-color: {{ $BackgroundColor | safeCSS }}; color: {{ $TextColor | safeCSS }};">
+          {{ .Params.badge | default .Title }}
+        </a>
+      </header>
+    {{ end }}
+  {{ end }}
+
+  <div class="article-title-wrapper">
+    <h2 class="article-title">
+      <a href="{{ $card.link }}">
+        {{- $card.title -}}
+      </a>
+    </h2>
+
+    {{ with $card.subtitle }}
+      <h3 class="article-subtitle">
+        {{ . }}
+      </h3>
+    {{ end }}
+  </div>
+
+  {{ $showReadingTime := .Params.readingTime | default (.Site.Params.article.readingTime) }}
+  {{ $showDate := not .Date.IsZero }}
+  {{ $showFooter := or $showDate $showReadingTime }}
+  {{ if $showFooter }}
+    <footer class="article-time">
+      {{ if $showDate }}
+        <div>
+          {{ partial "helper/icon" "date" }}
+          <time class="article-time--published" datetime='{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}'>
+            {{- .Date | time.Format (or .Site.Params.dateFormat.published "Jan 02, 2006") -}}
+          </time>
+        </div>
+      {{ end }}
+
+      {{ if $showReadingTime }}
+        <div>
+          {{ partial "helper/icon" "clock" }}
+          <time class="article-time--reading">
+            {{ T "article.readingTime" .ReadingTime }}
+          </time>
+        </div>
+      {{ end }}
+    </footer>
+  {{ end }}
+
+  {{ if .IsTranslated }}
+    <footer class="article-translations">
+      {{ partial "helper/icon" "language" }}
+      <div>
+        {{ range .Translations }}
+          <a href="{{ .Permalink }}" class="link">{{ .Language.LanguageName }}</a>
+        {{ end }}
+      </div>
+    </footer>
+  {{ end }}
+</div>

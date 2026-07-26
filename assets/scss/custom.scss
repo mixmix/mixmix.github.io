@@ -10,6 +10,21 @@
   }
 }
 
+/* A paragraph that introduces a list sits closer to it than to body text, and
+   the list hangs directly off it -- the 8px is the whole gap. */
+p:has(+ ul) {
+  margin-bottom: 8px;
+}
+
+p + ul {
+  margin-top: 0;
+}
+
+li {
+  line-height: 1.4;
+  margin-bottom: 8px;
+}
+
 aside.sidebar {
   --sidebar-avatar-size: 160px;
 
@@ -51,7 +66,9 @@ main {
   article {
     max-width: var(--max-width);
 
-    .article-content > ul {
+    /* Lists with no introducing paragraph still get pulled up; a `p + ul` is
+       handled by the global rule at the top of this file. */
+    .article-content > ul:not(p + ul) {
       margin-top: -1em;
     }
 
@@ -101,6 +118,72 @@ main {
   letter-spacing: 1px;
 }
 
+
+/* {{< duration >}} -- reads as meta-data about the surrounding text, so it
+   borrows the look of the theme's date/reading-time line. */
+.duration {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--card-text-color-tertiary);
+  font-size: 1.4rem;
+
+  .duration-icon {
+    display: inline-flex;
+  }
+
+  svg {
+    width: 18px;
+    height: 18px;
+    stroke-width: 1.5;
+    flex-shrink: 0;
+  }
+}
+
+
+/* A project page: intro card, then one card per update. */
+.project-updates {
+  max-width: var(--max-width);
+
+  /* matches the gap the theme puts between cards elsewhere */
+  display: flex;
+  flex-direction: column;
+  gap: var(--section-separation);
+  margin-bottom: var(--section-separation);
+
+  .project-update {
+    scroll-margin-top: 20px;
+
+    .project-update-header {
+      .article-details {
+        padding-bottom: 0;
+      }
+
+      .article-title {
+        font-size: 2.2rem;
+
+        @include respond(md) {
+          font-size: 2.6rem;
+        }
+      }
+    }
+  }
+}
+
+/* Jump menu for a project's updates. Titles wrap, so the date sits underneath
+   rather than fighting for the same row as it does in the archives widget. */
+.project-update-nav {
+  .archives-year a {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+
+    span.year {
+      flex: none;
+      line-height: 1.35;
+    }
+  }
+}
 
 .article-list--projects {
   --image-size: 100px;
