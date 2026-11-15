@@ -19,17 +19,19 @@
     {{ $pages = where .Site.RegularPages "Section" "in" .Site.Params.mainSections }}
     {{ $pages = where $pages "Params.hidden" "!=" true }}
 
-    {{/* Drop every project update; the latest one per project is added back below. */}}
-    {{ $pages = where $pages "Section" "!=" "project" }}
+    {{/* Drop every project/experiment update; the latest one per project is added back below. */}}
+    {{ $pages = where $pages "Section" "not in" .Site.Params.updateSections }}
 
-    {{- with .Site.GetPage "/project" -}}
-        {{- range .Sections -}}
-            {{- if ne .Params.hidden true -}}
-                {{- $updates := (where .RegularPages "Params.hidden" "!=" true).ByDate.Reverse -}}
-                {{- with $updates -}}
-                    {{- $pages = $pages | append (index . 0) -}}
-                {{- else -}}
-                    {{- $pages = $pages | append . -}}
+    {{- range .Site.Params.updateSections -}}
+        {{- with site.GetPage (printf "/%s" .) -}}
+            {{- range .Sections -}}
+                {{- if ne .Params.hidden true -}}
+                    {{- $updates := (where .RegularPages "Params.hidden" "!=" true).ByDate.Reverse -}}
+                    {{- with $updates -}}
+                        {{- $pages = $pages | append (index . 0) -}}
+                    {{- else -}}
+                        {{- $pages = $pages | append . -}}
+                    {{- end -}}
                 {{- end -}}
             {{- end -}}
         {{- end -}}

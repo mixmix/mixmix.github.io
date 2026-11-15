@@ -1,6 +1,7 @@
 {{/*
-  True when the page is an update *inside* a project, i.e. a regular page under
-  content/project/<name>/<update>/. The project itself is a branch bundle
+  True when the page is an update *inside* a project (or experiment, or any
+  section listed in params.updateSections), i.e. a regular page under
+  content/<section>/<name>/<update>/. The project itself is a branch bundle
   (kind "section"), so this cleanly distinguishes the two.
 */}}
-{{- return and (eq .Section "project") (eq .Kind "page") -}}
+{{- return and (in site.Params.updateSections .Section) (eq .Kind "page") -}}

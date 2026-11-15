@@ -1,0 +1,19 @@
+{{/*
+  True when a page's cover image shouldn't be drawn in its header because the
+  page's own body already shows it as the preview of an {{< embed >}}.
+
+  Only applies on the page's own view (`page` is the page being rendered):
+  cards on the homepage and section lists keep the image.
+*/}}
+{{- $hide := false -}}
+{{- if eq page . -}}
+  {{- with .Params.image -}}
+    {{- $cover := . -}}
+    {{- range findRESubmatch `\{\{[<%]\s*embed\s[^}]*?preview="([^"]+)"` $.RawContent -1 -}}
+      {{- if eq (index . 1) $cover -}}
+        {{- $hide = true -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $hide -}}

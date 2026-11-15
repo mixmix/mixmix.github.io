@@ -17,6 +17,11 @@ disqusShortname = "hugo-theme-stack"
 
 # Content types are sections (/pattern/, /project/, ...), not taxonomy terms,
 # so `categories` is disabled. Only `tags` remains.
+# Standalone HTML pages that live in a page bundle and are shown with the
+# {{< embed >}} shortcode. Hugo would otherwise try to render them as content;
+# the shortcode reads and publishes them itself.
+ignoreFiles = ['\.embed\.html$']
+
 [taxonomies]
   tag = "tags"
 

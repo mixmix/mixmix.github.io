@@ -2,7 +2,8 @@
 {{- $card := partial "helper/card" . -}}
 <header class="article-header">
   {{- $image := partial "helper/card-image" (dict "Context" . "Type" "article") -}}
-  {{ if $image.exists }}
+  {{/* skipped when an embed in the body already shows this image */}}
+  {{ if and $image.exists (not (partial "helper/hide-cover" .)) }}
     <div class="article-image">
       <a href="{{ $card.link }}">
         {{ if $image.resource }}

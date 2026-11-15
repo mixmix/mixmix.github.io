@@ -1,0 +1,16 @@
+{{/*
+  Override of the theme's article/article.html: `has-image` is dropped when the
+  header skips its cover image (see helper/hide-cover).
+*/}}
+{{- $hasImage := and .Params.image (not (partial "helper/hide-cover" .)) -}}
+<article class="{{ if $hasImage }}has-image {{ end }}main-article">
+    {{ partial "article/components/header" . }}
+
+    {{ partial "article/components/content" . }}
+
+    {{ partial "article/components/footer" . }}
+
+    {{ if or .Params.math .Site.Params.article.math }}
+        {{ partialCached "article/components/math.html" . }}
+    {{ end }}
+</article>

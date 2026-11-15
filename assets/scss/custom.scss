@@ -297,3 +297,113 @@ main {
     }
   }
 }
+
+/* {{< embed >}}: a small preview of a standalone page; "Expand" fills the
+   window. The same iframe is restyled in place, so it never reloads. */
+.article-content figure.embed {
+  /* the theme bleeds figures to the card's edges (negative margins + a wider
+     width); keep embeds inside the text column instead */
+  margin: 1.5em 0;
+  width: auto;
+  max-width: 100%;
+
+  .embed-frame {
+    position: relative;
+    height: var(--embed-height, 420px);
+    overflow: hidden;
+    border: 1px solid var(--card-separator-color);
+    border-radius: var(--card-border-radius);
+    background: #fff;
+  }
+
+  iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+
+  /* with a screenshot preview, the box takes the image's shape and the
+     iframe stays hidden (and unloaded) until expanded */
+  &.has-preview {
+    .embed-frame { height: auto; }
+    iframe { display: none; }
+  }
+
+  .embed-preview {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+
+  /* in preview the page underneath scrolls normally; any click expands */
+  .embed-cover {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    border: 0;
+    padding: 0;
+    background: transparent;
+    cursor: zoom-in;
+  }
+
+  .embed-controls {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  .embed-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 12px;
+    border: 0;
+    border-radius: 999px;
+    background: rgba(0, 0, 0, 0.72);
+    color: #fff;
+    font: inherit;
+    font-size: 1.4rem;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+
+    &:hover { background: rgba(0, 0, 0, 0.88); }
+
+    svg {
+      width: 16px;
+      height: 16px;
+    }
+  }
+
+  [data-embed-close] { display: none; }
+
+  figcaption {
+    margin-top: 0.5em;
+    font-size: 1.4rem;
+    color: var(--card-text-color-tertiary);
+    text-align: center;
+  }
+
+  &.is-expanded {
+    .embed-frame {
+      position: fixed;
+      inset: 0;
+      z-index: 1000;
+      height: auto;
+      border: 0;
+      border-radius: 0;
+    }
+
+    .embed-cover,
+    .embed-preview,
+    .embed-controls [data-embed-expand] { display: none; }
+    iframe { display: block; }
+    [data-embed-close] { display: inline-flex; }
+  }
+}
+
+/* stop the page behind an expanded embed from scrolling */
+html.embed-open {
+  overflow: hidden;
+}

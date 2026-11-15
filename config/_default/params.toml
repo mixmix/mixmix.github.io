@@ -1,7 +1,10 @@
 # Pages placed under these sections will be shown on homepage and archive page.
-# `project` is included so project *updates* flow through; projects with no
-# updates yet are added to the homepage by layouts/index.html.
-mainSections = ["post", "pattern", "project", "invocation", "talk", "art"]
+# `project` / `experiment` are included so their *updates* flow through; ones
+# with no updates yet are added to the homepage by helper/paginator.html.
+mainSections = ["post", "pattern", "project", "experiment", "invocation", "talk", "art"]
+# Sections whose children are branch bundles that collect dated updates
+# (content/<section>/<name>/<update>/). They share layouts/project/list.html.
+updateSections = ["project", "experiment"]
 # Output page's full content in RSS.
 rssFullContent = true
 favicon = "/favicon.png"
