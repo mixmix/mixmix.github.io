@@ -36,7 +36,9 @@ jobs:
             - name: Setup Hugo
               uses: peaceiris/actions-hugo@v2
               with:
-                  hugo-version: "latest"
+                  # Pinned: newer Hugo drops libsass, and the theme's SCSS then
+                  # needs a Dart Sass binary on the runner. Matches local builds.
+                  hugo-version: "0.169.0"
                   extended: true
 
             - name: Build
