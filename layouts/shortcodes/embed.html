@@ -1,6 +1,6 @@
 {{/*
   Embed a standalone HTML page (e.g. a Claude artifact) that sits in this page's
-  bundle. Shown as a preview; "Expand" fills the window, and closing
+  bundle. Shown as a preview with a big play button; clicking it fills the window, and closing
   (✕, Esc, or the browser's back button) returns you to where you were.
 
     {{< embed src="acts-in-motion.embed.html" title="Acts in Motion" preview="contention.png" >}}
@@ -45,11 +45,10 @@
     {{- else }}
       <iframe src="{{ $page.RelPermalink }}" title="{{ $title }}" loading="lazy" tabindex="-1"></iframe>
     {{- end }}
-    <button type="button" class="embed-cover" data-embed-expand aria-label="Expand {{ $title }}"></button>
+    <button type="button" class="embed-cover" data-embed-expand aria-label="Open {{ $title }}">
+      <span class="embed-play" aria-hidden="true">{{ partial "helper/icon" "play" }}</span>
+    </button>
     <div class="embed-controls">
-      <button type="button" class="embed-btn" data-embed-expand>
-        {{ partial "helper/icon" "maximize" }}<span>Expand</span>
-      </button>
       <button type="button" class="embed-btn" data-embed-close aria-label="Close {{ $title }}">
         {{ partial "helper/icon" "x" }}<span>Close</span>
       </button>
@@ -91,7 +90,7 @@
     fig.classList.remove('is-expanded')
     document.documentElement.classList.remove('embed-open')
     fig.querySelector('iframe').setAttribute('tabindex', '-1')
-    fig.querySelector('[data-embed-expand]').focus({ preventScroll: true })
+    fig.querySelector('.embed-cover').focus({ preventScroll: true })
     if (!fromHistory && history.state && history.state.embed) history.back()
   }
 
