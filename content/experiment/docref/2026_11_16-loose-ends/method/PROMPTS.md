@@ -18,8 +18,8 @@ What came back:
 > run the experiment, then build an artifact which allows someone to see the summary of points, then traverse the legislation to check cases. Order cases you present by confidence. Once the artifact is up, create a new experiment entry Under docref in my site with a good cover image.
 
 What came back:
-- the full detector run (`scripts/run.py` → `results/flags.json`)
-- a hand review of each flag and its adjudication (`scripts/build.py` → `results/data.json`)
+- the full detector run (`scripts/run.py` → `flags.json`)
+- a hand review of each flag and its adjudication (`scripts/build.py` → `data.json`)
 - the interactive page (`templates/loose-ends.template.html`)
 - the cover (`templates/cover.html`)
 - the post (`../index.md`)

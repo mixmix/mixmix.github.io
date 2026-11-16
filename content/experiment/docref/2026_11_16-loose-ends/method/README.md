@@ -14,10 +14,10 @@ A snapshot of everything behind [the post](../index.md) and its embedded page, a
 | `scripts/shot.js`, `page.js`, `cover.js` | Playwright screenshots of the page, site and cover |
 | `templates/loose-ends.template.html` | The interactive page. `/*DATA*/` is replaced by `data.json` |
 | `templates/cover.html` | Source for `../loose-ends.jpg` |
-| `results/flags.json` | Every detector flag with the citing and target context (raw, unreviewed) |
-| `results/data.json` | The reviewed findings the page shows |
-| `results/check2.csv`, `check3.csv`, `pilot-candidates.md` | Pilot outputs |
+| `results/pilot-candidates.md` | Hand-checked shortlist from the pilot |
 | `results/latest.tsv` | The document versions used |
+
+Generated files (`flags.json`, `data.json`, pilot CSVs) and the docref corpus are not kept here. They come back from `fetch.sh` plus the scripts below. The reviewed findings are also embedded in `../statute-book-loose-ends.embed.html`.
 
 ## Reproduce
 
