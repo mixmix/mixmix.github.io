@@ -33,3 +33,7 @@ Most of these are loose ends rather than true contradictions, but they're object
 knows the area can check each one in a few minutes. That seems like the right first test of whether this
 approach finds real things. The next step would be getting an expert to check them, then aiming the same
 pairwise review at harder cases where two live provisions actually conflict.
+
+The prompts, methodology, scripts and raw results are snapshotted in the
+[method folder](https://github.com/mixmix/mixmix.github.io/tree/master/content/experiment/docref/2026_11_16-loose-ends/method)
+if you want to check the working or run it again.
