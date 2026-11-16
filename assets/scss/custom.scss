@@ -407,3 +407,18 @@ main {
 html.embed-open {
   overflow: hidden;
 }
+
+/* A cover with `imageFit: contain` (see article/components/header.html):
+   shown at its own size, centred on a plain background, rather than stretched
+   until it goes soft. */
+.article-image.is-small {
+  background: var(--cover-background, #fff);
+
+  img {
+    display: block;
+    width: auto !important;
+    max-width: 100%;
+    margin: 0 auto;
+    object-fit: contain !important;
+  }
+}

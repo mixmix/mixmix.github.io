@@ -36,11 +36,11 @@
 <figure class="embed{{ if $preview }} has-preview{{ end }}" style="--embed-height: {{ $height | safeCSS }}">
   <div class="embed-frame">
     {{- with $preview }}
-      {{- $img := . -}}
+      {{- $img := dict "src" .RelPermalink "srcset" "" -}}
       {{- if ne .MediaType.SubType "svg" -}}
-        {{- $img = .Process "resize 1200x webp" -}}
+        {{- $img = partial "helper/img" (dict "Resource" . "Widths" (slice 800 1600)) -}}
       {{- end }}
-      <img class="embed-preview" src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="Preview of {{ $title }}" loading="lazy">
+      <img class="embed-preview" src="{{ $img.src }}" {{ with $img.srcset }}srcset="{{ . }}" sizes="(min-width: 1024px) 760px, 100vw"{{ end }} {{ with $img.width }}width="{{ . }}" height="{{ $img.height }}"{{ end }} alt="Preview of {{ $title }}" loading="lazy">
       <iframe data-src="{{ $page.RelPermalink }}" title="{{ $title }}" tabindex="-1"></iframe>
     {{- else }}
       <iframe src="{{ $page.RelPermalink }}" title="{{ $title }}" loading="lazy" tabindex="-1"></iframe>

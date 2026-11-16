@@ -29,4 +29,11 @@ ignoreFiles = ['\.embed\.html$']
   pagerSize = 10
 
 [imaging]
+  # Hugo's default ("box") is fast but leaves jagged, blocky edges when resizing
+  resampleFilter = 'lanczos'
   anchor = 'Center'
+
+# Photos (JPEG sources) become lossy WebP. Graphics (PNG/GIF: logos, diagrams,
+# screenshots) are made lossless instead -- see layouts/partials/helper/img.html
+[imaging.webp]
+  quality = 85

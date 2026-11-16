@@ -4,6 +4,9 @@ description: A peer-2-peer mesh protocol project for LoRA / BLE.
 date: 2025-04-24
 slug: tiny-ssb
 image: cover.png
+# small illustration: shown at its own size rather than stretched to fill
+imageFit: contain
+imageBackground: "#fff"
 tags:
   - data sovereignty
   - scuttlebutt

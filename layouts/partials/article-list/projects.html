@@ -8,19 +8,18 @@
           {{- $Width := $image.resource.Width -}}
           {{- $Height := $image.resource.Height -}}
 
+          {{- $Srcset := "" -}}
           {{- if (default true .Page.Site.Params.imageProcessing.cover.enabled) -}}
-            {{- $thumbnail := $image.resource.Process "fill 180x180 Center webp" -}}
-            <!-- NOTE: re fill 180x180, see also custom.scss:
-              .article-list--projects {
-                --image-size: 180px;
-              }
-            -->
-            {{- $Permalink = $thumbnail.RelPermalink -}}
-            {{- $Width = $thumbnail.Width -}}
-            {{- $Height = $thumbnail.Height -}}
+            {{/* 180 = --image-size in custom.scss (.article-list--projects); 360 for retina */}}
+            {{- $img := partial "helper/img" (dict "Resource" $image.resource "Widths" (slice 180 360) "Square" true) -}}
+            {{- $Srcset = $img.srcset -}}
+            {{- $Permalink = $img.src -}}
+            {{- $Width = $img.width -}}
+            {{- $Height = $img.height -}}
           {{- end -}}
 
-          <img src="{{ $Permalink }}" 
+          <img src="{{ $Permalink }}"
+            {{ with $Srcset }}srcset="{{ . }}" sizes="180px"{{ end }}
             width="{{ $Width }}"
             height="{{ $Height }}" 
             alt="{{ .Title }}"

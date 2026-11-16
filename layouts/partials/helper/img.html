@@ -1,0 +1,53 @@
+{{/*
+  Processes an image resource into 1x/2x (or more) webp versions for a srcset,
+  without ever upscaling: a candidate wider than the source is replaced by the
+  source at its own size, and duplicates are dropped. Hugo-made upscales look
+  soft, and on retina screens the browser picks exactly those.
+
+  Args:
+    Resource  the image (raster; SVGs can't be processed)
+    Widths    target widths in px, smallest first, e.g. (slice 800 1600)
+    Square    true to crop to a square (Widths are then the side length)
+
+  PNG/GIF sources (logos, diagrams, screenshots) are encoded as lossless WebP:
+  lossy WebP is tuned for photos and smears flat colour and text.
+
+  Returns: dict "src" "srcset" "width" "height" -- src/width/height describe the
+  first (smallest) candidate, for the <img> attributes.
+*/}}
+{{- $res := .Resource -}}
+{{- $fmt := "webp" -}}
+{{- if in (slice "png" "gif") $res.MediaType.SubType -}}
+  {{- $fmt = "webp lossless" -}}
+{{- end -}}
+{{- $square := .Square | default false -}}
+{{- $max := $res.Width -}}
+{{- if $square -}}
+  {{- $max = math.Min $res.Width $res.Height | int -}}
+{{- end -}}
+
+{{- $seen := slice -}}
+{{- $cands := slice -}}
+{{- range .Widths -}}
+  {{- $w := math.Min . $max | int -}}
+  {{- if not (in $seen $w) -}}
+    {{- $seen = $seen | append $w -}}
+    {{- $img := "" -}}
+    {{- if $square -}}
+      {{- $img = $res.Process (printf "fill %dx%d Center %s" $w $w $fmt) -}}
+    {{- else if lt $w $res.Width -}}
+      {{- $img = $res.Process (printf "resize %dx %s" $w $fmt) -}}
+    {{- else -}}
+      {{- $img = $res.Process $fmt -}}
+    {{- end -}}
+    {{- $cands = $cands | append $img -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $first := index $cands 0 -}}
+{{- $srcset := slice -}}
+{{- range $cands -}}
+  {{- $srcset = $srcset | append (printf "%s %dw" .RelPermalink .Width) -}}
+{{- end -}}
+
+{{- return dict "src" $first.RelPermalink "srcset" (delimit $srcset ", ") "width" $first.Width "height" $first.Height -}}

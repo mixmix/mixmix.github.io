@@ -4,7 +4,12 @@
   {{- $image := partial "helper/card-image" (dict "Context" . "Type" "article") -}}
   {{/* skipped when an embed in the body already shows this image */}}
   {{ if and $image.exists (not (partial "helper/hide-cover" .)) }}
-    <div class="article-image">
+    {{/* Opt-in per page, for a small cover that looks bad stretched to fill the
+         card: `imageFit: contain` shows it at its own size, centred on
+         `imageBackground` (default white). */}}
+    {{- $small := and $image.resource (eq .Params.imageFit "contain") -}}
+    <div class="article-image{{ if $small }} is-small{{ end }}"
+      {{- if $small }} style="--cover-background: {{ .Params.imageBackground | default "#fff" | safeCSS }}"{{ end }}>
       <a href="{{ $card.link }}">
         {{ if $image.resource }}
           {{- $Permalink := $image.resource.RelPermalink -}}
@@ -13,18 +18,15 @@
           {{- $Srcset := "" -}}
 
           {{- if (default true .Page.Site.Params.imageProcessing.cover.enabled) -}}
-            <!-- {{- $thumbnail := $image.resource.Resize "800x" -}} -->
-            <!-- {{- $thumbnailRetina := $image.resource.Resize "1600x" -}} -->
-            {{- $thumbnail := $image.resource.Process "resize 800x webp" -}}
-            {{- $thumbnailRetina := $image.resource.Process "resize 1600x webp" -}}
-            {{- $Srcset = printf "%s 800w, %s 1600w" $thumbnail.RelPermalink $thumbnailRetina.RelPermalink -}}
-            {{- $Permalink = $thumbnail.RelPermalink -}}
-            {{- $Width = $thumbnail.Width -}}
-            {{- $Height = $thumbnail.Height -}}
+            {{- $img := partial "helper/img" (dict "Resource" $image.resource "Widths" (slice 800 1600)) -}}
+            {{- $Srcset = $img.srcset -}}
+            {{- $Permalink = $img.src -}}
+            {{- $Width = $img.width -}}
+            {{- $Height = $img.height -}}
           {{- end -}}
 
           <img src="{{ $Permalink }}"
-            {{ with $Srcset }}srcset="{{ . }}"{{ end }}
+            {{ with $Srcset }}srcset="{{ . }}" sizes="{{ if $small }}{{ $Width }}px{{ else }}(min-width: 1024px) 820px, 100vw{{ end }}"{{ end }}
             width="{{ $Width }}" 
             height="{{ $Height }}" 
             loading="lazy"
