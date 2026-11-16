@@ -1,0 +1,33 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&family=Public+Sans:wght@400;500;700;800&display=swap">
+<style>
+:root{--bg:#f3f5f7;--surface:#fff;--sunk:#e9edf1;--fg:#14202c;--muted:#56626f;--line:#c9d0d9;--faint:#dfe4ea;--accent:#0d6b73;--ink:#b42318;--ink-soft:#fbe4e1}
+html,body{margin:0;width:1300px;height:860px;background:var(--bg);font-family:"Public Sans",sans-serif;color:var(--fg);overflow:hidden}
+.c{position:absolute;inset:0;padding:64px 70px;display:grid;grid-template-rows:auto 1fr;gap:34px;
+  background-image:linear-gradient(var(--faint) 1px,transparent 1px);background-size:100% 34px;background-position:0 20px}
+.top{display:flex;justify-content:space-between;align-items:flex-end}
+.eb{font:500 17px "IBM Plex Mono",monospace;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:12px}
+h1{margin:0;font-weight:800;font-size:76px;letter-spacing:-.025em;line-height:1}
+.n{text-align:right;font:500 18px "IBM Plex Mono",monospace;color:var(--muted);line-height:1.5}
+.n b{display:block;font:800 64px "Public Sans";color:var(--accent);letter-spacing:-.02em;line-height:1}
+.rows{display:grid;gap:22px;align-content:center}
+.row{display:grid;grid-template-columns:1fr 120px 330px;align-items:center}
+.card{background:var(--surface);border:1.5px solid color-mix(in srgb,var(--ink) 45%,var(--line));border-radius:9px;overflow:hidden;box-shadow:0 1px 0 var(--faint)}
+.h{display:flex;justify-content:space-between;padding:11px 18px;background:var(--sunk);font:600 20px "IBM Plex Sans Condensed";border-bottom:1px solid var(--faint)}
+.h span:last-child{font:500 17px "IBM Plex Mono";color:var(--muted)}
+.b{padding:14px 18px 16px;font-size:22px;line-height:1.45}
+mark{background:var(--ink-soft);color:var(--ink);padding:0 3px;border-radius:3px;text-decoration:underline wavy color-mix(in srgb,var(--ink) 65%,transparent);text-underline-offset:5px;text-decoration-thickness:2px}
+.arrow{height:2px;background:var(--ink);position:relative;margin:0 14px}
+.arrow::after{content:"";position:absolute;right:-2px;top:-7px;border:8px solid transparent;border-left:12px solid var(--ink);border-right:0}
+.t{border:2px dashed var(--ink);border-radius:9px;padding:16px 20px;color:var(--ink);background:color-mix(in srgb,var(--ink-soft) 55%,var(--bg))}
+.t small{display:block;font:600 15px "IBM Plex Mono";letter-spacing:.08em;text-transform:uppercase;opacity:.8;margin-bottom:4px}
+.t div{font:600 24px "IBM Plex Sans Condensed";line-height:1.25;color:var(--fg)}
+</style>
+<div class="c">
+ <div class="top"><div><div class="eb">docref experiment · NZ legislation</div><h1>Statute Book<br>Loose Ends</h1></div>
+ <div class="n"><b>13</b>loose ends in<br>NZ law, ranked</div></div>
+ <div class="rows">
+  <div class="row"><div class="card"><div class="h"><span>Gas Act 1992 · s 43D</span><span>2026-06-06</span></div><div class="b"><b>Commission</b> means the Energy Commission to be established under <mark>section 43ZZH</mark></div></div><div class="arrow"></div><div class="t"><small>points at</small><div>No such section. Subpart 3 is missing.</div></div></div>
+  <div class="row"><div class="card"><div class="h"><span>Regulatory Standards Act 2025 · s 22(2)</span><span>2025-11-18</span></div><div class="b">This section applies despite <mark>section 52 of the Public Service Act 2020</mark></div></div><div class="arrow"></div><div class="t"><small>points at</small><div>[Repealed] from 3 June 2026</div></div></div>
+  <div class="row"><div class="card"><div class="h"><span>Commerce Act 1986 · s 54C(4)</span><span>2026-07-01</span></div><div class="b"><b>associate</b> has the same meaning as in <mark>section 73 of the Electricity Industry Act 2010</mark></div></div><div class="arrow"></div><div class="t"><small>points at</small><div>Section 73 defines no "associate"</div></div></div>
+ </div>
+</div>

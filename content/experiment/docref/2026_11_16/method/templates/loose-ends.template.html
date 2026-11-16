@@ -1,0 +1,285 @@
+<title>Statute Book Loose Ends</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Public+Sans:wght@400;500;700;800&display=swap">
+<style>
+/* Layout: summary first (thesis, funnel, ranked list), then a two-pane workbench (ranked cases | evidence chain), then ruled-out flags and method. */
+:root{
+  --bg:#f3f5f7; --surface:#ffffff; --sunk:#e9edf1; --fg:#14202c; --muted:#56626f; --faint:#dfe4ea; --line:#c9d0d9;
+  --accent:#0d6b73; --accent-soft:#d8ecee; --accent-ink:#ffffff;
+  --ink:#b42318; --ink-soft:#fbe4e1;           /* reviser's red pen: the dangling reference */
+  --hi:#0b7a3e; --mid:#a76200; --lo:#6b7686;   /* confidence tiers */
+  --hi-soft:#dcf1e5; --mid-soft:#fbedd5; --lo-soft:#e7eaee;
+  --f-display:"Public Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-cond:"IBM Plex Sans Condensed","Arial Narrow",system-ui,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  --r:6px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0f161d; --surface:#16202a; --sunk:#1c2833; --fg:#e4e9ee; --muted:#9aa7b4; --faint:#24313d; --line:#334351;
+  --accent:#5cc3cb; --accent-soft:#163a3e; --accent-ink:#06262a;
+  --ink:#ff8a7a; --ink-soft:#3d1d1a; --hi:#5fd391; --mid:#f0b24a; --lo:#9aa7b4;
+  --hi-soft:#173426; --mid-soft:#3a2b12; --lo-soft:#24313d; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f161d; --surface:#16202a; --sunk:#1c2833; --fg:#e4e9ee; --muted:#9aa7b4; --faint:#24313d; --line:#334351;
+  --accent:#5cc3cb; --accent-soft:#163a3e; --accent-ink:#06262a;
+  --ink:#ff8a7a; --ink-soft:#3d1d1a; --hi:#5fd391; --mid:#f0b24a; --lo:#9aa7b4;
+  --hi-soft:#173426; --mid-soft:#3a2b12; --lo-soft:#24313d; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font:15px/1.55 var(--f-display);-webkit-font-smoothing:antialiased}
+a{color:var(--accent)}
+a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:3px}
+.wrap{max-width:1240px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.eyebrow{font:500 12px/1 var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1,h2,h3{font-family:var(--f-display);text-wrap:balance;margin:0}
+h1{font-weight:800;font-size:clamp(30px,4.6vw,46px);letter-spacing:-.02em;line-height:1.05}
+h2{font-weight:700;font-size:22px;letter-spacing:-.01em}
+h3{font-weight:700;font-size:17px}
+p{margin:0}
+.num{font-variant-numeric:tabular-nums}
+
+/* header */
+header.top{padding-block:36px 22px;display:grid;gap:14px}
+.lede{max-width:68ch;color:var(--muted);font-size:16.5px}
+.lede strong{color:var(--fg)}
+
+/* funnel */
+.funnel{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border:1px solid var(--line);border-radius:var(--r);background:var(--surface);overflow:hidden}
+.funnel div{padding:14px 16px;border-right:1px solid var(--faint);display:grid;gap:2px}
+.funnel div:last-child{border-right:0;background:var(--accent-soft)}
+.funnel b{font:700 26px/1.1 var(--f-display);font-variant-numeric:tabular-nums}
+.funnel span{font:13px/1.35 var(--f-cond);color:var(--muted)}
+@media (max-width:640px){.funnel{grid-template-columns:repeat(2,minmax(0,1fr))}.funnel div:nth-child(2){border-right:0}.funnel div:nth-child(-n+2){border-bottom:1px solid var(--faint)}}
+
+/* summary list */
+section{padding-block:26px}
+.sum-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:8px 16px;margin-bottom:12px}
+.legend{display:flex;gap:12px;flex-wrap:wrap;font:13px var(--f-cond);color:var(--muted)}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px;vertical-align:-1px}
+ol.summary{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 28px;counter-reset:rank}
+@media (max-width:820px){ol.summary{grid-template-columns:minmax(0,1fr)}}
+ol.summary li{counter-increment:rank;border-top:1px solid var(--faint)}
+ol.summary a{display:grid;grid-template-columns:2.2em 1fr auto;gap:10px;align-items:baseline;padding:9px 2px;text-decoration:none;color:var(--fg)}
+ol.summary a::before{content:counter(rank);font:500 13px var(--f-mono);color:var(--muted)}
+ol.summary a:hover .s-title{color:var(--accent)}
+.s-title{font-size:14.5px;line-height:1.4}
+.s-cat{display:block;font:12.5px var(--f-cond);color:var(--muted)}
+
+.pill{font:600 12px/1 var(--f-mono);padding:4px 7px;border-radius:4px;white-space:nowrap;font-variant-numeric:tabular-nums}
+.t-hi{color:var(--hi);background:var(--hi-soft)} .t-mid{color:var(--mid);background:var(--mid-soft)} .t-lo{color:var(--lo);background:var(--lo-soft)}
+
+/* workbench */
+.bench{display:grid;grid-template-columns:300px minmax(0,1fr);gap:20px;align-items:start}
+@media (max-width:900px){.bench{grid-template-columns:minmax(0,1fr)}}
+.cases{position:sticky;top:calc(env(safe-area-inset-top,0px) + 12px);max-height:calc(100vh - 24px);overflow:auto;border:1px solid var(--line);border-radius:var(--r);background:var(--surface)}
+@media (max-width:900px){.cases{position:static;max-height:none}}
+.cases button{all:unset;box-sizing:border-box;display:grid;grid-template-columns:1fr auto;gap:4px 10px;width:100%;padding:11px 14px;border-bottom:1px solid var(--faint);cursor:pointer}
+.cases button:last-child{border-bottom:0}
+.cases button:hover{background:var(--sunk)}
+.cases button[aria-current="true"]{background:var(--accent-soft);box-shadow:inset 3px 0 0 var(--accent)}
+.cases .c-short{font:500 14px/1.3 var(--f-cond)}
+.cases .bar{grid-column:1/-1;height:3px;background:var(--faint);border-radius:2px;overflow:hidden}
+.cases .bar i{display:block;height:100%}
+
+.case{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:22px clamp(16px,3vw,28px);display:grid;gap:18px;min-width:0}
+.case-top{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center}
+.chip{font:500 12px/1 var(--f-mono);letter-spacing:.04em;text-transform:uppercase;color:var(--muted);border:1px solid var(--line);padding:4px 7px;border-radius:4px}
+.case h2{font-size:clamp(20px,2.4vw,25px);line-height:1.2}
+.case .summ{max-width:72ch}
+.facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+@media (max-width:760px){.facts{grid-template-columns:minmax(0,1fr)}}
+.fact{background:var(--sunk);border-radius:var(--r);padding:12px 14px;display:grid;gap:4px;align-content:start}
+.fact.q{background:var(--accent-soft)}
+.fact h4{margin:0;font:600 12px/1.2 var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.fact p{font-size:14px;line-height:1.5}
+
+.chain{display:grid;gap:12px}
+.step{display:grid;grid-template-columns:132px minmax(0,1fr);gap:14px}
+@media (max-width:640px){.step{grid-template-columns:minmax(0,1fr);gap:6px}}
+.role{font:600 12px/1.3 var(--f-mono);letter-spacing:.06em;text-transform:uppercase;padding-top:12px;color:var(--muted)}
+.role.cites{color:var(--ink)} .role.target{color:var(--fg)} .role.successor{color:var(--hi)} .role.before{color:var(--mid)}
+.prov{border:1px solid var(--line);border-radius:var(--r);overflow:hidden;min-width:0}
+.prov.cites{border-color:color-mix(in srgb,var(--ink) 45%,var(--line))}
+.prov-h{display:flex;flex-wrap:wrap;gap:4px 12px;justify-content:space-between;align-items:baseline;padding:9px 12px;background:var(--sunk);border-bottom:1px solid var(--faint)}
+.prov-h .act{font:600 14px/1.3 var(--f-cond)}
+.prov-h .pin{font:500 13px var(--f-mono);margin-left:6px}
+.prov-h .meta{font:12px var(--f-mono);color:var(--muted);display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+.prov-h a{font:600 12.5px var(--f-cond);text-decoration:none;white-space:nowrap}
+.prov-b{padding:10px 14px 12px;display:grid;gap:5px;font-size:14px;line-height:1.55}
+.prov-b .st{font:600 13px var(--f-cond);color:var(--muted)}
+.prov-b .ln{padding-left:calc(var(--lvl,0) * 18px)}
+.prov-b .note{font:13px/1.45 var(--f-cond);color:var(--muted);border-top:1px dashed var(--faint);padding-top:7px;margin-top:3px}
+mark.ref{background:var(--ink-soft);color:var(--ink);padding:0 2px;border-radius:2px;text-decoration:underline wavy color-mix(in srgb,var(--ink) 60%,transparent);text-underline-offset:3px}
+.prov.successor mark.ref,.prov.target mark.ref{background:var(--hi-soft);color:var(--hi);text-decoration:none}
+.prov.before mark.ref{background:var(--mid-soft);color:var(--mid);text-decoration:none}
+dfn{font-style:normal;font-weight:700}
+em.rep{font-style:normal;font:500 13px var(--f-mono);color:var(--ink);background:var(--ink-soft);padding:1px 5px;border-radius:3px}
+.ctx-toggle{all:unset;cursor:pointer;font:600 12.5px var(--f-cond);color:var(--accent);padding:2px 0}
+.ctx{border-top:1px solid var(--faint);padding:10px 14px;background:color-mix(in srgb,var(--sunk) 55%,transparent);display:grid;gap:4px;font-size:13.5px;max-height:360px;overflow:auto}
+.ctx .ln.here{background:var(--accent-soft);border-radius:3px}
+.nav{display:flex;justify-content:space-between;gap:10px;border-top:1px solid var(--faint);padding-top:14px}
+.nav button{all:unset;cursor:pointer;font:600 14px var(--f-cond);color:var(--accent);padding:4px 0}
+.nav button[disabled]{color:var(--line);cursor:default}
+.kbd{font:12px var(--f-mono);color:var(--muted)}
+
+/* ruled out + method */
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:var(--r);background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{text-align:left;padding:10px 14px;border-bottom:1px solid var(--faint);vertical-align:top}
+th{font:600 12px var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);background:var(--sunk)}
+td.n{font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap}
+tr:last-child td{border-bottom:0}
+.cols{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}
+@media (max-width:820px){.cols{grid-template-columns:minmax(0,1fr)}}
+.prose{display:grid;gap:12px;max-width:66ch}
+.prose p{color:var(--fg)}
+.det{display:grid;gap:10px}
+.det div{display:grid;grid-template-columns:2.6em 1fr auto;gap:10px;align-items:baseline;border-top:1px solid var(--faint);padding-top:9px}
+.det b{font:600 13px var(--f-mono);color:var(--accent)}
+.det h4{margin:0;font:600 14.5px var(--f-cond)}
+.det p{font-size:13.5px;color:var(--muted)}
+.det .ct{font:12.5px var(--f-mono);color:var(--muted);text-align:right;white-space:nowrap}
+footer{padding-block:22px 40px;color:var(--muted);font-size:13px;border-top:1px solid var(--faint);margin-top:12px}
+@media (prefers-reduced-motion:no-preference){.case{animation:in .18s ease-out}@keyframes in{from{transform:translateY(3px)}to{transform:none}}}
+</style>
+
+<div class="wrap">
+<header class="top">
+  <div class="eyebrow">docref experiment · NZ statute book · Nov 2026</div>
+  <h1>Statute Book Loose Ends</h1>
+  <p class="lede" id="lede"></p>
+  <div class="funnel" id="funnel"></div>
+</header>
+
+<section aria-labelledby="h-sum">
+  <div class="sum-head">
+    <h2 id="h-sum">What turned up, most confident first</h2>
+    <div class="legend"><span><i style="background:var(--hi)"></i>80+ strong</span><span><i style="background:var(--mid)"></i>60–79 likely</span><span><i style="background:var(--lo)"></i>under 60 tidy-up</span></div>
+  </div>
+  <ol class="summary" id="summary"></ol>
+</section>
+
+<section aria-labelledby="h-bench" id="bench-sec">
+  <div class="sum-head"><h2 id="h-bench">Check each case</h2><span class="kbd">Follow the chain from citing provision to target. Every block opens at its pinpoint on docref. Keys: j / k</span></div>
+  <div class="bench">
+    <nav class="cases" id="cases" aria-label="Cases"></nav>
+    <article class="case" id="case" aria-live="polite"></article>
+  </div>
+</section>
+
+<section aria-labelledby="h-out">
+  <div class="sum-head"><h2 id="h-out">Flags ruled out</h2><span class="kbd">The detectors over-flag on purpose. This is what a reviewer discarded, and why.</span></div>
+  <div class="tbl"><table><thead><tr><th>Group</th><th style="text-align:right">Flags</th><th>Why it is not a defect</th></tr></thead><tbody id="ruled"></tbody></table></div>
+</section>
+
+<section aria-labelledby="h-method">
+  <div class="cols">
+    <div class="prose">
+      <h2 id="h-method">Method</h2>
+      <p>In January 2026 an amendment to Estonia's gambling tax omitted one word, which left online casinos untaxed for the year. Luukas Ilves, Estonia's former government CIO, gave the amendment and the Act it changed to two language models. Both found the gap. He then built <em>Apsakaleidja</em> ("mistake finder") to scan every bill before parliament. His next step was to check bills against existing law.</p>
+      <p>This experiment takes that next step for New Zealand, using docref's block-addressed corpus. Simple detectors over-flag pairs of provisions that point at each other. A reviewer then reads each pair and sorts it into genuine error, cured by Legislation Act 2019 s 38, intentional transitional wording, or false positive.</p>
+      <p>Most findings are <strong>dangling references</strong>, not head-on conflicts between two live rules. They are objective, and an expert can check each one in minutes. That makes them a good first test of whether this method finds real problems.</p>
+      <p><strong>Read every finding as a lead, not a legal opinion.</strong> Legislation Act s 38(2) reads a reference to repealed legislation as a reference to whatever replaced it, so several findings are untidy rather than legally broken. Parliamentary Counsel can fix those as editorial changes under ss 86–87. All text is docref's current consolidation. Confirm against legislation.govt.nz before citing.</p>
+    </div>
+    <div>
+      <h2 style="margin-bottom:10px">Detectors</h2>
+      <div class="det" id="det"></div>
+    </div>
+  </div>
+</section>
+<footer id="foot"></footer>
+</div>
+
+<script id="data" type="application/json">/*DATA*/</script>
+<script>
+(() => {
+const D = JSON.parse(document.getElementById('data').textContent)
+const F = D.findings
+const $ = s => document.querySelector(s)
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))
+const tier = c => c >= 80 ? 'hi' : c >= 60 ? 'mid' : 'lo'
+const fmt = n => n.toLocaleString('en-NZ')
+
+// docref markdown-ish text -> html; internal links resolve against the provision's version url
+function rich (c, base, marks) {
+  let h = esc(c)
+  h = h.replace(/\[([^\]]+)\]\(#([^)\s]+)\)/g, (m, t, id) => `<a href="${base}#${id}" target="_blank" rel="noopener">${t}</a>`)
+  h = h.replace(/==([^=]+)==/g, '<dfn>$1</dfn>').replace(/\*\*([^*]+)\*\*/g, '<dfn>$1</dfn>')
+  h = h.replace(/_\[Repealed\]_|\[Repealed\]/g, '<em class="rep">[Repealed]</em>')
+  for (const m of marks || []) {
+    const e = esc(m).replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+    h = h.replace(new RegExp('(?![^<]*>)(' + e + ')', 'g'), '<mark class="ref">$1</mark>')
+  }
+  return h
+}
+
+// header
+const st = D.stats
+const examined = st.detectors.reduce((a, d) => a + d.examined, 0)
+const flagged = st.detectors.reduce((a, d) => a + d.flagged, 0)
+$('#lede').innerHTML = `Inspired by Estonia's AI "mistake finder", this experiment checked whether provisions in <strong>${st.docs} New Zealand Acts and regulations</strong> still point at something real. Simple detectors flagged ${fmt(flagged)} suspect references. A reviewer read each one, and <strong>${F.length} held up</strong>. The two strongest are a gas regulator that only exists in a missing subpart, and a 2025 Act that overrides a section repealed six months after it passed.`
+$('#funnel').innerHTML = [
+  [fmt(st.blocks), 'provision blocks read from docref'],
+  [fmt(examined), 'references and definitions examined'],
+  [fmt(flagged), 'flagged by detectors D1–D5'],
+  [F.length, 'findings that held up on review'],
+].map(([b, s]) => `<div><b>${b}</b><span>${s}</span></div>`).join('')
+
+// summary
+$('#summary').innerHTML = F.map(f => `<li><a href="#case-${f.key}"><span><span class="s-title">${esc(f.title)}</span><span class="s-cat">${esc(f.cat)} · ${esc(f.short)}</span></span><span class="pill t-${tier(f.conf)}">${f.conf}</span></a></li>`).join('')
+
+// case list
+$('#cases').innerHTML = F.map(f => `<button type="button" data-k="${f.key}" aria-current="false"><span class="c-short">${esc(f.short)}</span><span class="pill t-${tier(f.conf)}">${f.conf}</span><span class="bar"><i style="width:${f.conf}%;background:var(--${tier(f.conf)})"></i></span></button>`).join('')
+
+const ROLE = {cites:'Citing provision', uses:'Relies on it', target:'Points at', before:'Before repeal', successor:'Now lives here', history:'How it got here'}
+function prov (e, i) {
+  const lines = e.lines.length ? e.lines.map(l => `<div class="ln" style="--lvl:${Math.min(l.lvl, 4)}">${rich(l.c, e.url.split('#')[0], e.mark)}</div>`).join('') : `<div class="ln">${esc(e.sectitle || '')}</div>`
+  const ctx = e.context && e.context.length > e.lines.length
+    ? `<div><button type="button" class="ctx-toggle" data-ctx="${i}">Show whole section (${e.context.length} blocks)</button></div>` : ''
+  const ctxBody = e.context ? `<div class="ctx" id="ctx-${i}" hidden>${e.context.map(l => `<div class="ln${l.id.startsWith(e.id) ? ' here' : ''}" style="--lvl:${Math.min(l.lvl, 4)}">${rich(l.c, e.url.split('#')[0], e.mark)}</div>`).join('')}</div>` : ''
+  return `<div class="step"><div class="role ${e.role}">${ROLE[e.role] || e.role}</div>
+    <div class="prov ${e.role}"><div class="prov-h"><span><span class="act">${esc(e.act)}</span><span class="pin">${esc(e.pin)}</span></span>
+      <span class="meta"><span>version ${esc(e.ver)}</span><a href="${e.url}" target="_blank" rel="noopener">Open in docref ↗</a></span></div>
+      <div class="prov-b">${e.sectitle && e.lines.length ? `<div class="st">${esc(e.sectitle)}</div>` : ''}${lines}${e.note ? `<div class="note">${esc(e.note)}</div>` : ''}${ctx}</div>${ctxBody}</div></div>`
+}
+
+let cur = 0
+function show (k, scroll) {
+  const i = Math.max(0, F.findIndex(f => f.key === k))
+  cur = i
+  const f = F[i]
+  document.querySelectorAll('#cases button').forEach(b => b.setAttribute('aria-current', b.dataset.k === f.key))
+  $('#case').innerHTML = `
+    <div class="case-top"><span class="pill t-${tier(f.conf)}">confidence ${f.conf}</span><span class="chip">${esc(f.cat)}</span><span class="chip">#${i + 1} of ${F.length}</span><span class="chip">${esc(f.detector)}</span></div>
+    <h2>${esc(f.title)}</h2>
+    <p class="summ">${esc(f.summary)}</p>
+    <div class="facts">
+      <div class="fact"><h4>Why it matters</h4><p>${esc(f.why)}</p></div>
+      <div class="fact"><h4>Cured by s 38?</h4><p>${esc(f.s38)}</p></div>
+      <div class="fact q"><h4>Question for the expert</h4><p>${esc(f.question)}</p></div>
+    </div>
+    <div class="chain">${f.evidence.map(prov).join('')}</div>
+    <div class="nav"><button type="button" data-step="-1" ${i === 0 ? 'disabled' : ''}>← ${i ? esc(F[i - 1].short) : 'Previous'}</button><button type="button" data-step="1" ${i === F.length - 1 ? 'disabled' : ''}>${i < F.length - 1 ? esc(F[i + 1].short) : 'Next'} →</button></div>`
+  if (scroll) $('#bench-sec').scrollIntoView({behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start'})
+}
+function go (k, scroll) { if (location.hash !== '#case-' + k) history.replaceState(null, '', '#case-' + k); show(k, scroll) }
+document.addEventListener('click', e => {
+  const b = e.target.closest('#cases button'); if (b) return go(b.dataset.k, innerWidth < 900)
+  const s = e.target.closest('[data-step]'); if (s && !s.disabled) return go(F[cur + +s.dataset.step].key, true)
+  const t = e.target.closest('[data-ctx]'); if (t) { const el = document.getElementById('ctx-' + t.dataset.ctx); el.hidden = !el.hidden; t.textContent = el.hidden ? t.textContent.replace('Hide', 'Show') : t.textContent.replace('Show', 'Hide') }
+  const a = e.target.closest('a[href^="#case-"]'); if (a) { e.preventDefault(); go(a.getAttribute('href').slice(6), true) }
+})
+document.addEventListener('keydown', e => {
+  if (e.target.closest('input,textarea') || e.metaKey || e.ctrlKey) return
+  if (e.key === 'j' && cur < F.length - 1) go(F[cur + 1].key)
+  if (e.key === 'k' && cur > 0) go(F[cur - 1].key)
+})
+addEventListener('hashchange', () => { const k = location.hash.slice(6); if (location.hash.startsWith('#case-')) show(k, true) })
+show(location.hash.startsWith('#case-') ? location.hash.slice(6) : F[0].key, location.hash.startsWith('#case-'))
+
+// ruled out, detectors, footer
+$('#ruled').innerHTML = D.ruled_out.map(r => `<tr><td>${r.url ? `<a href="${r.url}" target="_blank" rel="noopener">${esc(r.group)}</a>` : esc(r.group)}</td><td class="n">${r.n}</td><td>${esc(r.why)}</td></tr>`).join('')
+$('#det').innerHTML = st.detectors.map(d => `<div><b>${d.id}</b><span><h4>${esc(d.name)}</h4><p>${esc(d.desc)}</p></span><span class="ct">${fmt(d.examined)} checked<br>${fmt(d.flagged)} flagged</span></div>`).join('')
+$('#foot').innerHTML = `Data: <a href="https://legislation.docref.nz/" target="_blank" rel="noopener">legislation.docref.nz</a>, the latest consolidated version of each instrument, read ${esc(D.generated)}. The legislation is the work of the New Zealand Parliamentary Counsel Office. Confidence scores are a reviewer's judgement that the item is a real defect worth fixing, not a measure of legal effect. This is not legal advice.`
+})()
+</script>
