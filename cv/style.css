@@ -1,0 +1,55 @@
+/* Custom CSS */
+:root {
+  /* from https://colorhunt.co/palette/fcffc1ffe893fbb4a5fb9ec6 */
+  --university: #FCFFC1;
+  --teaching: #FFE893;
+  --social-ent: #FBB4A5;
+  --contracting: #FB9EC6;
+}
+
+.section {
+  opacity: 0.5 !important;
+}
+
+/* 2000s */
+
+  /* filler section */
+  #mermaid-1744597946320 .section0 {
+    fill: none !important;
+  }
+  #mermaid-1744597946320 .milestone.task0,
+  #mermaid-1744597946320 #task1-text.milestoneText {
+    display: none; 
+  }
+
+  #mermaid-1744597946320 .section1 {
+    fill: var(--university) !important;
+  }
+
+  #mermaid-1744597946320 .section2 {
+    fill: var(--teaching) !important;
+  }
+
+/* 2010s */
+
+  #mermaid-1744596835074 .section0 {
+    fill: var(--teaching) !important;
+  }
+  #mermaid-1744596835074 .section1 {
+    fill: var(--university) !important;
+  }
+  #mermaid-1744596835074 .section2 {
+    fill: var(--social-ent) !important;
+  }
+  #mermaid-1744596835074 .section3 {
+    fill: var(--contracting) !important;
+  }
+
+/* 2020s */
+
+  #mermaid-1744596919720 .section0 {
+    fill: var(--social-ent) !important;
+  }
+  #mermaid-1744596919720 .section1 {
+    fill: var(--contracting) !important;
+  }

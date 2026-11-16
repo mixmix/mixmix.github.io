@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Docref on mixmix</title><link>https://mixmix.nz/experiment/docref/</link><description>Recent content in Docref on mixmix</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 16 Nov 2026 15:00:00 +1300</lastBuildDate><atom:link href="https://mixmix.nz/experiment/docref/index.xml" rel="self" type="application/rss+xml"/><item><title>Loose Ends</title><link>https://mixmix.nz/experiment/docref/2026_11_16/</link><pubDate>Mon, 16 Nov 2026 15:00:00 +1300</pubDate><guid>https://mixmix.nz/experiment/docref/2026_11_16/</guid><description>&lt;img src="https://mixmix.nz/experiment/docref/2026_11_16/loose-ends.jpg" alt="Featured image of post Loose Ends" /&gt;&lt;p&gt;In January Estonia passed a gambling tax amendment that left out one word and accidentally made online
+casinos tax-free for a year. Luukas Ilves (their former government CIO) gave the amendment and the Act
+it changed to a couple of LLMs, and both spotted the gap straight away. Within a day he&amp;rsquo;d built
+&lt;em&gt;Apsakaleidja&lt;/em&gt; (&amp;ldquo;mistake finder&amp;rdquo;), which checks every bill going through their parliament.&lt;/p&gt;
+&lt;p&gt;Docref seemed like a good place to try that for New Zealand. Every provision has a stable address, so
+&amp;ldquo;section 73 of the Electricity Industry Act 2010&amp;rdquo; can be resolved to an actual block of text and checked.&lt;/p&gt;
+&lt;figure class="embed has-preview" style="--embed-height: 420px"&gt;
+&lt;div class="embed-frame"&gt;
+&lt;img class="embed-preview" src="https://mixmix.nz/experiment/docref/2026_11_16/loose-ends_hu_dc1604ab5b240a87.webp" srcset="https://mixmix.nz/experiment/docref/2026_11_16/loose-ends_hu_dc1604ab5b240a87.webp 800w, https://mixmix.nz/experiment/docref/2026_11_16/loose-ends_hu_808fadc0acf08ae2.webp 1600w" sizes="(min-width: 1024px) 760px, 100vw" width="800" height="529" alt="Preview of Statute Book Loose Ends" loading="lazy"&gt;
+&lt;iframe data-src="https://mixmix.nz/experiment/docref/2026_11_16/statute-book-loose-ends.html" title="Statute Book Loose Ends" tabindex="-1"&gt;&lt;/iframe&gt;
+&lt;button type="button" class="embed-cover" data-embed-expand aria-label="Open Statute Book Loose Ends"&gt;
+&lt;span class="embed-play" aria-hidden="true"&gt;&lt;!--
+category: Media
+version: "1.28"
+tags: [start, video, film, music, player]
+unicode: "ed46"
+--&gt;
+&lt;svg
+xmlns="http://www.w3.org/2000/svg"
+width="24"
+height="24"
+viewBox="0 0 24 24"
+fill="none"
+stroke="currentColor"
+stroke-width="2"
+stroke-linecap="round"
+stroke-linejoin="round"
+&gt;
+&lt;path d="M7 4v16l13 -8z" /&gt;
+&lt;/svg&gt;
+&lt;/span&gt;
+&lt;/button&gt;
+&lt;div class="embed-controls"&gt;
+&lt;button type="button" class="embed-btn" data-embed-close aria-label="Close Statute Book Loose Ends"&gt;
+&lt;svg
+xmlns="http://www.w3.org/2000/svg"
+width="24"
+height="24"
+viewBox="0 0 24 24"
+fill="none"
+stroke="currentColor"
+stroke-width="2"
+stroke-linecap="round"
+stroke-linejoin="round"
+&gt;
+&lt;path d="M18 6l-12 12" /&gt;
+&lt;path d="M6 6l12 12" /&gt;
+&lt;/svg&gt;
+&lt;span&gt;Close&lt;/span&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;figcaption&gt;Statute Book Loose Ends&lt;/figcaption&gt;
+&lt;/figure&gt;&lt;script&gt;
+(() =&gt; {
+if (window.__embedReady) return
+window.__embedReady = true
+let open = null
+function expand (fig) {
+if (open) return
+open = fig
+const frame = fig.querySelector('iframe')
+if (frame.dataset.src) {
+frame.src = frame.dataset.src
+delete frame.dataset.src
+}
+fig.classList.add('is-expanded')
+document.documentElement.classList.add('embed-open')
+frame.removeAttribute('tabindex')
+fig.querySelector('[data-embed-close]').focus()
+history.pushState({ embed: true }, '')
+}
+function close (fromHistory) {
+if (!open) return
+const fig = open
+open = null
+fig.classList.remove('is-expanded')
+document.documentElement.classList.remove('embed-open')
+fig.querySelector('iframe').setAttribute('tabindex', '-1')
+fig.querySelector('.embed-cover').focus({ preventScroll: true })
+if (!fromHistory &amp;&amp; history.state &amp;&amp; history.state.embed) history.back()
+}
+document.addEventListener('click', e =&gt; {
+const btn = e.target.closest('[data-embed-expand], [data-embed-close]')
+if (!btn) return
+if (btn.hasAttribute('data-embed-close')) close()
+else expand(btn.closest('figure.embed'))
+})
+document.addEventListener('keydown', e =&gt; { if (e.key === 'Escape') close() })
+window.addEventListener('popstate', () =&gt; close(true))
+})()
+&lt;/script&gt;
+&lt;p&gt;I asked Claude to run five simple detectors over the 70 Acts and regulations on docref. They look for
+references to repealed or non-existent sections, mentions of Acts the corpus says are repealed, borrowed
+definitions that point at the wrong section, and drift between versions. The detectors flagged 433
+suspects. Claude then read each one and sorted it into real error, cured by the Legislation Act&amp;rsquo;s
+&amp;ldquo;references to repealed legislation&amp;rdquo; rule, deliberate transitional wording, or noise. 13 held up, ranked
+by confidence. Each one can be walked through from the citing provision to what it actually points at,
+with links to the pinpoint on docref.&lt;/p&gt;
+&lt;p&gt;My favourites:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the Gas Act still gives powers to an &amp;ldquo;Energy Commission&amp;rdquo; that lives in a subpart that isn&amp;rsquo;t there&lt;/li&gt;
+&lt;li&gt;the Regulatory Standards Act 2025 overrides a Public Service Act section that was repealed about six
+months after it passed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Most of these are loose ends rather than true contradictions, but they&amp;rsquo;re objective, and someone who
+knows the area can check each one in a few minutes. That seems like the right first test of whether this
+approach finds real things. The next step would be getting an expert to check them, then aiming the same
+pairwise review at harder cases where two live provisions actually conflict.&lt;/p&gt;</description></item><item><title>Contentious Acts</title><link>https://mixmix.nz/experiment/docref/2026_11_15-b/</link><pubDate>Mon, 16 Nov 2026 09:00:00 +1300</pubDate><guid>https://mixmix.nz/experiment/docref/2026_11_15-b/</guid><description>&lt;img src="https://mixmix.nz/experiment/docref/2026_11_15-b/contention.jpg" alt="Featured image of post Contentious Acts" /&gt;&lt;p&gt;The overview of changes was interesting, but words changed isn&amp;rsquo;t a reliable signal
+of impact of those changes. Thinking about ways to measure or reveal that in the dataset
+I got to wondering whether we could detect contention around an act - perhaps the signal
+would be changes and reversions by successive governments, or intense editing of the
+same stretches of legislation.&lt;/p&gt;
+&lt;figure class="embed has-preview" style="--embed-height: 420px"&gt;
+&lt;div class="embed-frame"&gt;
+&lt;img class="embed-preview" src="https://mixmix.nz/experiment/docref/2026_11_15-b/contention_hu_2c1a020ceeb6f744.webp" srcset="https://mixmix.nz/experiment/docref/2026_11_15-b/contention_hu_2c1a020ceeb6f744.webp 800w, https://mixmix.nz/experiment/docref/2026_11_15-b/contention_hu_88614e1a8e9ef3fc.webp 1278w" sizes="(min-width: 1024px) 760px, 100vw" width="800" height="612" alt="Preview of Acts in Motion" loading="lazy"&gt;
+&lt;iframe data-src="https://mixmix.nz/experiment/docref/2026_11_15-b/acts-in-motion.html" title="Acts in Motion" tabindex="-1"&gt;&lt;/iframe&gt;
+&lt;button type="button" class="embed-cover" data-embed-expand aria-label="Open Acts in Motion"&gt;
+&lt;span class="embed-play" aria-hidden="true"&gt;&lt;!--
+category: Media
+version: "1.28"
+tags: [start, video, film, music, player]
+unicode: "ed46"
+--&gt;
+&lt;svg
+xmlns="http://www.w3.org/2000/svg"
+width="24"
+height="24"
+viewBox="0 0 24 24"
+fill="none"
+stroke="currentColor"
+stroke-width="2"
+stroke-linecap="round"
+stroke-linejoin="round"
+&gt;
+&lt;path d="M7 4v16l13 -8z" /&gt;
+&lt;/svg&gt;
+&lt;/span&gt;
+&lt;/button&gt;
+&lt;div class="embed-controls"&gt;
+&lt;button type="button" class="embed-btn" data-embed-close aria-label="Close Acts in Motion"&gt;
+&lt;svg
+xmlns="http://www.w3.org/2000/svg"
+width="24"
+height="24"
+viewBox="0 0 24 24"
+fill="none"
+stroke="currentColor"
+stroke-width="2"
+stroke-linecap="round"
+stroke-linejoin="round"
+&gt;
+&lt;path d="M18 6l-12 12" /&gt;
+&lt;path d="M6 6l12 12" /&gt;
+&lt;/svg&gt;
+&lt;span&gt;Close&lt;/span&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;figcaption&gt;Acts in Motion&lt;/figcaption&gt;
+&lt;/figure&gt;&lt;script&gt;
+(() =&gt; {
+if (window.__embedReady) return
+window.__embedReady = true
+let open = null
+function expand (fig) {
+if (open) return
+open = fig
+const frame = fig.querySelector('iframe')
+if (frame.dataset.src) {
+frame.src = frame.dataset.src
+delete frame.dataset.src
+}
+fig.classList.add('is-expanded')
+document.documentElement.classList.add('embed-open')
+frame.removeAttribute('tabindex')
+fig.querySelector('[data-embed-close]').focus()
+history.pushState({ embed: true }, '')
+}
+function close (fromHistory) {
+if (!open) return
+const fig = open
+open = null
+fig.classList.remove('is-expanded')
+document.documentElement.classList.remove('embed-open')
+fig.querySelector('iframe').setAttribute('tabindex', '-1')
+fig.querySelector('.embed-cover').focus({ preventScroll: true })
+if (!fromHistory &amp;&amp; history.state &amp;&amp; history.state.embed) history.back()
+}
+document.addEventListener('click', e =&gt; {
+const btn = e.target.closest('[data-embed-expand], [data-embed-close]')
+if (!btn) return
+if (btn.hasAttribute('data-embed-close')) close()
+else expand(btn.closest('figure.embed'))
+})
+document.addEventListener('keydown', e =&gt; { if (e.key === 'Escape') close() })
+window.addEventListener('popstate', () =&gt; close(true))
+})()
+&lt;/script&gt;
+&lt;p&gt;This prototype animates the changes over time fo the 3 most contentious looking acts.&lt;/p&gt;</description></item><item><title>Mapping Amendments</title><link>https://mixmix.nz/experiment/docref/2026_11_15/</link><pubDate>Sun, 15 Nov 2026 09:00:00 +1300</pubDate><guid>https://mixmix.nz/experiment/docref/2026_11_15/</guid><description>&lt;img src="https://mixmix.nz/experiment/docref/2026_11_15/timeline.jpg" alt="Featured image of post Mapping Amendments" /&gt;&lt;p&gt;After seeing the version history for acts in legislation.docref.nz, I wondered what the edits looked like
+overall - where were edits being made, and by who at different times.&lt;/p&gt;
+&lt;figure class="embed has-preview" style="--embed-height: 420px"&gt;
+&lt;div class="embed-frame"&gt;
+&lt;img class="embed-preview" src="https://mixmix.nz/experiment/docref/2026_11_15/timeline_hu_57c74780a7773d27.webp" srcset="https://mixmix.nz/experiment/docref/2026_11_15/timeline_hu_57c74780a7773d27.webp 800w, https://mixmix.nz/experiment/docref/2026_11_15/timeline_hu_7345b6f2eb226e17.webp 1323w" sizes="(min-width: 1024px) 760px, 100vw" width="800" height="517" alt="Preview of Statute Book Timeline" loading="lazy"&gt;
+&lt;iframe data-src="https://mixmix.nz/experiment/docref/2026_11_15/statute-book-timeline.html" title="Statute Book Timeline" tabindex="-1"&gt;&lt;/iframe&gt;
+&lt;button type="button" class="embed-cover" data-embed-expand aria-label="Open Statute Book Timeline"&gt;
+&lt;span class="embed-play" aria-hidden="true"&gt;&lt;!--
+category: Media
+version: "1.28"
+tags: [start, video, film, music, player]
+unicode: "ed46"
+--&gt;
+&lt;svg
+xmlns="http://www.w3.org/2000/svg"
+width="24"
+height="24"
+viewBox="0 0 24 24"
+fill="none"
+stroke="currentColor"
+stroke-width="2"
+stroke-linecap="round"
+stroke-linejoin="round"
+&gt;
+&lt;path d="M7 4v16l13 -8z" /&gt;
+&lt;/svg&gt;
+&lt;/span&gt;
+&lt;/button&gt;
+&lt;div class="embed-controls"&gt;
+&lt;button type="button" class="embed-btn" data-embed-close aria-label="Close Statute Book Timeline"&gt;
+&lt;svg
+xmlns="http://www.w3.org/2000/svg"
+width="24"
+height="24"
+viewBox="0 0 24 24"
+fill="none"
+stroke="currentColor"
+stroke-width="2"
+stroke-linecap="round"
+stroke-linejoin="round"
+&gt;
+&lt;path d="M18 6l-12 12" /&gt;
+&lt;path d="M6 6l12 12" /&gt;
+&lt;/svg&gt;
+&lt;span&gt;Close&lt;/span&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;figcaption&gt;Statute Book Timeline&lt;/figcaption&gt;
+&lt;/figure&gt;&lt;script&gt;
+(() =&gt; {
+if (window.__embedReady) return
+window.__embedReady = true
+let open = null
+function expand (fig) {
+if (open) return
+open = fig
+const frame = fig.querySelector('iframe')
+if (frame.dataset.src) {
+frame.src = frame.dataset.src
+delete frame.dataset.src
+}
+fig.classList.add('is-expanded')
+document.documentElement.classList.add('embed-open')
+frame.removeAttribute('tabindex')
+fig.querySelector('[data-embed-close]').focus()
+history.pushState({ embed: true }, '')
+}
+function close (fromHistory) {
+if (!open) return
+const fig = open
+open = null
+fig.classList.remove('is-expanded')
+document.documentElement.classList.remove('embed-open')
+fig.querySelector('iframe').setAttribute('tabindex', '-1')
+fig.querySelector('.embed-cover').focus({ preventScroll: true })
+if (!fromHistory &amp;&amp; history.state &amp;&amp; history.state.embed) history.back()
+}
+document.addEventListener('click', e =&gt; {
+const btn = e.target.closest('[data-embed-expand], [data-embed-close]')
+if (!btn) return
+if (btn.hasAttribute('data-embed-close')) close()
+else expand(btn.closest('figure.embed'))
+})
+document.addEventListener('keydown', e =&gt; { if (e.key === 'Escape') close() })
+window.addEventListener('popstate', () =&gt; close(true))
+})()
+&lt;/script&gt;
+&lt;p&gt;I asked Claude to draw this up, with time-blocks coloured by the party in power at the time the change was
+enacted. I also asked bigger changes to be shown with bigger dots to give a bit of a heat map. I also wanted
+to be able to dive from the map into the specific changes, so asked for there to be a links through to the
+docref pages where I could read more.&lt;/p&gt;</description></item></channel></rss>
