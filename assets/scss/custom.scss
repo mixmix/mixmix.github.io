@@ -298,7 +298,7 @@ main {
   }
 }
 
-/* {{< embed >}}: a small preview of a standalone page; "Expand" fills the
+/* {{< embed >}}: a small preview of a standalone page; the play button fills the
    window. The same iframe is restyled in place, so it never reloads. */
 .article-content figure.embed {
   /* the theme bleeds figures to the card's edges (negative margins + a wider
@@ -345,7 +345,56 @@ main {
     border: 0;
     padding: 0;
     background: transparent;
-    cursor: zoom-in;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* a gentle scrim so the play button reads on any screenshot */
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.12);
+      transition: background 0.2s ease;
+    }
+
+    &:hover::before,
+    &:focus-visible::before { background: rgba(0, 0, 0, 0.22); }
+
+    &:focus-visible { outline: 3px solid var(--accent-color); outline-offset: -3px; }
+  }
+
+  .embed-play {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: clamp(64px, 16%, 104px);
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.72);
+    color: #fff;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.35);
+    transition: transform 0.2s ease, background 0.2s ease;
+
+    svg {
+      width: 44%;
+      height: 44%;
+      margin-left: 8%; /* optical centre of the triangle */
+      fill: currentColor;
+      stroke: currentColor;
+    }
+  }
+
+  .embed-cover:hover .embed-play,
+  .embed-cover:focus-visible .embed-play {
+    transform: scale(1.08);
+    background: rgba(0, 0, 0, 0.85);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .embed-play, .embed-cover::before { transition: none; }
   }
 
   .embed-controls {
@@ -396,8 +445,7 @@ main {
     }
 
     .embed-cover,
-    .embed-preview,
-    .embed-controls [data-embed-expand] { display: none; }
+    .embed-preview { display: none; }
     iframe { display: block; }
     [data-embed-close] { display: inline-flex; }
   }
