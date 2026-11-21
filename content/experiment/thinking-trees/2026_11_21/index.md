@@ -60,9 +60,9 @@ in the repo under `method/`.
 
 | Leaf | Job | Outcome |
 |---|---|---|
-| conventions | explore-only: how existing experiments are laid out | pending |
-| writeup | this page and the method files | pending, see branch `explore/writeup` |
-| viz | an SVG of the tree | pending |
+| conventions | explore-only: how existing experiments are laid out | promising. Found the layout to copy, and that `preview=` on an embed breaks the build if the image is missing |
+| writeup | this page and the method files | promising. Followed the conventions report, build unverified |
+| viz | an SVG of the tree | promising. Inline SVG, no JS, no external fonts; checked as a static render only |
 
 This is a flat fan-out, not a tree. It shows the report format and worktree rules work, but nothing about
 depth.

@@ -24,7 +24,7 @@ svg{display:block;width:100%;height:auto;max-width:560px;margin:0 auto}
 </style></head><body>
 <svg viewBox="0 0 420 440" role="img" aria-labelledby="t d" xmlns="http://www.w3.org/2000/svg">
 <title id="t">Thinking tree of the experiment run</title>
-<desc id="d">The root, main session, is promising. It has four children. Nested root subagent is a dead end: subagents had no Agent tool, so no children could be spawned and the root spawn depth failed. Conventions (explore-only), writeup and viz are pending.</desc>
+<desc id="d">The root, main session, is promising. It has four children. Nested root subagent is a dead end: subagents had no Agent tool, so no children could be spawned and the root spawn depth failed. Conventions (explore-only), writeup and viz are all promising.</desc>
 <!-- edges -->
 <path class="edge" d="M210 74V92M40 92V176M40 92H210" />
 <path class="edge" d="M40 176V396M40 176H70M40 256H70M40 326H70M40 396H70" />
@@ -37,15 +37,15 @@ svg{display:block;width:100%;height:auto;max-width:560px;margin:0 auto}
 <rect class="dead mk nofill" x="80" y="167" width="24" height="24" rx="2"/><path class="dead mk nofill" d="M86 173l12 12M98 173l-12 12"/>
 <text class="lbl" x="116" y="172">nested root subagent</text><text class="tag" x="116" y="190" fill="var(--dead)">DEAD END</text>
 <text class="sub" x="116" y="207">attempt: no Agent tool, could not spawn</text></g>
-<g class="node"><rect class="pend" x="70" y="232" width="330" height="48" rx="10"/>
-<circle class="pend mk nofill" cx="92" cy="256" r="11" stroke-dasharray="4 3"/><text class="tag" x="87" y="261" fill="var(--pend)">?</text>
-<text class="lbl" x="116" y="254">conventions</text><text class="sub" x="116" y="271">explore-only  ·  PENDING</text></g>
-<g class="node"><rect class="pend" x="70" y="302" width="330" height="48" rx="10"/>
-<circle class="pend mk nofill" cx="92" cy="326" r="11" stroke-dasharray="4 3"/><text class="tag" x="87" y="331" fill="var(--pend)">?</text>
-<text class="lbl" x="116" y="324">writeup</text><text class="sub" x="116" y="341">PENDING</text></g>
-<g class="node"><rect class="pend" x="70" y="372" width="330" height="48" rx="10"/>
-<circle class="pend mk nofill" cx="92" cy="396" r="11" stroke-dasharray="4 3"/><text class="tag" x="87" y="401" fill="var(--pend)">?</text>
-<text class="lbl" x="116" y="394">viz</text><text class="sub" x="116" y="411">PENDING</text></g>
+<g class="node"><rect class="ok" x="70" y="232" width="330" height="48" rx="10"/>
+<circle class="ok mk nofill" cx="92" cy="256" r="11"/><path class="ok mk nofill" d="M87 256l4 4 7-8"/>
+<text class="lbl" x="116" y="254">conventions</text><text class="sub" x="116" y="271">explore-only  ·  PROMISING</text></g>
+<g class="node"><rect class="ok" x="70" y="302" width="330" height="48" rx="10"/>
+<circle class="ok mk nofill" cx="92" cy="326" r="11"/><path class="ok mk nofill" d="M87 326l4 4 7-8"/>
+<text class="lbl" x="116" y="324">writeup</text><text class="sub" x="116" y="341">PROMISING</text></g>
+<g class="node"><rect class="ok" x="70" y="372" width="330" height="48" rx="10"/>
+<circle class="ok mk nofill" cx="92" cy="396" r="11"/><path class="ok mk nofill" d="M87 396l4 4 7-8"/>
+<text class="lbl" x="116" y="394">viz</text><text class="sub" x="116" y="411">PROMISING</text></g>
 </svg>
 <div class="legend" aria-label="Legend">
 <span><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><circle class="ok mk nofill" cx="12" cy="12" r="10"/><path class="ok mk nofill" d="M7 12l4 4 6-8"/></svg>promising</span>
